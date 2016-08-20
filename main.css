@@ -1,8 +1,9 @@
 *{
-  margin: 0;
-  pading: 0;
+  margin: 1em;
+  padding: 0;
 }
 
 body{
   background: green;
+  color: white;
 }
