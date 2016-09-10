@@ -12,7 +12,7 @@ body {
 img {
   width: 100%;
   height: 100%;
-  border-radius: 1em;
+  border-radius: 2%;
 }
 
 input {
@@ -29,7 +29,9 @@ input {
   border-radius: 50%;
 }
 
-a:hover {
+.menu>a:hover,
+#login>a:hover,
+#book>a:hover {
   color: #663300;
   background: white;
 }
@@ -46,6 +48,7 @@ a:hover {
 
 #login,
 #user,
+#book,
 #info {
   position: fixed;
   top: 0;
@@ -60,6 +63,7 @@ a:hover {
 
 #login:target,
 #user:target,
+#book:target,
 #info:target {
   display: block;
   pointer-events: auto;
@@ -76,8 +80,87 @@ a:hover {
   background: white;
 }
 
+.book_tab {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 90%;
+  background: url(img/lib.svg);
+  border-radius: 1%;
+}
+
+.rack {
+  position: relative;
+  top: 10%;
+  left: 5%;
+  width: 88%;
+  height: 80%;
+  border: 1em solid #fd9;
+  box-shadow: 0 -1em 1em 0;
+}
+
+.row1,
+.row2,
+.row3 {
+  width: 100%;
+  height: 31.5%;
+  box-shadow: inset 0 0 5em 0;
+  background: #fd9;
+  border-bottom: 1em solid #fd9;
+}
+
+.row1>p {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 31%;
+  justify-content: center;
+  align-items: center;
+  font: 5em sans-serif;
+  color: whitesmoke;
+  text-shadow: 0.07em -0.05em 0 rgba(0, 0, 0, 0.1);
+}
+
+.row1>a {
+  position: absolute;
+  opacity: .8;
+  top: 3%;
+  border-radius: 1%;
+  box-shadow: 0 0 2em 0 black;
+  width: 10%;
+  height: 25%;
+  background-size: cover;
+}
+
+.row1>a:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.new1 {
+  left: 4%;
+  background: url(img/kompas.jpg) center;
+}
+
+.new2 {
+  left: 20%;
+  background: url(img/vzoprite-sa-diablovi.jpg) center;
+}
+
+.new3 {
+  right: 20%;
+  background: url(img/cim-ma-zaujal-jezis.jpg) center;
+}
+
+.new4 {
+  right: 4%;
+  background: url(img/svata-spoved-jezis-mi-hovori-o-spovedi.jpg) center;
+}
+
 #login>a,
 #user>a,
+#book>a,
 #info>a {
   color: #aaaaaa;
   padding: .2% .4%;
@@ -95,7 +178,7 @@ a:hover {
   width: 35%;
   height: 97%;
   border: 0.3em solid #cccccc;
-  border-radius: 1em;
+  border-radius: 2%;
   box-shadow: 0 0 10em #cccccc;
   background-size: 100% 100%;
   opacity: 0;
@@ -112,7 +195,7 @@ a:hover {
   top: 1%;
   left: 15%;
   border: 0.3em solid #cccccc;
-  border-radius: 1em;
+  border-radius: 2%;
   box-shadow: 0 0 10em #cccccc;
   opacity: 0;
 }
@@ -120,7 +203,7 @@ a:hover {
 .pg1,
 .pg2 {
   flex: 1;
-  border-radius: 0.5em;
+  border-radius: 1%;
 }
 
 .left {
