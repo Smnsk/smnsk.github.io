@@ -1,3 +1,1 @@
 # smnsk.github.io
-
-# Hello!!!
