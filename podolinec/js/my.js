@@ -26,10 +26,11 @@ $(window).scroll(function() {
 
 $("input.date").on("change", function() {
 
-	var slideId = "."+$(this).attr("id"),
+	var actPoss = parseInt($(".timeline-story").css('margin-left'), 10),
+		slideId = "."+$(this).attr("id"),
 		posX = $(slideId).offset().left,
-		offset = $(document).width() - $(slideId).width(),
-		left = (-1 * posX) + offset;
+		offset = ($(document).width() - $(slideId).width())/2,
+		left = actPoss + (-1 * posX) + offset;
 
 	$(".timeline-story").css({
 		"margin-left": left+"px"
