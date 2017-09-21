@@ -24,3 +24,15 @@ $(window).scroll(function() {
 	    });
 });
 
+$("input.date").on("change", function() {
+
+	var actPoss = parseInt($(".timeline-story").css('margin-left'), 10),
+		slideBySelector = $(this).data("elem"),
+		posX = $(slideBySelector).offset().left,
+		offset = ($(document).width() - $(slideBySelector).width())/2,
+		left = actPoss + (-1 * posX) + offset;
+
+	$(".timeline-story").css({
+		"margin-left": left+"px"
+	});
+});
