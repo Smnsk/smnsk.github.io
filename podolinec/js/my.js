@@ -27,9 +27,9 @@ $(window).scroll(function() {
 $("input.date").on("change", function() {
 
 	var actPoss = parseInt($(".timeline-story").css('margin-left'), 10),
-		slideId = "."+$(this).attr("id"),
-		posX = $(slideId).offset().left,
-		offset = ($(document).width() - $(slideId).width())/2,
+		slideBySelector = $(this).data("elem"),
+		posX = $(slideBySelector).offset().left,
+		offset = ($(document).width() - $(slideBySelector).width())/2,
 		left = actPoss + (-1 * posX) + offset;
 
 	$(".timeline-story").css({
