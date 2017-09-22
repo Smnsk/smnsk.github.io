@@ -23,4 +23,13 @@ $(window).scroll(function() {
 	        }
 	    });
 });
+$(".bt").eq(0).addClass("check");
+$(".age").eq(0).addClass("anim").removeClass("left");
+$(".timeline>.bt").on("click", function() {
+      $(".bt").removeClass("check");
+      $(this).addClass("check");
+      var ind = $(".bt").index(this);
+      $(".age").removeClass("anim").addClass("left");
+      $(".age").eq(ind).addClass("anim").removeClass("left");
+    });
 
