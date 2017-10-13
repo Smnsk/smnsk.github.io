@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  border:0px solid white;
 }
-a
-{  font-size: 1.8em;
+a{
+  font-size: 1.8em;
    margin: 1vh;
-   color:white;}
+   color:white;
+ }
 .cont{
-  width: 98.5vw;
+  width: 100%;
   margin: 0 auto;
 }
 .nav{
@@ -29,7 +31,9 @@ h1{
   padding-top: 8%;
   padding-left: 10%;
   font-size: 3em;
-  font-family: fantasy;
+}
+h2, h1, p, tr, .post{
+  text-shadow: 1px 2px black;
 }
 .page{
   height: 105vh;
@@ -49,6 +53,8 @@ h1{
 .age{
   opacity: 0;
   position: absolute;
+  border-radius: .5em;
+  border: 1px solid black;
   top: 50%;
   left: 50%;
   transform: translateY(-55%) translateX(-50%);
@@ -56,10 +62,8 @@ h1{
   height: 80vh;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.anim{
-  animation: age 3s ease-out forwards;
-}
-img{
+
+.time{
   position: absolute;
   top:10vh;
   left:10vh;
@@ -114,13 +118,6 @@ img{
   top:-3vh;
   left: -1.5vh;
   font-size: 1.5em;
-}
-.check{
-  background-color: #09f;
-  border: 2px solid white;
-}
-.left{
-  animation: left 2s ease-out forwards;
 }
 .b0{
   left:16.6%;
@@ -275,21 +272,113 @@ left:85.4%;
 .b16:after{
   content: "1993";
 }
+.b17{
+  right: -.3%;
+}
+.b17:hover:after{
+  display: block;
+}
+.b17:after{
+  content: "1996";
+}
 #gallery{
   background-image: url("../img/let.jpeg");
+  position: relative;
 }
+.image{
+  border: 1px solid white;
+  opacity: 0;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-radius: 1em;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-55%);
+}
+.photo{
+  position: absolute;
+  bottom: 10vh;
+  right: 10vw;
+  display: flex;
+}
+.pt{
+  width: 2vh;
+  height: 2vh;
+  border: 2px solid #09f;
+  background-color: white;
+  color: #09f;
+  margin-left: 1vw;
+  font-size: .9em;
+  padding-top: .2vh;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 #plan{
-  background-color: brown;
+  background-image: url("../img/crux.jpg");
 }
-#contact{
-  background-color: #c6c6c6
+.rota{
+  padding-top: .5em;
+  box-shadow: 0em 0em 3em black;
+  text-align: center;
+  position: relative;
+  top: 7vh;
+  left: 5vw;
+  width: 50vw;
+  height: 79vh;
+  font-size: 2em;
+  color: white;
+  border-radius: .5em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+table{
+  left: 5vw;
+  position: relative;
+  width: 40vw;
+}
+td{
+  width: 33.3vw;
+  border-radius: .5em;
+  border: 1px solid white;
+}
+.post{
+  font-size: .8em;
+  padding-top: 1vh;
+  display: flex;
+  justify-content: space-around;
+}
+.check{
+  background-color: #09f;
+  border: 2px solid white;
+  color: white;
+}
+.anim{
+  animation: age 3s ease-out forwards;
+}
+.scale{
+  animation: scale 2s ease-out forwards;
+}
+.left{
+  animation: left 2s ease-out forwards;
 }
 
 @keyframes age {
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  0%{opacity: 0;
+     width: 50%;
+     height: 50%;}
+  100%{opacity: 1}
 }
 @keyframes left {
   0%{left:50%; opacity: 1}
   100%{left: -100%;}
+}
+@keyframes scale {
+  0%{ opacity: 1}
+  100%{ width: 50%;
+        height: 50%;
+  }
+
 }
