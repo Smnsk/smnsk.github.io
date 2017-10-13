@@ -23,9 +23,10 @@ $(window).scroll(function() {
 	        }
 	    });
 });
+
 $(".bt").eq(0).addClass("check");
 $(".age").eq(0).addClass("anim").removeClass("left");
-$(".timeline>.bt").on("click", function() {
+$(".bt").on("click", function() {
       $(".bt").removeClass("check");
       $(this).addClass("check");
       var ind = $(".bt").index(this);
@@ -33,3 +34,12 @@ $(".timeline>.bt").on("click", function() {
       $(".age").eq(ind).addClass("anim").removeClass("left");
     });
 
+$(".pt").eq(0).addClass("check");
+$(".image").eq(0).addClass("anim").removeClass("scale")
+$(".pt").on("click", function() {
+      $(".pt").removeClass("check");
+      $(this).addClass("check");
+      var int = $(".pt").index(this);
+      $(".image").removeClass("anim").addClass("scale");
+      $(".image").eq(int).addClass("anim").removeClass("scale");
+    });
