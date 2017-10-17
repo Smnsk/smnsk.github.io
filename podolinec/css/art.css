@@ -381,9 +381,13 @@ td{
        height: 50%;
   }
 }
-@media screen and (max-width: 639px){
-  html{
+
+@media screen and (max-width: 499px){
+  body{
+    width: 100vh;
+    height: 100vh;
     transform: rotate(-90deg);
     transition: transform 1s ease;
   }
+
 }
