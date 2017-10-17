@@ -93,14 +93,14 @@ h2, h1, p, tr, .post{
   position: absolute;
   content: "1500";
   top: 1vh;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 .timeline::after{
   right: 0;
   position: absolute;
   content: "2000";
   top: 1vh;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 .bt{
   position: absolute;
@@ -117,7 +117,7 @@ h2, h1, p, tr, .post{
   position: absolute;
   top:-3vh;
   left: -1.5vh;
-  font-size: 4vh;
+  font-size: 2.5vh;
 }
 .b0{
   left:16.6%;
