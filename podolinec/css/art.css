@@ -382,7 +382,7 @@ td{
   }
 }
 
-@media screen and (max-width: 805px){
+@media screen and (max-width: 500px){
   body{
     width: 100vh;
     height: 100vh;
