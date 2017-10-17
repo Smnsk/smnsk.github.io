@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  border:0px solid white;
+  border: 0px solid white;
 }
 a{
-  font-size: 1.8em;
+  font-size: 3vh;
    margin: 1vh;
    color:white;
  }
@@ -30,7 +30,7 @@ h1{
   color: white;
   padding-top: 8%;
   padding-left: 10%;
-  font-size: 3em;
+  font-size: 5vh;
 }
 h2, h1, p, tr, .post{
   text-shadow: 1px 2px black;
@@ -58,8 +58,8 @@ h2, h1, p, tr, .post{
   top: 50%;
   left: 50%;
   transform: translateY(-55%) translateX(-50%);
-  width: 80vw;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -75,7 +75,7 @@ h2, h1, p, tr, .post{
   position: absolute;
   top:10vh;
   left: 50vh;
-  font-size: 3em;
+  font-size: 4vh;
   color: white;
 }
 
@@ -93,14 +93,14 @@ h2, h1, p, tr, .post{
   position: absolute;
   content: "1500";
   top: 1vh;
-  font-size: 1.5em;
+  font-size: 4vh;
 }
 .timeline::after{
   right: 0;
   position: absolute;
   content: "2000";
   top: 1vh;
-  font-size: 1.5em;
+  font-size: 4vh;
 }
 .bt{
   position: absolute;
@@ -117,7 +117,7 @@ h2, h1, p, tr, .post{
   position: absolute;
   top:-3vh;
   left: -1.5vh;
-  font-size: 1.5em;
+  font-size: 4vh;
 }
 .b0{
   left:16.6%;
@@ -309,7 +309,7 @@ left:85.4%;
   background-color: white;
   color: #09f;
   margin-left: 1vw;
-  font-size: .9em;
+  font-size: 1.5vh;
   padding-top: .2vh;
   font-weight: bold;
   text-align: center;
@@ -329,7 +329,7 @@ left:85.4%;
   left: 5vw;
   width: 50vw;
   height: 79vh;
-  font-size: 2em;
+  font-size: 3vh;
   color: white;
   border-radius: .5em;
   background-color: rgba(0, 0, 0, 0.2);
@@ -376,9 +376,14 @@ td{
   100%{left: -100%;}
 }
 @keyframes scale {
-  0%{ opacity: 1}
-  100%{ width: 50%;
-        height: 50%;
+  0%{opacity: 1}
+  100%{width: 50%;
+       height: 50%;
   }
-
+}
+@media screen and (max-width: 800px){
+  html{
+    transform: rotate(-90deg);
+    transition: transform 1s ease;
+  }
 }
