@@ -1,21 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background-color: #c1c1c1;
 }
-a, li{
+input{
+  display: none;
+}
+a, li {
   list-style: none;
   text-decoration: none;
 }
-#app{
+
+#app {
   display: flex;
 }
 
 /*-Menu-*/
-menu{
+
+#btn:checked~aside>label>.fa-bars{
+  transform: translateX(15vw);
+}
+
+menu {
   position: fixed;
   left: 0;
   top: 0;
@@ -24,45 +33,51 @@ menu{
   background-color: #292929;
   overflow-y: scroll;
 }
-menu ul{
+
+menu ul {
   color: white;
   text-align: center;
   font-family: 'Abril Fatface';
   font-weight: 400;
   font-size: 1.5vw;
 }
-menu li:hover{
+
+menu li:hover {
   background-color: #ff6b22;
 }
-menu li a{
+
+menu li a {
   color: #949393;
 }
-menu li a:hover{
+
+menu li a:hover {
   color: white;
   font-size: 2vw;
-
 }
 
-.fa-bars{
+.fa-bars {
   position: fixed;
   padding: .5vw;
   cursor: pointer;
   color: #292929;
+  transition: all 1.8s ease-out;
 }
-.fa-bars:hover{
+
+.fa-bars:hover {
   color: #ff6b22;
 }
+
 .menu-enter-active, .menu-leave-active {
   transition: all 2s ease;
 }
-.menu-enter, .menu-leave-to{
+
+.menu-enter, .menu-leave-to {
   left: -15vw;
 }
 
-
 /*-Page-*/
 
-aside{
+aside {
   background-color: white;
   width: 100vw;
   height: 500vh;
