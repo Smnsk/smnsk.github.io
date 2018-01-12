@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Misie</title>
@@ -17,7 +16,7 @@
         <menu v-show="show">
           <ul v-for="mission in missions">
             {{mission.year}}
-            <li><a href="">{{mission.plan}}</a></li>
+            <li><a href="#plan">{{mission.plan}}</a></li>
             <li><a href="">{{mission.mapa}}</a></li>
             <li v-for="city in mission.citys">
               <a href="">{{city}}</a>
@@ -25,7 +24,35 @@
           </ul>
         </menu>
       </transition>
-     <label for="btn" @click="{show = !show}"><i class="fas fa-bars fa-2x"></i></label>
+      <label for="btn" @click="{show = !show}"><i class="fas fa-bars fa-2x"></i></label>
+      <div class="titul">
+        <p>Ľudové misie od roku 1994</p>
+      </div>
+      <div v-for="mission in missions" class="page">
+        <div class="plan">
+          <p class="plan_titul" id="">{{mission.plan}} na rok {{mission.year}}</p>
+          <div class="plan_box">
+            <div class="plan_city">
+              <p v-for="(city, i) in mission.citys">{{i+1}}. {{city}}</p>
+            </div>
+            <div class="plan_date">
+              <p v-for="date in mission.date">{{date}} {{mission.year}}</p>
+            </div>
+            <div class="plan_status">
+              <p v-for="status in mission.status">{{status}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="mapa">
+          <img v-bind:src="mission.mapa_link"></img>
+        </div>
+        <div class="mission">
+          <div v-for="(status, i) in mission.status" class="mission_box">
+            <h1>{{status}} {{mission.citys[i]}}</h1>
+          </div>
+        </div>
+      </div>
+
     </aside>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -33,4 +60,3 @@
 </body>
 
 </html>
-
