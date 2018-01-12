@@ -4,11 +4,13 @@
 }
 
 body {
-  background-color: #c1c1c1;
+  background-color: white;
+
 }
 input{
   display: none;
 }
+
 a, li {
   list-style: none;
   text-decoration: none;
@@ -30,11 +32,11 @@ menu {
   top: 0;
   width: 15vw;
   height: 100vh;
-  background-color: #292929;
+  background-color: rgba(25, 25, 25, .9);
   overflow-y: scroll;
 }
 
-menu ul {
+menu ul, h1{
   color: white;
   text-align: center;
   font-family: 'Abril Fatface';
@@ -42,6 +44,10 @@ menu ul {
   font-size: 1.5vw;
 }
 
+h1{
+  text-align: left;
+  padding-left: 1vw;
+}
 menu li:hover {
   background-color: #ff6b22;
 }
@@ -52,14 +58,13 @@ menu li a {
 
 menu li a:hover {
   color: white;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 
 .fa-bars {
   position: fixed;
   padding: .5vw;
   cursor: pointer;
-  color: #292929;
   transition: all 1.8s ease-out;
 }
 
@@ -78,7 +83,100 @@ menu li a:hover {
 /*-Page-*/
 
 aside {
-  background-color: white;
-  width: 100vw;
-  height: 500vh;
+  width: 99.1vw;
+}
+
+.titul, .plan, .mapa img,.mapa, .mission{
+  width: 100%;
+  min-height: 100vh;
+}
+.titul{
+  background-image: url("../img/title_bg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.titul > p{
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  top: 5vw;
+  right: 10vw;
+  text-shadow: 2px 2px 5px white;
+}
+
+/* Plan*/
+.plan{
+  background-image: url("../img/plan_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 160% 100%;
+  background-position: right bottom;
+  background-attachment: fixed;
+  padding-top: 5vh;
+}
+
+.plan_box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan_titul{
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 5vh;
+}
+.plan_city p, .plan_date p, .plan_status p{
+  font-weight: bold;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  margin-bottom: 2vw;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.plan_date p{
+  text-align: left;
+}
+
+.plan_status p{
+   text-align: center;
+}
+/*Mapa*/
+.mapa img{
+  background-image: url("../img/map_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*Mission*/
+.mission{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/mission_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -1vh;
+  padding-top: 5vh;
+}
+
+.mission_box{
+  position: relative;
+  left: 15vw;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 1vw;
+  margin-bottom: 5vh;
+  color: white;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, .8);
+}
+.mission>.mission_box:nth-child(even){
+  transform: translateX(40vw);
 }
