@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Misie</title>
@@ -30,7 +31,7 @@
       </div>
       <div v-for="mission in missions" class="page">
         <div class="plan">
-          <p class="plan_titul" id="">{{mission.plan}} na rok {{mission.year}}</p>
+          <p class="plan_titul">{{mission.plan}} na rok {{mission.year}}</p>
           <div class="plan_box">
             <div class="plan_city">
               <p v-for="(city, i) in mission.citys">{{i+1}}. {{city}}</p>
@@ -49,6 +50,15 @@
         <div class="mission">
           <div v-for="(status, i) in mission.status" class="mission_box">
             <h1>{{status}} {{mission.citys[i]}}</h1>
+            <h1>{{mission.date[i]}} {{mission.year}}</h1>
+            <h1>{{mission.diecezis[i]}}<h1>
+            <h1>Správca farnosti: {{mission.admin[i]}}<h1>
+            <h1>Misionári:</h1>
+            <div class="missionars">
+              <div v-for="image in mission.missionars[i]" :class="image.substring(8,11)">
+                <img :src="image">
+              </div>
+            </div>
           </div>
         </div>
       </div>
