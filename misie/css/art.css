@@ -199,23 +199,35 @@ div>img{
   opacity: 1;
   transition: opacity .5s linear;
 }
-.mz1::after,.mz2::after,.mm1::after,.mk1::after,
-.vh1::after,.if1::after,.jd1::after,.jj1::after,
-.jt1::after, .vc1::after,.ps1::after,.sv1::after,
-.rb1::after,.jb1::after,.vm1::after,.pg1::after,
-.mp1::after{
+.ab1::after,.mz1::after,.mz2::after,.mm1::after,.mk1::after,
+.vh1::after,.if1::after,.fb1::after,.fr1::after,.jd1::after,
+.jj1::after,.jt1::after,.vc1::after,.ps1::after,.rd1::after,
+.sv1::after,.rb1::after,.jb1::after,.js1::after,.vm1::after,
+.pg1::after,.mp1::after,.mh1::after,.ms1::after,.ps2::after,
+.ph1::after,.mm2::after,.rr1::after,.bl1::after,.ja1::after,
+.jn1::after,.jj2::after,.jz1::after,.jm1::after{
   content: "Michal Zamkovský";
   position: absolute;
+  text-align: center;
+  left: -50%;
   width: 200%;
-  left: -10%;
   bottom: -1.3vw;
   font-family: sans-serif;
   font-weight: bold;
   opacity: 0;
   transition: opacity .5s linear;
 }
+.ab1::after{
+  content: "Artur Bilyk";
+}
+.bl1::after{
+  content: "Bystrik Letavay";
+}
 .mz2::after{
   content: "Martin Zanovit";
+}
+.mh1::after{
+  content: "Martin Huk";
 }
 .mk1::after{
   content: "Marián Kováčik";
@@ -223,8 +235,23 @@ div>img{
 .mm1::after{
   content: "Milan Mikloško";
 }
+.mm2::after{
+  content: "Martin Macko";
+}
 .mp1::after{
   content: "Marián Papík"
+}
+.ms1::after{
+  content: "Martin Šabo"
+}
+.fb1::after{
+  content: "František Boldy"
+}
+.fr1::after{
+  content: "František Romaňák"
+}
+.ja1::after{
+  content: "Ján Andrejov";
 }
 .jd1::after{
   content: "Juraj Dubec";
@@ -232,8 +259,23 @@ div>img{
 .jj1::after{
   content: "Ján Janok";
 }
+.jj2::after{
+  content: "Jozef Jackanin";
+}
+.jm1::after{
+  content: "Jozef Mihok";
+}
+.jn1::after{
+  content: "Jozef Novák";
+}
 .jt1::after{
   content: "Ján Tomaškovič";
+}
+.js1::after{
+  content: "Jiří Šindelář";
+}
+.jz1::after{
+  content: "Ján Zoričák";
 }
 .if1::after{
   content: "Ivan Flimel";
@@ -250,11 +292,23 @@ div>img{
 .ps1::after{
   content: "Pavol Sendrej";
 }
+.ps2::after{
+  content: "Peter Slobodník";
+}
+.ph1::after{
+  content: "Peter Hertel";
+}
 .pg1::after{
   content: "Patrik Grotkovský";
 }
 .rb1::after{
   content: "Róbert Bezák";
+}
+.rd1::after{
+  content: "Rastislav Dluhý"
+}
+.rr1::after{
+  content: "Róbert Režný"
 }
 .sv1::after{
   content: "Štefan Varecha";
