@@ -17,7 +17,7 @@
    version="1.1"
    id="svg32"
    sodipodi:docname="misie2000.svg"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"
    inkscape:export-filename="C:\Users\Aspire\Disk Google\CSsR\Kronika\Mapy\200.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"><metadata
@@ -33,16 +33,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-height="1052"
      id="namedview34"
      showgrid="false"
-     inkscape:zoom="1.3950978"
-     inkscape:cx="1671.4279"
-     inkscape:cy="1125.5764"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.55109765"
+     inkscape:cx="1321"
+     inkscape:cy="673"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4936" /><defs
+     inkscape:current-layer="g4818" /><defs
      id="defs12"><style
        type="text/css"
        id="style10"><![CDATA[
@@ -232,12 +232,12 @@
        id="g4766"><text
          id="text4764"
          y="289.83209"
-         x="1786.4792"
+         x="1790.4792"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Wingdings;-inkscape-font-specification:Wingdings;letter-spacing:0px;word-spacing:-1.23000002px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
            y="289.83209"
-           x="1786.4792"
+           x="1790.4792"
            sodipodi:role="line"
            id="tspan4762">Bratislava - Dóm</tspan></text>
 <g
@@ -276,12 +276,12 @@
        id="g4818"><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Wingdings;-inkscape-font-specification:Wingdings;letter-spacing:0px;word-spacing:-1.23000002px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="1595.9847"
+         x="1619.9847"
          y="292.18405"
          id="text4816"><tspan
            sodipodi:role="line"
            id="tspan4814"
-           x="1595.9847"
+           x="1619.9847"
            y="292.18405"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Nedašov</tspan></text>
 <g
@@ -375,7 +375,8 @@
            style="fill:none;stroke-width:38.38040543;stroke-miterlimit:4;stroke-dasharray:none" /></g></g></g><g
      id="g4936"
      transform="translate(-91.727444,11.759929)"><g
-       id="g4934"><text
+       id="g4934"
+       transform="translate(6)"><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Wingdings;-inkscape-font-specification:Wingdings;letter-spacing:0px;word-spacing:-1.23000002px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="1613.5352"
@@ -390,7 +391,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Toporec</tspan></text>
 </g><g
        id="g4552-2-86"
-       transform="matrix(0.05790356,0,0,0.05790356,1749.1203,258.61638)"
+       transform="matrix(0.05790356,0,0,0.05790356,1745.1203,260.61638)"
        style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:38.38040543;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"><path
          id="path4550-2-4"
          d="m 133.38348,551.7 c 0,0.1 0.2,0.3 0.2,0.3 0,0 175.2,-269 175.2,-357.4 0,-130.1 -88.8,-186.7 -175.4,-186.9 -86.599997,0.2 -175.399997,56.8 -175.399997,186.9 0,88.4 175.299997,357.4 175.299997,357.4 0,0 0.1,-0.3 0.1,-0.3 z M 72.683483,187.2 c 0,-33.6 27.2,-60.8 60.799997,-60.8 33.6,0 60.8,27.2 60.8,60.8 0,33.6 -27.3,60.8 -60.9,60.8 -33.499997,0 -60.699997,-27.2 -60.699997,-60.8 z"
