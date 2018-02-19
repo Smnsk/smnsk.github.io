@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Misie</title>
   <link rel="stylesheet" href="css/art.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 </head>
 
@@ -15,11 +15,11 @@
     <aside>
       <transition name="menu">
         <menu v-show="show">
-          <ul v-for="mission in missions">
+          <ul @click="{show2 = !show2}" v-for="mission in missions">
             {{mission.year}}
-            <li><a href="#plan">{{mission.plan}}</a></li>
-            <li><a href="">{{mission.mapa}}</a></li>
-            <li v-for="city in mission.citys">
+            <li v-show="show2"><a href="#plan">{{mission.plan}}</a></li>
+            <li v-show="show2"><a href="">{{mission.mapa}}</a></li>
+            <li v-show="show2" v-for="city in mission.citys">
               <a href="">{{city}}</a>
             </li>
           </ul>
