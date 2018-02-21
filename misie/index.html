@@ -15,11 +15,11 @@
     <aside>
       <transition name="menu">
         <menu v-show="show">
-          <ul @click="{show2 = !show2}" v-for="mission in missions">
+          <ul  @click="{mission.show = !mission.show}" v-for="mission in missions">
             {{mission.year}}
-            <li v-show="show2"><a href="#plan">{{mission.plan}}</a></li>
-            <li v-show="show2"><a href="">{{mission.mapa}}</a></li>
-            <li v-show="show2" v-for="city in mission.citys">
+            <li v-show="mission.show"><a href="#plan">{{mission.plan}}</a></li>
+            <li v-show="mission.show"><a href="">{{mission.mapa}}</a></li>
+            <li v-show="mission.show" v-for="city in mission.citys">
               <a href="">{{city}}</a>
             </li>
           </ul>
