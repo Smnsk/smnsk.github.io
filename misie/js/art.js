@@ -1,5 +1,5 @@
-var missions = {
-  "year 1":{
+var missions = [
+        {
     "status":["Misie",
               "Misie",
               "Misie",
@@ -74,7 +74,7 @@ var missions = {
              "Hnilec",
              "Bojnice"],
   },
-  "year 2":{
+  {
     "status":["Misie",
               "Misie",
               "Misie",
@@ -197,7 +197,7 @@ var missions = {
              "Tvrdošín",
              "Kežmarok"],
   },
-  "year 3":{
+  {
     "status":["Misie",
               "Misie",
               "Misie",
@@ -273,7 +273,7 @@ var missions = {
              "Nové Mesto nad Váhom",
              "Odorín"],
   },
-  "year 4":{
+  {
     "status":["Misie",
               "Obnova",
               "Misie",
@@ -373,7 +373,7 @@ var missions = {
              "Brezovica",
              "Mnišek nad Hnilcom"],
   },
-  "year 5":{
+  {
     "status":["Misie",
               "Obnova",
               "Misie",
@@ -474,7 +474,7 @@ var missions = {
              "Spišský Štiavnik",
              "Nedožery - Brezany"],
   },
-  "year 6":{
+  {
     "status":["Misie",
               "Obnova",
               "Obnova",
@@ -567,7 +567,7 @@ var missions = {
              "Horná Súča",
              "Košické Olšany"],
   },
-  "year 7":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -678,7 +678,7 @@ var missions = {
                "Hrabušice",
                "Budmerice"],
   },
-  "year 8":{
+{
     "status": ["Obnova",
                "Misie",
                "Misie",
@@ -748,7 +748,7 @@ var missions = {
                "Lotyšsko - Riga",
                "Nižné Ružbachy"],
   },
-  "year 9":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -838,7 +838,7 @@ var missions = {
                "Rabčice",
                "Spišská Belá"],
   },
-  "year 10":{
+{
     "status": ["Misie",
                "Obnova",
                "Misie",
@@ -932,7 +932,7 @@ var missions = {
                "Šúrovce",
                "Snina"],
   },
-  "year 11":{
+{
     "status": ["Misie",
                "Obnova",
                "Misie",
@@ -1026,7 +1026,7 @@ var missions = {
                "Svidník",
                "Vráble"],
   },
-  "year 12":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1111,7 +1111,7 @@ var missions = {
                "Závadka nad Hronom",
                "Drietoma"],
   },
-  "year 13":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1183,7 +1183,7 @@ var missions = {
                "Gaboltov",
                "Domaniža"],
   },
-  "year 14":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1261,7 +1261,7 @@ var missions = {
                "Omšenie",
                "Kňažia"],
   },
-  "year 15":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1335,7 +1335,7 @@ var missions = {
                "Žilina - Hliny",
                "Hladovka"],
   },
-  "year 16":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1405,7 +1405,7 @@ var missions = {
                "Trebišov",
                "Horná Súča"],
   },
-  "year 17":{
+{
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1470,7 +1470,7 @@ var missions = {
                "Poprad - Veľká",
                "Vištuk"],
   },
-  "year 18":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1537,7 +1537,7 @@ var missions = {
                "Mútne",
                "Gbely"],
   },
-  "year 19":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1610,7 +1610,7 @@ var missions = {
                "Borský Svätý Jur",
                "Svit"],
   },
-  "year 20":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1691,7 +1691,7 @@ var missions = {
                "Stará Ľubovňa",
                "Hontiarské Trsťany"],
   },
-  "year 21":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1767,7 +1767,7 @@ var missions = {
                "Kamenica nad Cirochou",
                "Rudňany"],
   },
-  "year 22":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1840,7 +1840,7 @@ var missions = {
                "Svätý Jur",
                "Švošov"],
   },
-  "year 23":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1919,7 +1919,7 @@ var missions = {
                "Budkovce",
                "Veľká Lomnica"],
   },
-  "year 24":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
@@ -1980,11 +1980,12 @@ var missions = {
                "Bratislava - Kalvária",
                "Konská"],
   },
-  "year 25":{
+  {
     "status": ["Misie",
                "Misie",
                "Misie",
                "Misie",
+               "Obnova",
                "Misie",
                "Obnova",
                "Obnova",
@@ -1996,37 +1997,78 @@ var missions = {
     "mapa" : "Mapa misií",
     "mapa_link":"img/svg/misie2018.svg",
     "year" : 2018,
-    "diecezis": ["Spišská diecéza"],
-    "admin":[],
+    "diecezis": ["Spišská diecéza",
+                 "Košická arcidiecéza",
+                 "Spišská diecéza",
+                 "Spišská diecéza",
+                 "Spišská diecéza"
+  ],
+    "admin":["Ondrej Želonka",
+             "Bartolomej Salanci",
+             "Daniel Šalát"
+  ],
     "date" : ["20. 1. - 28. 1.",
               "17. 2. - 25. 2.",
               "10. 3. - 18. 3.",
               "14. 4. - 22. 4.",
+              "9. 5. - 13. 5.",
               "20. 5. - 27. 5.",
               "6. 6. - 10. 6.",
               "5. 9. - 8. 9.",
               "22. 9. - 29. 9.",
               "21. 10. - 28. 10.",
               "24. 11. - 2. 12."],
-    "missionars":[],
+    "missionars":[["img/mis/mz1.svg","img/mis/mz2.svg","img/mis/rr1.svg"],
+                  ["img/mis/mz1.svg","img/mis/mz2.svg","img/mis/rr1.svg","img/mis/ab1.svg"],
+                  ["img/mis/mz1.svg","img/mis/mz2.svg","img/mis/ab1.svg"],
+                  [],
+                  ["img/mis/mz1.svg","img/mis/mz2.svg"],
+
+  ],
     "citys" : ["Spišské Hanušovce",
                "Veľký Šariš",
                "Spišský Štiavnik",
                "Nižná",
+               "Brezovica",
                "Hriňová",
                "Zuberec",
                "Nové Mesto nad Váhom",
                "Zlaté Moravce",
                "Hôrka pri Porade",
                "Slovenská Kajňa"],
-  },
-}
+  }
+]
 
 const app = new Vue({
   el: '#app',
   data: {
-    show2: false,
     show: false,
-    missions: missions
+    missions: missions,
+    showLi: false,
   }
-})
+});
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 200) {
+    $('.up').fadeIn();
+  } else {
+    $('.up').fadeOut();
+  }
+});
+
+$("li>a").on("click", function() {
+  var element = $(this).attr("href");
+  var dist = $(element).offset().top;
+  $("html, body").animate({"scrollTop": dist}, 2000);
+  return false;
+});
+$(".up").on("click", function() {
+  $("html, body").animate({"scrollTop": 0}, 2000);
+  return false;
+});
+
+$("ul").on("click", function(){
+    $(".menu").css("display", "none");
+    $(this).find(".menu").css("display", "block");
+  });
