@@ -23,7 +23,11 @@ a, li {
 /*-Menu-*/
 
 #btn:checked~aside>label>.fa-bars{
-  transform: translateX(15vw);
+  opacity: 0;
+}
+#btn:checked~aside>label>.fa-times{
+  transform: translateX(12vw);
+  opacity: 1;
 }
 
 menu {
@@ -66,17 +70,41 @@ menu li a:hover {
   font-size: 1.7vw;
 }
 
-.fa-bars {
+.menu{
+  display: none;
+}
+
+.fa-bars, .fa-times {
   position: fixed;
   padding: .5vw;
   cursor: pointer;
-  transition: all 1.8s ease-out;
+  transition: all 2s ease .1s;
 }
-
-.fa-bars:hover {
+.fa-times{
   color: #ff6b22;
+  opacity: 0;
 }
-
+.up{
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  width: 2vw;
+  height: 2vw;
+  bottom: 2vh;
+  right: 2vh;
+  background: #ff6b22;
+}
+.fa-arrow-up{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  animation: up 0.5s infinite ease;
+}
+@keyframes up {
+  to{top:0%;}
+  from{top:10%;}
+}
 .menu-enter-active, .menu-leave-active {
   transition: all 2s ease;
 }
