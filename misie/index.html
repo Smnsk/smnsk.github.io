@@ -6,7 +6,6 @@
   <title>Misie</title>
   <link rel="stylesheet" href="css/art.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 </head>
 
 <body>
@@ -15,22 +14,30 @@
     <aside>
       <transition name="menu">
         <menu v-show="show">
-          <ul  @click="{mission.show = !mission.show}" v-for="mission in missions">
+          <ul v-for="(mission, index) in missions">
             {{mission.year}}
-            <li v-show="mission.show"><a href="#plan">{{mission.plan}}</a></li>
-            <li v-show="mission.show"><a href="">{{mission.mapa}}</a></li>
-            <li v-show="mission.show" v-for="city in mission.citys">
-              <a href="">{{city}}</a>
+            <div class="menu">
+            <li><a :href="'#plan'+index">{{mission.plan}}</a></li>
+            <li><a :href="'#mapa'+index">{{mission.mapa}}</a></li>
+            <li v-for="(city, ci) in mission.citys">
+              <a :href="'#mission'+mission.year+'_'+ci">{{city}}</a>
             </li>
+            </div>
           </ul>
         </menu>
       </transition>
-      <label for="btn" @click="{show = !show}"><i class="fas fa-bars fa-2x"></i></label>
+      <label for="btn" @click="{show = !show}">
+        <i class="fas fa-bars fa-2x"></i>
+        <i class="fas fa-times fa-2x"></i>
+      </label>
+       <a class="up" href="#">
+         <i class="fas fa-arrow-up fa-2x"></i>
+       </a>
       <div class="titul">
         <p>Ľudové misie od roku 1994</p>
       </div>
-      <div v-for="mission in missions" class="page">
-        <div class="plan">
+      <div v-for="(mission, index)  in missions" class="page">
+        <div class="plan" :id="'plan' + index">
           <p class="plan_titul">{{mission.plan}} na rok {{mission.year}}</p>
           <div class="plan_box">
             <div class="plan_city">
@@ -44,11 +51,11 @@
             </div>
           </div>
         </div>
-        <div class="mapa">
-          <img v-bind:src="mission.mapa_link"></img>
+        <div class="mapa" :id="'mapa' + index">
+          <img :src="mission.mapa_link"></img>
         </div>
         <div class="mission">
-          <div v-for="(status, i) in mission.status" class="mission_box">
+          <div v-for="(status, i) in mission.status" class="mission_box" :id="'mission' + mission.year +'_'+i">
             <h1>{{status}} {{mission.citys[i]}}</h1>
             <h1>{{mission.date[i]}} {{mission.year}}</h1>
             <h1>{{mission.diecezis[i]}}<h1>
@@ -65,7 +72,9 @@
 
     </aside>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
   <script src="js/art.js"></script>
 </body>
 
