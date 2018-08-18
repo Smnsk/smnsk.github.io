@@ -7,7 +7,7 @@
   padding: 0;
 }
 body{
-  background-image: url("../img/school.png");
+  background-image: url("../img/bg1.png");
   background-size: 10%;
   background-attachment: fixed;
   font-family: 'school';
@@ -17,10 +17,10 @@ body{
   position: fixed;
   width: 100%;
   text-align: center;
+  background-image: url("../img/bg1.png");
   top: 0;
   font-size: 5vw;
   font-weight: normal;
-  background-image: url("../img/school.png");
   background-size: 10%;
   color: white;
   z-index: 1;
@@ -30,17 +30,17 @@ body{
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 7vh 0;
+  padding: 5vw 0;
 }
 .card{
   position: relative;
   font-family: cursive;
   font-weight: bold;
-  width: 20vw;
-  height: 20vh;
+  width: 500px;
+  height: 250px;
   border-radius: 1em;
   margin-top: 5vh;
-  perspective: 1000px;
+  perspective: 120vw;
 }
 .card:hover .front{
   transform: rotateY(180deg);
@@ -65,12 +65,12 @@ body{
   top: 6%;
   left: 40%;
   color: red;
-  font-size: 1.2em;
+  font-size: 1.2vw;
 }
 .verb>p>span{
   font-family: monospace;
   color: gray;
-  font-size: 1em;
+  font-size: .9vw;
 }
 .sent{
   display: flex;
@@ -80,7 +80,7 @@ body{
   bottom: 9%;
   left: 4%;
   padding-left: 2%;
-  font-size: .8em;
+  font-size: .8vw;
   width: 85%;
   height: 40%;
   background-color: white;
@@ -106,7 +106,7 @@ body{
 .index{
   position: absolute;
   font-weight: normal;
-  font-size: .8em;
-  bottom: 1vh;
-  right: 1.2vh;
+  font-size: .8vw;
+  bottom: .5vw;
+  right: .7vw;
 }
