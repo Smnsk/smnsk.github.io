@@ -1,101 +1,43 @@
 <!DOCTYPE html>
 <html lang="sk">
-
 <head>
   <meta charset="UTF-8">
-  <title>Slovo medzi nami</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/art.css">
+  <title>Progress</title>
 </head>
-
 <body>
-
-  <input type="radio" name="bt" id="bt" checked>
-  <input type="radio" name="bt" id="bt1">
-  <input type="radio" name="bt" id="bt2">
-  <input type="radio" name="bt" id="bt3">
-  <input type="radio" name="bt" id="bt4">
-  <input type="radio" name="bt" id="bt5">
-  <input type="radio" name="bt" id="bt6">
-
-  <div class="menu">
-    <a href="#login"><i class="fa fa-sign-in fa-2x"></i></a>
-    <a href="#user"><i class="fa fa-user-plus fa-2x"></i></a>
-    <a href="#book"><i class="fa fa-book fa-2x"></i></a>
-    <a href="#info"><i class="fa fa-info fa-2x"></i></a>
-  </div>
-
-  <div id="login">
-    <a class="close" href="index.html"><i class="fa fa-times fa-2x"></i></a>
-    <div class="login_menu">Prihlásenie</div>
-  </div>
-  <div id="user">
-    <a class="close" href="index.html"><i class="fa fa-times fa-2x"></i></a>
-    <div class="user_menu">Registrácia</div>
-  </div>
-  <div id="book">
-    <a class="close" href="index.html"><i class="fa fa-times fa-2x"></i></a>
-    <div class="book_tab">
-      <div class="rack">
-        <div class="row1">
-          <p>Novinky</p>
-          <a class="new1" href="http://www.kumran.sk/rodina-a-vychova/19985-kompas.html" target="_blank"></a>
-          <a class="new2" href="http://www.kumran.sk/duchovny-boj-sekty/19737-vzoprite-sa-diablovi.html" target="_blank"></a>
-          <a class="new3" href="http://www.kumran.sk/krestanska-fikcia/19823-cim-ma-zaujal-jezis.html" target="_blank"></a>
-          <a class="new4" href="http://www.kumran.sk/predskolsky-vek/19651-svata-spoved-jezis-mi-hovori-o-spovedi.html" target="_blank"></a>
+  <div class="page">
+    <div class="title">Irregular verbs</div>
+    <div class="cont">
+      <div class="card" v-for="(card, i) in verbs">
+        <div class="front">
+          <div class="verb">
+            <p>{{card.inf}} <span>{{card.tr_inf}}</span></p>
+            <p>{{card.pret}} <span>{{card.tr_pret}}</p>
+            <p>{{card.perf}} <span>{{card.tr_perf}}</p>
+          </div>
+            <div class="sent">
+              <p>{{card.inf_s}}</p>
+              <p>{{card.pret_s}}</p>
+              <p>{{card.perf_s}}</p>
+            </div>
+          <span class="index">{{i+1}}</span>
         </div>
-        <div class="row2"></div>
-        <div class="row3"></div>
+        <div class="back">
+          <p>{{card.trans}}</p>
+          <div class="sent">
+            <p>{{card.inf_v}}</p>
+            <p>{{card.pret_v}}</p>
+            <p>{{card.perf_v}}</p>
+          </div>
+          <span class="index">{{i+1}}
+        </div>
       </div>
     </div>
   </div>
-  <div id="info">
-    <a class="close" href="index.html"><i class="fa fa-times fa-2x"></i></a>
-    <div class="info_tab">Info</div>
-  </div>
-
-  <div class="left">
-    <label for="bt1" class="bt1"><i class="fa fa-chevron-left fa-5x"></i></label>
-
-    <label for="bt2" class="bt2"><i class="fa fa-chevron-left fa-5x"></i>
-    </label>
-
-    <label for="bt3" class="bt3"><i class="fa fa-chevron-left fa-5x"></i></label>
-  </div>
-
-  <div class="right">
-    <label for="bt4" class="bt4"><i class="fa fa-chevron-right fa-5x"></i></label>
-
-    <label for="bt5" class="bt5"><i class="fa fa-chevron-right fa-5x"></i></label>
-
-    <label for="bt6" class="bt6"><i class="fa fa-chevron-right fa-5x"></i>
-    </label>
-  </div>
-
-  <div class="pagestart">
-    <img src="img/start.png" alt="pagestart">
-  </div>
-
-  <div class="page2">
-    <div class="pg1">
-      <img src="img/page1.png" alt="page1">
-    </div>
-    <div class="pg2">
-      <img src="img/page2.png" alt="page2">
-    </div>
-  </div>
-
-  <div class="page3">
-    <div class="pg1">
-      <img src="img/page3.png" alt="page3"></div>
-    <div class="pg2"> <img src="img/page4.png" alt="page4"></div>
-  </div>
-
-  <div class="pageend">
-    <img src="img/end.png" alt="pageend">
-  </div>
-
+<script src="js/vue.js"></script>
+<script src="js/art.js"></script>
 </body>
-
 </html>
