@@ -13,6 +13,7 @@
     <div class="cont">
       <div class="card" v-for="(card, i) in verbs">
         <div class="front">
+          <img :src="'./img/card'+(i+1)+'.png'">
           <div class="verb">
             <p>{{card.inf}} <span>{{card.tr_inf}}</span></p>
             <p>{{card.pret}} <span>{{card.tr_pret}}</p>
@@ -26,6 +27,7 @@
           <span class="index">{{i+1}}</span>
         </div>
         <div class="back">
+          <img :src="'./img/card'+(i+1)+'.png'">
           <p>{{card.trans}}</p>
           <div class="sent">
             <p>{{card.inf_v}}</p>

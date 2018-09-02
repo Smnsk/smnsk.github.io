@@ -57,6 +57,11 @@ body{
   transition: 1s;
   backface-visibility: hidden;
 }
+.front>img, .back>img{
+  position: absolute;
+  left: 8%;
+  top: 6%;
+}
 .front{
   box-shadow: inset 0 0 1vw .2vw rgba(232,95,21,1);
 }

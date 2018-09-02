@@ -1984,6 +1984,7 @@ let app = new Vue({
   el: '.page',
   data: {
     message: 'Hello Vue!',
-    verbs: verbs
+    verbs: verbs,
+    img: "./img/card2.png"
   }
 })
