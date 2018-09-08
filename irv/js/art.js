@@ -64,7 +64,7 @@ let verbs = [{
      pret: "became",
      tr_pret: "[biˈkeim]",
      perf: "become",
-     tr_pert: "[biˈkam]",
+     tr_perf: "[biˈkam]",
      inf_s:"I often become sad when I watch thes film.",
      pret_s:"They became good friends.",
      perf_s: "Tony has just become a father.",
@@ -849,7 +849,7 @@ let verbs = [{
      pret_s: "I kept in touch with her.",
      perf_s: "Your boss has never kept his promise.",
      trans: "držať, dodržať, zostať",
-     inf_v: "nechávam si všetky lístky ako suveníry.",
+     inf_v: "Nechávam si všetky lístky ako suveníry.",
      pret_v: "Ostal som s ňou v kontakte.",
      perf_v: "Tvoj šéf nikdy nedodržal svoj sľub."
 },
@@ -1211,7 +1211,7 @@ let verbs = [{
      trans: "povedať",
      inf_v: "Nie vždy hovorím, čo si myslím.",
      pret_v: "Povedala, že chce psa.",
-     perf_v: "konečne si to povedal."
+     perf_v: "Konečne si to povedal."
 },
 {
      inf: "see",
@@ -1224,7 +1224,7 @@ let verbs = [{
      pret_s: "Thomas saw Peter last weekend.",
      perf_s: "Have you seen my glasses anywhere?",
      trans: "vidieť, navštíviť",
-     inf_v: "každý týždeň navštevujem svojich starých rodičov.",
+     inf_v: "Každý týždeň navštevujem svojich starých rodičov.",
      pret_v: "Tomáš videl Petra minulý víkend.",
      perf_v: "Nevidel si niekde moje okuliare?"
 },
