@@ -36,9 +36,9 @@ body{
   position: relative;
   font-family: cursive;
   font-weight: bold;
-  width: 500px;
+  width: 300px;
   height: 250px;
-  border-radius: 1em;
+  border-radius: .8em;
   margin-top: 5vh;
   perspective: 120vw;
 }
@@ -59,8 +59,9 @@ body{
 }
 .front>img, .back>img{
   position: absolute;
-  left: 8%;
+  left: 3%;
   top: 6%;
+  width: 30%;
 }
 .front{
   box-shadow: inset 0 0 1vw .2vw rgba(232,95,21,1);
@@ -68,14 +69,14 @@ body{
 .verb{
   position: absolute;
   top: 6%;
-  left: 40%;
+  left: 35%;
   color: red;
-  font-size: 1.2vw;
+  font-size: 1em;
 }
 .verb>p>span{
   font-family: monospace;
   color: gray;
-  font-size: .9vw;
+  font-size: 1em;
 }
 .sent{
   display: flex;
@@ -85,7 +86,7 @@ body{
   bottom: 9%;
   left: 4%;
   padding-left: 2%;
-  font-size: .8vw;
+  font-size: .8em;
   width: 85%;
   height: 40%;
   background-color: white;
@@ -101,17 +102,17 @@ body{
   align-items: center;
   text-align: center;
   position: relative;
-  width: 65%;
+  width: 60%;
   height: 40%;
   top: 6%;
-  left: 30%;
+  left: 35%;
   font-size: 1.7em;
 }
 
 .index{
   position: absolute;
   font-weight: normal;
-  font-size: .8vw;
-  bottom: .5vw;
+  font-size: .8em;
+  bottom: .4vw;
   right: .7vw;
 }
