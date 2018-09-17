@@ -2,6 +2,10 @@
   font-family: 'school';
   src: url('School.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'text';
+  src: url('text.ttf') format('truetype');
+}
 *{
   margin: 0;
   padding: 0;
@@ -34,8 +38,7 @@ body{
 }
 .card{
   position: relative;
-  font-family: cursive;
-  font-weight: bold;
+  font-family: text;
   width: 300px;
   height: 250px;
   border-radius: .8em;
@@ -68,6 +71,7 @@ body{
 }
 .verb{
   position: absolute;
+  font-family: text;
   top: 6%;
   left: 35%;
   color: red;
