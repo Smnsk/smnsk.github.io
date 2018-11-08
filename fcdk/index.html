@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="./css/art.css">
+  <title>Players FC Dynamo Kiev</title>
+</head>
+<body>
+  <div class="page">
+    <h1>{{titul}}</h1>
+    <div class="cont">
+      <a class="y_link" v-for="(dk, i) in dk" :href="'#'+i">{{dk.year}}</a>
+    </div>
+    <div v-for="(dk, i) in dk" class="year" :id="i">
+      <a class="close" href=""><i class="fas fa-times"></i></a>
+      <div class="place">
+        <div class="goalie">
+          <div v-for="goalie in dk.goalie">
+            <div class="player">
+              <div class="stat">
+                 <i class="far fa-futbol"></i>
+                 <span class="goals">{{goalie.goals}}</span>
+                 <i class="fas fa-walking"></i>
+                 <i class="far fa-futbol ball"></i>
+                 <span class="game">{{goalie.game}}</span>
+                 <span class="Rcard"></span>{{goalie.Rcard}}
+                 <span class="Ycard"></span>{{goalie.Ycard}}
+                 <i class="fas fa-stopwatch"></i>
+                 <span class="minuts">{{goalie.minuts}}</span>
+                 <img :src="goalie.nation">
+              </div>
+              <div :class="goalie.form"><span class="number">{{goalie.number}}</div>
+              <div class="name">{{goalie.name}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="defender">
+          <div v-for="defender in dk.defender">
+            <div class="player">
+              <div class="stat">
+                <i class="far fa-futbol"></i>
+                <span class="goals">{{defender.goals}}</span>
+                <i class="fas fa-walking"></i>
+                <i class="far fa-futbol ball"></i>
+                <span class="game">{{defender.game}}</span>
+                <span class="Rcard"></span>{{defender.Rcard}}
+                <span class="Ycard"></span>{{defender.Ycard}}
+                <i class="fas fa-stopwatch"></i>
+                <span class="minuts">{{defender.minuts}}</span>
+                <img :src="defender.nation">
+              </div>
+              <div :class="defender.form"><span class="number">{{defender.number}}</div>
+              <div class="name">{{defender.name}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="midfield">
+          <div v-for="midfield in dk.midfield">
+            <div class="player">
+              <div class="stat">
+                <i class="far fa-futbol"></i>
+                <span class="goals">{{midfield.goals}}</span>
+                <i class="fas fa-walking"></i>
+                <i class="far fa-futbol ball"></i>
+                <span class="game">{{midfield.game}}</span>
+                <span class="Rcard"></span>{{midfield.Rcard}}
+                <span class="Ycard"></span>{{midfield.Ycard}}
+                <i class="fas fa-stopwatch"></i>
+                <span class="minuts">{{midfield.minuts}}</span>
+                <img :src="midfield.nation">
+              </div>
+              <div :class="midfield.form"><span class="number">{{midfield.number}}</span></div>
+              <div class="name">{{midfield.name}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="forward">
+          <div v-for="forward in dk.forward">
+            <div class="player">
+              <div class="stat">
+                <i class="far fa-futbol"></i>
+                <span class="goals">{{forward.goals}}</span>
+                <i class="fas fa-walking"></i>
+                <i class="far fa-futbol ball"></i>
+                <span class="game">{{forward.game}}</span>
+                <span class="Rcard"></span>{{forward.Rcard}}
+                <span class="Ycard"></span>{{forward.Ycard}}
+                <i class="fas fa-stopwatch"></i>
+                <span class="minuts">{{forward.minuts}}</span>
+                <img :src="forward.nation">
+              </div>
+              <div :class="forward.form"><span class="number">{{forward.number}}</div>
+              <div class="name">{{forward.name}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./js/art.js"></script>
+</body>
+</html>
