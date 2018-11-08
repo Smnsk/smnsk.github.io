@@ -109,6 +109,9 @@ h1{
   text-align: center;
   perspective: 100px;
 }
+.player:hover{
+  z-index: 1;
+}
 .player:hover .stat{
   display: flex;
   flex-wrap: wrap;
