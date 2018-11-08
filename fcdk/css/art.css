@@ -86,7 +86,6 @@ h1{
   width: 90%;
   transform: rotateX(-3.5deg);
   transform-origin: bottom;
-  border: 1px solid red
 }
 .goalie{
   z-index: -1;
