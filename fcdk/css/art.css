@@ -8,7 +8,7 @@ h1{
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 5em;
+  font-size: 4vw;
 }
 .page{
   background-image: url("../img/fcdk_bg.jpg");
@@ -29,7 +29,7 @@ h1{
   justify-content: space-between;
 }
 .y_link{
-  font-size: 2em;
+  font-size: 1.8vw;
   text-align: center;
   width: 10%;
   margin-bottom: .7%;
@@ -60,6 +60,29 @@ h1{
   top: 1%;
   color: red;
 }
+.table{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 43vw;
+  height: 24vh;
+  transform: translateX(-50%);
+  left: 50%;
+  background-color:rgba(0, 155, 255, 0.5);
+  font-size: 2.5vw;
+  color: white;
+}
+.table>img{
+  width: 20%;
+  height: 30%;
+}
+.table>span{
+  width: 10%;
+  text-align: center;
+  text-shadow: 0 0 2px black;
+}
 .place{
   position: relative;
   justify-content: space-around;
@@ -73,9 +96,9 @@ h1{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  transform: rotateX(5deg) translateX(-50%);
   transform-origin: bottom;
   perspective: 100px;
+  animation: pl 1s linear forwards;
 }
 .goalie,.defender,.midfield,.forward{
   display: flex;
@@ -86,20 +109,25 @@ h1{
   width: 90%;
   transform: rotateX(-3.5deg);
   transform-origin: bottom;
+  opacity: 0;
 }
 .goalie{
   z-index: -1;
-  justify-content: center;
   top:0;
+  animation: op 1s ease 1s forwards;
 }
 .defender{
   z-index: -2;
+  top: 4%;
+  animation: op 1s ease 1.5s forwards;
 }
 .midfield{
   z-index: -3;
+  animation: op 1s ease 2s forwards;
 }
 .forward{
   z-index: -4;
+  animation: op 1s ease 2.5s forwards;
 }
 .player{
   position: relative;
@@ -108,6 +136,7 @@ h1{
   width: 8vw;
   text-align: center;
   perspective: 100px;
+  cursor: pointer;
 }
 .player:hover{
   z-index: 1;
@@ -127,7 +156,7 @@ h1{
   top:25%;
   left: 50%;
   transform: translateX(-50%);
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 3px black;
 }
 .stat{
   display: none;
@@ -174,4 +203,17 @@ h1{
 }
 img{
   width: 20%;
+}
+
+@keyframes pl {
+  0%{transform: rotateX(0) translateX(-50%); }
+  100%{transform: rotateX(5deg) translateX(-50%);}
+}
+@keyframes op {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
