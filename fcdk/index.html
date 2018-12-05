@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="ua">
 <head>
   <meta charset="UTF-8">
@@ -12,10 +12,22 @@
   <div class="page">
     <h1>{{titul}}</h1>
     <div class="cont">
-      <a class="y_link" v-for="(dk, i) in dk" :href="'#'+i">{{dk.year}}</a>
+      <a class="y_link" v-for="dk in dk" :href="'#'+ dk.year">{{dk.year}}</a>
     </div>
-    <div v-for="(dk, i) in dk" class="year" :id="i">
+    <div v-for="dk in dk" class="year" :id="dk.year">
       <a class="close" href=""><i class="fas fa-times"></i></a>
+      <div class="table">
+        <img src="./img/upl.svg" alt="UPL"> 
+        <img src="./img/uefa.svg" alt="CHL">
+        <img src="./img/uеfaeu.svg" alt="EL">
+        <img src="./img/ku.svg" alt="KU">
+        <img src="./img/sku.svg" alt="SCU">
+        <span>{{dk.upl}}</span>
+        <span>{{dk.chl}}</span>
+        <span>{{dk.uefa}}</span>
+        <span>{{dk.ku}}</span>
+        <span>{{dk.sku}}</span>
+      </div>
       <div class="place">
         <div class="goalie">
           <div v-for="goalie in dk.goalie">
@@ -101,6 +113,7 @@
     </div>
   </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./js/data.js"></script>
 <script src="./js/art.js"></script>
 </body>
 </html>
