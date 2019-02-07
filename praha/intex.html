@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="./css/art.css">
+    <title>Dějiny CSsR Praha</title>
+</head>
+<body>
+    <div class="page">
+        <div class="titul">{{titul}}</div>
+        <div class="timeline">
+            <div class="timeline_box" v-for="(local, k) in local">
+                <div class="year">{{k.slice(0, 4)}}</div>
+                <div class="box">
+                    <div class="line" :style="{height: local.height}"></div>
+                    <div class="icon" :class="local.class">
+                      <div class="fas fa-ban" v-if="local.ban"></div>
+                    </div>
+                </div>
+                <div class="city">{{local.city}}</div>
+            </div>
+        </div>        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/art.js"></script>
+</body>
+</html>
