@@ -1,25 +1,36 @@
 let local = {
-    "1855":{
+    "1851a":{
+    city: "Svatý Kámen",
+    class: "fas fa-church",
+    height: "3vh"
+    },
+    "1855a":{
+      city: "Svatý Kámen",
+      class: "fas fa-church",
+      height: "4vh",
+      ban: true
+    },
+    "1855b":{
       city: "Koclířov",
       class: "fas fa-church",
-      height: "3vh"
+      height: ""
     },
-    "1856":{
+    "1856a":{
       city: 'Praha na "Karlově"',
       class: "fas fa-church",
       height: "1vh" 
     },
-    "1860":{
+    "1860a":{
       city: "Červenka",
       class: "fas fa-church",
       height: "4vh"
     },
-     "1861":{
+     "1861a":{
       city: "Svatá Hora",
       class: "fas fa-church",
       height: "1vh"
     },
-     "1863":{
+     "1863a":{
       city: "Králíky",
       class: "fas fa-church",
       height: "2vh"
