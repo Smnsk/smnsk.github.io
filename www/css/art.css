@@ -1,1 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 20vh;
+    background-image: url(../img/ukraine.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.net{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.fab:hover{
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.fa-twitter{
+    color: #1da1f2;
+    margin-right: .5vw;
+}
+.fa-youtube{
+    color:#ff0000;
+}
+.avatar{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: .2vw solid white;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/ava.jpg);
+    background-position: center center;
+    background-size: 180px;
+    background-repeat: no-repeat;
+}
 
+.page{
+    background-image: url(../img/ukraine\ ornament.png);
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page>a{
+    width: 310px;
+    height: 250px;
+    margin: 10vh 30px 0;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px black;
+}
+.page>a:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.page>a:nth-child(1){
+    background-image: url(../img/misie.png)
+}
+.page>a:nth-child(2){
+    background-image: url(../img/podolinec.png);
+}
+.page>a:nth-child(3){
+    background-image: url(../img/iverbs.png);
+}
+.page>a:nth-child(4){
+    background-image: url(../img/dynamo.png);
+}
+.page>a:nth-child(5){
+    background-image: url(../img/praha.png);
+}
+.page>a:nth-child(6){
+    background-image: url(../img/lectionar.png);
+    margin-bottom: 5vh;
+}
