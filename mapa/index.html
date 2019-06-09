@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/art.css">
+    <title>Mapa misií</title>
+</head>
+<body>
+    <div class="page">
+        <div class="btns">
+            <div class="btn" @click="showMap" v-for="(link, i) in links">{{i}}</div>
+        </div>
+            <iframe class="map" :src="show"></iframe>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/art.js"></script>
+</html>
