@@ -19,6 +19,7 @@ var app = new Vue({
     el: '.page',
     data: {
       links: links,
+      load: true,
       show: "https://www.google.com/maps/d/embed?mid=1i1lb3pUXA4C-26mH9xq3Df6Bl8Pksy2G"
     },
     methods: {
@@ -26,6 +27,11 @@ var app = new Vue({
         let y = event.target.textContent
         let x = this.links[y]
         this.show = x.src
-      }
+        this.load = true
+        setTimeout(() => this.load = false, 3000)
+      }      
+    },
+    mounted() {
+      setTimeout(() => this.load = false, 5000)
     }
   })
