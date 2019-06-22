@@ -78,6 +78,9 @@
     background-image: url(../img/praha.png);
 }
 .page>a:nth-child(6){
+    background-image: url(../img/mapa.png);
+}
+.page>a:nth-child(7){
     background-image: url(../img/lectionar.png);
     margin-bottom: 5vh;
 }
