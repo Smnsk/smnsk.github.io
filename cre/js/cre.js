@@ -36,7 +36,7 @@ let app = new Vue({
     data: {
       links: links,
       showMenu: true, 
-      url: "http://www.cssr.news/",
+      url: "https://www.cssr.news/",
     },
     methods:{
       newLink(event, i){
