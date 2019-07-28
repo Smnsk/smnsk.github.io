@@ -2,9 +2,6 @@ let links = {
   News:{
     url: "https://www.cssr.news/",
   },
-  CRE:{
-    url:"https://www.cssr-europe.com/"
-  },
   "Bratislava-Prague":{
     url:"https://redemptoristi.sk"
   },
@@ -24,19 +21,10 @@ let links = {
     url:" https://www.redentoristas.org"
   },
   Michalovce:{
-    url:"https://www.redemptoristi.nfo.sk/"
-  },
-  Naples:{
-    url:"https://www.redentoristinapoletani.it/"
+    url:"http://www.redemptoristi.nfo.sk/"
   },
   Rome:{
     url:"https://www.cssrroma.org/"
-  },
-  "St. Clement":{
-    url:"https://www.stclemens.org/"
-  },
-  "St. Gerard":{
-    url:"https://redemptorist.ru"
   },
   "Vienna-Munich":{
     url:"https://wien-muenchen.redemptoristen.com"
