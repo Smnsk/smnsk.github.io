@@ -1,45 +1,45 @@
 let links = {
   News:{
-    url: "http://www.cssr.news/",
+    url: "https://www.cssr.news/",
   },
   CRE:{
-    url:"http://www.cssr-europe.com/"
+    url:"https://www.cssr-europe.com/"
   },
   "Bratislava-Prague":{
-    url:"http://redemptoristi.sk"
+    url:"https://redemptoristi.sk"
   },
   Dublin:{
-    url:"http://www.redemptorists.ie"
+    url:"https://www.redemptorists.ie"
   },
   Lisbon:{
-    url:"http://www.cssr.pt"
+    url:"https://www.cssr.pt"
   },
   Lviv:{
     url:"https://www.cssr.lviv.ua/"
   },
   "Lyon-Paris":{
-    url:"http://www.redemptoristes.fr"
+    url:"https://www.redemptoristes.fr"
   },
   Madrid:{
-    url:" http://www.redentoristas.org"
+    url:" https://www.redentoristas.org"
   },
   Michalovce:{
-    url:"http://www.redemptoristi.nfo.sk/"
+    url:"https://www.redemptoristi.nfo.sk/"
   },
   Naples:{
-    url:"http://www.redentoristinapoletani.it/"
+    url:"https://www.redentoristinapoletani.it/"
   },
   Rome:{
     url:"https://www.cssrroma.org/"
   },
   "St. Clement":{
-    url:"http://www.stclemens.org/"
+    url:"https://www.stclemens.org/"
   },
   "St. Gerard":{
-    url:"http://redemptorist.ru"
+    url:"https://redemptorist.ru"
   },
   "Vienna-Munich":{
-    url:"http://wien-muenchen.redemptoristen.com"
+    url:"https://wien-muenchen.redemptoristen.com"
   },
 }
 
