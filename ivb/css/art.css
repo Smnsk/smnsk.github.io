@@ -1,1 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../img/vb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+.page{
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 5vh;  
+}
+.titul{
+  position: fixed;
+  background-image: url("../img/vb.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 105% 2305%;
+  color: rgb(1, 94, 1);
+  margin-top: -5vh;
+  width: 100%;
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+  z-index: 1;
+}
+.timeline{  
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, .1);
+}
+.timeline:last-child{
+  padding-bottom: 5vh;
+}
 
+.year{
+  width: 3.5vw;
+}
+.year, .event{
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+  margin: 0 2vw;
+  padding-bottom: .5vh;
+  text-shadow: 0 0 1px black;
+  font-family: 'Lobster', cursive;
+}
+.line{
+  position: relative;
+  left: 50%;
+  width: 5px;
+  background-color: green;
+  transform: translateX(-50%);
+}
+.icon{
+  position: relative;
+  width: 5vh;
+  height: 5vh;
+  color: aliceblue;
+  font-size: 3vh;
+  line-height: 1.6;
+  text-align: center;
+  background-color: green;
+  border-radius: 50%;
+  text-shadow: 0 0 1px black;
+}
