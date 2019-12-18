@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="./css/art.css">
+    <title>History Velykyj Bereznyj</title>
+</head>
+<body>
+    <div class="page">
+      <div class="titul">{{titul}}</div>
+      <div class="timeline" v-for="fact in fact">
+        <div class="year">{{fact.year}}</div>
+        <div class="box">
+          <div class="line" :style="{height: fact.height}"></div>
+          <div class="icon" :class="fact.class"></div>
+        </div>
+        <div class="event">{{fact.event}}</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/art.js"></script>
+</body>
+</html>
