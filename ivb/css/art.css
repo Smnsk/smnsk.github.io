@@ -41,9 +41,6 @@ body{
   padding-bottom: 5vh;
 }
 
-.year{
-  width: 3.5vw;
-}
 .year, .event{
   color: white;
   font-size: 3vh;
