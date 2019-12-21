@@ -8,37 +8,37 @@ let fact = [
     {
       year: 1427,
       class: "fas fa-users-crown",
-      event: "Великий Березний належить до володінь Ужгородської домінії графів Другетів.",
+      event: "Графство Другетів.",
       height: "9vh"
     },
     {
       year: 1427,
       class: "fas fa-users",
-      event: "33 селянські двори, тобто приблизно 150 жителів",
+      event: "33 двори ≈ 150 жителів",
       height: ""
     },
     {
       year: 1691,
       class: "fas fa-users-crown",
-      event: "Великий Березний належить до володінь Ужгородської домінії графа Берчені.",
+      event: "Графство Берчені.",
       height: "132vh"
     },
     {
       year: 1751,
       class: "fas fa-users",
-      event: "40 дворів і понад 200 жителів",
+      event: "40 дворів ≈ 200 жителів",
       height: "30vh"
     },
     {
       year: 1770,
       class: "fas fa-city",
-      event: "Великий Березний здобув статус містечка",
+      event: "Статус містечка",
       height: "9.5vh"
     },
     {
       year: 1791,
       class: "fas fa-users",
-      event: "80 кріпацьких сімей ",
+      event: "80 кріпацьких сімей",
       height: "10.5vh"
     },
     {
@@ -68,19 +68,19 @@ let fact = [
     {
       year: 1866,
       class: "fas fa-trees",
-      event: "Закладено парк з реліктовими деревами",
+      event: "Закладено парк",
       height: "13.5vh"
     },
     {
       year: 1897,
       class: "fas fa-train",
-      event: "Відкриття залізниці Ужгород — Великий Березний",
+      event: "Відкриття залізниці",
       height: "15.5vh"
     },
     {
       year: 1910,
       class: "fas fa-faucet-drip",
-      event: "Збудовано перший водогін",
+      event: "Збудовано водогін",
       height: "8.5vh"
     },
     {
@@ -98,7 +98,7 @@ let fact = [
     {
       year: 1944,
       class: "fas fa-users",
-      event: "547 будинках тут мешкали 4032 жителі",
+      event: "547 будинках, 4032 жителів",
       height: "4vh"
     },
     {
@@ -128,7 +128,7 @@ let fact = [
     {
       year: 1974,
       class: "fas fa-hospital-alt",
-      event: "Збудовано районну лікарню на 250 ліжок",
+      event: "Збудовано районну лікарню",
       height: "3vh"
     },
     {
@@ -158,7 +158,7 @@ let fact = [
     {
       year: 2001,
       class: "fas fa-church",
-      event: "Збудовано і освячено православний храм",
+      event: "Збудовано православний храм",
       height: "3vh"
     },
     {
