@@ -8,8 +8,19 @@
   <title>Liturgické čítania</title>
 </head>
 <body>
-  <div class="page">
-   {{msg}}
+  <div class="page" @dblclick="showHead = !showHead">
+   <transition name="head">
+     <div class="head_tools" v-if="showHead">
+			 <span class="menuIcon" @click="show2 = true">&#8801</span>
+		 </div>
+	 </transition>
+<!-- 	 <transition name="menu">
+		 <div class="menu" v-if="show2" @click="show2 = false)">
+			 <div class="menuBar" >
+
+			 </div>
+		 </div>
+	 </transition> -->
 	</div>
 	<script src="./js/vue.min.js"></script>
 	<script src="./js/lc2020.js"></script>

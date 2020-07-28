@@ -1,3 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .page{
-  color: red;  
+  width: 100%;
+  min-height: 100vh; 
+}
+.head_tools{
+  width: 100%;
+  height: 5vh;
+  position: fixed;
+  background-color: #741d1d;
+  z-index: 2;
+}
+.menuIcon{
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.head-enter-active, .head-leave-active {
+  transition: opacity .5s;
+}
+.head-enter, .head-leave-to {
+  opacity: 0;
 }
