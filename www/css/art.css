@@ -82,5 +82,8 @@
 }
 .page>a:nth-child(7){
     background-image: url(../img/lectionar.png);
+}
+.page>a:nth-child(8){
+    background-color: coral;
     margin-bottom: 5vh;
 }
