@@ -81,9 +81,9 @@
     background-image: url(../img/mapa.png);
 }
 .page>a:nth-child(7){
-    background-image: url(../img/lectionar.png);
+    background-color: coral;
 }
 .page>a:nth-child(8){
-    background-color: coral;
+    background-image: url(../img/lectionar.png);
     margin-bottom: 5vh;
 }
