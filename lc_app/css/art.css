@@ -13,13 +13,25 @@
   background-color: #741d1d;
   z-index: 2;
 }
-.menuIcon{
+.navIcon{
   color: white;
   font-size: 2.5em;
   font-weight: bold;
   margin-left: 10px;
   cursor: pointer;
   user-select: none;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 3;
+}
+.menuBar{
+  width: 250px;
+  height: 100vh;
+  background-color: #222222;
 }
 
 .head-enter-active, .head-leave-active {
@@ -28,3 +40,18 @@
 .head-enter, .head-leave-to {
   opacity: 0;
 }
+.menu-enter-active, .menu-leave-active {
+  transition: all 1s ease;
+  
+}
+.menu-enter, .menu-leave-to {
+  opacity: 0;
+}
+.menu-enter-active>.menuBar, .menu-leave-active>.menuBar {
+  transition: all 1s ease;
+  
+}
+.menu-enter>.menuBar, .menu-leave-to>.menuBar{
+  transform: translateX(-100%);
+}
+
