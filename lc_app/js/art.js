@@ -61,6 +61,9 @@ app = new Vue({
     nextMonth(){
       this.date = new Date(this.currYear, this.currMonth + 1)
       this.showNav = true 
+    },
+    setDate(day){
+      this.page.titul = `${day}. ${m[this.currMonth].toLocaleLowerCase()} ${this.currYear}`
     }
   }  
   })

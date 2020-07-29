@@ -33,7 +33,7 @@
 						 </div>
 						 <div class="cal_body">
 							<span class="blank" v-for="blank in prevMonth">{{blank}}</span>
-							<span class="days" v-for="i in daysInMonth" :class="{currDay: i == currDay}" >{{i}}</span>
+							<span class="days" v-for="i in daysInMonth" :class="{currDay: i == currDay}" @click=setDate(i)>{{i}}</span>
 							<span class="blank" v-for="_,i in nextMonthDays" >{{i+1}}</span>
 						 </div>
 					 </div>
