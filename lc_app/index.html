@@ -9,17 +9,34 @@
 </head>
 <body>
   <div class="page" @dblclick="showHead = !showHead">
+	<!-- HEAD -->	
    <transition name="head">
      <div class="head_tools" v-if="showHead">
 			 <span class="navIcon" @click="showNav = true">&#8801</span>
 		 </div>
 	 </transition>
+	 <!-- MENU -->
    <transition name="menu">
-		 <div class="nav" v-if="showNav" @click="showNav = false">		
+		 <div class="nav" v-if="showNav">		
 			   <div class="menuBar" >
 					 <div class="icon"></div>
 					 <h3 class="appName">{{appName}}</h3>
-
+					 <!-- CALENDAR -->
+					 <div class="cal">
+						 <div class="cal_head">
+							 <p class="btn" @click="lastMonth">&#8249;</p>
+							 <p class="currMonth">{{months[currMonth]}} {{currYear}}</p>
+							 <p class="btn" @click="nextMonth">&#8250;</p>
+						 </div>
+						 <div class="cal_bar">
+							 <span class="weekDays" v-for="dayWeek in dayWeek">{{dayWeek.slice(0,2).toUpperCase()}}</span>
+						 </div>
+						 <div class="cal_body">
+							<span class="blank" v-for="blank in prevMonth">{{blank}}</span>
+							<span class="days" v-for="i in daysInMonth" :class="{currDay: i == currDay}" >{{i}}</span>
+							<span class="blank" v-for="_,i in nextMonthDays" >{{i+1}}</span>
+						 </div>
+					 </div>
 				 </div>
 		 </div>
 	 </transition>

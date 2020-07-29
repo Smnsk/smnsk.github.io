@@ -8,10 +8,10 @@
 }
 .head_tools{
   width: 100%;
-  height: 5vh;
+  height: 46px;
   position: fixed;
   background-color: #741d1d;
-  z-index: 2;
+  z-index: 1;
 }
 .navIcon{
   color: white;
@@ -26,10 +26,11 @@
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, .5);
-  z-index: 3;
+  user-select: none;
+  z-index: 2;
 }
 .menuBar{
-  width: 250px;
+  width: 300px;
   height: 100vh;
   background-color: #404040;
 }
@@ -50,7 +51,68 @@
   background-size: cover;
   border-radius: 8px;
 }
-
+.cal{
+  width: 280px;
+  position: relative;
+  top: 40%;
+  left: 10px;
+  
+}
+.cal_head{
+  background-color: #2196F3;
+  color: white;
+  height: 35px;
+  font-size: 1.5em;
+  display: flex;
+}
+.btn{
+  width: 35px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer; 
+}
+.btn:hover{
+  background-color: rgba(0, 0, 0, .5);
+}
+.currMonth{
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 34px;
+}
+.cal_bar{
+  height: 35px;
+  background-color: white;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.cal_bar>span{
+  margin: 0 7px;
+}
+.cal_body{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-bottom: 10px;
+}
+.cal_body>span{
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.1em;
+}
+.currDay{
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.blank{
+  cursor: context-menu;
+  color: #606060;
+}
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
 }
