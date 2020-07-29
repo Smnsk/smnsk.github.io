@@ -1,7 +1,7 @@
 let app = new Vue({
     el: '.page',
     data: {
-      msg: 'App work!',
+      appName: 'Lekcionár',
       showHead: false,
       showNav: false,
     }

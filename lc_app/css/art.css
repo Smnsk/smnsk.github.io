@@ -33,6 +33,23 @@
   height: 100vh;
   background-color: #222222;
 }
+.appName{
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+}
+.icon{
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/lc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
 
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
