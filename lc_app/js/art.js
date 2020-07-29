@@ -1,15 +1,21 @@
 let date = new Date(),
-
+    day = date.toISOString().slice(5, 10),
+    m = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Octóber", "November", "December"],
+    d = ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
 app = new Vue({
     el: '.page',
     data: {
       appName: 'Lekcionár',
-      lc: lc,
-      date: date, 
-      months: ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Octóber", "November", "December"],
-      dayWeek: ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
+      lc:lc,
+      date: date,
       showHead: false,
       showNav: false,
+      page: {
+        titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
+        name: `${lc[day].name}`,
+        index: `${lc[day].index}`,
+        lesson: `${lc[day].lesson}`,
+      }
     },
   computed:{
     currWeekDay(){
@@ -50,9 +56,11 @@ app = new Vue({
   methods:{
     lastMonth(){
       this.date = new Date(this.currYear, this.currMonth - 1)
+      this.showNav = true
     },
     nextMonth(){
       this.date = new Date(this.currYear, this.currMonth + 1)
+      this.showNav = true 
     }
   }  
   })

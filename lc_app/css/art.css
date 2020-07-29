@@ -4,14 +4,13 @@
 }
 .page{
   width: 100%;
-  min-height: 100vh; 
+  min-height: 100vh;
+  user-select: none; 
 }
 .head_tools{
   width: 100%;
   height: 46px;
-  position: fixed;
   background-color: #741d1d;
-  z-index: 1;
 }
 .navIcon{
   color: white;
@@ -19,15 +18,13 @@
   font-weight: bold;
   margin-left: 10px;
   cursor: pointer;
-  user-select: none;
 }
 .nav{
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, .5);
-  user-select: none;
-  z-index: 2;
+  margin-top: -46px;
+  z-index: 1;
 }
 .menuBar{
   width: 300px;
@@ -54,7 +51,7 @@
 .cal{
   width: 280px;
   position: relative;
-  top: 40%;
+  top: 30%;
   left: 10px;
   
 }
@@ -105,6 +102,10 @@
   line-height: 38px;
   font-size: 1.1em;
 }
+.days{
+  cursor: pointer;
+  font-weight: bold;
+}
 .currDay{
   border: 2px solid red;
   border-radius: 10px;
@@ -112,6 +113,25 @@
 .blank{
   cursor: context-menu;
   color: #606060;
+}
+.mask{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+.body{
+  margin: 0 auto;
+  width: 90%;
+  min-height: 99vh;
+}
+.body_head{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
 }
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
