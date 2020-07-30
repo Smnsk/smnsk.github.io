@@ -15,7 +15,58 @@ let lc = {
   Nedovoľuje sa použiť formulár omše <i> Za zachovanie mieru a spravodlivosti,</i> ani <i> Na začiatkuobčianského roka</i> (<i>Notitiae</i> 1-2 (2014) s. 50.)<br>
   <p></p> 
   <p><b>Liturgia hodin:</b> Of zo slávnosti. Na Md ant. vlastná, žalmy z doplnkovej psalmódie. Kompletórium na nedele a slávnosti (2) s modlitbou na slávnosti mimo nedieľ. `,
-    lesson: ``,
+		lesson: `<p class="red">PRVÉ ČÍTANIE</p>	
+	<p class="center"><i>Budú vzývať moje meno nad izraelskými synmi a ja ich požehnám</i></p>
+	<p><b>Čítanie z Knihy Numeri </b><span class="red fr">6, 22-27</span></p>
+	<br>
+	<p class="les">Pán hovoril Mojžišovi takto: „Povedz Áronovi a jeho synom: Takto budete požehnávať izraelských synov; poviete im: Nech ťa žehná Pán a nech ťa ochraňuje! Nech Pán rozžiari svoju tvár nad tebou a nech ti je milostivý! Nech Pán obráti svoju tvár k tebe a nech ti daruje pokoj!</p>
+	<p class="les">Takto budú vzývať moje meno nad izraelskými synmi a ja ich požehnám.“</p>
+	<br>
+	<p class="les">Počuli sme Božie slovo.</p>
+	<br>
+	<p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 67, 2-3. 5. 6+8</span></p>
+	<br>
+	<p><span class="red">℞ (2a):</span> Bože, buď nám milostivý a žehnaj nás. <span class="fr">III</span></p>
+	<br>
+	<p class="psalm"><span class="red num">1.</span> Bože, buď nám milostivý a žehnaj nás; *</p>	
+	<p class="psalm"> a tvoja tvár nech žiari nad nami,</p>
+	<p class="psalm"><span class="red num">2.</span> aby sa tvoja cesta stala známou na zemi *</p>	
+	<p class="psalm"> a tvoja spása medzi všetkými národmi. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">3.</span> Nech sa tešia a jasajú národy, †</p>	
+	<p class="psalm"> že spravodlivo súdiš ľudí *</p>
+	<p class="psalm"> a spravuješ národy na zemi. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">4.</span> Bože, nech ťa velebia národy, *</p>	
+	<p class="psalm"> nech ťa velebia všetky národy.</p>
+	<p class="psalm"><span class="red num">5.</span> Nech nás Boh požehná *</p>	
+	<p class="psalm"> a nech si ho ctia všetky končiny zeme. <span class="red">&#8212; ℞.</span></p>
+	<br>	
+	<p class="red">DRUHÉ ČÍTANIE</p>
+	<p class="center"><i>Boh poslal svojho Syna, narodeného zo ženy</i></p>
+	<p><b>Čítanie z Listu svätého apoštola Pavla Galaťanom </b><span class="red fr">4, 4-7</span></p>
+	<br>
+	<p class="les">Bratia, keď prišla plnosť času, Boh poslal svojho Syna, narodeného zo ženy, narodeného pod zákonom, aby vykúpil tých, čo boli pod zákonom, a aby sme dostali adoptívne synovstvo.</p>
+	<p class="les">Pretože ste synmi, poslal Boh do našich sŕdc Ducha svojho Syna a on volá: „Abba, Otče!“</p>
+	<p class="les">A tak už nie si otrok, ale syn; a keď syn, tak skrze Boha aj dedič.</p>
+	<br>
+	<p class="les">Počuli sme Božie slovo.</p>
+	<br>
+	<p class="red">ALELUJOVÝ VERŠ<span class="fr"> Hebr 1, 1-2</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+		Mnoho ráz hovoril kedysi Boh otcom skrze prorokov.</p>
+	<p class="aleluja">V týchto posledných dňoch prehovoril k nám v Synovi.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+	<p class="red">EVANJELIUM</p>
+	<p class="center"><i>Našli Máriu a Jozefa i dieťa. Po ôsmich dňoch dali mu meno Ježiš</i></p>
+	<p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 16-21</span></p>	
+	<br>
+	<p class="les">Pastieri sa poponáhľali do Betlehema a našli Máriu a Jozefa i dieťa uložené v jasliach. Keď ich videli, vyrozprávali, čo im bolo povedané o tomto dieťati. A všetci, ktorí to počúvali, divili sa nad tým, čo im pastieri rozprávali. Ale Mária zachovávala všetky tieto slová vo svojom srdci a premýšľala o nich.</p>
+	<p class="les">Pastieri sa potom vrátili a oslavovali a chválili Boha za všetko, čo počuli a videli, ako im bolo povedané.</p>
+	<p class="les">Po ôsmich dňoch, keď ho bolo treba obrezať, dali mu meno Ježiš, ktorým ho anjel nazval skôr, ako sa počal v živote matky.</p>
+	<br>
+	<p class="les">Počuli sme slovo Pánovo.</p>
+	`,
   },
   "01-02":{},
   "01-03":{},

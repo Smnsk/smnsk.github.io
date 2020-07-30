@@ -140,12 +140,39 @@
   padding-left: 10px;
   width: 80%;
 }
-.body_index>p{
+.body_index>p, .body_lesson>p{
   font-size: 1.2em;
   margin-bottom: 5px;
 }
+.body_lesson{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
 .red{
   color: red;
+}
+.fr{
+  float: right;
+}
+.center{
+  text-align: center;
+}
+.les{
+  font-weight: bold;
+}
+.les::first-letter{
+  margin-left: 15px;
+}
+.psalm{
+  margin-left: 25px;
+  position: relative;
+}
+.num{
+  position: absolute;
+  left: -25px;
+}
+.aleluja{
+  margin-left: 107px;
 }
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
