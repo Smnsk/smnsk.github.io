@@ -3,11 +3,19 @@ let lc = {
     name:"Nový rok",
     bgColor:"gold",
     index: `<p class="red"><b>PANNY MÁRIE BOHORODIČKY</b></p>
-            <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Panne Márii I.</p>
-            <p><b>Č 1</b> Nm 6, 22-27;</p>
-            <p><b>Ž:</b> 67, 2-3. 5. 6+8;</p>
-    `,
-    lesson: ""
+  <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Panne Márii I.</p>
+  <p><b>Č 1:</b> Nm 6, 22-27;</p>
+  <p><b>Ž:</b> 67, 2-3. 5. 6+8;</p>
+  <p><b>Č 2:</b> Gal 4, 4-7</p>
+  <p><b>Ev:</b> Lk 2, 16-21</p>
+  <p><b>L</b> I/A, 93; (OL A, 91).</p>
+  V Prvej eucharistickej modlitbe sa použije vlastná vložka na Narodenie Pána <i> V posločenstve (v presvätý deň).</i><br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné omše, aj pohrebná.<br>
+  Nedovoľuje sa použiť formulár omše <i> Za zachovanie mieru a spravodlivosti,</i> ani <i> Na začiatkuobčianského roka</i> (<i>Notitiae</i> 1-2 (2014) s. 50.)<br>
+  <p></p> 
+  <p><b>Liturgia hodin:</b> Of zo slávnosti. Na Md ant. vlastná, žalmy z doplnkovej psalmódie. Kompletórium na nedele a slávnosti (2) s modlitbou na slávnosti mimo nedieľ. `,
+    lesson: ``,
   },
   "01-02":{},
   "01-03":{},
