@@ -2,6 +2,11 @@ let lc = {
   "01-01":{
     name:"Nový rok",
     bgColor:"gold",
+    index: `<p class="red"><b>PANNY MÁRIE BOHORODIČKY</b></p>
+            <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Panne Márii I.</p>
+            <p><b>Č 1</b> Nm 6, 22-27;</p>
+            <p><b>Ž:</b> 67, 2-3. 5. 6+8;</p>
+    `,
     lesson: ""
   },
   "01-02":{},
@@ -964,9 +969,7 @@ let lc = {
   "07-26":{},
   "07-27":{},
   "07-28":{},
-  "07-29":{
-   name: "Marta",       
-  },
+  "07-29":{},
   "07-30":{},
   "07-31":{},
   "08-01":{},

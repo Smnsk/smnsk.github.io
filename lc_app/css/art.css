@@ -134,6 +134,18 @@
   font-weight: bold;
   font-size: x-large;
 }
+.body_index{
+  margin: 1%;
+  border-left: 5px solid;
+  padding-left: 10px;
+  width: 80%;
+}
+.body_index>p{
+  font-size: 1.2em;
+}
+.red{
+  color: red;
+}
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
 }

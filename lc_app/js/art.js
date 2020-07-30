@@ -10,6 +10,7 @@ app = new Vue({
       date: date,
       showHead: false,
       showNav: false,
+      bgColor: `${lc[day].bgColor}`,
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
         name: `${lc[day].name}`,
@@ -56,14 +57,20 @@ app = new Vue({
   methods:{
     lastMonth(){
       this.date = new Date(this.currYear, this.currMonth - 1)
-      this.showNav = true
+      
     },
     nextMonth(){
       this.date = new Date(this.currYear, this.currMonth + 1)
-      this.showNav = true 
+       
     },
     setDate(day){
-      this.page.titul = `${day}. ${m[this.currMonth].toLocaleLowerCase()} ${this.currYear}`
+      a = new Date(Date.UTC(this.currYear, this.currMonth, day))
+      b = a.toISOString().slice(5, 10)
+      this.page.titul = `${d[(a.getDay() || 7)-1]} ${day}. ${m[this.currMonth].toLocaleLowerCase()} ${date.getFullYear()};`
+      this.page.name = lc[b].name
+      this.page.index = lc[b].index
+      this.page.lesson = lc[b].lesson
+      this.bgColor = lc[b].bgColor
     }
   }  
   })

@@ -45,8 +45,8 @@
 		 <div class="body_head">{{page.titul}}
 			 <span class="name">meniny: {{page.name}}</span>
 		 </div>
-		 <div class="body_index"></div>
-		 <div class="body_lesson"></div>
+		 <div class="body_index" v-html="page.index" :style="{ borderLeftColor: bgColor}"></div>
+		 <div class="body_lesson" v-html="page.lesson"></div>
 	 </div>
 	</div>
 	<script src="./js/vue.min.js"></script>
