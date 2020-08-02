@@ -1,5 +1,5 @@
 let date = new Date(),
-    day = date.toISOString().slice(5, 10),
+    day = date.toISOString().slice(0, 10),
     m = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Octóber", "November", "December"],
     d = ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
 app = new Vue({
@@ -10,14 +10,14 @@ app = new Vue({
       date: date,
       showHead: false,
       showNav: false,
-      bgColor: `${lc[day].bgColor}`,
+      bgColor: ``,
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
-        name: `${lc[day].name}`,
-        index: `${lc[day].index}`,
-        lesson: `${lc[day].lesson}`,
+        name: ``,
+        index: `Vyberte dátum z roku 2021`,
+        lesson: ``,
       }
-    },
+    }, 
   computed:{
     currWeekDay(){
       return this.date.getDay()
@@ -52,7 +52,7 @@ app = new Vue({
     },
     nextMonthDays(){
       return 42 - (this.daysInMonth + this.nextDays)
-    }
+    },
     },
   methods:{
     lastMonth(){
@@ -65,14 +65,21 @@ app = new Vue({
     },
     setDate(day){
       a = new Date(Date.UTC(this.currYear, this.currMonth, day))
-      b = a.toISOString().slice(5, 10)
+      b = a.toISOString().slice(0, 10)
       this.page.titul = `${d[(a.getDay() || 7)-1]} ${day}. ${m[this.currMonth].toLocaleLowerCase()} ${date.getFullYear()};`
       this.page.name = lc[b].name
-      this.page.index = lc[b].index
-      this.page.lesson = lc[b].lesson
+      this.page.index = lc[b].index  
+      this.page.lesson = lc[b].lesson  
       this.bgColor = lc[b].bgColor
-    }
-  }  
+    },
+  },
+  mounted() {
+    this.page.name = `${lc[day].name}`
+    this.page.index = `${lc[day].index}`
+    this.page.name = `${lc[day].name}`
+    this.page.lesson = `${lc[day.lesson]}`
+    this.bgColor = `${lc[day.bgColor]}`
+  }, 
   })
 
 

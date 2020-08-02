@@ -136,7 +136,7 @@
 }
 .body_index{
   margin: 1%;
-  border-left: 5px solid;
+  border-left: white 5px solid;
   padding-left: 10px;
   width: 80%;
 }
@@ -173,6 +173,9 @@
 }
 .aleluja{
   margin-left: 107px;
+}
+hr{
+  color: red;
 }
 .head-enter-active, .head-leave-active {
   transition: opacity .5s;
