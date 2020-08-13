@@ -14,7 +14,7 @@ app = new Vue({
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
         name: ``,
-        index: `Vyberte dátum z roku 2021`,
+        index: `<h1>Vyberte dátum z roku 2021</h1>`,
         lesson: ``,
       }
     }, 
@@ -66,7 +66,7 @@ app = new Vue({
     setDate(day){
       a = new Date(Date.UTC(this.currYear, this.currMonth, day))
       b = a.toISOString().slice(0, 10)
-      this.page.titul = `${d[(a.getDay() || 7)-1]} ${day}. ${m[this.currMonth].toLocaleLowerCase()} ${date.getFullYear()};`
+      this.page.titul = `${d[(a.getDay() || 7)-1]} ${day}. ${m[this.currMonth].toLocaleLowerCase()} ${a.getFullYear()};`
       this.page.name = lc[b].name
       this.page.index = lc[b].index  
       this.page.lesson = lc[b].lesson  
