@@ -1,6 +1,6 @@
 let date = new Date(),
     day = date.toISOString().slice(0, 10),
-    m = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Octóber", "November", "December"],
+    m = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Október", "November", "December"],
     d = ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
 app = new Vue({
     el: '.page',
@@ -10,6 +10,7 @@ app = new Vue({
       date: date,
       showHead: false,
       showNav: false,
+      pTop: 0,
       bgColor: ``,
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
@@ -53,8 +54,14 @@ app = new Vue({
     nextMonthDays(){
       return 42 - (this.daysInMonth + this.nextDays)
     },
+    
     },
   methods:{
+    dbClick(){
+      this.showHead = !this.showHead
+      this.showHead == true ? this.pTop = "50px" : this.pTop = 0
+
+    },
     lastMonth(){
       this.date = new Date(this.currYear, this.currMonth - 1)
       

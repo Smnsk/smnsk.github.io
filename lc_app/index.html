@@ -11,7 +11,7 @@
   <div class="page">
 	<!-- HEAD -->	
    <transition name="head">
-     <div class="head_tools" v-if="showHead">
+     <div class="head_tools" v-if="showHead" >
 			 <span class="navIcon" @click="showNav = true">&#8801</span>
 		 </div>
 	 </transition>
@@ -41,8 +41,8 @@
 				 <div class="mask" @click="showNav = false"></div>
 		 </div>
 	 </transition>
-	 <div class="body" @dblclick="showHead = !showHead">
-		 <div class="body_head">{{page.titul}}
+	 <div class="body" @dblclick="dbClick">
+		 <div class="body_head" :style="{ paddingTop: pTop}">{{page.titul}}
 			 <span class="name">meniny: {{page.name}}</span>
 		 </div>
 		 <div class="body_index" v-html="page.index" :style="{ borderLeftColor: bgColor}"></div>
