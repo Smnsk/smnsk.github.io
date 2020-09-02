@@ -15,7 +15,7 @@ app = new Vue({
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
         name: ``,
-        index: `<h1>Vyberte dátum od 29.11.2020 do 31.12.2021</h1>`,
+        index: `<h1>Vyberte dátum od 29. 11. 2020 do 31. 12. 2021</h1>`,
         lesson: ``,
       }
     }, 
