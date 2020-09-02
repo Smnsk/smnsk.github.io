@@ -1,39 +1,2078 @@
 let lc = {
-  "2020-12-01":{},
-  "2020-12-02":{},
-  "2020-12-03":{},
-  "2020-12-04":{},
-  "2020-12-05":{},
-  "2020-12-06":{},
-  "2020-12-07":{},
-  "2020-12-08":{},
-  "2020-12-09":{},
-  "2020-12-10":{},
-  "2020-12-11":{},
-  "2020-12-12":{},
-  "2020-12-13":{},
-  "2020-12-14":{},
-  "2020-12-15":{},
-  "2020-12-16":{},
-  "2020-12-17":{},
-  "2020-12-18":{},
-  "2020-12-19":{},
-  "2020-12-20":{},
-  "2020-12-21":{},
-  "2020-12-22":{},
-  "2020-12-23":{},
-  "2020-12-24":{},
-  "2020-12-25":{},
-  "2020-12-26":{},
-  "2020-12-27":{},
-  "2020-12-28":{},
-  "2020-12-29":{},
-  "2020-12-30":{},
-  "2020-12-31":{},
+  "2020-11-29":{
+  name: "Vratko",
+  bgColor: "purple",    
+  index:/*html*/`<p class="red"><b>PRVÁ ADVENTNÁ NEDEĽA</b></p>
+  <p><b>Omša</b> z nedele, Krédo, pf adventná I. </p>
+  <p><b>Č 1:</b> Iz 63, 16d-17. 19de; 64, 2c-7</p>
+  <p><b>Ž:</b> 80, 2+3bc. 15-16. 18-19;</p>
+  <p><b>Č 2:</b> 1 Kor 1, 3-9;</p>
+  <p><b>Ev:</b> Mk 13, 33-37;</p>
+  <p><b>L</b> I/B, 17; (<b>OL</b> B, 13).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Nedeľa v 1. týždni. Of z nedele. Ant na Benediktus a Magnifikat v roku B.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kiež by si prelomil nebesia a zostúpil!</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 63, 16d-17. 19de; 64, 2c-7</span></p>
+  <br>
+  <p class="les">Ty, Pane, si náš otec, náš vykupiteľ: to je tvoje meno od vekov. Prečo si nám, Pane, dal zablúdiť z tvojich ciest, srdcu zatvrdnúť, aby sme nemali bázeň pred tebou? Obráť sa k nám, lebo sme tvoji služobníci a kmene tvojho dedičstva.</p>
+  <p class="les">Kiež by si prelomil nebesia a zostúpil! Vrchy by sa rozplynuli pred tebou.</p>
+  <p class="les">Zostúpil si a vrchy sa rozplynuli pred tebou. Od vekov nebolo slýchať, ucho nepočulo, oko nevidelo, aby bol okrem teba iný Boh, ktorý by pomáhal tým, čo v neho dúfajú. Vychádzaš v ústrety tým, čo s radosťou konajú spravodlivo, tým, čo si na tvojich cestách spomínajú na teba.</p>
+  <p class="les">Ty si sa hneval, a my sme hrešili. Dlho sme ti boli neverní, ale budeme spasení. Všetci sme boli nečistí, sťa špinavý šat je všetka naša spravodlivosť. Všetci sme jak zvädnuté lístie, naša neprávosť nás unáša ako vietor.</p>
+  <p class="les">Nik nevzýva tvoje meno, nik sa nevzchopí, aby sa k tebe privinul, lebo si skryl pred nami svoju tvár, vydal si nás napospas našej neprávosti. A predsa, Pane, ty si náš otec! My sme hlina, ty si náš tvorca; všetci sme dielo tvojich rúk.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 80, 2+3bc. 15-16. 18-19</span></p>
+  <br>
+  <p><span class="red">℞. (4):</span> Bože, obnov nás, rozjasni svoju tvár a budeme spasení. <span class="fr">II</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Pastier Izraela, počúvaj! *</p>	
+  <p class="psalm"> Ty, čo tróniš nad cherubmi, zaskvej sa! </p>
+  <p class="psalm"><span class="red num">2.</span> Vzbuď svoju moc *</p>	
+  <p class="psalm"> a príď nás zachrániť. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Bože zástupov, vráť sa, *</p>	
+  <p class="psalm"> zhliadni z neba, podívaj sa a navštív túto vinicu. </p>
+  <p class="psalm"><span class="red num">4.</span> A chráň ju, veď ju vysadila tvoja pravica, *</p>	
+  <p class="psalm"> chráň i výhonok, ktorý si si vypestoval. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Nech je tvoja ruka nad mužom po tvojej pravici, *</p>	
+  <p class="psalm"> nad synom človeka, ktorého si si ty vyvolil. </p>
+  <p class="psalm"><span class="red num">6.</span> Už neodstúpime od teba a ty nás zachováš pri živote *</p>	
+  <p class="psalm"> a budeme vzývať tvoje meno. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Očakávame, že sa zjaví náš Pán Ježiš Kristus</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Pavla Korinťanom </b><span class="red fr">1, 3-9</span></p>
+  <br>
+  <p class="les">Bratia, milosť vám a pokoj od Boha, nášho Otca, i od Pána Ježiša Krista.</p>
+  <p class="les">Ustavične vzdávam vďaky svojmu Bohu za vás pre Božiu milosť, ktorú ste dostali v Kristovi Ježišovi. Veď v ňom ste boli obohatení vo všetkom, v každom slove a v každom poznaní, tak ako sa medzi vami upevnilo svedectvo o Kristovi, takže vám nechýba nijaký dar milosti, kým očakávate, že sa zjaví náš Pán Ježiš Kristus. On vás bude posilňovať až do konca, aby ste boli bez úhony v deň nášho Pána Ježiša Krista. Verný je Boh, ktorý vás povolal do spoločenstva svojho Syna Ježiša Krista, nášho Pána.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Ž 85, 8</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Ukáž nám, Pane, svoje milosrdenstvo </p>
+	<p class="aleluja"> a daj nám svoju spásu.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Bdejte, lebo neviete, kedy príde pán domu</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Marka </b><span class="red fr">13, 33-37</span></p>	
+  <br>
+  <p class="les">Ježiš povedal svojim učeníkom: „Majte sa na pozore, bdejte, lebo neviete, kedy príde ten čas. Je to tak, ako keď človek odcestuje: opustil svoj dom, svojim sluhom odovzdal moc, každému určil prácu a vrátnikovi prikázal bdieť.</p>
+  <p class="les">Bdejte teda, lebo neviete, kedy príde pán domu: či večer, či o polnoci, či za spevu kohúta alebo ráno. Aby vás nenašiel spať, keď príde nečakane!</p>
+  <p class="les">A čo hovorím vám, hovorím všetkým: Bdejte!“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-11-30":{
+  name: `Ondrej, Andrej`,
+  bgColor:`red`,
+  index: /*html*/`
+  <p><b>Pondelok po 1. adventnej nedeli</b><p>
+  <p><b>Sv. Ondreja, apoštola</b><p>
+  <p><b>Omša</b> zo sviatku, Glória pf o apoštoloch.</p>
+  <p><b>Č 1:</b> Rim 10, 9-18;</p>
+  <p><b>Ž:</b> 19, 2-3. 4-5;</p>
+  <p><b>Ev:</b> Mt 4, 18-22;</p>
+  <p><b>L</b> III, 672; (<b>SZM,</b> 511; <b>OR</b> IV, 91).</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba. <br>
+  Zakazujú sa zádušné omše okrem pohrebnej. <br>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Na Md ant. a žalmy z pondelka v 1. týždni.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Viera je z hlásania a hlásanie skrze Kristovo slovo</i></p>
+  <p><b>Čítanie z Listu svätého apoštola Pavla Rimanom </b><span class="red fr"> 10, 9-18</span></p>
+  <br>
+  <p class="les">Ak svojimi ústami vyznávaš: „Ježiš je Pán!“ a vo svojom srdci uveríš, že Boh ho vzkriesil z mŕtvych, budeš spasený. Lebo srdcom veríme na spravodlivosť a ústami vyznávame na spásu. Veď Písmo hovorí: „Nik, kto v neho verí, nebude zahanbený.“</p>
+  <p class="les">Niet rozdielu medzi Židom a Grékom, lebo ten istý je Pán všetkých, bohatý pre všetkých, ktorí ho vzývajú: Lebo každý, kto bude vzývať Pánovo meno, bude spasený.</p>
+  <p class="les">Ale ako budú vzývať toho, v ktorého neuverili? A ako uveria v toho, o ktorom nepočuli? A ako počujú bez kazateľa? A ako budú kázať, ak nie sú poslaní? Ako je napísané: „Aké krásne sú nohy tých, čo hlásajú dobrú zvesť.“</p>
+  <p class="les">Lenže nie všetci poslúchli evanjelium. Aj Izaiáš hovorí: „Pane, kto uveril tomu, čo sme hlásali?“</p>
+  <p class="les">Teda viera je z hlásania a hlásanie skrze Kristovo slovo.</p>
+  <p class="les">Ale spytujem sa: Azda nepočuli? Ale áno, po celej zemi rozlieha sa ich hlas a ich slová až po hranice sveta.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 19, 2-3. 4-5</span></p>
+  <br>
+  <p><span class="red">℞. (5a):</span> Po celej zemi rozlieha sa ich hlas. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Nebesia rozprávajú o sláve Boha *</p>	
+  <p class="psalm"> a obloha hlása dielo jeho rúk.</p>
+  <p class="psalm"><span class="red num">2.</span>Deň dňu o tom podáva správu *</p>	
+  <p class="psalm"> a noc noci to dáva na známosť. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Nie sú to slová, nie je to reč, *</p>	
+  <p class="psalm"> ktorá by sa nedala počuť.</p>
+  <p class="psalm"><span class="red num">4.</span>Po celej zemi rozlieha sa ich hlas * </p>	
+  <p class="psalm"> a ich slová až po končiny sveta. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Mt 4, 19</span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Poďte za mnou, hovorí Pán; </p>
+  <p class="aleluja"> a urobím z vás rybárov ľudí.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Oni hneď zanechali siete a išli za ním</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">4, 18-22</span></p>	
+  <br>
+  <p class="les">Keď raz Ježiš kráčal popri Galilejskom mori, videl dvoch bratov, Šimona, ktorý sa volá Peter, a jeho brata Ondreja, ako spúšťajú sieť do mora; boli totiž rybármi.</p>
+  <p class="les">I povedal im: „Poďte za mnou a urobím z vás rybárov ľudí.“ Oni hneď zanechali siete a išli za ním.</p>
+  <p class="les">Ako šiel odtiaľ ďalej, videl iných dvoch bratov, Jakuba Zebedejovho a jeho brata Jána, ako na lodi so svojím otcom Zebedejom opravujú siete, aj ich povolal.</p>
+  <p class="les">Oni hneď zanechali loď i svojho otca a išli za ním.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-01":{
+  name: `Edmund`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Utorok po 1. adventnej nedeli</b><p>
+  <p><b>Omša</b> z férie. pf adventná I.</p>
+  <p><b>Č 1:</b> Iz 11, 1-10  ;</p>
+  <p><b>Ž:</b> 72, 1-2. 7-8. 12-13. 17;</p>
+  <p><b>Ev:</b> Lk 10, 21-24;</p>
+  <p><b>L</b> II, 22; (<b>OL</b> I, 13; <b>OR</b> I, 7).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Utorok v 1. týždni. Of z férie.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Podľa spravodlivosti bude súdiť chudobných</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 11, 1-10</span></p>
+  <br>
+  <p class="les">V ten deň: Z kmeňa Jesseho vzíde ratolesť a z jeho koreňov vyženie výhonok. A spočinie na ňom duch Pánov: duch múdrosti a rozumu, duch rady a sily, duch poznania a bázne pred Pánom. A bude mať záľubu v bázni pred Pánom.</p>
+  <p class="les">Nebude súdiť podľa zdania očí, ani nebude karhať podľa počutia, ale podľa spravodlivosti bude súdiť chudobných a podľa práva bude rozhodovať v prospech ponížených zeme. Zem udrie prútom svojich úst a dychom svojich perí usmrtí bezbožníka.</p>
+  <p class="les">Spravodlivosť bude pásom jeho bedier a vernosť opaskom jeho bokov. Vlk bude bývať s baránkom, leopard si ľahne vedľa kozliatka. Teliatko i lev budú žrať spolu a chlapček ich bude zaháňať. Krava a medvedica sa budú spolu pásť, ich mláďatá budú vedno odpočívať. Lev sťa vôl sa bude kŕmiť slamou, dojča sa bude hrať nad dierou hada, do skrýše vretenice siahne rukou batoľa. Nik nebude škodiť ani pustošiť na celom mojom svätom vrchu; lebo poznaním Pána bude naplnená zem, ako vody napĺňajú moria.</p>
+  <p class="les">V ten deň koreň Jesseho sa vztýči ako znamenie národom; pohania ho budú vyhľadávať a slávny bude jeho príbytok.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 72, 1-2. 7-8. 12-13. 17</span></p>
+  <br>
+  <p><span class="red">℞. (7a):</span> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja naveky. <span class="fr">IV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Bože, zver svoju právomoc kráľovi, *</p>	
+  <p class="psalm"> kráľovmu synovi svoju spravodlivosť,</p>
+  <p class="psalm"><span class="red num">2.</span> aby spravodlivo vládol nad tvojím ľudom *</p>	
+  <p class="psalm"> a podľa práva nad tvojimi chudobnými. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja, *</p>	
+  <p class="psalm"> kým mesiac nezhasne. </p>
+  <p class="psalm"><span class="red num">4.</span> A bude panovať od mora až k moru *</p>	
+  <p class="psalm"> a od Rieky až na kraj zeme. <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">5.</span> On vyslobodí bedára, čo volá k nemu, *</p>	
+  <p class="psalm"> i chudobného, ktorému nik nepomáha. </p>
+  <p class="psalm"><span class="red num">6.</span> Zmiluje sa nad chudobným a bedárom, *</p>	
+  <p class="psalm"> zachráni život úbožiakom. <span class="red">&#8212; ℞.</span> </p>
+  <p class="psalm"><span class="red num">7.</span> Jeho meno nech je velebené naveky; *</p>	
+  <p class="psalm"> kým bude svietiť slnko, jeho meno potrvá. </p>
+  <p class="psalm"><span class="red num">8.</span> V ňom budú požehnané všetky kmene zeme, *</p>	
+  <p class="psalm"> zvelebovať ho budú všetky národy. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, náš Pán príde s veľkou mocou</p>
+  <p class="aleluja"> a osvieti zrak svojich služobníkov.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Ježiš zaplesal v Duchu Svätom</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša  </b><span class="red fr">10, 21-24</span></p>	
+  <br>
+  <p class="les">Ježiš v tej hodine zaplesal v Duchu Svätom a povedal: „Zvelebujem ťa, Otče, Pán neba i zeme, že si tieto veci skryl pred múdrymi a rozumnými a zjavil si ich maličkým. Áno, Otče, tebe sa tak páčilo.</p>
+  <p class="les">Môj Otec mi odovzdal všetko. A nik nevie, kto je Syn, iba Otec, ani kto je Otec, iba Syn a ten, komu to Syn bude chcieť zjaviť.“</p>
+  <p class="les">Potom sa obrátil osobitne k učeníkom a povedal: „Blahoslavené oči, ktoré vidia, čo vidíte vy. Lebo hovorím vám: Mnohí proroci a králi chceli vidieť, čo vidíte vy, ale nevideli, a počuť, čo vy počúvate, ale nepočuli.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-02":{
+  name: `Bibiána`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Streda po 1. adventnej nedeli</b><p>
+  <p><b>Omša</b> z férie. pf adventná I.</p>
+  <p><b>Č 1:</b> Iz 25, 6-10a;</p>
+  <p><b>Ž:</b> 23, 1-3. 4. 5. 6;</p>
+  <p><b>Ev:</b> Mt 15, 29-37;</p>
+  <p><b>L</b> II, 25; (<b>OL</b> I, 16; <b>OR</b> I, 8).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Streda v 1. týždni. Of z férie.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Pán vystrojí hostinu a zotrie slzu z každej tváre</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 25, 6-10a</span></p>
+  <br>
+  <p class="les">Pán zástupov vystrojí na tomto vrchu všetkým národom hostinu s mnohými jedlami: hostinu s výborným vínom, so šťavnatými jedlami, s vínom najjemnejším. Strhne na tomto vrchu závoj, ktorý zahaľoval všetkých ľudí, a prikrývku, čo zakrývala všetky národy.</p>
+  <p class="les">Zničí smrť navždy; zotrie Pán, Boh, slzu z každej tváre a hanbu svojho ľudu odstráni z celej zeme, lebo Pán prehovoril.</p>
+  <p class="les">V ten deň povedia: „Hľa, náš Boh, v neho sme dúfali a on nás spasí. On je Pán, v ktorého sme dúfali. Jasajme a radujme sa z jeho spásy. Pánova ruka spočinie na tomto vrchu.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 23, 1-3. 4. 5. 6</span></p>
+  <br>
+  <p><span class="red">℞. (6cd):</span> Budem bývať v dome Pánovom mnoho a mnoho dní. <span class="fr">XX</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pán je môj pastier, nič mi nechýba: *</p>	
+  <p class="psalm"> pasie ma na zelených pašienkach.</p>
+  <p class="psalm"><span class="red num">2.</span> Vodí ma k tichým vodám, *</p>	
+  <p class="psalm"> dušu mi osviežuje.</p>
+  <p class="psalm"><span class="red num">3.</span>Vodí ma po správnych chodníkoch, *</p>	
+  <p class="psalm"> verný svojmu menu. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">4.</span>I keby som mal ísť tmavou dolinou, †</p>	
+  <p class="psalm"> nebudem sa báť zlého, *</p>	
+  <p class="psalm"> lebo ty si so mnou.</p>	
+  <p class="psalm"><span class="red num">5.</span>Tvoj prút a tvoja palica, *</p>	
+  <p class="psalm"> tie sú mi útechou. <span class="red">&#8212; ℞.</span> </p>
+  <p class="psalm"><span class="red num">6.</span>Prestieraš mi stôl *</p>	
+  <p class="psalm"> pred očami mojich protivníkov. </p>
+  <p class="psalm"><span class="red num">7.</span>Leješ mi olej na hlavu *</p>	
+  <p class="psalm"> a kalich mi napĺňaš až po okraj. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">8.</span>Dobrota a milosť budú ma sprevádzať *</p>	
+  <p class="psalm"> po všetky dni môjho života. </p>
+  <p class="psalm"><span class="red num">9.</span>A budem bývať v dome Pánovom *</p>	
+  <p class="psalm"> mnoho a mnoho dní. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, Pán príde a spasí svoj ľud;</p>
+  <p class="aleluja"> blahoslavení tí, čo sú pripravení uvítať ho.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Ježiš uzdravuje mnohých a rozmnožuje chleby</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">15, 29-37</span></p>	
+  <br>
+  <p class="les">Ježiš prišiel ku Galilejskému moru, vystúpil na vrch a tam si sadol. Prichádzali k nemu celé zástupy, ktoré mali so sebou chromých, slepých, mrzákov, nemých a mnohých iných. Kládli mu ich k nohám a on ich uzdravoval. A zástupy žasli, keď videli, že nemí hovoria, mrzáci sú zdraví, chromí chodia a slepí vidia, a velebili Boha Izraela.</p>
+  <p class="les">Ježiš zvolal svojich učeníkov a povedal: „Ľúto mi je zástupu, lebo už tri dni sa zdržiavajú pri mne a nemajú čo jesť. A nechcem ich prepustiť hladných, aby nepoomdlievali na ceste.“</p>
+  <p class="les">Učeníci mu povedali: „Kdeže vezmeme na púšti toľko chleba, aby sme nasýtili takýto zástup?“</p>
+  <p class="les">Ježiš sa ich opýtal: „Koľko máte chlebov?“</p>
+  <p class="les">Oni odpovedali: „Sedem a zopár rybiek.“</p>
+  <p class="les">Tu rozkázal zástupu, aby si posadal na zem. Vzal sedem chlebov a ryby, vzdával vďaky, lámal a dával učeníkom a učeníci zástupom.</p>
+  <p class="les">Všetci jedli a nasýtili sa. A nazbierali sedem plných košov zvyšných odrobín.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-03":{
+  name: `Oldrich`,
+  bgColor:`gold`,
+  index: /*html*/`
+  <p><b>Štvrtok po 1. adventnej nedeli</b><p>
+  <p><b>Sv. Františka Xaverského, kňaza</b><p>
+  <p><b>Omša</b> zo spomienky, pf adventná I alebo o svätcovi.</p>
+  <p><b>Č 1:</b> Iz 26, 1-6;</p>
+  <p><b>Ž:</b> 118, 1+8-9. 19-21. 25-27a;</p>
+  <p><b>Ev:</b> Mt 7, 21. 24-27;</p>
+  <p><b>L</b> II, 27; (<b>OL</b> I, 19; <b>OR</b> I, 10).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Štvrtok v 1. týždni. Of zo spomienky.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Nech vstúpi spravodlivý ľud, ktorý zachováva vernosť</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 26, 1-6</span></p>
+  <br>
+  <p class="les">V ten deň sa bude v judejskej krajine spievať táto pieseň: „Pevné mesto máme, v ňom sa zachránime; Pán ho obohnal valom a hradbami. Otvorte brány, nech vstúpi spravodlivý ľud, ľud, ktorý zachováva vernosť. Má ducha pevného; zaistíš mu pokoj, veď dúfa v teba.</p>
+  <p class="les">Dúfajte v Pána stále, lebo Pán je skala naveky. Zvrhol tých, čo bývajú na výšinách, ponížil neprístupné mesto; ponížil ho až po zem, zrazil ho do prachu. Šliape po ňom noha, nohy chudobných, kroky bedárov.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 118, 1+8-9. 19-21. 25-27a</span></p>
+  <br>
+  <p><span class="red">℞. (26a):</span> Požehnaný, ktorý prichádza v mene Pánovom. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Oslavujte Pána, lebo je dobrý, *</p>	
+  <p class="psalm"> lebo jeho milosrdenstvo trvá naveky.</p>
+  <p class="psalm"><span class="red num">2.</span> Lepšie je utiekať sa k Pánovi, *</p>	
+  <p class="psalm"> ako sa spoliehať na človeka.</p>
+  <p class="psalm"><span class="red num">3.</span> Lepšie je utiekať sa k Pánovi, *</p>	
+  <p class="psalm"> ako sa spoliehať na mocnárov. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">4.</span> Otvorte mi brány spravodlivosti, *</p>	
+  <p class="psalm"> vojdem nimi a poďakujem sa Pánovi.</p>	
+  <p class="psalm"><span class="red num">5.</span> Toto je brána Pánova; *</p>	
+  <p class="psalm"> len spravodliví ňou vchádzajú. </p>
+  <p class="psalm"><span class="red num">6.</span> Ďakujem ti, že si ma vyslyšal *</p>	
+  <p class="psalm"> a že si ma zachránil. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span> Pane, spas ma; *</p>	
+  <p class="psalm"> Pane, daj mi úspech.</p>
+  <p class="psalm"><span class="red num">8.</span> Požehnaný, ktorý prichádza v mene Pánovom. †</p>	
+  <p class="psalm"> Požehnávame vás z domu Pánovho. *</p>
+  <p class="psalm"> Boh, Pán, je naším svetlom. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľadajte Pána, kým ho možno nájsť;</p>
+  <p class="aleluja"> volajte ho, kým je na blízku.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Kto plní vôľu Otca, vojde do nebeského kráľovstva</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">7, 21. 24-27</span></p>	
+  <br>
+  <p class="les">Ježiš povedal svojim učeníkom: „Nie každý, kto mi hovorí: ‚Pane, Pane,‘ vojde do nebeského kráľovstva, ale iba ten, kto plní vôľu môjho Otca, ktorý je na nebesiach.</p>
+  <p class="les">A tak každý, kto počúva tieto moje slová a uskutočňuje ich, podobá sa múdremu mužovi, ktorý si postavil dom na skale. Spustil sa dážď, privalili sa vody, strhla sa víchrica a oborili sa na ten dom, ale dom sa nezrútil, lebo mal základy na skale.</p>
+  <p class="les">A každý, kto tieto moje slová počúva, ale ich neuskutočňuje, podobá sa hlúpemu mužovi, ktorý si postavil dom na piesku. Spustil sa dážď, privalili sa vody, strhla sa víchrica, oborili sa na ten dom a dom sa zrútil; zostalo z neho veľké rumovisko.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-04":{
+  name: `Barbora, Barbara`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Piatok po 1. adventnej nedeli</b><p>
+  <p>Alebo: <b>Sv. Jána Damascénskeho, kňaza a učiteľa Cirkvi</b> (biela)<p>
+  <p>Alebo: <b>Sv. Barbory, panny a mučenice</b> (červená)<p>
+  <p><b>Omša</b> z férie, pf adventná I; alebo z jednej zo spomienok, pf adventná I alebo o svätcovi/svätici.</p>
+  <p><b>Č 1:</b> Iz 29, 17-24;</p>
+  <p><b>Ž:</b> 27, 1. 4. 13-14;</p>
+  <p><b>Ev:</b> Mt 9, 27-31;</p>
+  <p><b>L</b> II, 29; (<b>OL</b> I, 21; <b>OR</b> I, 11).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Piatok v 1. týždni. Of zo spomienky alebo z jednej zo spomienok.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>V ten deň sa oči slepých rozhliadnu</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 29, 17-24</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán, Boh: „Či sa o krátku chvíľu Libanon nezmení na ovocný sad a nebude ten sad ako les? V ten deň budú hluchí počuť slová knihy, z temnoty a hmly sa oči slepých rozhliadnu.</p>
+  <p class="les">Pokorní sa rozveselia v Pánovi a najbiednejší zajasajú v Svätom Izraela, lebo padol násilník, zhynul posmievač; zničení sú všetci, čo osnovali neprávosť, čo nútili ľudí hovoriť falošne, čo sudcom v bráne kládli osídla a falošnými rečami ničili spravodlivého.</p>
+  <p class="les">Preto takto hovorí Jakubovmu domu Pán, ktorý vykúpil Abraháma: ‚Nebude sa už hanbiť Jakub, už nesčervenie jeho tvár. Ale keď uvidia na sebe dielo mojich rúk, budú si ctiť moje meno, budú uctievať Jakubovho Svätého, báť sa budú Boha Izraelovho. Blúdiaci duchom spoznajú múdrosť a nespokojní sa dajú poučiť.‘“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 27, 1. 4. 13-14</span></p>
+  <br>
+  <p><span class="red">℞. (1a):</span> Pán je moje svetlo a moja spása. <span class="fr">XIV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pán je moje svetlo a moja spása, *</p>
+  <p class="psalm"> koho sa mám báť?</p>
+  <p class="psalm"><span class="red num">2.</span>Pán je ochranca môjho života, *</p>
+  <p class="psalm"> pred kým sa mám strachovať? <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> O jedno prosím Pána a za tým túžim, * </p>
+  <p class="psalm"> aby som mohol bývať v dome Pánovom </p>
+  <p class="psalm"> po všetky dni svojho života,</p>
+  <p class="psalm"><span class="red num">4.</span> aby som pociťoval nehu Pánovu *</p>
+  <p class="psalm"> a obdivoval jeho chrám. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Verím, že uvidím dobrodenia Pánove *</p>
+  <p class="psalm"> v krajine žijúcich.</p>
+  <p class="psalm"><span class="red num">6.</span> Očakávaj Pána a buď statočný; *</p>
+  <p class="psalm"> srdce maj silné a drž sa Pána. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, náš Pán príde s veľkou mocou </p>
+  <p class="aleluja"> a osvieti zrak svojich služobníkov.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Dvom slepcom, ktorí uverili v Ježiša, sa otvorili oči</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">9, 27-31</span></p>	
+  <br>
+  <p class="les">Keď Ježiš odchádzal, išli za ním dvaja slepci a kričali: „Syn Dávidov, zmiluj sa nad nami!“</p>
+  <p class="les">Keď potom vošiel do domu, slepci prišli k nemu. Ježiš sa ich opýtal: „Veríte, že to môžem urobiť?“</p>
+  <p class="les">Oni mu odpovedali: „Áno, Pane.“</p>
+  <p class="les">Tu sa dotkol ich očí a povedal: „Nech sa vám stane, ako ste uverili.“ A oči sa im otvorili.</p>
+  <p class="les">Ježiš im pohrozil: „Ale nech sa to nik nedozvie!“</p>
+  <p class="les">No oni šli a rozprávali o ňom po celom kraji.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-05":{
+  name: `Oto`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Sobota po 1. adventnej nedeli</b><p>
+  <p><b>Omša</b>(ranná) z férie, pf adventná I; alebo z jednej zo spomienok, pf adventná I alebo o svätcovi/svätici.</p>
+  <p><b>Č 1:</b> Iz 30, 19-21. 23-26;</p>
+  <p><b>Ž:</b> 147, 1-2. 3-4. 5-6;</p>
+  <p><b>Ev:</b> Mt 9, 35 – 10, 1. 5a. 6-8;</p>
+  <p><b>L</b> II, 31; (<b>OL</b> I, 24; <b>OR</b> I, 13).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> (po modlitbu popoludní): Sobota v 1. týždni. Of z férie, alebo z jednej zo spomienok.</p>
+  <p><b>1. vešp. </b> z nasl. nedele. Ant na Magnifikat z roku B.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej nedele.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Boh sa iste zmiluje nad tebou, len čo počuje tvoje volanie</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 30, 19-21. 23-26</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán, Boh, Svätý Izraela: „Sionský ľud, čo bývaš v Jeruzaleme, ty nebudeš plakať ustavične. On sa iste zmiluje nad tebou, keď budeš volať o pomoc; odpovie ti hneď, len čo počuje tvoje volanie.</p>
+  <p class="les">Pán vám dá chlieb úzkosti a vodu súženia; no tvoj učiteľ sa už skrývať nebude, tvoje oči uvidia svojho učiteľa. A ak sa odchýlite napravo alebo naľavo, tvoje uši budú počuť za sebou hlas: ‚Toto je cesta, kráčajte po nej!‘ On zošle dážď tvojmu semenu, ktoré zaseješ do pôdy. A chlieb, plod zeme, bude výdatný a záživný.</p>
+  <p class="les">V ten deň sa bude pásť tvoj dobytok i baránky na šírych pastvinách; tvoje voly a osly, čo obrábajú zem, budú žrať obrok miešaný, previaty sitom a lopatou. Na každom vysokom vrchu, na každom vyčnievajúcom kopci budú tiecť vody v potokoch v deň veľkého vraždenia, keď budú padať veže.</p>
+  <p class="les">Svetlo mesiaca bude ako svetlo slnka a svetlo slnka bude sedem ráz také ako svetlo siedmich dní v deň, keď Pán obviaže ranu svojho ľudu a vylieči jeho miesta boľavé.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 147, 1-2. 3-4. 5-6</span></p>
+  <br>
+  <p><span class="red">℞. (1a):</span> Pán je moje svetlo a moja spása. <span class="fr">XIV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Chváľte Pána, †</p>	
+  <p class="psalm"> lebo je dobré ospevovať nášho Boha, *</p>
+  <p class="psalm"> lebo je milé hlásať jeho slávu.</p>
+  <p class="psalm"><span class="red num">2.</span> Pán stavia Jeruzalem * </p>
+  <p class="psalm"> a zhromažďuje roztratených Izraelitov. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Uzdravuje skľúčených srdcom *</p>	
+  <p class="psalm"> a obväzuje ich rany. </p>	
+  <p class="psalm"><span class="red num">4.</span>On pozná počet hviezd *</p>
+  <p class="psalm"> a my sme ľud jeho pastviny * </p>	
+  <p class="psalm"> a každú volá po mene.  <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Veľký je náš Pán a veľmi mocný, *</p>	
+  <p class="psalm"> jeho múdrosť je nesmierna. </p>	
+  <p class="psalm"><span class="red num">6.</span>Tichých sa Pán ujíma, *</p>	
+  <p class="psalm"> ale hriešnikov ponižuje až po zem.  <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pán je náš sudca, Pán je náš zákonodarca, </p>
+  <p class="aleluja"> Pán je náš sudca, Pán je náš zákonodarca,
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Videl zástupy a zľutoval sa nad nimi</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">9, 35 – 10, 1. 5a. 6-8</span></p>	
+  <br>
+  <p class="les">Ježiš chodil po všetkých mestách a dedinách, učil v ich synagógach, hlásal evanjelium o kráľovstve a uzdravoval každý neduh a každú chorobu.</p>
+  <p class="les">Keď videl zástupy, zľutoval sa nad nimi, lebo boli zmorené a sklesnuté ako ovce bez pastiera. Vtedy povedal svojim učeníkom: „Žatva je veľká, ale robotníkov málo. Preto proste Pána žatvy, aby poslal robotníkov na svoju žatvu.“</p>
+  <p class="les">Zvolal svojich dvanástich učeníkov a dal im moc nad nečistými duchmi, aby ich vyháňali a uzdravovali každý neduh a každú chorobu. Týchto dvanástich Ježiš vyslal a prikázal im: „Choďte k ovciam strateným z domu Izraela! Choďte a hlásajte: ‚Priblížilo sa nebeské kráľovstvo.‘ Chorých uzdravujte, mŕtvych krieste, malomocných očisťujte, zlých duchov vyháňajte. Zadarmo ste dostali, zadarmo dávajte.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-06":{
+  name: "Mikuláš",
+  bgColor: "purple",    
+  index:/*html*/`<p class="red"><b>DRUHÁ ADVENTNÁ NEDEĽA</b></p>
+  <p class="red">(Biblická nedeľa)</p>
+  <p><b>Omša</b> z nedele, Krédo, pf adventná I. </p>
+  <p><b>Č 1:</b> Iz 40, 1-5. 9-11;</p>
+  <p><b>Ž:</b> 85, 9ab+10. 11-12. 13-14;</p>
+  <p><b>Č 2:</b> 2 Pt 3, 8-14;</p>
+  <p><b>Ev:</b> Mk 1, 1-8;</p>
+  <p><b>L</b> I/B, 20; (<b>OL</b> B, 17).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše, aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Nedeľa v 2. týždni. Of z nedele. Ant na Benediktus a Magnifikat v roku B.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Pripravte cestu Pánovi</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 40, 1-5. 9-11</span></p>
+  <br>
+  <p class="les">Potešujte, potešujte môj ľud, vraví váš Boh. Hovorte k srdcu Jeruzalema a volajte k nemu, že sa skončilo jeho otroctvo a je odčinená jeho vina; veď dostal z ruky Pánovej dvojnásobok za každý svoj hriech.</p>
+  <p class="les">Hlas volajúceho: „Pripravte cestu Pánovi na púšti, vyrovnajte chodníky nášmu Bohu na pustatine! Každá dolina nech sa zdvihne a každý vrch i kopec zníži! Čo je krivé, nech je rovinou, a čo hrboľaté, nížinou. I zjaví sa Pánova sláva, a uvidí spoločne každé stvorenie, že prehovorili Pánove ústa.“</p>
+  <p class="les">Vystúp na vysoký vrch, ty, čo hlásaš radostnú zvesť Sionu! Zodvihni mocne svoj hlas, ty, čo hlásaš radostnú zvesť Jeruzalemu! Zodvihni, neboj sa, povedz judejským mestám: „Hľa, váš Boh! Hľa, Pán, Boh, prichádza so všetkou mocou a jeho ruka bude vládnuť. Odmenu víťaza nesie so sebou a jeho trofeje idú pred ním. Ako pastier pasie svoju čriedu, do náručia berie baránky a kladie si ich do lona; starostlivo vedie ovce brezivé.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 85, 9ab+10. 11-12. 13-14</span></p>
+  <br>
+  <p><span class="red">℞. (8):</span> Ukáž nám, Pane, svoje milosrdenstvo a daj nám svoju spásu. <span class="fr">II</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Budem počúvať, čo povie Pán, Boh; *</p>	
+  <p class="psalm"> on ohlási pokoj svojmu ľudu a svojim svätým.</p>
+  <p class="psalm"><span class="red num">2.</span> Naozaj: blízko je spása tým, čo sa ho boja, *</p>	
+  <p class="psalm"> a jeho sláva bude prebývať v našej krajine. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>Milosrdenstvo a vernosť sa stretnú navzájom, *</p>	
+  <p class="psalm"> spravodlivosť a pokoj sa pobozkajú.</p>
+  <p class="psalm"><span class="red num">4.</span>Vernosť vyrastie zo zeme, *</p>	
+  <p class="psalm"> spravodlivosť zhliadne z neba.<span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span>Veď Pán dá požehnanie *</p>	
+  <p class="psalm"> a svoje plody vydá naša zem. </p>
+  <p class="psalm"><span class="red num">6.</span>Pred ním bude kráčať spravodlivosť *</p>	
+  <p class="psalm"> a po stopách jeho krokov spása. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Očakávame nové nebo a novú zem</i></p>
+  <p><b>Čítanie z Druhého listu svätého apoštola Petra </b><span class="red fr">3, 8-14</span></p>
+  <br>
+  <p class="les">Toto jedno nech vám je, milovaní, zjavné: že u Pána je jeden deň ako tisíc rokov a tisíc rokov ako jeden deň. Pán nemešká s prisľúbením, ako sa niektorí nazdávajú, že mešká; on je len trpezlivý s vami a nechce, aby niekto zahynul, ale aby sa všetci dali na pokánie. Pánov deň príde ako zlodej. A vtedy sa nebesia s rachotom pominú, živly sa páľavou rozplynú, aj zem i diela, ktoré sú na nej.</p>
+  <p class="les">A keď sa toto všetko má tak rozplynúť, ako sväto a nábožne musíte žiť vy, čo očakávate túžobne príchod Božieho dňa, pre ktorý sa nebesia páľavou rozplynú a živly sa v ohni roztopia! Podľa jeho prísľubu očakávame nové nebo a novú zem, na ktorých prebýva spravodlivosť.</p>
+  <p class="les">Preto, milovaní, keď toto očakávate, usilujte sa, aby vás našiel nepoškvrnených a bez úhony, v pokoji.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Lk 3, 4. 6</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pripravte cestu Pánovi, vyrovnajte mu chodníky! </p>
+	<p class="aleluja">A každé telo uvidí jeho spásu.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Vyrovnajte chodníky Pánovi</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Marka </b><span class="red fr">1, 1-8</span></p>	
+  <br>
+  <p class="les">Začiatok evanjelia Ježiša Krista, Božieho Syna.</p>
+  <p class="les">Prorok Izaiáš napísal: „Hľa, posielam svojho posla pred tvojou tvárou a on ti pripraví cestu.</p>
+  <p class="les">Hlas volajúceho na púšti: ‚Pripravte cestu Pánovi, vyrovnajte mu chodníky!‘“</p>
+  <p class="les">Ján bol na púšti, krstil a hlásal krst pokánia na odpustenie hriechov. Prichádzala k nemu celá judejská krajina i všetci Jeruzalemčania. Vyznávali svoje hriechy a dávali sa mu krstiť v rieke Jordán.</p>
+  <p class="les">Ján nosil odev z ťavej srsti a okolo bedier kožený opasok. Jedával kobylky a lesný med. A hlásal: „Po mne prichádza mocnejší, ako som ja. Ja nie som hoden ani zohnúť sa a rozviazať mu remienok na obuvi. Ja som vás krstil vodou, ale on vás bude krstiť Duchom Svätým.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-07":{
+  name: `Ambróz`,
+  bgColor:`gold`,
+  index: /*html*/`
+  <p><b>Pondelok po 2. adventnej nedeli</b><p>
+  <p><b>Sv. Ambróza, biskupa a učiteľa Cirkvi</b><p>
+  <p><b>Omša</b> zo spomienky, pf adventná I alebo o svätcovi.</p>
+  <p><b>Č 1:</b> Iz 35, 1-10;</p>
+  <p><b>Ž:</b> 85, 9ab+10. 11-12. 13-14;</p>
+  <p><b>Ev:</b> Lk 5, 17-26;</p>
+  <p><b>L</b> II, 34; (<b>OL</b> I, 27; <b>OR</b> I, 15).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Pondelok v 2. týždni. Of zo spomienky.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Boh sám príde a spasí vás</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 35, 1-10</span></p>
+  <br>
+  <p class="les">Bude sa radovať vyschnutá zem, zaplesá a rozkvitne púšť. Ako narcis vykvitne, zajasá, zaplesá a radosťou vykríkne. Bude obdarená nádherou Libanonu, krásou Karmelu a Sárona. Uvidia slávu Pána a velebu nášho Boha.</p>
+  <p class="les">Posilňujte ruky zoslabnuté, upevňujte chvejúce sa kolená. Povedzte malomyseľným: „Vzchopte sa, nebojte sa! Hľa, váš Boh! Príde odveta, odplata Boha. On sám príde a spasí vás.“</p>
+  <p class="les">Vtedy roztvoria oči slepí a uši hluchých sa otvoria. Ako jeleň skákať bude chromý, jazyk nemého radosťou vykríkne. Lebo na púšti vyrazí voda, potoky na pustatine.</p>
+  <p class="les">Vyprahnutá zem sa zmení na jazero a žíznivá pôda na pramene vôd. Na mieste, kde sa rozvaľovali šakaly, vyrastie tŕstie a sítie. Bude tam chodník, cesta; svätou cestou sa bude volať a nečistý po nej neprejde. A bude to cesta priama, takže ani hlúpi na nej nezblúdia. Nebude tam lev, a dravá zver na ňu nevkročí, ani chýru o nej nebude; len vykúpení budú chodiť po nej.</p>
+  <p class="les">A tí, ktorých Pán vykúpil, sa vrátia, s jasotom vojdú na Sion. Večná radosť ovenčí im hlavy, zaplaví ich radosť a veselosť, zmizne bôľ a vzdychanie.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 85, 9ab+10. 11-12. 13-14</span></p>
+  <br>
+  <p><span class="red">℞. (Iz 35, 4c):</span> Hľa, náš Boh príde a spasí nás. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Budem počúvať, čo povie Pán, Boh; *</p>	
+  <p class="psalm"> on ohlási pokoj svojmu ľudu a svojim svätým.</p>
+  <p class="psalm"><span class="red num">2.</span> Naozaj: blízko je spása tým, čo sa ho boja, *</p>	
+  <p class="psalm"> a jeho sláva bude prebývať v našej krajine. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>Milosrdenstvo a vernosť sa stretnú navzájom, *</p>	
+  <p class="psalm"> spravodlivosť a pokoj sa pobozkajú.</p>
+  <p class="psalm"><span class="red num">4.</span>Vernosť vyrastie zo zeme, *</p>	
+  <p class="psalm"> spravodlivosť zhliadne z neba.<span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span>Veď Pán dá požehnanie *</p>	
+  <p class="psalm"> a svoje plody vydá naša zem. </p>
+  <p class="psalm"><span class="red num">6.</span>Pred ním bude kráčať spravodlivosť *</p>	
+  <p class="psalm"> a po stopách jeho krokov spása. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, príde Kráľ, Pán zeme;</p>
+  <p class="aleluja"> on sám vezme z nás jarmo nášho zajatia.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Dnes sme videli obdivuhodné veci</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša  </b><span class="red fr">5, 17-26</span></p>	
+  <br>
+  <p class="les">Keď v istý deň Ježiš učil, sedeli pri ňom farizeji a zákonníci, čo poprichádzali zo všetkých galilejských a judejských dedín i z Jeruzalema; a mal od Pána moc uzdravovať.</p>
+  <p class="les">Tu muži priniesli na nosidlách človeka, ktorý bol ochrnutý, a pokúšali sa dostať ho dovnútra a položiť pred neho. Ale keď pre zástup nenašli priechod, kadiaľ by ho vniesli, vyšli na strechu a cez povalu ho na lôžku spustili priamo pred Ježiša.</p>
+  <p class="les">Keď videl ich vieru, povedal: „Človeče, odpúšťajú sa ti hriechy.“</p>
+  <p class="les">Tu zákonníci a farizeji začali uvažovať: „Ktože je to, že sa takto rúha?! Kto môže okrem Boha odpúšťať hriechy?“</p>
+  <p class="les">Keďže Ježiš poznal ich myšlienky, povedal im: „O čom to premýšľate vo svojich srdciach? Čo je ľahšie – povedať: ‚Odpúšťajú sa ti hriechy,‘ alebo povedať: ‚Vstaň a choď?‘</p>
+  <p class="les">Ale aby ste vedeli, že Syn človeka má na zemi moc odpúšťať hriechy“ – povedal ochrnutému: „Hovorím ti: Vstaň, vezmi si lôžko a choď domov!“ A on hneď pred ich očami vstal, vzal si lôžko a velebiac Boha odišiel domov.</p>
+  <p class="les">Všetkých sa zmocnil úžas a velebili Boha, a plní bázne hovorili: „Dnes sme videli obdivuhodné veci.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-08":{
+  name: `Marína`,
+	bgColor: `gold`,
+	index:/*html*/`<p class="red"><b>NEPOŠKVRNENÉ POČATIE PANNY MÁRIE</b></p>
+<p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
+<p><b>Č 1:</b> Gn 3, 9-15. 20;</p>
+<p><b>Ž:</b> 98, 1. 2-3b. 3c-4;</p>
+<p><b>Č 2:</b> Ef 1, 3-6. 11-12;</p>
+<p><b>Ev:</b> Lk 1, 26-38;</p>
+<p><b>L</b> I/B, 410; (<b>SZM,</b> 523; <b>OL</b> B, 335).</p>
+<br>
+Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+Zakazujú sa všetky iné omše, aj pohrebná.<br>
+<br>
+<p><b>Liturgia hodín:</b> Of zo slávnosti. Na Md ant. vlastná, žalmy z doplnkovej psalmódie. Kompletórium z nedele (2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+	lesson:/*html*/ `<p class="red">PRVÉ ČÍTANIE</p>	
+<p class="center"><i>Nepriateľstvo ustanovujem medzi tvojím potomstvom a potomstvom ženy</i></p>
+<p><b>Čítanie z Knihy Genezis </b><span class="red fr">3, 9-15. 20</span></p>
+<br>
+<p class="les">Keď Adam jedol zo stromu, zavolal ho Pán, Boh, a povedal mu: „Kde si?“</p>
+<p class="les">On odpovedal: „Počul som tvoj hlas v záhrade, naľakal som sa, pretože som nahý, a skryl som sa.“</p>
+<p class="les">Opýtal sa ho: „Kto ťa upozornil, že si nahý, ak si nejedol zo stromu, z ktorého som ti jesť zakázal?“</p>
+<p class="les">Adam odpovedal: „Žena, ktorú si mi dal za spoločníčku, dala mi zo stromu a jedol som.“</p>
+<p class="les">Pán, Boh, povedal žene: „Čo si to urobila?“</p>
+<p class="les">Žena odpovedala: „Had ma naviedol a jedla som.“</p>
+<p class="les">Tu povedal Pán, Boh, hadovi: „Pretože si to urobil, prekliaty budeš medzi všetkými krotkými a divými zvieratami. Po bruchu sa budeš plaziť a prach hltať po všetky dni svojho života. Nepriateľstvo ustanovujem medzi tebou a ženou, medzi tvojím potomstvom a jej potomstvom; ono ti rozšliape hlavu a ty mu zraníš pätu.“</p>
+<p class="les">A nazval Adam svoju ženu Evou, pretože bola matkou všetkých žijúcich.</p>
+
+<br>
+<p class="les">Počuli sme Božie slovo.</p>
+<br>
+<p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 98, 1. 2-3b. 3c-4</span></p>
+<br>
+<p><span class="red">℞ (1a):</span> Spievajte Pánovi pieseň novú, lebo vykonal veci zázračné. <span class="fr">XX</span></p>
+<br>
+<p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú, *</p>	
+<p class="psalm"> lebo vykonal veci zázračné.</p>
+<p class="psalm"><span class="red num">2.</span> Víťazstvo je dielom jeho pravice *</p>	
+<p class="psalm"> a jeho svätého ramena. <span class="red">&#8212; ℞.</span></p>	
+<p class="psalm"><span class="red num">3.</span> Pán oznámil svoju spásu, *</p>	
+<p class="psalm"> pred očami pohanov vyjavil svoju spravodlivosť.</p>	
+<p class="psalm"><span class="red num">4.</span> Rozpamätal sa na svoju dobrotu * </p>	
+<p class="psalm"> a na svoju vernosť voči Izraelovmu domu. <span class="red">&#8212; ℞.</span></p>
+<p class="psalm"><span class="red num">5.</span> Uzreli všetky končiny zeme *</p>	
+<p class="psalm"> spásu nášho Boha.</p>
+<p class="psalm"><span class="red num">6.</span> Na chválu Božiu jasaj, celá zem; *</p>	
+<p class="psalm"> plesajte, radujte sa a hrajte. <span class="red">&#8212; ℞.</span></p>	
+<br>	
+<p class="red">DRUHÉ ČÍTANIE</p>
+<p class="center"><i>Boh si nás ešte pred stvorením sveta vyvolil v Kristovi</i></p>
+<p><b>Čítanie z Listu svätého apoštola Pavla Efezanom </b><span class="red fr">1, 3-6. 11-12</span></p>
+<br>
+<p class="les">Nech je zvelebený Boh a Otec nášho Pána Ježiša Krista, ktorý nás v Kristovi požehnal všetkým nebeským duchovným požehnaním. Veď v ňom si nás ešte pred stvorením sveta vyvolil, aby sme boli pred jeho tvárou svätí a nepoškvrnení v láske; on nás podľa dobrotivého rozhodnutia svojej vôle predurčil, aby sme sa skrze Ježiša Krista stali jeho adoptovanými synmi na chválu a slávu jeho milosti, ktorou nás obdaroval v milovanom Synovi.</p>
+<p class="les">Veď v ňom sme sa stali dedičmi predurčenými podľa rozhodnutia toho, ktorý všetko koná podľa rady svojej vôle, aby sme boli na chválu jeho slávy my, čo sme už prv dúfali v Krista.</p>
+<br>
+<p class="les">Počuli sme Božie slovo.</p>
+<br>
+<p class="red">ALELUJOVÝ VERŠ<span class="fr"> Lk 1, 28b. 42b</span></p>
+<br>
+<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
+<p class="aleluja"> požehnaná si medzi ženami.
+<span class="red">&#8212; ℞.</span> Aleluja</p>
+<br>
+<p class="red">EVANJELIUM</p>
+<p class="center"><i>Počneš a porodíš syna</i></p>
+<p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 26-38</span></p>	
+<br>
+<p class="les">Boh poslal anjela Gabriela do galilejského mesta, ktoré sa volá Nazaret, k panne zasnúbenej mužovi z rodu Dávidovho, menom Jozefovi. A meno panny bolo Mária.</p>
+<p class="les">Anjel prišiel k nej a povedal: „Zdravas‘, milosti plná, Pán s tebou.“</p>
+<p class="les">Ona sa nad jeho slovami zarazila a rozmýšľala, čo znamená takýto pozdrav.</p>
+<p class="les">Anjel jej povedal: „Neboj sa, Mária, našla si milosť u Boha. Počneš a porodíš syna a dáš mu meno Ježiš. On bude veľký a bude sa volať Synom Najvyššieho. Pán, Boh, mu dá trón jeho otca Dávida, naveky bude kraľovať nad Jakubovým rodom a jeho kráľovstvu nebude konca.“</p>
+<p class="les">Mária povedala anjelovi: „Ako sa to stane, veď ja muža nepoznám?“</p>
+<p class="les">Anjel jej odpovedal: „Duch Svätý zostúpi na teba a moc Najvyššieho ťa zatieni. A preto aj dieťa bude sa volať svätým, bude to Boží Syn. Aj Alžbeta, tvoja príbuzná, počala syna v starobe. Už je v šiestom mesiaci. A hovorili o nej, že je neplodná! Lebo Bohu nič nie je nemožné.“</p>
+<p class="les">Mária povedala: „Hľa, služobnica Pána, nech sa mi stane podľa tvojho slova.“</p>
+<p class="les">Anjel potom od nej odišiel.</p>
+<br>
+<p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-09":{
+  name: `Izabela`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Streda po 2. adventnej nedeli</b><p>
+  <p>Alebo: <b>Sv. Jána Didaka Cuauhtlatoatzina</b> (biela)<p>
+  <p><b>Omša</b> z férie, pf adventná I; alebo zo spomienok, pf adventná I alebo o svätcovi.</p>
+  <p><b>Č 1:</b> Iz 40, 25-31;</p>
+  <p><b>Ž:</b> 103, 1-2. 3-4. 8+10;</p>
+  <p><b>Ev:</b> Mt 11, 28-30;</p>
+  <p><b>L</b> II, 39; (<b>OL</b> I, 33; <b>OR</b> I, 18).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Streda v 2. týždni. Of zo spomienky alebo z jednej zo spomienok.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Všemohúci Pán dáva unavenému silu</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> Všemohúci Pán dáva unavenému silu</span></p>
+  <br>
+  <p class="les">„Komuže ma prirovnáte, aby som mu bol podobný?“ – vraví Svätý. Zdvihnite oči k nebu a pozrite: kto toto všetko stvoril? Ten, čo vyvádza ich spočítané zástupy a všetky volá po mene; taká nesmierna je jeho moc a sila, že ani jedno z nich nechýba. Prečo vravíš, Jakub, Izrael, prečo hovoríš: „Skrytá je moja cesta pred Pánom, môjmu Bohu sa moje právo vymyká?“ Nevieš alebo si nepočul? Pán je večný Boh, ktorý stvoril zemské končiny; on neomdlie, ani sa neunaví a jeho múdrosť nemožno vyskúmať. On dáva unavenému silu a bezmocnému rozmnožuje zdatnosť. Mladí omdlievajú od únavy a junač podlomená padá, ale tí, čo dúfajú v Pána, načerpajú novú silu, dostanú krídla ako orly, utekať budú, a neustanú, budú putovať, a neomdlejú.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 103, 1-2. 3-4. 8+10</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 1a):</span> Duša moja, dobroreč svojmu Bohu. <span class="fr">XIX</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Dobroreč, duša moja, Pánovi *</p>
+  <p class="psalm"> a celé moje vnútro jeho menu svätému.</p>
+  <p class="psalm"><span class="red num">2.</span>Dobroreč, duša moja, Pánovi *</p>
+  <p class="psalm"> a nezabúdaj na jeho dobrodenia. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Veď on ti odpúšťa všetky neprávosti, * </p>
+  <p class="psalm"> on lieči všetky tvoje neduhy; </p>
+  <p class="psalm"><span class="red num">4.</span> on vykupuje tvoj život zo záhuby, *</p>
+  <p class="psalm"> on ťa venčí milosrdenstvom a milosťou. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Milostivý a milosrdný je Pán, *</p>
+  <p class="psalm"> zhovievavý a dobrotivý nesmierne.</p>
+  <p class="psalm"><span class="red num">6.</span> Nezaobchodí s nami podľa našich hriechov, *</p>
+  <p class="psalm"> ani nám neodpláca podľa našich neprávostí. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, Pán príde a spasí svoj ľud; </p>
+  <p class="aleluja"> blahoslavení tí, čo sú pripravení uvítať ho.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Poďte ku mne všetci, ktorí sa namáhate</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">11, 28-30</span></p>	
+  <br>
+  <p class="les">Ježiš povedal: „Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním.</p>
+  <p class="les">Vezmite na seba moje jarmo a učte sa odo mňa, lebo som tichý a pokorný srdcom; a nájdete odpočinok pre svoju dušu.</p>
+  <p class="les">Moje jarmo je príjemné a moje bremeno ľahké.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-10":{
+  name: `Radúz`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Štvrtok po 2. adventnej nedeli</b><p>
+  <p><b>Omša</b> z férie. pf adventná I.</p>
+  <p><b>Č 1:</b> Iz 41, 13-20;</p>
+  <p><b>Ž:</b> 145, 1+9. 10-11. 12-13b;</p>
+  <p><b>Ev:</b> Mt 11, 11-15;</p>
+  <p><b>L</b> II, 40; (<b>OL</b> I, 36; <b>OR</b> I, 20).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Štvrtok v 2. týždni. Of z férie.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Ja som tvoj vykupiteľ, Svätý Izraela</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 41, 13-20</span></p>
+  <br>
+  <p class="les">Ja som Pán, tvoj Boh, ktorý ťa drží za ruku a hovorí ti: „Neboj sa, ja ti pomôžem!</p>
+  <p class="les">Nebojže sa, červíček Jakub, hŕstka Izraela, ja sám ti pomôžem,“ hovorí Pán a tvoj vykupiteľ Svätý Izraela. Urobím z teba mláťačku, novú a ostrú, s mnohými zubami. Rozmlátiš a rozdrvíš vrchy, pahorky na plevy obrátiš.</p>
+  <p class="les">Preveješ ich: vietor ich uchytí a víchrica rozpráši. Ty však zajasáš v Pánovi, tešiť sa budeš v Svätom Izraela.</p>
+  <p class="les">Chudáci a bedári hľadajú vodu, a vody niet; jazyk im zosychá od smädu. Ja, Pán, ich vyslyším, ja, Boh Izraela, ich neopustím.</p>
+  <p class="les">Na holých pahorkoch dám vytrysknúť riekam, uprostred údolí prameňom. Púšť zmením na jazero a vyprahnutú zem na pramene vôd.</p>
+  <p class="les">Na púšti zasadím cédre, akácie, myrty a olivy, stepi vysadím jedľami, brestmi a cyprusmi, aby videli a poznali, aby si uvedomili a pochopili, že to urobila Pánova ruka, že to stvoril Svätý Izraela.</p>  
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 145, 1+9. 10-11. 12-13b</span></p>
+  <br>
+  <p><span class="red">℞. (8):</span> Milostivý a milosrdný je Pán, zhovievavý a veľmi láskavý.<span class="fr">XX</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Oslavovať ťa chcem, Bože, môj kráľ, *</p>	
+  <p class="psalm"> a tvoje meno velebiť navždy a naveky.</p>
+  <p class="psalm"><span class="red num">2.</span> Dobrý je Pán ku každému *</p>	
+  <p class="psalm"> a milostivý ku všetkým svojim stvoreniam. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Nech ťa oslavujú, Pane, všetky tvoje diela *</p>	
+  <p class="psalm"> a tvoji svätí nech ťa velebia.</p>
+  <p class="psalm"><span class="red num">4.</span>Nech rozprávajú o sláve tvojho kráľovstva *</p>	
+  <p class="psalm"> a o tvojej moci nech hovoria; <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span>nech ľuďom oznamujú tvoje zázraky *</p>	
+  <p class="psalm"> i slávu a velebu tvojho kráľovstva.</p>
+  <p class="psalm"><span class="red num">6.</span>Tvoje kráľovstvo je kráľovstvo pre všetky veky *</p>	
+  <p class="psalm"> a tvoja vláda sa rozprestiera na všetky pokolenia. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Roste, nebesia, z výsosti, oblaky, dajte Spravodlivého;</p>
+  <p class="aleluja"> otvor sa, zem, a zroď Spasiteľa.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Nik nepovstal väčší ako Ján Krstiteľ</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša  </b><span class="red fr">11, 11-15</span></p>	
+  <br>
+  <p class="les">Ježiš povedal zástupom: „Veru, hovorím vám: Medzi tými, čo sa narodili zo ženy, nepovstal nik väčší ako Ján Krstiteľ. Ale ten, kto je v nebeskom kráľovstve menší, je väčší ako on.</p>
+  <p class="les">Od dní Jána Krstiteľa podnes trpí nebeské kráľovstvo násilie a násilníci sa ho zmocňujú. Lebo všetci Proroci i Zákon prorokovali až po Jána: A on sám – ak to chcete prijať – je Eliáš, ktorý má prísť.</p>
+  <p class="les">Kto má uši, nech počúva!“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-11":{
+  name: `Hilda`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Piatok po 2. adventnej nedeli</b><p>
+  <p>Alebo: <b>Sv. Damaza I., pápeža</b> (biela)<p>
+  <p><b>Omša</b> z férie. pf adventná Iъ alebo zo spomienky, pf adventná I alebo o svätcovi.</p>
+  <p><b>Č 1:</b> Iz 48, 17-19;</p>
+  <p><b>Ž:</b> 1, 1-2. 3. 4+6;</p>
+  <p><b>Ev:</b> Mt 11, 16-19;</p>
+  <p><b>L</b> II, 42; (<b>OL</b> I, 39; <b>OR</b> I, 21).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Piatok v 2. týždni. Of z férie, alebo zo spomienky.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kiež by si si bol všímal moje príkazy</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 48, 17-19</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán, tvoj vykupiteľ, Svätý Izraela: Ja som Pán, tvoj Boh, ktorý ťa učí, čo ti osoží, a vedie ťa po ceste, ktorou máš ísť.</p>
+  <p class="les">Keby si si bol všímal moje príkazy, tvoj pokoj by bol ako rieka a tvoja spravodlivosť ako morské vlny; ako piesku by bolo tvojich potomkov a ratolestí tvojho lona ako zrniek piesku. Nezaniklo by, ani by nebolo vyhladené jeho meno spred mojej tváre.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 1, 1-2. 3. 4+6</span></p>
+  <br>
+  <p><span class="red">℞. (porov. Jn 8, 12):</span> Pane, kto nasleduje teba, bude mať svetlo života. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Blažený človek, čo nekráča podľa rady bezbožných †</p>	
+  <p class="psalm"> a nechodí cestou hriešnikov, *</p>
+  <p class="psalm"> ani nevysedáva v kruhu rúhačov,</p>
+  <p class="psalm"><span class="red num">2.</span> ale v zákone Pánovom má záľubu *</p>	
+  <p class="psalm"> a o jeho zákone rozjíma dňom i nocou. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Je ako strom zasadený pri vode, *</p>	
+  <p class="psalm"> čo prináša ovocie v pravý čas,</p>
+  <p class="psalm"><span class="red num">4.</span> a jeho lístie nikdy nevädne; *</p>	
+  <p class="psalm"> darí sa mu všetko, čo podniká. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> No nie tak bezbožní, veru nie; *</p>	
+  <p class="psalm"> tí sú ako plevy, čo vietor ženie pred sebou.</p>
+  <p class="psalm"><span class="red num">6.</span> Nad cestou spravodlivých bedlí Pán, *</p>	
+  <p class="psalm"> ale cesta bezbožných vedie do záhuby. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pán príde, choďte mu v ústrety;</p>
+  <p class="aleluja"> on je to, knieža pokoja.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Nepočúvajú ani Jána, ani Syna človeka</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">11, 16-19</span></p>	
+  <br>
+  <p class="les">Ježiš povedal zástupom: „Komuže prirovnám toto pokolenie? Podobá sa deťom, čo vysedávajú na námestí a pokrikujú na svojich druhov: ‚Pískali sme vám, a netancovali ste; nariekali sme, a neplakali ste.‘</p>
+  <p class="les">Prišiel Ján, nejedol a nepil, a hovoria: ‚Je posadnutý zlým duchom.‘ Prišiel Syn človeka, je a pije, a hovoria: ‚Hľa, pažravec a pijan, priateľ mýtnikov a hriešnikov!‘ No múdrosť ospravedlňujú jej skutky.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-12":{
+  name: `Otília`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Sobota po 2. adventnej nedeli</b><p>
+  <p>Alebo: <b>Preblahoslavenej Panny Márie Guadalupskej</b> (biela)<p>
+  <p><b>Omša</b>(ranná) z férie, pf adventná I; alebo zo spomienky, pf adventná I alebo o Panne Márii.</p>
+  <p><b>Č 1:</b> Sir 48, 1-4. 9-11;</p>
+  <p><b>Ž:</b> 80, 2ac+3bc. 15-16. 18-19;</p>
+  <p><b>Ev:</b> Mt 17, 10-13;</p>
+  <p><b>L</b> II, 44; (<b>OL</b> I, 41; <b>OR</b> I, 23).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> (po modlitbu popoludní): Sobota v 2. týždni. Of z férie, alebo zo spomienky.</p>
+  <p><b>1. vešp. </b> z nasl. nedele. Ant na Magnifikat z roku B.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej nedele.</p>
+  <br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Opäť príde Eliáš</i></p>
+  <p><b>Čítanie z Knihy Sirachovho syna </b><span class="red fr"> 48, 1-4. 9-11</span></p>
+  <br>
+  <p class="les">Vystúpil Eliáš, prorok ako oheň, a jeho slovo horelo ako fakľa. Priviedol na nich hlad a v svojej horlivosti zmenšil ich počet. Pánovým slovom zatvoril nebo a tri razy zvolal oheň z neba. Aký slávny si, Eliáš, svojimi zázrakmi! Kto sa môže chváliť, že sa ti podobá?</p>
+  <p class="les">Ty si bol vzatý v ohnivej víchrici, na voze s ohnivými koňmi. Je napísané o tebe, že si určený pre budúce časy mierniť Pánov hnev prv, než vzplanie, obrátiť srdce otca k synovi a obnoviť Jakubove kmene. Blažení, čo ťa videli a čo zosnuli ako tvoji priatelia!</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 80, 2ac+3bc. 15-16. 18-19</span></p>
+  <br>
+  <p><span class="red">℞. (4):</span> Bože, obnov nás, rozjasni svoju tvár a budeme spasení. <span class="fr">II</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Pastier Izraela, počúvaj! * </p>	
+  <p class="psalm"> Ty, čo tróniš nad cherubmi, zaskvej sa! </p>
+  <p class="psalm"><span class="red num">2.</span> Vzbuď svoju moc *  </p>
+  <p class="psalm"> a príď nás zachrániť. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Bože zástupov, vráť sa, * </p>	
+  <p class="psalm"> zhliadni z neba, podívaj sa a navštív túto vinicu. </p>	
+  <p class="psalm"><span class="red num">4.</span>A chráň ju, veď ju vysadila tvoja pravica, * </p>
+  <p class="psalm"> chráň i výhonok, ktorý si si vypestoval.  <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Nech je tvoja ruka nad mužom po tvojej pravici, * </p>	
+  <p class="psalm"> nad synom človeka, ktorého si si ty vyvolil. </p>	
+  <p class="psalm"><span class="red num">6.</span>Už neodstúpime od teba a ty nás zachováš pri živote * </p>	
+  <p class="psalm"> a budeme vzývať tvoje meno. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"> Lk 3, 4. 6</span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pripravte cestu Pánovi, vyrovnajte mu chodníky! </p>
+  <p class="aleluja"> A každé telo uvidí jeho spásu.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Eliáš už prišiel, no nespoznali ho</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">17, 10-13</span></p>	
+  <br>
+  <p class="les">Keď zostupovali z vrchu, učeníci sa pýtali Ježiša: „Prečo zákonníci hovoria, že najprv musí prísť Eliáš?“</p>
+  <p class="les">On odpovedal: „Áno Eliáš príde a všetko obnoví. Ba hovorím vám, že Eliáš už prišiel, no nespoznali ho a urobili s ním, čo chceli. Takisto bude od nich trpieť aj Syn človeka.“ Vtedy učeníci pochopili, že im hovoril o Jánovi Krstiteľovi.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-13":{
+  name: "Lucia",
+  bgColor: "purple",    
+  index:/*html*/`<p class="red"><b>TRETIA ADVENTNÁ NEDEĽA</b></p>
+  <p><b>Omša</b> z nedele, Krédo, pf adventná I. </p>
+  <p><b>Č 1:</b> Iz 61, 1-2a. 10-11</p>
+  <p><b>Ž:</b> Lk 1, 46b-48. 49-50. 53-54;</p>
+  <p><b>Č 2:</b> 1 Sol 5, 16-24;</p>
+  <p><b>Ev:</b> Jn 1, 6-8. 19-28;</p>
+  <p><b>L</b> I/B, 24; (<b>OL</b> B, 21).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše, aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Nedeľa v 3. týždni. Of z nedele. Ant na Benediktus a Magnifikat v roku B.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Radosťou jasám v Pánovi</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 61, 1-2a. 10-11</span></p>
+  <br>
+  <p class="les">Duch Pána, Boha, je nado mnou, pretože ma Pán pomazal: poslal ma hlásať radostnú zvesť chudobným, uzdraviť skrúšených srdcom, oznámiť zajatým slobodu, väzneným prepustenie, ohlásiť rok milosti Pána.</p>
+  <p class="les">Radosťou jasám v Pánovi, duša mi plesá v mojom Bohu, pretože ma zaodial rúchom spásy, zahalil ma plášťom spravodlivosti ako ženícha zdobeného vencom, ako nevestu okrášlenú šperkami.</p>
+  <p class="les">Lebo ako zem vydá rastliny a ako záhrada dá vyklíčiť semenu, tak Pán, Boh, dá vyklíčiť spravodlivosti a chvále pred všetkými národmi.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Lk 1, 46b-48. 49-50. 53-54</span></p>
+  <br>
+  <p><span class="red">℞. (Iz 61, 10b):</span> Duša mi plesá v mojom Bohu. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Velebí moja duša Pána *</p>	
+	<p class="psalm"> a môj duch jasá v Bohu, mojom spasiteľovi,</p>		
+	<p class="psalm"><span class="red num">2.</span>lebo zhliadol na poníženosť svojej služobnice. *</p>	
+	<p class="psalm"> Hľa, od tejto chvíle blahoslaviť ma budú</p>	
+	<p class="psalm"> všetky pokolenia, <span class="red">&#8212; ℞.</span></p>		
+	<p class="psalm"><span class="red num">3.</span> lebo veľké veci mi urobil ten, ktorý je mocný, *</p>	
+	<p class="psalm"> a sväté je jeho meno</p>		
+  <p class="psalm"><span class="red num">4.</span> a jeho milosrdenstvo z pokolenia na pokolenie *</p>	
+	<p class="psalm"> s tými, čo sa ho boja. <span class="red">&#8212; ℞.</span></p>		
+	<p class="psalm"><span class="red num">5.</span> Hladných nakŕmil dobrotami *</p>	
+	<p class="psalm"> a bohatých prepustil naprázdno. </p>	
+	<p class="psalm"><span class="red num">6.</span> Ujal sa Izraela, svojho služobníka, *</p>	
+	<p class="psalm"> lebo pamätá na svoje milosrdenstvo. </p>	
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Aby sa zachoval váš duch a duša i telo, keď príde Pán</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Pavla Solúnčanom </b><span class="red fr">5, 16-24</span></p>
+  <br>
+  <p class="les">Bratia, ustavične sa radujte! Bez prestania sa modlite, pri všetkom vzdávajte vďaky, lebo to je Božia vôľa v Kristovi Ježišovi pre vás! Ducha neuhášajte, proroctvami nepohŕdajte! Ale všetko skúmajte a čo je dobré, toho sa držte! Chráňte sa zla v akejkoľvek podobe!</p>
+  <p class="les">Sám Boh pokoja nech vás celých posvätí, aby sa zachoval váš duch neporušený a duša i telo bez úhony, keď príde náš Pán Ježiš Kristus. Verný je ten, ktorý vás volá, a on to aj urobí.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Iz 61, 1</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Duch Pána je nado mnou;</p>
+	<p class="aleluja">poslal ma hlásať radostnú zvesť chudobným.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Medzi vami stojí ten, ktorého nepoznáte</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">1, 6-8. 19-28</span></p>	
+  <br>
+  <p class="les">Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o svetle.</p>
+  <p class="les">A toto je Jánovo svedectvo: Keď Židia z Jeruzalema poslali k nemu kňazov a levitov, aby sa ho pýtali: „Kto si ty?“, on vyznal a nič nezaprel. Vyznal: „Ja nie som Mesiáš.“</p>
+  <p class="les">„Čo teda, „pýtali sa ho, „si Eliáš?“</p>
+  <p class="les">Povedal: „Nie som.“</p>
+  <p class="les">„Si prorok?“ Odpovedal: „Nie.“</p>
+  <p class="les">Vraveli mu teda: „Kto si? Aby sme mohli dať odpoveď tým, čo nás poslali. Čo hovoríš o sebe?“</p>
+  <p class="les">Povedal: „Ja som hlas volajúceho na púšti: ‚Vyrovnajte cestu Pánovi,‘ ako povedal prorok Izaiáš.“</p>
+  <p class="les">Tí vyslaní boli spomedzi farizejov. A pýtali sa ho: „Prečo teda krstíš, keď nie si Mesiáš ani Eliáš, ani prorok?“ Ján im odpovedal: „Ja krstím vodou. Medzi vami stojí ten, ktorého nepoznáte. On prichádza po mne a ja nie som hoden rozviazať mu remienok na obuvi.“</p>
+  <p class="les">To sa stalo v Betánii za Jordánom, kde Ján krstil.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-14":{ 
+  name: `Branislava, Bronislava`,
+  bgColor:`gold`,
+  index: /*html*/`
+  <p><b>Pondelok po 3. adventnej nedeli</b><p>
+  <p><b>Sv. Jána z Kríža, kňaza a učiteľa Cirkvi</b><p>
+  <p><b>Omša</b> zo spomienky, pf adventná I alebo o svätcovi.</p>
+  <p><b>Č 1:</b> Nm 24, 2-7. 15-17d;</p>
+  <p><b>Ž:</b> 25, 4-5b. 6+7bc. 8-9;</p>
+  <p><b>Ev:</b> Mt 21, 23-27;</p>
+  <p><b>L</b> II, 46; (<b>OL</b> I, 44; <b>OR</b> I, 25).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Pondelok v 3. týždni. Of zo spomienky. Ant na Benediktus a Magnifikat vlastná.  </p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Hviezda vychádza z Jakuba</i></p>
+  <p><b>Čítanie z Knihy Numeri </b><span class="red fr"> 24, 2-7. 15-17d</span></p>
+  <br>
+  <p class="les">V tých dňoch Balaam zdvihol oči a videl Izraelitov, ako táboria podľa kmeňov. Vtedy zostúpil naňho duch Boží a on predniesol svoju pieseň: „Hovorí Balaam, Beorov syn, hovorí muž s prenikavým zrakom, hovorí ten, čo načúva Božie slová, ktorý vidí, čo mu dáva vidieť Všemohúci, ktorý padá a otvárajú sa mu oči.</p>
+  <p class="les">Aké krásne sú tvoje stany, Jakub, tvoje príbytky, Izrael! Tiahnu sa do diaľav ako údolia, ako zavlažené záhrady pozdĺž rieky, ako aloy, ktoré zasadil Pán, a ako cédre pri vode. Voda tečie z jeho vedier a jeho semeno má bohatú vlahu. Jeho kráľ bude väčší než Agag a slávne bude jeho kráľovstvo.“</p>
+  <p class="les">A ďalej povedal: „Hovorí Balaam, Beorov syn, hovorí muž s prenikavým zrakom, hovorí ten, čo načúva Božie slová, ten, čo pozná náuku Najvyššieho, ktorý vidí, čo mu dáva vidieť Všemohúci, ktorý padá a otvárajú sa mu oči.</p>
+  <p class="les">Vidím ho, ale nie teraz, hľadím na neho, no nie zblízka. Hviezda vychádza z Jakuba, žezlo sa dvíha z Izraela.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 25, 4-5b. 6+7bc. 8-9</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 4b):</span> Pouč ma, Pane, o svojich chodníkoch. <span class="fr">I</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Ukáž mi, Pane, svoje cesty *</p>		
+  <p class="psalm"> a pouč ma o svojich chodníkoch. </p>
+  <p class="psalm"><span class="red num">2.</span>Veď ma vo svojej pravde a uč ma, *</p>		
+  <p class="psalm"> lebo ty si Boh, moja spása. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>Rozpomeň sa, Pane, na svoje zľutovanie *</p>		
+  <p class="psalm"> a na svoje milosrdenstvo, ktoré trvá od vekov. </p>
+  <p class="psalm"><span class="red num">4.</span>Pamätaj na mňa vo svojom milosrdenstve *</p>		
+  <p class="psalm"> veď si, Pane, dobrotivý. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span>Pán je dobrý a spravodlivý: *</p>		
+  <p class="psalm"> ukazuje cestu hriešnikom.</p>
+  <p class="psalm"><span class="red num">6.</span>Pokorných vedie k správnemu konaniu *</p>		
+  <p class="psalm"> a tichých poúča o svojich cestách. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Ž 85, 8</span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Ukáž nám, Pane, svoje milosrdenstvo </p>
+  <p class="aleluja"> a daj nám svoju spásu.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Odkiaľ bol Jánov krst?</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr"> 21, 23-27</span></p>	
+  <br>
+  <p class="les">Keď Ježiš prišiel do chrámu a učil, pristúpili k nemu veľkňazi a starší ľudu a pýtali sa: „Akou mocou toto robíš? A kto ti dal túto moc?“</p>
+  <p class="les">Ježiš im povedal: „Aj ja sa vás na niečo spýtam. Ak mi odpoviete, i ja vám poviem, akou mocou toto robím. Odkiaľ bol Jánov krst? Z neba, či od ľudí?“</p>
+  <p class="les">Oni rozmýšľali a hovorili si: „Ak povieme: ‚Z neba,‘ povie nám: ‚Prečo ste mu teda neuverili?‘ Ale ak povieme: ‚Od ľudí,‘ máme sa čo obávať zástupu, lebo Jána pokladajú všetci za proroka.“</p>
+  <p class="les">Odpovedali teda Ježišovi: „Nevieme.“</p>
+  <p class="les">A on im odvetil: „Ani ja vám nepoviem, akou mocou toto robím.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-15":{ 
+  name: `Ivica`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Utorok po 3. adventnej nedeli</b><p>
+  <p><b>Omša</b> zo spomienky, pf adventná I.</p>
+  <p><b>Č 1:</b> Sof 3, 1-2. 9-13;</p>
+  <p><b>Ž:</b> 34, 2-3. 6-7. 17-18. 19+23;</p>
+  <p><b>Ev:</b> Mt 21, 28-32;</p>
+  <p><b>L</b> II, 48; (<b>OL</b> I, 47; <b>OR</b> I, 26).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Utorok v 3. týždni. Of z férie. </p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Mesiášska spása sa sľubuje všetkým chudobným</i></p>
+  <p><b>Čítanie z Knihy proroka Sofoniáša </b><span class="red fr"> 3, 1-2. 9-13</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán: „Beda ti, odbojné a poškvrnené, násilnícke mesto! Nepočúvlo hlas, nedbalo na výstrahu, nedúfalo v Pána, k svojmu Bohu sa neobrátilo. ‚Očistím teda pery národom, aby všetci vzývali Pánovo meno, aby mu všetci svorne slúžili. Až spoza riek Etiópie budú mi prinášať obety moji ctitelia, potomci môjho rozptýleného ľudu. V ten deň sa už nebudeš hanbiť za svoje mnohé výčiny, ktorými si sa prehrešilo proti mne, lebo vtedy z teba odstránim nadutých chvastúňov, a už sa nebudeš vyvyšovať na mojom svätom vrchu.</p>
+  <p class="les">Ponechám v tvojom strede ľud pokorný a chudobný.‘ Zvyšky Izraela budú dôverovať v Pánovo meno; už nebudú páchať neprávosť a nebudú hovoriť lož, v ich ústach sa už podvodný jazyk nenájde. Nik ich nevystraší, keď sa budú pásť a odpočívať.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 34, 2-3. 6-7. 17-18. 19+23</span></p>
+  <br>
+  <p><span class="red">℞. (7a):</span> Úbožiak zavolal a Pán ho vyslyšal. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pána chcem velebiť v každom čase, *</p>		
+  <p class="psalm"> moje ústa budú ho vždy chváliť. </p>
+  <p class="psalm"><span class="red num">2.</span>V Pánovi sa bude chváliť moja duša; *</p>		
+  <p class="psalm"> nechže to počujú pokorní a nech sa tešia. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>Na neho hľaďte a budete žiariť *</p>		
+  <p class="psalm"> a tvár vám nesčervenie hanbou. </p>
+  <p class="psalm"><span class="red num">4.</span>Úbožiak zavolal a Pán ho vyslyšal *</p>		
+  <p class="psalm"> a vyslobodil ho zo všetkých tiesní. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span>Tvár Pánova sa odvracia od tých, čo robia zlo, *</p>		
+  <p class="psalm"> a vyhladzuje ich pamiatku zo zeme.</p>
+  <p class="psalm"><span class="red num">6.</span>Spravodliví volali a Pán ich vyslyšal *</p>		
+  <p class="psalm"> a vyslobodil ich zo všetkých tiesní. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span>Pán je pri tých, čo majú srdce skrúšené, *</p>		
+  <p class="psalm"> a zachraňuje zlomených na duchu.</p>
+  <p class="psalm"><span class="red num">8.</span>Pán vykúpi duše svojich služobníkov, *</p>		
+  <p class="psalm"> nebudú potrestaní tí, čo v neho dúfajú. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Príď, Pane, nemeškaj!</p>
+  <p class="aleluja"> Zbav svoj ľud jeho zlých skutkov.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Prišiel Ján a hriešnici mu uverili</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr"> 21, 28-32</span></p>	
+  <br>
+  <p class="les">Ježiš povedal veľkňazom a starším ľudu: „Čo poviete na toto? Istý človek mal dvoch synov. Prišiel k prvému a povedal mu: ‚Syn môj, choď dnes pracovať do vinice!‘ Ale on odpovedal: ‚Nechce sa mi.‘ No potom to oľutoval a šiel.</p>
+  <p class="les">Išiel k druhému a povedal mu to isté. Ten odpovedal: ‚Idem, pane!‘ Ale nešiel. Kto z týchto dvoch splnil otcovu vôľu?“</p>
+  <p class="les">Odpovedali: „Ten prvý.“</p>
+  <p class="les">Ježiš im povedal: „Veru, hovorím vám: Mýtnici a neviestky vás predchádzajú do Božieho kráľovstva. Lebo k vám prišiel Ján cestou spravodlivosti, a neuverili ste mu. Ale mýtnici a neviestky mu uverili. A vy, hoci ste to videli, ani potom ste sa nekajali a neuverili ste mu.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-16":{
+  name: `Albína`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Streda po 3. adventnej nedeli</b><p>
+  <p><b>Omša</b> z férie. pf adventná I.</p>
+  <p><b>Č 1:</b> Iz 45, 6c-8. 18. 21d-25;</p>
+  <p><b>Ž:</b> 85, 9ab+10. 11-12. 13-14;</p>
+  <p><b>Ev:</b> Lk 7, 19-23;</p>
+  <p><b>L</b> II, 51; (<b>OL</b> I, 50; <b>OR</b> I, 27).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Streda v 3. týždni. Of z férie.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Roste, nebesia, z výsosti</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 45, 6c-8. 18. 21d-25</span></p>
+  <br>
+  <p class="les">„Ja som Pán a nik iný, ja tvorím svetlo a pôsobím tmu, dávam šťastie a dopúšťam nešťastie; ja, Pán, robím toto všetko.</p>
+  <p class="les">Roste, nebesia, z výsosti, z oblakov nech prší spravodlivosť. Nech sa otvorí zem a zrodí spásu; a spolu s ňou nech vzíde spravodlivosť; ja, Pán, som ju stvoril.“</p>
+  <p class="les">Toto hovorí Pán, ktorý stvoril nebo; on je Boh, ktorý stvoril zem a stvárnil ju, on ju upevnil. Nestvoril ju, aby bola prázdna, na obývanie ju pripravil: „Ja som Pán a nik iný!</p>
+  <p class="les">Nie som Pán len ja? Veď nieto Boha okrem mňa. Okrem mňa niet Boha pravého a spásneho. Obráťte sa ku mne a dosiahnete spásu, všetky končiny zeme. Lebo ja som Boh a nik iný!</p>
+  <p class="les">Na seba samého prisahám: z mojich úst vychádza pravda, neodvolateľné slovo: predo mnou sa skloní každé koleno, mne bude prisahať každý jazyk.“ „Len v Pánovi“ – povedia – „je spása a sila.“ K nemu prídu, a zahanbia sa všetci, čo sa mu protivia: v Pánovi dosiahnu spásu a slávu všetci potomci Izraela.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 85, 9ab+10. 11-12. 13-14</span></p>
+  <br>
+  <p><span class="red">℞. (Iz 45, 8a):</span> Roste, nebesia, z výsosti, z oblakov nech prší spravodlivosť. <span class="fr">II</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Budem počúvať, čo povie Pán, Boh; *</p>	
+  <p class="psalm"> on ohlási pokoj svojmu ľudu a svojim svätým.</p>
+  <p class="psalm"><span class="red num">2.</span> Naozaj: blízko je spása tým, čo sa ho boja, *</p>	
+  <p class="psalm"> a jeho sláva bude prebývať v našej krajine. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>Milosrdenstvo a vernosť sa stretnú navzájom, *</p>	
+  <p class="psalm"> spravodlivosť a pokoj sa pobozkajú.</p>
+  <p class="psalm"><span class="red num">4.</span>Vernosť vyrastie zo zeme, *</p>	
+  <p class="psalm"> spravodlivosť zhliadne z neba.<span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span>Veď Pán dá požehnanie *</p>	
+  <p class="psalm"> a svoje plody vydá naša zem. </p>
+  <p class="psalm"><span class="red num">6.</span>Pred ním bude kráčať spravodlivosť *</p>	
+  <p class="psalm"> a po stopách jeho krokov spása. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Iz 40, 9cd. 10a</span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Zodvihni mocne svoj hlas, ty, čo hlásaš radostnú zvesť;</p>
+  <p class="aleluja"> hľa, Pán, Boh, prichádza so všetkou mocou.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Oznámte Jánovi, čo ste videli a počuli</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">7, 19-23</span></p>	
+  <br>
+  <p class="les">Ján si zavolal dvoch zo svojich učeníkov a poslal ich k Pánovi s otázkou: „Ty si ten, ktorý má prísť, alebo máme čakať iného?“</p>
+  <p class="les">Keď muži k nemu prišli, povedali: „Poslal nás k tebe Ján Krstiteľ a pýta sa: ‚Ty si ten, ktorý má prísť, alebo máme čakať iného?‘“</p>
+  <p class="les">Práve v tú hodinu uzdravil mnohých z neduhov, chorôb a od zlých duchov a mnohým slepým daroval zrak. A tak im odpovedal: „Choďte a oznámte Jánovi, čo ste videli a počuli: Slepí vidia, chromí chodia, malomocní sú čistí, hluchí počujú, mŕtvi vstávajú a chudobným sa hlása evanjelium. A blahoslavený je, kto sa na mne nepohorší.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-17":{
+  name: `Kornélia`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Štvrtok po 3. adventnej nedeli</b><p>
+  <p><b>Omša</b> zo 17. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Gn 49, 1-2. 8-10;</p>
+  <p><b>Ž:</b> 72, 1-2. 3-4b. 7-8. 17;</p>
+  <p><b>Ev:</b> Mt 1, 1-17;</p>
+  <p><b>L</b> II, 59; (<b>OL</b> I, 63; <b>OR</b> I, 33).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Štvrtok v 3. týždni. Of z 17. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Nebude odňaté žezlo od Júdu</i></p>
+  <p><b>Čítanie z Knihy Genezis </b><span class="red fr"> 49, 1-2. 8-10</span></p>
+  <br>
+  <p class="les">Jakub zavolal svojich synov a povedal im: „Zhromaždite sa a oznámim vám, čo vás čaká v ďalekej budúcnosti: Zhromaždite sa a počúvajte, Jakubovi synovia, počujte Izraela, svojho otca!</p>
+  <p class="les">Júda, teba budú chváliť tvoji bratia, tvoja ruka bude na šiji tvojich nepriateľov, tebe sa budú klaňať synovia tvojho otca. Mladým levom si Júda, od koristi vstávaš, syn môj; líha si a odpočíva ako lev a ako levica: kto sa ho odváži vyrušiť?</p>
+  <p class="les">Nebude odňaté žezlo od Júdu ani vladárska berla od jeho nôh, kým nepríde ten, komu patrí, ktorého budú poslúchať národy.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 72, 1-2. 3-4b. 7-8. 17</span></p>
+  <br>
+  <p><span class="red">℞. (Porov. 7):</span> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja naveky. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Bože, zver svoju právomoc kráľovi, *</p>	
+  <p class="psalm"> kráľovmu synovi svoju spravodlivosť,</p>
+  <p class="psalm"><span class="red num">2.</span> aby spravodlivo vládol nad tvojím ľudom *</p>	
+  <p class="psalm"> a podľa práva nad tvojimi chudobnými. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> a podľa práva nad tvojimi chudobnými.</p>	
+  <p class="psalm"> a pahorky spravodlivosť.</p>
+  <p class="psalm"><span class="red num">4.</span> Prisúdi právo ľuďom úbohým, *</p>	
+  <p class="psalm"> poskytne pomoc deťom bedára. <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja, *</p>	
+  <p class="psalm"> kým mesiac nezhasne.</p>
+  <p class="psalm"><span class="red num">6.</span> A bude panovať od mora až k moru *</p>	
+  <p class="psalm"> a od Rieky až na kraj zeme. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span> Jeho meno nech je velebené naveky; *</p>	
+  <p class="psalm"> kým bude svietiť slnko, jeho meno potrvá.</p>
+  <p class="psalm"><span class="red num">8.</span> V ňom budú požehnané všetky kmene zeme, *</p>	
+  <p class="psalm"> zvelebovať ho budú všetky národy. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Lk 3, 4. 6</span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Múdrosť Najvyššieho, ty mocne i jemne riadiš všetko;</p>
+  <p class="aleluja"> príď a nauč nás ceste múdrosti.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Rodokmeň Ježiša Krista, Dávidovho syna</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">1, 1-17</span></p>	
+  <br>
+  <p class="les">Rodokmeň Ježiša Krista, syna Dávidovho, syna Abrahámovho.</p>
+  <p class="les">Abrahám mal syna Izáka, Izák Jakuba, Jakub Júdu a jeho bratov, Júda Faresa a Záru z Tamary. Fares mal syna Ezroma, Ezrom Arama. Aram mal syna Aminadaba, Aminadab Násona, Náson Salmona, Salmon mal syna Bóza z Rachaby, Bóz Obeda z Rút. Obed Jesseho a Jesse kráľa Dávida.</p>
+  <p class="les">Dávid mal syna Šalamúna z Uriášovej ženy. Šalamún mal syna Roboama, Roboam Abiáša, Abiáš Azu, Aza Jozafata, Jozafat Jorama, Joram Oziáša. Oziáš mal syna Joatama, Joatam Achaza, Achaz Ezechiáša. Ezechiáš mal syna Manassesa, Manasses Amona, Amon Joziáša, Joziáš Jechoniáša a jeho bratov za babylonského zajatia.</p>
+  <p class="les">Po babylonskom zajatí Jechoniáš mal syna Salatiela, Salatiel Zorobábela, Zorobábel Abiuda, Abiud Eliakima, Eliakim Azora. Azor mal syna Sadoka, Sadok Achima, Achim Eliuda. Eliud mal syna Eleazara, Eleazar Matana, Matan Jakuba. Jakub mal syna Jozefa, manžela Márie, z ktorej sa narodil Ježiš, nazývaný Kristus.</p>
+  <p class="les">Všetkých pokolení od Abraháma po Dávida bolo štrnásť, od Dávida po babylonské zajatie štrnásť a štrnásť od babylonského zajatia po Krista.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-18":{
+  name: `Sláva, Slávka`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Piatok po 3. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 18. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Jer 23, 5-8;</p>
+  <p><b>Ž:</b> 72, 1-2. 12-13. 18-19;</p>
+  <p><b>Ev:</b> Mt 1, 18-24;</p>
+  <p><b>L</b> II, 61; (<b>OL</b> I, 66; <b>OR</b> I, 35).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Piatok v 3. týždni. Of z 18. dec.</p>
+   `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Vzbudím Dávidovi spravodlivý výhonok</i></p>
+  <p><b>Čítanie z Knihy proroka Jeremiáša </b><span class="red fr"> 23, 5-8</span></p>
+  <br>
+  <p class="les">Hľa, prídu dni, hovorí Pán, a vzbudím Dávidovi spravodlivý výhonok, kráľa, ktorý bude múdro panovať a uskutoční právo a spravodlivosť na zemi. Za jeho dní Júda dosiahne spásu a Izrael bude bývať v istote. A toto je meno, ktorým ho budú volať: „Pán je naša spravodlivosť.“</p>
+  <p class="les">Preto, hľa, prídu dni, hovorí Pán, keď už nebudú vravieť: „Ako žije Pán, ktorý vyviedol synov Izraela z egyptskej krajiny,“ ale: „Ako žije Pán, ktorý vyviedol a priviedol potomstvo Izraelovho domu zo severnej krajiny a zo všetkých krajín,“ kam som ich vyhnal, a budú bývať vo svojej krajine.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 72, 1-2. 12-13. 18-19</span></p>
+  <br>
+  <p><span class="red">℞. (7a):</span> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja naveky. <span class="fr">IV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Bože, zver svoju právomoc kráľovi, *</p>	
+  <p class="psalm"> kráľovmu synovi svoju spravodlivosť,</p>
+  <p class="psalm"><span class="red num">2.</span> aby spravodlivo vládol nad tvojím ľudom *</p>	
+  <p class="psalm"> a podľa práva nad tvojimi chudobnými. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> On vyslobodí bedára, čo volá k nemu, *</p>	
+  <p class="psalm"> i chudobného, ktorému nik nepomáha.</p>
+  <p class="psalm"><span class="red num">4.</span> Zmiluje sa nad chudobným a bedárom, *</p>	
+  <p class="psalm"> zachráni život úbožiakom. <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span> Nech je zvelebený Pán, Boh Izraela, *</p>	
+  <p class="psalm"> čo jediný koná zázraky.</p>
+  <p class="psalm"><span class="red num">6.</span> Jeho vznešené meno nech je velebené naveky *</p>	
+  <p class="psalm"> a jeho velebou nech sa naplní celá zem. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pane, vodca svojho ľudu, ty si dal Mojžišovi zákon na Sinaji;</p>
+  <p class="aleluja"> príď, vystri svoju ruku a vysloboď nás!
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Ježiš sa narodí z Márie, zasnúbenej s Jozefom, Dávidovým synom</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">1, 18-24</span></p>	
+  <br>
+  <p class="les">S narodením Ježiša Krista to bolo takto: Jeho matka Mária bola zasnúbená s Jozefom. Ale skôr, ako by boli začali spolu bývať, ukázalo sa, že počala z Ducha Svätého.</p>
+  <p class="les">Jozef, jej manžel, bol človek spravodlivý a nechcel ju vystaviť potupe, preto ju zamýšľal potajomky prepustiť.</p>
+  <p class="les">Ako o tom uvažoval, zjavil sa mu vo sne Pánov anjel a povedal: „Jozef, syn Dávidov, neboj sa prijať Máriu, svoju manželku, lebo to, čo sa v nej počalo, je z Ducha Svätého. Porodí syna a dáš mu meno Ježiš; lebo on vyslobodí svoj ľud z hriechov.“</p>
+  <p class="les">To všetko sa stalo, aby sa splnilo, čo Pán povedal ústami proroka: „Hľa, panna počne a porodí syna a dajú mu meno Emanuel,“ čo v preklade znamená: Boh s nami.</p>
+  <p class="les">Keď sa Jozef prebudil, urobil, ako mu prikázal Pánov anjel, a prijal svoju manželku.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-19":{
+  name: `Judita`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Sobota po 3. adventnej nedeli</b><p>
+  <p><b>Omša</b> (ranná) z 19. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Sdc 13, 2-7. 24-25a;</p>
+  <p><b>Ž:</b> 71, 3-4a. 5-6b. 16-17;</p>
+  <p><b>Ev:</b> Lk 1, 5-25;</p>
+  <p><b>L</b> II, 63; (<b>OL</b> I, 68; <b>OR</b> I, 37).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> (po modlitbu popoludní) Sobota v 3. týždni. Of z 19. dec.</p>
+  <p><b>1. vešp. </b> z nasl. nedele. Ant na Magnifikat z 18. dec.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej nedele.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Anjel oznamuje Samsonovo narodenie</i></p>
+  <p><b>Čítanie z Knihy Sudcov </b><span class="red fr"> 13, 2-7. 24-25a</span></p>
+  <br>
+  <p class="les">V tých dňoch bol istý muž zo Saray, z kmeňa Dan, volal sa Manue. Jeho manželka bola neplodná. Zjavil sa jej Pánov anjel a povedal: „Hľa, si neplodná a bez detí; no počneš a porodíš syna. Dávaj teda pozor: nepi víno ani iný opojný nápoj a nejedz nič nečisté. Lebo počneš a porodíš syna, ktorého hlavy sa britva nedotkne: chlapec bude už od materského lona zasvätený Bohu a on začne vyslobodzovať Izraela z ruky Filištíncov.“</p>
+  <p class="les">Ona prišla k svojmu mužovi a povedala mu: „Prišiel ku mne Boží muž, vyzeral ako Pánov anjel a vzbudzoval hrôzu. Nepýtala som sa ho, odkiaľ je, a ani on mi neprezradil svoje meno. Povedal mi: ‚Hľa, počneš a porodíš syna. Dávaj pozor: nepi víno ani iný opojný nápoj a nejedz nič nečisté. Lebo chlapec bude už od materského lona zasvätený Bohu až do dňa svojej smrti.‘“</p>
+  <p class="les">I porodila syna a dala mu meno Samson. Chlapec rástol a Pán ho požehnával. A začal v ňom pôsobiť Pánov duch.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 71, 3-4a. 5-6b. 16-17</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 8ab):</span> Nech sa mi ústa naplnia chválou a budem spievať o tvojej sláve. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Buď mi ochrannou skalou a opevneným hradom *</p>	
+  <p class="psalm"> na moju záchranu;</p>
+  <p class="psalm"><span class="red num">2.</span> veď ty si moja opora a moje útočište. *</p>	
+  <p class="psalm"> Bože môj, vytrhni ma z ruky hriešnika. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Lebo ja, Pane, túžim za tebou, *</p>	
+  <p class="psalm"> ty, Pane, si moja nádej od mojej mladosti.</p>
+  <p class="psalm"><span class="red num">4.</span> Od matkinho lona mám v tebe oporu, *</p>	
+  <p class="psalm"> od života matky si mojím ochrancom. <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">5.</span> Budem hovoriť o veľkých činoch Pánových; *</p>	
+  <p class="psalm"> Pane, budem spomínať len tvoju spravodlivosť.</p>
+  <p class="psalm"><span class="red num">6.</span> Bože, ty si ma poúčal od mojej mladosti *</p>	
+  <p class="psalm"> a ja až doteraz ohlasujem tvoje diela zázračné. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Výhonok z koreňa Jesseho, ty stojíš ako znamenie pre národy;</p>
+  <p class="aleluja"> príď a vysloboď nás, nemeškaj.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Gabriel zvestuje narodenie Jána Krstiteľa</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 5-25</span></p>	
+  <br>
+  <p class="les">Za čias judejského kráľa Herodesa žil istý kňaz menom Zachariáš z Abiášovej kňazskej triedy. Jeho manželka pochádzala z Áronových dcér a volala sa Alžbeta. Obaja boli spravodliví pred Bohom a bezúhonne zachovávali všetky Pánove prikázania a ustanovenia. Nemali však deti, lebo Alžbeta bola neplodná a obaja boli v pokročilom veku.</p>
+  <p class="les">Keď raz prišiel rad na jeho triedu a on konal kňazskú službu pred Bohom, podľa zvyku kňazského úradu lósom mu pripadlo vojsť do Pánovho chrámu a priniesť kadidlovú obetu. V čase kadidlovej obety sa vonku modlilo množstvo ľudu.</p>
+  <p class="les">Tu sa mu zjavil Pánov anjel; stál na pravej strane kadidlového oltára. Keď ho Zachariáš zbadal, zľakol sa a zmocňovala sa ho hrôza. Ale anjel mu povedal: „Neboj sa, Zachariáš, lebo je vyslyšaná tvoja modlitba. Tvoja manželka Alžbeta ti porodí syna a dáš mu meno Ján. Budeš sa radovať a plesať a jeho narodenie poteší mnohých. Lebo on bude veľký pred Pánom. Víno a opojný nápoj piť nebude a už v matkinom lone ho naplní Duch Svätý. Mnohých synov Izraela obráti k Pánovi, ich Bohu. Sám pôjde pred ním s Eliášovým duchom a mocou, aby obrátil srdcia otcov k synom a neveriacich k múdrosti spravodlivých a pripravil Pánovi dokonalý ľud.“</p>
+  <p class="les">Zachariáš povedal anjelovi: „Podľa čoho to poznám? Veď ja som starec a moja manželka je v pokročilom veku.“</p>
+  <p class="les">Anjel mu odpovedal: „Ja som Gabriel. Stojím pred Bohom a som poslaný hovoriť s tebou a oznámiť ti túto radostnú zvesť. Ale onemieš a nebudeš môcť hovoriť až do dňa, keď sa toto stane, lebo si neuveril mojim slovám, ktoré sa splnia v svojom čase.“</p>
+  <p class="les">Ľud čakal na Zachariáša a divil sa, že sa tak dlho zdržuje v chráme. Ale keď vyšiel, nemohol k nim prehovoriť; a oni pochopili, že mal v chráme videnie. Dával im znaky a zostal nemý.</p>
+  <p class="les">Len čo sa skončili dni jeho služby, vrátil sa domov. Po tých dňoch jeho manželka Alžbeta počala, ale skrývala sa päť mesiacov a hovorila: „Toto mi urobil Pán v čase, keď zhliadol na mňa, aby ma zbavil hanby pred ľuďmi.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-20":{
+  name: "Dagmara",
+  bgColor: "purple",    
+  index:/*html*/`<p class="red"><b>ŠTVRTÁ ADVENTNÁ NEDEĽA</b></p>
+  <p><b>Omša</b> z nedele, Krédo, pf adventná II. </p>
+  <p><b>Č 1:</b> 2 Sam 7, 1-5. 8b-12. 14a. 16</p>
+  <p><b>Ž:</b> 89, 2-3. 4-5. 27+29;</p>
+  <p><b>Č 2:</b> Rim 16, 25-27;</p>
+  <p><b>Ev:</b> Lk 1, 26-38;</p>
+  <p><b>L</b> I/B, 27; (<b>OL</b> B, 25).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše, aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Nedeľa v 4. týždni. Of z nedele. Ant na Benediktus a Magnifikat v roku B.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Dávidovo kráľovstvo bude trvať pred Pánom naveky</i></p>
+  <p><b>Čítanie z Druhej knihy Samuelovej </b><span class="red fr"> 7, 1-5. 8b-12. 14a. 16</span></p>
+  <br>
+  <p class="les">Keď kráľ Dávid býval už vo svojom paláci a Pán mu poprial pokoj od všetkých okolitých nepriateľov, povedal prorokovi Nátanovi: „Pozri, ja bývam v dome z cédrov, a Božia archa stojí pod stanmi.“</p>
+  <p class="les">Nátan odpovedal kráľovi: „Choď a rob všetko, čo ti vnuká srdce, Pán je s tebou.“</p>
+  <p class="les">V tú noc zaznelo Pánovo slovo Nátanovi: „Choď a povedz môjmu služobníkovi Dávidovi: Toto hovorí Pán: Ty mi chceš postaviť dom, v ktorom mám bývať? Ja som ťa vzal z pastvín od oviec, aby si bol vodcom môjho ľudu, Izraela; a bol som s tebou pri všetkom, čo si podnikal. Pred tvojimi očami som vyhubil všetkých tvojich nepriateľov a zaistil som ti také meno, aké majú len najväčší na zemi.</p>
+  <p class="les">Svojmu ľudu, Izraelovi, určím miesto a zasadím ho tam. Tam bude bývať a nebude sa báť a ani zlosynovia ho už nebudú utláčať ako kedysi, v dňoch, keď som ustanovoval sudcov nad svojím ľudom, Izraelom. Oslobodím ťa od všetkých tvojich nepriateľov a darujem ti pokoj. Pán ti oznamuje, že ti sám vybuduje dom, a až sa tvoje dni dovŕšia a ty sa uložíš na odpočinok k svojim otcom, ustanovím po tebe potomka, ktorý bude pochádzať z tvojich útrob, a upevním jeho kráľovstvo. Ja mu budem otcom a on mi bude synom.</p>
+  <p class="les">Tvoj dom a tvoje kráľovstvo budú trvať predo mnou naveky, tvoj trón bude upevnený navždy.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 89, 2-3. 4-5. 27+29</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 2a):</span> Tvoje milosrdenstvo, Pane, ospevovať budem naveky. <span class="fr">IV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pánovo milosrdenstvo chcem ospevovať naveky; *</p>	
+  <p class="psalm"> po všetky pokolenia hlásať svojimi ústami tvoju vernosť. </p>
+  <p class="psalm"><span class="red num">2.</span> Veď ty si povedal: „Moje milosrdenstvo je ustanovené naveky.“ *</p>	
+  <p class="psalm"> Tvoja vernosť je upevnená v nebesiach.   <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>„Zmluvu som uzavrel so svojím vyvoleným, *</p>	
+  <p class="psalm"> svojmu služobníkovi Dávidovi som prisahal: </p>
+  <p class="psalm"><span class="red num">4.</span> Naveky zaistím tvoj rod *</p>	
+  <p class="psalm"> a postavím tvoj trón, čo pretrvá všetky pokolenia.“ <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span>On bude volať ku mne: „Ty si môj otec, *</p>	
+  <p class="psalm"> môj Boh a útočište mojej spásy.“ </p>
+  <p class="psalm"><span class="red num">6.</span> Naveky mu svoju milosť zachovám *</p>	
+  <p class="psalm"> a pevná bude moja zmluva s ním. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Teraz bolo zjavené od večnosti skryté tajomstvo</i></p>
+  <p><b>Čítanie z Listu svätého apoštola Pavla Rimanom </b><span class="red fr">16, 25-27</span></p>
+  <br>
+  <p class="les">Bratia, tomu, ktorý má moc utvrdiť vás podľa môjho evanjelia a hlásania Ježiša Krista na základe zjavenia tajomstva, ktoré bolo od večnosti skryté, ale teraz bolo zjavené a skrze Písma prorokov z príkazu večného Boha vyjavené všetkým národom, aby poslušne prijali vieru, jemu, jedinému múdremu Bohu sláva skrze Ježiša Krista naveky. Amen.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Lk 1, 38</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hľa, služobnica Pána,</p>
+	<p class="aleluja"> nech sa mi stane podľa tvojho slova.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Počneš a porodíš syna</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 26-38</span></p>	
+  <br>
+  <p class="les">Boh poslal anjela Gabriela do galilejského mesta, ktoré sa volá Nazaret, k panne zasnúbenej mužovi z rodu Dávidovho, menom Jozefovi. A meno panny bolo Mária.</p>
+  <p class="les">Anjel prišiel k nej a povedal: „Zdravas‘, milosti plná, Pán s tebou.“</p>
+  <p class="les">Ona sa nad jeho slovami zarazila a rozmýšľala, čo znamená takýto pozdrav.</p>
+  <p class="les">Anjel jej povedal: „Neboj sa, Mária, našla si milosť u Boha. Počneš a porodíš syna a dáš mu meno Ježiš. On bude veľký a bude sa volať Synom Najvyššieho. Pán, Boh, mu dá trón jeho otca Dávida, naveky bude kraľovať nad Jakubovým rodom a jeho kráľovstvu nebude konca.“</p>
+  <p class="les">Mária povedala anjelovi: „Ako sa to stane, veď ja muža nepoznám?“</p>
+  <p class="les">Anjel jej odpovedal: „Duch Svätý zostúpi na teba a moc Najvyššieho ťa zatieni. A preto aj dieťa bude sa volať svätým, bude to Boží Syn. Aj Alžbeta, tvoja príbuzná, počala syna v starobe. Už je v šiestom mesiaci. A hovorili o nej, že je neplodná! Lebo Bohu nič nie je nemožné.“</p>
+  <p class="les">Mária povedala: „Hľa, služobnica Pána, nech sa mi stane podľa tvojho slova.“</p>
+  <p class="les">Anjel potom od nej odišiel.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-21":{ 
+  name: `Bohdan`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Pondelok po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 21. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Pies 2, 8-14;</p>
+  <p><b>Ž:</b> 33, 2-3. 11-12. 20-21;</p>
+  <p><b>Ev:</b> Lk 1, 39-45;</p>
+  <p><b>L</b> II, 70; (<b>OL</b> I, 74; <b>OR</b> I, 41).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Pondelok v 4. týždni. Of z 21. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Hľa, môj milý prichádza, po horách skáče</i></p>
+  <p><b>Čítanie z Pieseň piesní </b><span class="red fr"> 2, 8-14</span></p>
+  <br>
+  <p class="les">Hlas môjho milého! Hľa, on prichádza, po horách skáče, po vŕškoch hupká. Milý môj je sťa srna, ako jeleníča. Hľa, veď už stojí pred naším múrom; oblôčkom hľadí, cez mriežku sa díva. Môj milý mi hovorí: „Hor‘ sa, priateľka moja, holubica moja, krásava moja, a poď! Veď už je po zime, dážď prestal, pominul. Na zemi sa zjavili kvety, prišiel čas veselého spevu, hrkútanie hrdličky počuť v našom kraji, fígovník vydáva svoje plody, vinič roznáša vôňu v rozkvete. Nuž, hor‘ sa, priateľka moja, krásava moja, a poď! Holubica moja v rozsadlinách skál, v úkryte na bralách! Daj zrieť mi svoju tvár, daj počuť mi svoj hlas; veď sladký je tvoj hlas a prekrásna je tvoja tvár.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 33, 2-3. 11-12. 20-21</span></p>
+  <br>
+  <p><span class="red">℞. (1a 3a):</span> Plesajte, spravodliví, v Pánovi, spievajte mu novú pieseň. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Oslavujte Pána citarou, *</p>	
+	<p class="psalm"> hrajte mu na desaťstrunovej lutne.</p>		
+	<p class="psalm"><span class="red num">2.</span> Spievajte mu novú pieseň, *</p>		
+  <p class="psalm"> nadšene mu hrajte a volajte na slávu. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Pánov úmysel trvá naveky, *</p>	
+	<p class="psalm"> myšlienky jeho srdca z pokolenia na pokolenie.</p>		
+	<p class="psalm"><span class="red num">4.</span> Blažený národ, ktorého Bohom je Pán, *</p>		
+  <p class="psalm"> blažený ľud, ktorý si on vyvolil za dedičstvo. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Naša duša očakáva Pána, *</p>	
+	<p class="psalm"> on je naša pomoc a ochrana.</p>		
+	<p class="psalm"><span class="red num">6.</span> V ňom sa naše srdce raduje *</p>		
+  <p class="psalm"> a v jeho sväté meno máme dôveru. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Emanuel, náš kráľ a zákonodarca;</p>
+  <p class="aleluja"> príď a zachráň nás, Pane, Bože náš.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Čím som si zaslúžila, že matka môjho Pána prichádza ku mne?</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 39-45</span></p>	
+  <br>
+  <p class="les">V tých dňoch sa Mária vydala na cestu a ponáhľala sa do istého judejského mesta v hornatom kraji. Vošla do Zachariášovho domu a pozdravila Alžbetu. Len čo Alžbeta začula Máriin pozdrav, dieťa v jej lone sa zachvelo a Alžbetu naplnil Duch Svätý. Vtedy zvolala veľkým hlasom: „Požehnaná si medzi ženami a požehnaný je plod tvojho života. Čím som si zaslúžila, že matka môjho Pána prichádza ku mne? Lebo len čo zaznel tvoj pozdrav v mojich ušiach, radosťou sa zachvelo dieťa v mojom lone. A blahoslavená je tá, ktorá uverila, že sa splní, čo jej povedal Pán.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-22":{
+  name: `Adela`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Utorok po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 22. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> 1 Sam 1, 24-28;</p>
+  <p><b>Ž:</b> 1 Sam 2, 1b-e. 4-5. 6-7. 8a-d;</p>
+  <p><b>Ev:</b> Lk 1, 46-56;</p>
+  <p><b>L</b> II, 73; (<b>OL</b> I, 78; <b>OR</b> I, 43).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Utorok v 4. týždni. Of z 22. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Anna ďakuje za Samuelovo narodenie</i></p>
+  <p><b>Čítanie z Prvej knihy Samuelovej  </b><span class="red fr"> 1, 24-28</span></p>
+  <br>
+  <p class="les">Keď Anna oddojčila Samuela, vzala ho so sebou, aj trojročného býčka, jednu mericu múky a mech vína, a priviedla ho do Pánovho domu v Silo. Chlapec bol ešte maličký. Býčka obetovali a chlapca zaviedli k Helimu.</p>
+  <p class="les">Anna povedala: „Prosím, pane môj, ako žiješ, pane, ja som tá žena, čo tu stála pred tebou a modlila sa k Pánovi. O tohto chlapčeka som prosila a Pán mi dal, o čo som ho prosila. Nuž aj ja ho odovzdávam Pánovi. Po všetky dni, kým bude žiť, nech je zasvätený Pánovi.“</p>
+  <p class="les">I klaňali sa tam Pánovi.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> 1 Sam 2, 1b-e. 4-5. 6-7. 8a-d</span></p>
+  <br>
+  <p><span class="red">℞. (1bc):</span> Srdce mi plesá v mojom Bohu. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Srdce mi plesá v Pánovi, *</p>	
+	<p class="psalm">v mojom Bohu rastie moja sila.</p>
+	<p class="psalm"><span class="red num">2.</span> Otvorím si ústa proti mojim nepriateľom, *</p>	
+	<p class="psalm"> lebo sa radujem z tvojej pomoci. <span class="red">&#8212; ℞.</span></p>		
+	<p class="psalm"><span class="red num">3.</span> Luk silákov sa zlomil, *</p>	
+	<p class="psalm"> slabí sa opásali silou.</p>
+	<p class="psalm"><span class="red num">4.</span>Tí, čo boli sýti, dávajú sa prenajímať za chlieb, *</p>	
+	<p class="psalm"> no tí, čo hladovali, už nepoznajú núdzu. </p>		
+	<p class="psalm"><span class="red num">5.</span> Neplodná rodí mnoho ráz *</p>	
+	<p class="psalm"> a tá, čo má veľa detí, vädne. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">6.</span> Pán dáva smrť i život, *</p>	
+  <p class="psalm"> uvádza do ríše smrti a vyvádza naspäť. </p>
+  <p class="psalm"><span class="red num">7.</span> Pán dáva schudobnieť, ale aj zbohatnúť, *</p>	
+	<p class="psalm"> ponižuje aj vyvyšuje. <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">8.</span> Dvíha z prachu bedára *</p>	
+  <p class="psalm"> a zo smetiska povyšuje chudobného. </p>
+  <p class="psalm"><span class="red num">9.</span> Usádza ho medzi kniežatá *</p>	
+	<p class="psalm"> a dáva mu trón slávy. <span class="red">&#8212; ℞.</span></p>	
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Kráľ národov a uholný kameň Cirkvi;</p>
+  <p class="aleluja"> príď a spas človeka, ktorého si utvoril zo zeme.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Veľké veci mi urobil ten, ktorý je mocný</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 46-56</span></p>	
+  <br>
+  <p class="les">Mária hovorila: „Velebí moja duša Pána a môj duch jasá v Bohu, mojom Spasiteľovi, lebo zhliadol na poníženosť svojej služobnice. Hľa, od tejto chvíle blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný, a sväté je jeho meno a jeho milosrdenstvo z pokolenia na pokolenie s tými, čo sa ho boja.</p>
+  <p class="les">Ukázal silu svojho ramena, rozptýlil tých, čo v srdci pyšne zmýšľajú. Mocnárov zosadil z trónov a povýšil ponížených. Hladných nakŕmil dobrotami a bohatých prepustil naprázdno.</p>
+  <p class="les">Ujal sa Izraela, svojho služobníka, lebo pamätá na svoje milosrdenstvo, ako sľúbil našim otcom, Abrahámovi a jeho potomstvu naveky.“</p>
+  <p class="les">Mária zostala pri Alžbete asi tri mesiace a potom sa vrátila domov.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-23":{
+  name: `Nadežda`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Streda po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 23. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Mal 3, 1-4. 23-24;</p>
+  <p><b>Ž:</b> 25, 4-5b. 8-9. 10+14;</p>
+  <p><b>Ev:</b> Lk 1, 57-66;</p>
+  <p><b>L</b> II, 75; (<b>OL</b> I, 81; <b>OR</b> I, 44).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Streda v 4. týždni. Of z 23. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Hľa, ja vám pošlem proroka Eliáša, prv, ako príde deň Pána</i></p>
+  <p><b>Čítanie z Knihy proroka Malachiáša </b><span class="red fr"> 3, 1-4. 23-24</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán, Boh: „Hľa, ja posielam svojho anjela, aby mi pripravil cestu. Hneď potom príde do svojho chrámu Pán, ktorého hľadáte, a anjel zmluvy, po ktorom túžite. Hľa, príde, hovorí Pán zástupov. Kto však znesie deň jeho príchodu a kto obstojí, až sa zjaví? Veď on je ako oheň, ktorý roztápa, a ako lúh práčov.</p>
+  <p class="les">Sadne si a bude vytápať a čistiť striebro, očistí synov Léviho a zošľachtí ich ako zlato a striebro, takže budú prinášať Pánovi obety v spravodlivosti.</p>
+  <p class="les">Vtedy sa Pánovi zapáči obeta Júdu a Jeruzalema ako v dňoch predošlých, ako v rokoch dávnych.</p>
+  <p class="les">Hľa, ja vám pošlem proroka Eliáša, prv, ako príde deň Pána, veľký a hrozný. On obráti srdcia otcov k synom a srdcia synov k ich otcom, aby som nemusel prísť a postihnúť zem kliatbou.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 25, 4-5b. 8-9. 10+14</span></p>
+  <br>
+  <p><span class="red">℞. (Lk 21, 28):</span> Zodvihnite hlavu, lebo sa blíži vaše vykúpenie. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Ukáž mi, Pane, svoje cesty *</p>	
+  <p class="psalm"> a pouč ma o svojich chodníkoch. </p>
+  <p class="psalm"><span class="red num">2.</span> Veď ma vo svojej pravde a uč ma, *</p>	
+  <p class="psalm"> lebo ty si Boh, moja spása. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Pán je dobrý a spravodlivý: *</p>	
+  <p class="psalm"> ukazuje cestu hriešnikom. </p>
+  <p class="psalm"><span class="red num">4.</span> Pokorných vedie k správnemu konaniu *</p>	
+  <p class="psalm"> a tichých poúča o svojich cestách. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Všetky cesty Pánove sú milosrdenstvo a vernosť *</p>	
+  <p class="psalm"> pre tých, čo zachovávajú jeho zmluvu a jeho príkazy. </p>
+  <p class="psalm"><span class="red num">6.</span> Pán bude dôverným priateľom tým, čo sa ho boja, *</p>	
+  <p class="psalm"> a zjaví im svoju zmluvu. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Kráľ národov a uholný kameň Cirkvi;</p>
+  <p class="aleluja"> príď a spas človeka, ktorého si utvoril zo zeme.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Narodenie Jána Krstiteľa</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 57-66</span></p>	
+  <br>
+  <p class="les">Alžbete nadišiel čas pôrodu a porodila syna. Keď jej susedia a príbuzní počuli, že jej Pán prejavil svoje veľké milosrdenstvo, radovali sa s ňou.</p>
+  <p class="les">Na ôsmy deň prišli chlapca obrezať a chceli mu dať meno Zachariáš po jeho otcovi. Ale jeho matka povedala: „Nie, bude sa volať Ján.“</p>
+  <p class="les">Povedali jej: „Veď v tvojom príbuzenstve sa nik takto nevolá.“</p>
+  <p class="les">Dali znak otcovi, ako ho chce nazvať on. Vypýtal si tabuľku a napísal: „Ján sa bude volať.“ A všetci sa divili.</p>
+  <p class="les">Vtom sa mu rozviazali ústa a jazyk i prehovoril a velebil Boha.</p>
+  <p class="les">Všetkých ich susedov zmocnil sa strach a všade po judejských horách sa hovorilo o týchto udalostiach. A všetci, čo to počuli, vštepili si to do srdca a vraveli: „Čím len bude tento chlapec?“ A vskutku Pánova ruka bola s ním.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-24":{
+  name: `Adam a Eva`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Štvrtok po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> (ranná) z 24. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> 2 Sam 7, 1-5. 8b-12. 14a. 16;</p>
+  <p><b>Ž:</b> 89, 2-3. 4-5. 27+29;</p>
+  <p><b>Ev:</b> Lk 1, 67-79;</p>
+  <p><b>L</b> II, 77; (<b>OL</b> I, 83; <b>OR</b> I, 46).</p>
+  <br>
+  <p><b>Liturgia hodín:</b>(po modlitbu popoludní): Štvrtok v 4. týždni. Of z 24. dec.</p>
+  <p><b>1. vešp. </b> z nasledujúcej slávnosti.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej slávnosti.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Dávidovo kráľovstvo bude trvať pred Pánom naveky</i></p>
+  <p><b>Čítanie z Druhej knihy Samuelovej </b><span class="red fr"> 7, 1-5. 8b-12. 14a. 16</span></p>
+  <br>
+  <p class="les">Keď kráľ Dávid býval už vo svojom paláci a Pán mu poprial pokoj od všetkých okolitých nepriateľov, povedal prorokovi Nátanovi: „Pozri, ja bývam v dome z cédrov, a Božia archa stojí pod stanmi.“</p>
+  <p class="les">Nátan odpovedal kráľovi: „Choď a rob všetko, čo ti vnuká srdce, Pán je s tebou.“</p>
+  <p class="les">V tú noc zaznelo Pánovo slovo Nátanovi: „Choď a povedz môjmu služobníkovi Dávidovi: Toto hovorí Pán: Ty mi chceš postaviť dom, v ktorom mám bývať? Ja som ťa vzal z pastvín od oviec, aby si bol vodcom môjho ľudu, Izraela; a bol som s tebou pri všetkom, čo si podnikal. Pred tvojimi očami som vyhubil všetkých tvojich nepriateľov a zaistil som ti také meno, aké majú len najväčší na zemi.</p>
+  <p class="les">Svojmu ľudu, Izraelovi, určím miesto a zasadím ho tam. Tam bude bývať a nebude sa báť a ani zlosynovia ho už nebudú utláčať ako kedysi, v dňoch, keď som ustanovoval sudcov nad svojím ľudom, Izraelom. Oslobodím ťa od všetkých tvojich nepriateľov a darujem ti pokoj. Pán ti oznamuje, že ti sám vybuduje dom, a až sa tvoje dni dovŕšia a ty sa uložíš na odpočinok k svojim otcom, ustanovím po tebe potomka, ktorý bude pochádzať z tvojich útrob, a upevním jeho kráľovstvo. Ja mu budem otcom a on mi bude synom.</p>
+  <p class="les">Tvoj dom a tvoje kráľovstvo budú trvať predo mnou naveky, tvoj trón bude upevnený navždy.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 89, 2-3. 4-5. 27+29</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 2a):</span> Tvoje milosrdenstvo, Pane, ospevovať budem naveky. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pánovo milosrdenstvo chcem ospevovať naveky; *</p>	
+  <p class="psalm"> po všetky pokolenia hlásať svojimi ústami tvoju vernosť. </p>
+  <p class="psalm"><span class="red num">2.</span> Veď ty si povedal: „Moje milosrdenstvo je ustanovené naveky.“ *</p>	
+  <p class="psalm"> Tvoja vernosť je upevnená v nebesiach.   <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>„Zmluvu som uzavrel so svojím vyvoleným, *</p>	
+  <p class="psalm"> svojmu služobníkovi Dávidovi som prisahal: </p>
+  <p class="psalm"><span class="red num">4.</span> Naveky zaistím tvoj rod *</p>	
+  <p class="psalm"> a postavím tvoj trón, čo pretrvá všetky pokolenia.“ <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span>On bude volať ku mne: „Ty si môj otec, *</p>	
+  <p class="psalm"> môj Boh a útočište mojej spásy.“ </p>
+  <p class="psalm"><span class="red num">6.</span> Naveky mu svoju milosť zachovám *</p>	
+  <p class="psalm"> a pevná bude moja zmluva s ním. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hviezda, čo vychádza, jas večného svetla a slnko spravodlivosti;</p>
+  <p class="aleluja"> príď a osvieť tých, čo sedia v temnotách a v tieni smrti.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Navštívi nás Vychádzajúci z výsosti</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 67-79</span></p>	
+  <br>
+  <p class="les">Jánovho otca Zachariáša naplnil Duch Svätý a takto prorokoval: „Nech je zvelebený Pán, Boh Izraela, lebo navštívil a vykúpil svoj ľud a vzbudil nám mocného Spasiteľa z rodu Dávida, svojho služobníka, ako odpradávna hovoril ústami svojich svätých prorokov, že nás oslobodí od našich nepriateľov a z rúk všetkých, čo nás nenávidia. Preukázal milosrdenstvo našim otcom a pamätá na svoju svätú zmluvu, na prísahu, ktorou sa zaviazal nášmu otcovi Abrahámovi, že nás vyslobodí z rúk nepriateľov, aby sme mu bez strachu slúžili vo svätosti a spravodlivosti pred jeho tvárou po všetky dni nášho života.</p>
+  <p class="les">A ty, chlapček, budeš sa volať prorokom Najvyššieho: pôjdeš pred tvárou Pána, pripravíš mu cestu a poučíš jeho ľud o spáse, že mu náš Boh z hĺbky svojho milosrdenstva odpustí hriechy. Tak nás Vychádzajúci z výsosti navštívi a zažiari tým, čo sedia vo tme a v tôni smrti, a naše kroky upriami na cestu pokoja.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-25":{
+  name: "Prvý sviatok vianočný",
+  bgColor: "gold",    
+  index:/*html*/`<p class="red"><b>NARODENIE PÁNA</b></p>
+  <p><b>Omša</b> Glória, Krédo, pf vianočná. </p>
+  <p><b>Č 1:</b> Iz 52, 7-10</p>
+  <p><b>Ž:</b> 98, 1. 2-3b. 3c-4. 5-6;</p>
+  <p><b>Č 2:</b> Hebr 1, 1-6;</p>
+  <p><b>Ev:</b> Jn 1, 1-18;</p>
+  <p><b>L</b> I/C, 43; (<b>OL</b> C, 41).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše, aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo slávnosti. Kompletórium z nedele (2).</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Všetky končiny zeme uvidia spásu nášho Boha</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 52, 7-10</span></p>
+  <br>
+  <p class="les">Aké krásne sú na horách nohy posla, ktorý hlása pokoj, posla dobrej zvesti, ktorý ohlasuje spásu, ktorý hovorí Sionu: „Tvoj Boh kraľuje.“</p>
+  <p class="les">Počúvaj svoje hliadky! Zvyšujú svoj hlas a jasajú všetci, lebo na vlastné oči vidia návrat Pána na Sion.</p>
+  <p class="les">Radujte sa a vedno plesajte, rozvaliny Jeruzalema, lebo Pán potešil svoj ľud, vykúpil Jeruzalem.</p>
+  <p class="les">Obnažil si Pán svoje sväté rameno pred očami všetkých národov a všetky končiny zeme uvidia spásu nášho Boha.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 98, 1. 2-3b. 3c-4. 5-6</span></p>
+  <br>
+  <p><span class="red">℞. (3c):</span> Uzreli všetky končiny zeme spásu nášho Boha. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú, * </p>	
+  <p class="psalm"> lebo vykonal veci zázračné. </p>
+  <p class="psalm"><span class="red num">2.</span> Víťazstvo je dielom jeho pravice *  </p>
+  <p class="psalm"> a jeho svätého ramena. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Pán oznámil svoju spásu, * </p>	
+  <p class="psalm"> pred očami pohanov vyjavil svoju spravodlivosť. </p>	
+  <p class="psalm"><span class="red num">4.</span> Rozpamätal sa na svoju dobrotu * </p>
+  <p class="psalm"> a na svoju vernosť voči Izraelovmu domu. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Uzreli všetky končiny zeme * </p>	
+  <p class="psalm"> spásu nášho Boha. </p>	
+  <p class="psalm"><span class="red num">6.</span> Na chválu Božiu jasaj, celá zem; * </p>	
+  <p class="psalm"> plesajte, radujte sa a hrajte. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span> Hrajte Pánovi na citare, * </p>	
+  <p class="psalm"> na citare a na harfe zunivej. </p>	
+  <p class="psalm"><span class="red num">8.</span> Za hlaholu trúb a poľníc * </p>	
+  <p class="psalm"> jasajte pred tvárou Kráľa a Pána. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Boh k nám prehovoril v Synovi</i></p>
+  <p><b>Čítanie z Listu Hebrejom </b><span class="red fr">1, 1-6</span></p>
+  <br>
+  <p class="les">Mnoho ráz a rozličným spôsobom hovoril kedysi Boh otcom skrze prorokov. V týchto posledných dňoch prehovoril k nám v Synovi, ktorého ustanovil za dediča všetkého a skrze ktorého stvoril aj svet. On je odblesk jeho slávy a obraz jeho podstaty a udržuje všetko svojím mocným slovom. Preto keď vykonal očistenie od hriechov, zasadol po pravici velebnosti na výsostiach; a stal sa o toľko vyšším od anjelov, o koľko vznešenejšie meno zdedil než oni.</p>
+  <p class="les">Veď kedy komu z anjelov povedal: „Ty si môj syn, ja som ťa dnes splodil“ a opäť: „Ja budem jeho otcom a on bude mojím synom“?</p>
+  <p class="les">A znova, keď uvádza prvorodeného na svet, hovorí: „Nech sa mu klaňajú všetci Boží anjeli.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Posvätný deň nám zažiaril: poďte, národy, a klaňajte sa Pánovi.</p>
+	<p class="aleluja"> Dnes zostúpilo na zem veľké svetlo.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Slovo sa telom stalo a prebývalo medzi nami</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">1, 1-18</span></p>	
+  <br>
+  <p class="les">Na počiatku bolo Slovo a Slovo bolo u Boha a to Slovo bolo Boh.</p>
+  <p class="les">Ono bolo na počiatku u Boha. Všetko povstalo skrze neho a bez neho nepovstalo nič z toho, čo povstalo. V ňom bol život a život bol svetlom ľudí. A svetlo vo tmách svieti, a tmy ho neprijali.</p>
+  <p class="les">Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o svetle.</p>
+  <p class="les">Pravé svetlo, ktoré osvecuje každého človeka, prišlo na svet. Bol na svete a svet povstal skrze neho, a svet ho nepoznal. Prišiel do svojho vlastného, a vlastní ho neprijali.</p>
+  <p class="les">Ale tým, ktorí ho prijali, dal moc stať sa Božími deťmi: tým, čo uverili v jeho meno, čo sa nenarodili ani z krvi, ani z vôle tela, ani z vôle muža, ale z Boha.</p>
+  <p class="les">A Slovo sa telom stalo a prebývalo medzi nami. A my sme uvideli jeho slávu, slávu, akú má od Otca jednorodený Syn, plný milosti a pravdy.</p>
+  <p class="les">Ján o ňom vydal svedectvo a volal: „Toto je ten, o ktorom som hovoril: Ten, čo príde po mne, je predo mnou, lebo bol prv ako ja.“</p>
+  <p class="les">Z jeho plnosti sme my všetci dostali milosť za milosťou. Lebo ak zákon bol daný skrze Mojžiša, milosť a pravda prišli skrze Ježiša Krista.</p>
+  <p class="les">Boha nikto nikdy nevidel. Jednorodený Boh, ktorý je v lone Otca, ten o ňom priniesol zvesť.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-26":{
+  name: "Štefan",
+  bgColor: "red",    
+  index:/*html*/`
+  <p class="red">SV. ŠTEFANA, PRVÉHO MUČENÍKA</p>
+  <p><b>Omša</b> (ranná) zo sviatku, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> Sk 6, 8-10; 7, 54-60</p>
+  <p><b>Ž:</b> 31, 3c-4. 6+8ab. 16b-17;</p>
+  <p><b>Ev:</b> Mt 10, 17-22;</p>
+  <p><b>L</b> II, 342; (<b>OL</b> C, 351; <b>SZM,</b> 540;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> (po modlitbu popoludní): Of zo sviatku. Na Md ant. z Vianočného obdobia, žalmy zo soboty vo 4. týždni.</p>
+  <p><b>1 vešp.</b> z nasledujúceho sviatku. Ant. na Magnifikat v roku B. Kompletórium z nedele (1).</p>
+  <p><b>Večerná omša</b> je z nasledujúceho sviatku Svätej rodiny.</p>
+  <br>
+  Zakazujú sa všetky večerné zádušné omše okrem pohrebnej.<br>
+  `,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Vidím otvorené nebo</i></p>
+  <p><b>Čítanie zo Skutkov apoštolov </b><span class="red fr"> 6, 8-10; 7, 54-60</span></p>
+  <br>
+  <p class="les">Štefan plný milosti a sily, robil veľké divy a znamenia medzi ľudom.</p>
+  <p class="les">Tu vstali niektorí z takzvanej synagógy Libertíncov, Cyrénčanov a Alexandrijčanov a z tých, čo boli z Cilície a Ázie, a hádali sa so Štefanom. Ale neboli schopní čeliť múdrosti a Duchu, ktorým hovoril.</p>
+  <p class="les">Keď to počuli, pukali im srdcia od zlosti a zubami škrípali proti nemu.</p>
+  <p class="les">Ale on, plný Ducha Svätého, uprene sa zahľadel na nebo, uvidel Božiu slávu a Ježiša stáť po pravici Boha a povedal: „Vidím otvorené nebo a Syna človeka stáť po pravici Boha.“</p>
+  <p class="les">Strašne vykríkli, zapchávali si uši a všetci sa naňho vrhli. Vyhnali ho za mesto a kameňovali. Svedkovia si odložili šaty k nohám mladého muža, ktorý sa volal Šavol.</p>
+  <p class="les">Štefana kameňovali a on sa modlil: „Pane Ježišu, prijmi môjho ducha.“</p>
+  <p class="les">A len čo to povedal, zomrel.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 31, 3c-4. 6+8ab. 16b-17</span></p>
+  <br>
+  <p><span class="red">℞. (6a):</span> Do tvojich rúk, Pane, porúčam svojho ducha. <span class="fr">VI</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Buď mi skalou útočišťa, *</p>			
+	<p class="psalm"> opevneným hradom mojej spásy.</p>		
+	<p class="psalm"><span class="red num">2.</span> Veď ty si moja sila a moje útočište, *</p>	
+	<p class="psalm"> pre svoje meno budeš ma viesť a opatrovať. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">3.</span> Do tvojich rúk porúčam svojho ducha; *</p>	
+	<p class="psalm"> ty si ma vykúpil, Pane, Bože verný. </p>			
+	<p class="psalm"><span class="red num">4.</span> Plesám a teším sa, že si milosrdný, *</p>	
+	<p class="psalm"> lebo si zhliadol na moju poníženosť. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">5.</span> Vytrhni ma z rúk mojich nepriateľov *</p>	
+  <p class="psalm"> a prenasledovateľov. </p>	
+  <p class="psalm"><span class="red num">6.</span> Rozjasni svoju tvár nad svojím sluhom *</p>	
+	<p class="psalm"> a zachráň ma vo svojom milosrdenstve. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Ž 118, 26a. 27a</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Požehnaný, ktorý prichádza v mene Pánovom. </p>
+	<p class="aleluja"> Boh, Pán, je naším svetlom. 
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Pre mňa vás budú vláčiť pred vladárov a kráľov, aby ste vydali svedectvo im aj pohanom</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">10, 17-22</span></p>	
+  <br>
+  <p class="les">Ježiš povedal svojim apoštolom: „Chráňte sa ľudí, lebo vás vydajú súdom, budú vás bičovať vo svojich synagógach a pre mňa vás budú vláčiť pred vladárov a kráľov, aby ste vydali svedectvo im aj pohanom.</p>
+  <p class="les">Ale keď vás vydajú, nestarajte sa, ako a čo budete hovoriť, lebo v tú hodinu vám bude dané, čo máte povedať. Veď to už nie vy budete hovoriť, ale Duch vášho Otca bude hovoriť vo vás.</p>
+  <p class="les">Brat vydá na smrť brata a otec dieťa. Deti povstanú proti rodičom a pripravia ich o život.</p>
+  <p class="les">Všetci vás budú nenávidieť pre moje meno. Ale kto vytrvá do konca, bude spasený.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-27":{
+  name: "Filoména",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">PRVÁ NEDEĽA PO NARODENÍ PÁNA</p>
+  <p class="red"><b>SVÄTEJ RODINY JEŽIŠA, MÁRIE A JOZEFA</b></p>
+  <p><b>Omša</b> zo sviatku, Glória, Krédo, pf vianočná. </p>
+  <p><b>Č 1:</b> Gn 15, 1-6; 21, 1-3</p>
+  <p><b>Ž:</b> 105, 1b-2. 3-4. 5-6. 8-9;</p>
+  <p><b>Č 2:</b> Hebr 11, 8. 11-12. 17-19;</p>
+  <p><b>Ev:</b> Lk 2, 41-52;</p>
+  <p><b>L</b> I/B, 49; (<b>OL</b> B, 45).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Ant. na Benediktus a Magnifikat v roku B. Na Md ant. vlastná, žalmy z nedele v 1. týždni. Kompletórium z nedele (2).</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Tvojím dedičom bude ten, čo vzíde z tvojho lona</i></p>
+  <p><b>Čítanie z Knihy Genezis </b><span class="red fr"> 15, 1-6; 21, 1-3</span></p>
+  <br>
+  <p class="les">Pán povedal Abramovi vo videní: „Neboj sa, Abram! Ja som tvoj ochranca a tvoja odmena bude nesmierna.“</p>
+  <p class="les">Abram povedal: „Pane, Bože, čože mi dáš? Odchádzam bezdetný a dedičom môjho domu bude damaský Eliezer.“ A Abram dodal: „Veď si mi nedal potomka a môj domáci sluha bude mojím dedičom.“</p>
+  <p class="les">Ale Pán mu povedal: „Ten nebude tvojím dedičom. Tvojím dedičom bude ten, čo vzíde z tvojho lona.“</p>
+  <p class="les">Vyviedol ho von a povedal mu: „Pozri na nebo a spočítaj hviezdy, ak môžeš.“ A uistil ho: „Také bude tvoje potomstvo.“ On uveril Pánovi a to sa mu počítalo za spravodlivosť.</p>
+  <p class="les">Pán navštívil Sáru, ako prisľúbil, a splnil Sáre, čo povedal. I počala a porodila Abrahámovi syna v jeho starobe, v čase, ktorý mu predpovedal Boh. A Abrahám dal svojmu synovi, ktorého mu porodila Sára, meno Izák.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 105, 1b-2. 3-4. 5-6. 8-9</span></p>
+  <br>
+  <p><span class="red">℞. (7a. 8a):</span> On je náš Pán a Boh, večne pamätá na svoju zmluvu. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Oslavujte Pána a vzývajte jeho meno, *</p>	
+  <p class="psalm"> rozhlasujte jeho skutky medzi národmi. </p>
+  <p class="psalm"><span class="red num">2.</span> rozhlasujte jeho skutky medzi národmi.  </p>
+  <p class="psalm"> rozprávajte o jeho obdivuhodných skutkoch. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Jeho svätým menom sa honoste; * </p>	
+  <p class="psalm"> nech sa radujú srdcia tých, čo hľadajú Pána. </p>	
+  <p class="psalm"><span class="red num">4.</span> Hľadajte Pána a jeho moc, * </p>
+  <p class="psalm"> hľadajte vždy jeho tvár. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Pamätajte na divy, čo učinil, * </p>	
+  <p class="psalm"> na jeho znamenia a na výroky jeho úst, </p>	
+  <p class="psalm"><span class="red num">6.</span> vy, potomci Abraháma, Pánovho služobníka, * </p>	
+  <p class="psalm"> synovia Jakuba, vyvoleného Pánovho. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span> Večne pamätá na svoju zmluvu, * </p>	
+  <p class="psalm"> na sľub, ktorý dal pokoleniam tisícim, </p>	
+  <p class="psalm"><span class="red num">8.</span> na zmluvu, čo s Abrahámom uzavrel, *</p>	
+  <p class="psalm"> na prísahu, ktorou sa Izákovi zaviazal. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Viera Abraháma, Sáry a Izáka</i></p>
+  <p><b>Čítanie z Knihy Hebrejom </b><span class="red fr"> 11, 8. 11-12. 17-19</span></p>
+  <br>
+  <p class="les">Bratia, s vierou poslúchol Abrahám, keď bol povolaný, aby šiel na miesto, ktoré mal dostať ako dedičstvo; išiel a ani nevedel, kam ide.</p>
+  <p class="les">Vierou aj neplodná Sára dostala napriek pokročilému veku silu počať potomka, lebo verila, že je verný ten, ktorý dal prisľúbenie. Preto aj z jedného, a to odumretého, vzišlo ich také množstvo, ako je hviezd na nebi a piesku na brehu mora, a ten sa nedá spočítať.</p>
+  <p class="les">S vierou obetoval Abrahám Izáka, keď bol skúšaný, a jednorodeného obetoval ten, ktorý dostal prisľúbenia a ktorému bolo povedané: „Po Izákovi sa bude volať tvoje potomstvo.“ Usudzoval totiž, že Boh má moc aj z mŕtvych vzkriesiť. Preto ho dostal naspäť aj ako predobraz.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"> Hebr 1, 1-2</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Mnoho ráz hovoril kedysi Boh otcom skrze prorokov.</p>
+	<p class="aleluja"> V týchto posledných dňoch prehovoril k nám v Synovi.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Chlapec rástol, plný múdrosti</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 22-40</span></p>	
+  <br>
+  <p class="les">Keď uplynuli podľa Mojžišovho zákona dni ich očisťovania, priniesli Ježiša jeho rodičia do Jeruzalema, aby ho predstavili Pánovi, ako je napísané v Pánovom zákone: „Všetko mužského rodu, čo otvára lono matky, bude zasvätené Pánovi,“ a aby obetovali, ako káže Pánov zákon, pár hrdličiek alebo dva holúbky.</p>
+  <p class="les">V Jeruzaleme žil vtedy muž menom Simeon, človek spravodlivý a nábožný, ktorý očakával potechu Izraela, a Duch Svätý bol na ňom. Jemu Duch Svätý vyjavil, že neumrie, kým neuvidí Pánovho Mesiáša.</p>
+  <p class="les">Z vnuknutia Ducha prišiel do chrámu. A keď rodičia prinášali dieťa Ježiša, aby splnili, čo o ňom predpisoval zákon, vzal ho aj on do svojho náručia a velebil Boha slovami: „Teraz prepustíš, Pane, svojho služobníka v pokoji podľa svojho slova, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov: svetlo na osvietenie pohanov a slávu Izraela, tvojho ľudu.“</p>
+  <p class="les">Jeho otec a matka divili sa tomu, čo sa o ňom hovorilo.</p>
+  <p class="les">Simeon ich požehnal a Márii, jeho matke, povedal: „On je ustanovený na pád a na povstanie pre mnohých v Izraeli a na znamenie, ktorému budú odporovať, – a tvoju vlastnú dušu prenikne meč –, aby vyšlo najavo zmýšľanie mnohých sŕdc.“</p>
+  <p class="les">Žila vtedy aj prorokyňa Anna, Fanuelova dcéra, z Aserovho kmeňa. Bola už vo vysokom veku. Od svojho panenstva žila so svojím mužom sedem rokov, potom ako vdova do osemdesiateho štvrtého roku. Z chrámu neodchádzala, vo dne v noci slúžila Bohu pôstom a modlitbami. Práve v tú chvíľu prišla aj ona, velebila Boha a hovorila o ňom všetkým, čo očakávali vykúpenie Jeruzalema.</p>
+  <p class="les">A keď vykonali všetko podľa Pánovho zákona, vrátili sa do Galiley, do svojho mesta Nazareta.</p>
+  <p class="les">Chlapec rástol a mocnel, plný múdrosti, a Božia milosť bola na ňom.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-28":{
+  name: "Ivana, Ivona",
+  bgColor: "red",    
+  index:/*html*/`
+  <p class="red">SV. NEVINIATOK, MUČENÍKOV</p>
+  <p><b>Omša</b> zo sviatku, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 1, 5 – 2, 2</p>
+  <p><b>Ž:</b> 124, 2-3. 4-5. 7c-8;</p>
+  <p><b>Ev:</b> Jn 2, 13-18;</p>
+  <p><b>L</b> II, 346; (<b>OR</b> IV, 96; <b>SZM,</b> 545;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Na Md ant. z Vianočného obdobia, žalmy z pondelka v 1. týždni. Vešpery sú z Oktávy Narodenia Pána 28. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Krv Ježiša nás očisťuje od každého hriechu</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 1, 5 – 2, 2</span></p>
+  <br>
+  <p class="les">Milovaní, toto je zvesť, ktorú sme počuli od Ježiša Krista a vám zvestujeme: Boh je svetlo a niet v ňom nijakej tmy.</p>
+  <p class="les">Ak hovoríme, že máme s ním spoločenstvo, ale chodíme vo tme, luháme a nekonáme pravdu. Ale ak chodíme vo svetle ako je on vo svetle, máme spoločenstvo medzi sebou a krv Ježiša, jeho Syna, nás očisťuje od každého hriechu.</p>
+  <p class="les">Ak hovoríme, že nemáme hriech, klameme sami seba a nie je v nás pravda. Ale ak vyznávame svoje hriechy, on je verný a spravodlivý: odpustí nám hriechy a očistí nás od každej neprávosti. Ak hovoríme, že sme nezhrešili, jeho robíme luhárom a nie je v nás jeho slovo.</p>
+  <p class="les">Deti moje, toto vám píšem, aby ste nehrešili. Ale keby niekto zhrešil, máme u Otca zástancu: Ježiša Krista, spravodlivého. On je zmiernou obetou za naše hriechy; a nielen za naše, ale aj za hriechy celého sveta.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 124, 2-3. 4-5. 7c-8</span></p>
+  <br>
+  <p><span class="red">℞. (7ab):</span> Naša duša unikla ako vtáča zo siete poľovníkov. <span class="fr">VII</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Keby sa nás Pán nebol ujal, *</p>			
+	<p class="psalm"> keď ľudia povstali proti nám,</p>		
+	<p class="psalm"><span class="red num">2.</span> vari by nás živých boli prehltli, *</p>	
+	<p class="psalm"> keď proti nám blčala ich zúrivosť. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">3.</span> Vari by nás bola voda zaliala *</p>	
+	<p class="psalm"> a riava sa prevalila cez nás. </p>			
+	<p class="psalm"><span class="red num">4.</span> Vari by sa boli prevalili cez nás *</p>	
+	<p class="psalm"> rozbúrené vody. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">5.</span> Slučka sa roztrhla *</p>	
+  <p class="psalm"> a my sme na slobode. </p>	
+  <p class="psalm"><span class="red num">6.</span> Naša pomoc v mene Pánovom, *</p>	
+	<p class="psalm"> ktorý stvoril nebo i zem. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Teba, Bože, chválime, teba, Pane, velebíme.  </p>
+	<p class="aleluja"> Teba, Pane, chváli vznešený zástup mučeníkov.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Herodes dal povraždiť všetkých chlapcov v Betleheme</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">2, 13-18</span></p>	
+  <br>
+  <p class="les">Po odchode mudrcov sa Jozefovi vo sne zjavil Pánov anjel a povedal: „Vstaň, vezmi so sebou dieťa i jeho matku, ujdi do Egypta a zostaň tam, kým ti nedám vedieť, lebo Herodes bude hľadať dieťa, aby ho zmárnil.“</p>
+  <p class="les">On vstal, vzal za noci dieťa i jeho matku a odišiel do Egypta. Tam zostal až do Herodesovej smrti, aby sa splnilo, čo povedal Pán ústami proroka: „Z Egypta som povolal svojho syna.“</p>
+  <p class="les">Keď Herodes zbadal, že ho mudrci oklamali, veľmi sa rozhneval a dal povraždiť v Betleheme a na jeho okolí všetkých chlapcov od dvoch rokov nadol, podľa času, ktorý zvedel od mudrcov. Vtedy sa splnilo, čo povedal prorok Jeremiáš: „V Ráme bolo počuť hlas, nárek a veľké kvílenie: Ráchel oplakáva svoje deti a odmieta útechu, lebo ich niet.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-29":{
+  name: "Milada",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">PIATÝ DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 3-11</p>
+  <p><b>Ž:</b> 96, 1-2a. 2b-3. 5b-6;</p>
+  <p><b>Ev:</b> Lk 2, 22-35;</p>
+  <p><b>L</b> II, 81; (<b>OL</b> I, 89; <b>OR</b> I, 52;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of z oktávy Narodenia Pána 29. decembra. Na Md ant. z Vianočného obdobia, žalmy z utorka v 1. týždni. Vešpery sú z Oktávy Narodenia Pána 29. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kto miluje svojho brata, ostáva vo svetle</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 3-11</span></p>
+  <br>
+  <p class="les">Milovaní, podľa toho vieme, že sme poznali Ježiša, ak zachovávame jeho prikázania. Kto hovorí: „Poznám ho,“ a nezachováva jeho prikázania, je luhár a niet v ňom pravdy. Kto však zachováva jeho slovo, v tom je Božia láska naozaj dokonalá. A podľa toho vieme, že sme v ňom. Kto hovorí, že ostáva v ňom, má aj sám žiť, ako žil on.</p>
+  <p class="les">Milovaní, nepíšem vám nové prikázanie, ale staré prikázanie, ktoré ste mali od začiatku: staré prikázanie je slovo, ktoré ste počuli. A predsa vám píšem nové prikázanie, ktoré je pravdivé v ňom aj vo vás, lebo tma odchádza a už svieti pravé svetlo.</p>
+  <p class="les">Kto hovorí, že je vo svetle, a nenávidí svojho brata, je ešte stále vo tme. Kto miluje svojho brata, ostáva vo svetle a nie je preň pohoršením. Ale kto nenávidí svojho brata, je vo tme a chodí vo tme a nevie, kam ide, lebo tma mu zaslepila oči.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 1-2a. 2b-3. 5b-6</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú; †</p>			
+	<p class="psalm"> spievaj Pánovi, celá zem! *</p>		
+	<p class="psalm"> Spievajte Pánovi, velebte jeho meno. <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">2.</span> Zvestujte jeho spásu deň čo deň. †</p>			
+	<p class="psalm"> Zvestujte jeho slávu pohanom *</p>		
+	<p class="psalm"> a jeho zázraky všetkým národom. <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> Pán stvoril nebesia. †</p>			
+	<p class="psalm"> Vznešenosť a krása pred jeho tvárou, *</p>		
+	<p class="psalm"> moc a veleba v jeho svätyni. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Porov. Lk 2, 32</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pán je svetlo národov,  </p>
+	<p class="aleluja"> Pán je sláva svojho ľudu.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Svetlo na osvietenie pohanov</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 22-35</span></p>	
+  <br>
+  <p class="les">Keď uplynuli podľa Mojžišovho zákona dni ich očisťovania, priniesli Ježiša jeho rodičia do Jeruzalema, aby ho predstavili Pánovi, ako je napísané v Pánovom zákone: „Všetko mužského rodu, čo otvára lono matky, bude zasvätené Pánovi,“ a aby obetovali, ako káže Pánov zákon, pár hrdličiek alebo dva holúbky.</p>
+  <p class="les">V Jeruzaleme žil vtedy muž menom Simeon, človek spravodlivý a nábožný, ktorý očakával potechu Izraela, a Duch Svätý bol na ňom. Jemu Duch Svätý vyjavil, že neumrie, kým neuvidí Pánovho Mesiáša.</p>
+  <p class="les">Z vnuknutia Ducha prišiel do chrámu. A keď rodičia prinášali dieťa Ježiša, aby splnili, čo o ňom predpisoval zákon, vzal ho aj on do svojho náručia a velebil Boha slovami: „Teraz prepustíš, Pane, svojho služobníka v pokoji podľa svojho slova, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov: svetlo na osvietenie pohanov a slávu Izraela, tvojho ľudu.“</p>
+  <p class="les">Jeho otec a matka divili sa tomu, čo sa o ňom hovorilo. Simeon ich požehnal a Márii, jeho matke, povedal: „On je ustanovený na pád a na povstanie pre mnohých v Izraeli a na znamenie, ktorému budú odporovať, – a tvoju vlastnú dušu prenikne meč –, aby vyšlo najavo zmýšľanie mnohých sŕdc.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-30":{
+  name: "Dávid",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">ŠIESTÝ DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 12-17</p>
+  <p><b>Ž:</b> 96, 7-8a. 8b-9. 10;</p>
+  <p><b>Ev:</b> Lk 2, 36-40;</p>
+  <p><b>L</b> II, 83; (<b>OL</b> I, 92; <b>OR</b> I, 54;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of z oktávy Narodenia Pána 30. decembra. Na Md ant. z Vianočného obdobia, žalmy zo stredy v 1. týždni. Vešpery sú z Oktávy Narodenia Pána 30. decembra. Kompletórium z nedele a slávnosti (1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kto miluje svojho brata, ostáva vo svetle</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 12-17</span></p>
+  <br>
+  <p class="les">Píšem vám, deti: Pre jeho meno máte odpustené hriechy.</p>
+  <p class="les">Otcovia, vám píšem: Poznali ste toho, ktorý je od počiatku.</p>
+  <p class="les">Mládenci, vám píšem: Premohli ste Zlého.</p>
+  <p class="les">Napísal som vám, deti: Poznali ste Otca.</p>
+  <p class="les">Napísal som vám, otcovia: Poznali ste toho, ktorý je od počiatku.</p>
+  <p class="les">Napísal som vám, mládenci: Ste silní, Božie slovo ostáva vo vás a premohli ste Zlého.</p>
+  <p class="les">Nemilujte svet, ani to, čo je vo svete. Ak niekto miluje svet, nie je v ňom Otcova láska. Veď nič z toho, čo je vo svete, ani žiadostivosť tela, ani žiadostivosť očí, ani honosenie sa bohatstvom, nie je z Otca, ale zo sveta. A svet sa pominie, aj jeho žiadostivosť. Kto však plní Božiu vôľu, ostáva naveky.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 7-8a. 8b-9. 10</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Vzdávajte Pánovi, rodiny národov, †</p>			
+	<p class="psalm"> vzdávajte Pánovi slávu a česť, *</p>		
+	<p class="psalm"> vzdávajte Pánovi slávu hodnu jeho mena.  <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">2.</span> Prineste obetné dary a vstúpte do jeho nádvorí, †</p>			
+	<p class="psalm"> klaňajte sa Pánovi v posvätnom rúchu. *</p>		
+	<p class="psalm"> Chvej sa pred ním, celá zem, <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> hlásajte medzi pohanmi: „Pán kraľuje!“ †</p>			
+	<p class="psalm"> Upevnil zemekruh, nepohne sa; *</p>		
+	<p class="psalm"> a spravodlivo súdi národy. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Posvätný deň nám zažiaril: poďte, národy, a klaňajte sa Pánovi.  </p>
+	<p class="aleluja"> Dnes zostúpilo na zem veľké svetlo.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Hovorila o ňom všetkým, čo očakávali vykúpenie Jeruzalema</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 36-40</span></p>	
+  <br>
+  <p class="les">Žila vtedy prorokyňa Anna, Fanuelova dcéra, z Aserovho kmeňa. Bola už vo vysokom veku. Od svojho panenstva žila so svojím mužom sedem rokov, potom ako vdova do osemdesiateho štvrtého roku. Z chrámu neodchádzala, vo dne v noci slúžila Bohu pôstom a modlitbami.</p>
+  <p class="les">Práve v tú chvíľu prišla aj ona, velebila Boha a hovorila o ňom všetkým, čo očakávali vykúpenie Jeruzalema.</p>
+  <p class="les">A keď vykonali všetko podľa Pánovho zákona, vrátili sa do Galiley, do svojho mesta Nazareta.</p>
+  <p class="les">Chlapec rástol a mocnel, plný múdrosti, a Božia milosť bola na ňom.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2020-12-31":{ 
+  name: "Silvester",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">SIEDMY DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> (ranná) z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 18-21</p>
+  <p><b>Ž:</b> 96, 1-2. 11-12. 13;</p>
+  <p><b>Ev:</b> Jn 1, 1-18;</p>
+  <p><b>L</b> II, 85; (<b>OL</b> I, 94; <b>OR</b> I, 55;).</p>
+  <br>
+  <p><b>Liturgia hodín </b> (po modlitbu popoludní): Of z oktávy Narodenia Pána 31. decembra. Na Md ant. z Vianočného obdobia, žalmy zo štvrtku vo 1. týždni.</p>
+  <p><b>1. vešp. </b> z nasledujúcej slávnosti. Kompletórium z nedele (1) s modlitbou na slávnosti mimo nedieľ.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej slávnosti.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Máte pomazanie od Svätého a viete to všetci</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 18-21</span></p>
+  <br>
+  <p class="les">Deti moje, je posledná hodina. A ako ste počuli, že príde antikrist, tak teraz vystúpilo mnoho antikristov. Z toho poznávame, že je tu posledná hodina.</p>
+  <p class="les">Spomedzi nás vyšli, ale neboli z nás. Lebo keby boli z nás, boli by zostali s nami. No malo sa ukázať, že tí všetci nie sú z nás.</p>
+  <p class="les">Ale vy máte pomazanie od Svätého a viete to všetci. Nenapísal som vám, akoby ste nepoznali pravdu, ale že ju poznáte a preto, že nijaká lož nie je z pravdy.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 1-2. 11-12. 13</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú; *</p>			
+	<p class="psalm">spievaj Pánovi, celá zem!</p>		
+	<p class="psalm"><span class="red num">2.</span> Spievajte Pánovi, velebte jeho meno. *</p>				
+	<p class="psalm"> Zvestujte jeho spásu deň čo deň.<span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> Tešte sa, nebesia, plesaj, zem; *</p>			
+	<p class="psalm"> nech more zahučí a čo ho napĺňa,</p>		
+  <p class="psalm"> nech plesá pole a všetko, čo je na ňom. *<span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">4.</span> I zajasajú všetky stromy lesa †</p>			
+	<p class="psalm">pred tvárou Pána, že prichádza, *</p>		
+	<p class="psalm">že prichádza súdiť zem.</p>		
+	<p class="psalm"><span class="red num">5.</span> Spravodlivo bude súdiť zemekruh *</p>				
+	<p class="psalm"> a národy podľa svojej pravdy. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Jn 1, 14a. 12a</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Slovo sa telom stalo a prebývalo medzi nami.  </p>
+	<p class="aleluja"> Tým, ktorí ho prijali, dalo moc stať sa Božími deťmi.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Slovo sa telom stalo a prebývalo medzi nami</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">1, 1-18</span></p>	
+  <br>
+  <p class="les">Na počiatku bolo Slovo a Slovo bolo u Boha a to Slovo bolo Boh.</p>
+  <p class="les">Ono bolo na počiatku u Boha. Všetko povstalo skrze neho a bez neho nepovstalo nič z toho, čo povstalo. V ňom bol život a život bol svetlom ľudí. A svetlo vo tmách svieti, a tmy ho neprijali.</p>
+  <p class="les">Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o svetle.</p>
+  <p class="les">Pravé svetlo, ktoré osvecuje každého človeka, prišlo na svet. Bol na svete a svet povstal skrze neho, a svet ho nepoznal. Prišiel do svojho vlastného, a vlastní ho neprijali.</p>
+  <p class="les">Ale tým, ktorí ho prijali, dal moc stať sa Božími deťmi: tým, čo uverili v jeho meno, čo sa nenarodili ani z krvi, ani z vôle tela, ani z vôle muža, ale z Boha.</p>
+  <p class="les">A Slovo sa telom stalo a prebývalo medzi nami. A my sme uvideli jeho slávu, slávu, akú má od Otca jednorodený Syn, plný milosti a pravdy.</p>
+  <p class="les">Ján o ňom vydal svedectvo a volal: „Toto je ten, o ktorom som hovoril: Ten, čo príde po mne, je predo mnou, lebo bol prv ako ja.“</p>
+  <p class="les">Z jeho plnosti sme my všetci dostali milosť za milosťou. Lebo ak zákon bol daný skrze Mojžiša, milosť a pravda prišli skrze Ježiša Krista.</p>
+  <p class="les">Boha nikto nikdy nevidel. Jednorodený Boh, ktorý je v lone Otca, ten o ňom priniesol zvesť.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
   "2021-01-01": {
     name: "Nový rok",
     bgColor: "gold",
-    index:`<p class="red"><b>PANNY MÁRIE BOHORODIČKY</b></p>
+    index: /*html*/`<p class="red"><b>PANNY MÁRIE BOHORODIČKY</b></p>
   <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Panne Márii I.</p>
   <p><b>Č 1:</b> Nm 6, 22-27;</p>
   <p><b>Ž:</b> 67, 2-3. 5. 6+8;</p>
@@ -48,7 +2087,7 @@ let lc = {
   <br>
   <br>
   <p><b>Liturgia hodín:</b> Of zo slávnosti. Na Md ant. vlastná, žalmy z doplnkovej psalmódie. Kompletórium na nedele a slávnosti (2) s modlitbou na slávnosti mimo nedieľ.</p>`,
-		lesson: `<p class="red">PRVÉ ČÍTANIE</p>	
+		lesson:/*html*/ `<p class="red">PRVÉ ČÍTANIE</p>	
 	<p class="center"><i>Budú vzývať moje meno nad izraelskými synmi a ja ich požehnám</i></p>
 	<p><b>Čítanie z Knihy Numeri </b><span class="red fr">6, 22-27</span></p>
 	<br>
@@ -103,7 +2142,7 @@ let lc = {
   "2021-01-02":{
   name:"Alexandra, Karina",
   bgColor:"gold",
-  index: `
+  index: /*html*/`
 <p>Sobota vo Vianočnom období<p>
 <p><b>Svätých Bazila Veľkého a Gregora Nazianzského, biskupov a učiteľov Cirkvi</b></p>
 <p><b>Omša</b> zo spomienky, pf vianočná alebo o svätých.</p>
@@ -115,7 +2154,7 @@ let lc = {
 <p><b>Liturgia hodín:</b> (po modlitbu popoludní): Sobota v 1. týždni. Of zo spomienky. Ant na Benediktus a na Magnifikat vlastná.</p>
 <p><b>1. vešp.</b> z nasledujúcej nedele.</p>
 <p><b>Večerná omša</b> je z nasledujúcej nedele.</p>`,
-  lesson: `<p class="red">PRVÉ ČÍTANIE</p>	
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
 <p class="center"><i>Nech zostáva vo vás, čo ste počuli od začiatku</i></p>
 <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr">2, 22-28</span></p>
 <br>
@@ -4936,7 +6975,6 @@ Zakazujú sa všetky iné omše, aj pohrebná.
   <p class="psalm"> môj Boh a útočište mojej spásy.“ </p>
   <p class="psalm"><span class="red num">6.</span> Naveky mu svoju milosť zachovám *</p>	
   <p class="psalm"> a pevná bude moja zmluva s ním. <span class="red">&#8212; ℞.</span></p>
- 
   <br>	
   <p class="red">DRUHÉ ČÍTANIE</p>
   <p class="center"><i>On proti nádeji v nádeji uveril</i></p>
@@ -21482,7 +23520,7 @@ To sú naši otcovia a praví pastieri, </p>
   <p><b>Ev:</b> Mt 9, 27-31;</p>
   <p><b>L</b> II, 29; (<b>OL</b> I, 21; <b>OR</b> I, 11).</p>
   <br>
-  <p><b>Liturgia hodín:</b> Piatok v 1. týždni. Of z férie.</p>`,
+  <p><b>Liturgia hodín:</b> Piatok v 1. týždni. Of zo spomienky.</p>`,
   lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
   <p class="center"><i>V ten deň sa oči slepých rozhliadnu</i></p>
   <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 29, 17-24</span></p>
@@ -21603,7 +23641,7 @@ To sú naši otcovia a praví pastieri, </p>
   index:/*html*/`<p class="red"><b>DRUHÁ ADVENTNÁ NEDEĽA</b></p>
   <p class="red">(Biblická nedeľa)</p>
   <p><b>Omša</b> z nedele, Krédo, pf adventná I. </p>
-  <p><b>Č 1:</b> Bar 5, 1-9</p>
+  <p><b>Č 1:</b> Bar 5, 1-9;</p>
   <p><b>Ž:</b> 126, 1-2b. 2c-3. 4-5. 6;</p>
   <p><b>Č 2:</b> Flp 1, 4-6. 8-11;</p>
   <p><b>Ev:</b> Lk 3, 1-6;</p>
@@ -21742,7 +23780,7 @@ To sú naši otcovia a praví pastieri, </p>
   <p><b>Ev:</b> Mt 18, 12-14;</p>
   <p><b>L</b> II, 37; (<b>OL</b> I, 30; <b>OR</b> I, 17).</p>
   <br>
-  <p><b>Liturgia hodín:</b> Utorok v 1. týždni. Of z férie.</p>`,
+  <p><b>Liturgia hodín:</b> Utorok v 1. týždni. Of zo spomienky.</p>`,
   lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
   <p class="center"><i>Boh potešuje svoj ľud</i></p>
   <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 40, 1-11</span></p>
@@ -21799,7 +23837,7 @@ To sú naši otcovia a praví pastieri, </p>
 <p><b>Ž:</b> 98, 1. 2-3b. 3c-4;</p>
 <p><b>Č 2:</b> Ef 1, 3-6. 11-12;</p>
 <p><b>Ev:</b> Lk 1, 26-38;</p>
-<p><b>L</b> I/B, 410; (<b>SZM,</b> 523; <b>OL</b> B, 335).</p>
+<p><b>L</b> I/C, 422; (<b>SZM,</b> 523; <b>OL</b> C, 347).</p>
 <br>
 Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
 Zakazujú sa všetky iné omše, aj pohrebná.<br>
@@ -22408,7 +24446,7 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   <br>
   <p class="les">Počuli sme slovo Pánovo.</p>`},
   "2021-12-18":{
-  name: `Kornélia`,
+  name: `Sláva, Slávka`,
   bgColor:`purple`,
   index: /*html*/`
   <p><b>Sobota po 3. adventnej nedeli</b><p>
@@ -22418,7 +24456,14 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   <p><b>Ev:</b> Mt 1, 18-24;</p>
   <p><b>L</b> II, 63; (<b>OL</b> I, 66; <b>OR</b> I, 35).</p>
   <br>
-  <p><b>Liturgia hodín:</b> (po modlitbu popoludní) Sobota v 3. týždni. Of z 18. dec.</p>`,
+  <p><b>Liturgia hodín:</b> (po modlitbu popoludní) Sobota v 3. týždni. Of z 18. dec.</p>
+  <p><b>1. vešp. </b> z nasl. nedele. Ant na Magnifikat z 18. dec.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej nedele.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
   lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
   <p class="center"><i>Vzbudím Dávidovi spravodlivý výhonok</i></p>
   <p><b>Čítanie z Knihy proroka Jeremiáša </b><span class="red fr"> 23, 5-8</span></p>
@@ -22486,7 +24531,7 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   <br>
   <p class="les">Počuli sme Božie slovo.</p>
   <br>
-  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> 80, 2ac+3bc. 15-16. 18-19</span></p>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 80, 2ac+3bc. 15-16. 18-19</span></p>
   <br>
   <p><span class="red">℞. (4):</span> Bože, obnov nás, rozjasni svoju tvár a budeme spasení. <span class="fr">II</span></p>
   <br>
@@ -22637,14 +24682,630 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   <p class="les">V tých dňoch sa Mária vydala na cestu a ponáhľala sa do istého judejského mesta v hornatom kraji. Vošla do Zachariášovho domu a pozdravila Alžbetu. Len čo Alžbeta začula Máriin pozdrav, dieťa v jej lone sa zachvelo a Alžbetu naplnil Duch Svätý. Vtedy zvolala veľkým hlasom: „Požehnaná si medzi ženami a požehnaný je plod tvojho života. Čím som si zaslúžila, že matka môjho Pána prichádza ku mne? Lebo len čo zaznel tvoj pozdrav v mojich ušiach, radosťou sa zachvelo dieťa v mojom lone. A blahoslavená je tá, ktorá uverila, že sa splní, čo jej povedal Pán.“</p>
   <br>
   <p class="les">Počuli sme slovo Pánovo.</p>`},
-  "2021-12-22":{},
-  "12-23":{},
-  "12-24":{},
-  "12-25":{},
-  "12-26":{},
-  "12-27":{},
-  "12-28":{},
-  "12-29":{},
-  "12-30":{},
-  "12-31":{},
+  "2021-12-22":{ 
+  name: `Adela`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Streda po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 22. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> 1 Sam 1, 24-28;</p>
+  <p><b>Ž:</b> 1 Sam 2, 1b-e. 4-5. 6-7. 8a-d;</p>
+  <p><b>Ev:</b> Lk 1, 46-56;</p>
+  <p><b>L</b> II, 73; (<b>OL</b> I, 78; <b>OR</b> I, 43).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Streda v 4. týždni. Of z 22. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Anna ďakuje za Samuelovo narodenie</i></p>
+  <p><b>Čítanie z Prvej knihy Samuelovej  </b><span class="red fr"> 1, 24-28</span></p>
+  <br>
+  <p class="les">Keď Anna oddojčila Samuela, vzala ho so sebou, aj trojročného býčka, jednu mericu múky a mech vína, a priviedla ho do Pánovho domu v Silo. Chlapec bol ešte maličký. Býčka obetovali a chlapca zaviedli k Helimu.</p>
+  <p class="les">Anna povedala: „Prosím, pane môj, ako žiješ, pane, ja som tá žena, čo tu stála pred tebou a modlila sa k Pánovi. O tohto chlapčeka som prosila a Pán mi dal, o čo som ho prosila. Nuž aj ja ho odovzdávam Pánovi. Po všetky dni, kým bude žiť, nech je zasvätený Pánovi.“</p>
+  <p class="les">I klaňali sa tam Pánovi.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> 1 Sam 2, 1b-e. 4-5. 6-7. 8a-d</span></p>
+  <br>
+  <p><span class="red">℞. (1bc):</span> Srdce mi plesá v mojom Bohu. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Srdce mi plesá v Pánovi, *</p>	
+	<p class="psalm">v mojom Bohu rastie moja sila.</p>
+	<p class="psalm"><span class="red num">2.</span> Otvorím si ústa proti mojim nepriateľom, *</p>	
+	<p class="psalm"> lebo sa radujem z tvojej pomoci. <span class="red">&#8212; ℞.</span></p>		
+	<p class="psalm"><span class="red num">3.</span> Luk silákov sa zlomil, *</p>	
+	<p class="psalm"> slabí sa opásali silou.</p>
+	<p class="psalm"><span class="red num">4.</span>Tí, čo boli sýti, dávajú sa prenajímať za chlieb, *</p>	
+	<p class="psalm"> no tí, čo hladovali, už nepoznajú núdzu. </p>		
+	<p class="psalm"><span class="red num">5.</span> Neplodná rodí mnoho ráz *</p>	
+	<p class="psalm"> a tá, čo má veľa detí, vädne. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">6.</span> Pán dáva smrť i život, *</p>	
+  <p class="psalm"> uvádza do ríše smrti a vyvádza naspäť. </p>
+  <p class="psalm"><span class="red num">7.</span> Pán dáva schudobnieť, ale aj zbohatnúť, *</p>	
+	<p class="psalm"> ponižuje aj vyvyšuje. <span class="red">&#8212; ℞.</span></p>	
+  <p class="psalm"><span class="red num">8.</span> Dvíha z prachu bedára *</p>	
+  <p class="psalm"> a zo smetiska povyšuje chudobného. </p>
+  <p class="psalm"><span class="red num">9.</span> Usádza ho medzi kniežatá *</p>	
+	<p class="psalm"> a dáva mu trón slávy. <span class="red">&#8212; ℞.</span></p>	
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Kráľ národov a uholný kameň Cirkvi;</p>
+  <p class="aleluja"> príď a spas človeka, ktorého si utvoril zo zeme.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Veľké veci mi urobil ten, ktorý je mocný</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 46-56</span></p>	
+  <br>
+  <p class="les">Mária hovorila: „Velebí moja duša Pána a môj duch jasá v Bohu, mojom Spasiteľovi, lebo zhliadol na poníženosť svojej služobnice. Hľa, od tejto chvíle blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný, a sväté je jeho meno a jeho milosrdenstvo z pokolenia na pokolenie s tými, čo sa ho boja.</p>
+  <p class="les">Ukázal silu svojho ramena, rozptýlil tých, čo v srdci pyšne zmýšľajú. Mocnárov zosadil z trónov a povýšil ponížených. Hladných nakŕmil dobrotami a bohatých prepustil naprázdno.</p>
+  <p class="les">Ujal sa Izraela, svojho služobníka, lebo pamätá na svoje milosrdenstvo, ako sľúbil našim otcom, Abrahámovi a jeho potomstvu naveky.“</p>
+  <p class="les">Mária zostala pri Alžbete asi tri mesiace a potom sa vrátila domov.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-23":{
+  name: `Nadežda`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Štvrtok po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> z 23. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> Mal 3, 1-4. 23-24;</p>
+  <p><b>Ž:</b> 25, 4-5b. 8-9. 10+14;</p>
+  <p><b>Ev:</b> Lk 1, 57-66;</p>
+  <p><b>L</b> II, 75; (<b>OL</b> I, 81; <b>OR</b> I, 44).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Štvrtok v 4. týždni. Of z 23. dec.</p>`,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Hľa, ja vám pošlem proroka Eliáša, prv, ako príde deň Pána</i></p>
+  <p><b>Čítanie z Knihy proroka Malachiáša </b><span class="red fr"> 3, 1-4. 23-24</span></p>
+  <br>
+  <p class="les">Toto hovorí Pán, Boh: „Hľa, ja posielam svojho anjela, aby mi pripravil cestu. Hneď potom príde do svojho chrámu Pán, ktorého hľadáte, a anjel zmluvy, po ktorom túžite. Hľa, príde, hovorí Pán zástupov. Kto však znesie deň jeho príchodu a kto obstojí, až sa zjaví? Veď on je ako oheň, ktorý roztápa, a ako lúh práčov.</p>
+  <p class="les">Sadne si a bude vytápať a čistiť striebro, očistí synov Léviho a zošľachtí ich ako zlato a striebro, takže budú prinášať Pánovi obety v spravodlivosti.</p>
+  <p class="les">Vtedy sa Pánovi zapáči obeta Júdu a Jeruzalema ako v dňoch predošlých, ako v rokoch dávnych.</p>
+  <p class="les">Hľa, ja vám pošlem proroka Eliáša, prv, ako príde deň Pána, veľký a hrozný. On obráti srdcia otcov k synom a srdcia synov k ich otcom, aby som nemusel prísť a postihnúť zem kliatbou.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 25, 4-5b. 8-9. 10+14</span></p>
+  <br>
+  <p><span class="red">℞. (Lk 21, 28):</span> Zodvihnite hlavu, lebo sa blíži vaše vykúpenie. <span class="fr">XV</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Ukáž mi, Pane, svoje cesty *</p>	
+  <p class="psalm"> a pouč ma o svojich chodníkoch. </p>
+  <p class="psalm"><span class="red num">2.</span> Veď ma vo svojej pravde a uč ma, *</p>	
+  <p class="psalm"> lebo ty si Boh, moja spása. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Pán je dobrý a spravodlivý: *</p>	
+  <p class="psalm"> ukazuje cestu hriešnikom. </p>
+  <p class="psalm"><span class="red num">4.</span> Pokorných vedie k správnemu konaniu *</p>	
+  <p class="psalm"> a tichých poúča o svojich cestách. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Všetky cesty Pánove sú milosrdenstvo a vernosť *</p>	
+  <p class="psalm"> pre tých, čo zachovávajú jeho zmluvu a jeho príkazy. </p>
+  <p class="psalm"><span class="red num">6.</span> Pán bude dôverným priateľom tým, čo sa ho boja, *</p>	
+  <p class="psalm"> a zjaví im svoju zmluvu. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Kráľ národov a uholný kameň Cirkvi;</p>
+  <p class="aleluja"> príď a spas človeka, ktorého si utvoril zo zeme.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Narodenie Jána Krstiteľa</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 57-66</span></p>	
+  <br>
+  <p class="les">Alžbete nadišiel čas pôrodu a porodila syna. Keď jej susedia a príbuzní počuli, že jej Pán prejavil svoje veľké milosrdenstvo, radovali sa s ňou.</p>
+  <p class="les">Na ôsmy deň prišli chlapca obrezať a chceli mu dať meno Zachariáš po jeho otcovi. Ale jeho matka povedala: „Nie, bude sa volať Ján.“</p>
+  <p class="les">Povedali jej: „Veď v tvojom príbuzenstve sa nik takto nevolá.“</p>
+  <p class="les">Dali znak otcovi, ako ho chce nazvať on. Vypýtal si tabuľku a napísal: „Ján sa bude volať.“ A všetci sa divili.</p>
+  <p class="les">Vtom sa mu rozviazali ústa a jazyk i prehovoril a velebil Boha.</p>
+  <p class="les">Všetkých ich susedov zmocnil sa strach a všade po judejských horách sa hovorilo o týchto udalostiach. A všetci, čo to počuli, vštepili si to do srdca a vraveli: „Čím len bude tento chlapec?“ A vskutku Pánova ruka bola s ním.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-24":{
+  name: `Adam a Eva`,
+  bgColor:`purple`,
+  index: /*html*/`
+  <p><b>Piatok po 4. adventnej nedeli</b><p>
+  <p><b>Omša</b> (ranná) z 24. decembra, pf adventná II.</p>
+  <p><b>Č 1:</b> 2 Sam 7, 1-5. 8b-12. 14a. 16;</p>
+  <p><b>Ž:</b> 89, 2-3. 4-5. 27+29;</p>
+  <p><b>Ev:</b> Lk 1, 67-79;</p>
+  <p><b>L</b> II, 77; (<b>OL</b> I, 83; <b>OR</b> I, 46).</p>
+  <br>
+  <p><b>Liturgia hodín:</b>(po modlitbu popoludní): Piatok v 4. týždni. Of z 24. dec.</p>
+  <p><b>1. vešp. </b> z nasledujúcej slávnosti.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej slávnosti.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Dávidovo kráľovstvo bude trvať pred Pánom naveky</i></p>
+  <p><b>Čítanie z Druhej knihy Samuelovej </b><span class="red fr"> 7, 1-5. 8b-12. 14a. 16</span></p>
+  <br>
+  <p class="les">Keď kráľ Dávid býval už vo svojom paláci a Pán mu poprial pokoj od všetkých okolitých nepriateľov, povedal prorokovi Nátanovi: „Pozri, ja bývam v dome z cédrov, a Božia archa stojí pod stanmi.“</p>
+  <p class="les">Nátan odpovedal kráľovi: „Choď a rob všetko, čo ti vnuká srdce, Pán je s tebou.“</p>
+  <p class="les">V tú noc zaznelo Pánovo slovo Nátanovi: „Choď a povedz môjmu služobníkovi Dávidovi: Toto hovorí Pán: Ty mi chceš postaviť dom, v ktorom mám bývať? Ja som ťa vzal z pastvín od oviec, aby si bol vodcom môjho ľudu, Izraela; a bol som s tebou pri všetkom, čo si podnikal. Pred tvojimi očami som vyhubil všetkých tvojich nepriateľov a zaistil som ti také meno, aké majú len najväčší na zemi.</p>
+  <p class="les">Svojmu ľudu, Izraelovi, určím miesto a zasadím ho tam. Tam bude bývať a nebude sa báť a ani zlosynovia ho už nebudú utláčať ako kedysi, v dňoch, keď som ustanovoval sudcov nad svojím ľudom, Izraelom. Oslobodím ťa od všetkých tvojich nepriateľov a darujem ti pokoj. Pán ti oznamuje, že ti sám vybuduje dom, a až sa tvoje dni dovŕšia a ty sa uložíš na odpočinok k svojim otcom, ustanovím po tebe potomka, ktorý bude pochádzať z tvojich útrob, a upevním jeho kráľovstvo. Ja mu budem otcom a on mi bude synom.</p>
+  <p class="les">Tvoj dom a tvoje kráľovstvo budú trvať predo mnou naveky, tvoj trón bude upevnený navždy.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 89, 2-3. 4-5. 27+29</span></p>
+  <br>
+  <p><span class="red">℞. (porov. 2a):</span> Tvoje milosrdenstvo, Pane, ospevovať budem naveky. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span>Pánovo milosrdenstvo chcem ospevovať naveky; *</p>	
+  <p class="psalm"> po všetky pokolenia hlásať svojimi ústami tvoju vernosť. </p>
+  <p class="psalm"><span class="red num">2.</span> Veď ty si povedal: „Moje milosrdenstvo je ustanovené naveky.“ *</p>	
+  <p class="psalm"> Tvoja vernosť je upevnená v nebesiach.   <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span>„Zmluvu som uzavrel so svojím vyvoleným, *</p>	
+  <p class="psalm"> svojmu služobníkovi Dávidovi som prisahal: </p>
+  <p class="psalm"><span class="red num">4.</span> Naveky zaistím tvoj rod *</p>	
+  <p class="psalm"> a postavím tvoj trón, čo pretrvá všetky pokolenia.“ <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span>On bude volať ku mne: „Ty si môj otec, *</p>	
+  <p class="psalm"> môj Boh a útočište mojej spásy.“ </p>
+  <p class="psalm"><span class="red num">6.</span> Naveky mu svoju milosť zachovám *</p>	
+  <p class="psalm"> a pevná bude moja zmluva s ním. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+  <br>
+  <p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Hviezda, čo vychádza, jas večného svetla a slnko spravodlivosti;</p>
+  <p class="aleluja"> príď a osvieť tých, čo sedia v temnotách a v tieni smrti.
+  <span class="red">&#8212; ℞.</span> Aleluja</p>
+  <br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Navštívi nás Vychádzajúci z výsosti</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">1, 67-79</span></p>	
+  <br>
+  <p class="les">Jánovho otca Zachariáša naplnil Duch Svätý a takto prorokoval: „Nech je zvelebený Pán, Boh Izraela, lebo navštívil a vykúpil svoj ľud a vzbudil nám mocného Spasiteľa z rodu Dávida, svojho služobníka, ako odpradávna hovoril ústami svojich svätých prorokov, že nás oslobodí od našich nepriateľov a z rúk všetkých, čo nás nenávidia. Preukázal milosrdenstvo našim otcom a pamätá na svoju svätú zmluvu, na prísahu, ktorou sa zaviazal nášmu otcovi Abrahámovi, že nás vyslobodí z rúk nepriateľov, aby sme mu bez strachu slúžili vo svätosti a spravodlivosti pred jeho tvárou po všetky dni nášho života.</p>
+  <p class="les">A ty, chlapček, budeš sa volať prorokom Najvyššieho: pôjdeš pred tvárou Pána, pripravíš mu cestu a poučíš jeho ľud o spáse, že mu náš Boh z hĺbky svojho milosrdenstva odpustí hriechy. Tak nás Vychádzajúci z výsosti navštívi a zažiari tým, čo sedia vo tme a v tôni smrti, a naše kroky upriami na cestu pokoja.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-25":{
+  name: "Prvý sviatok vianočný",
+  bgColor: "gold",    
+  index:/*html*/`<p class="red"><b>NARODENIE PÁNA</b></p>
+  <p><b>Omša</b> Glória, Krédo, pf vianočná. </p>
+  <p><b>Č 1:</b> Iz 52, 7-10</p>
+  <p><b>Ž:</b> 98, 1. 2-3b. 3c-4. 5-6;</p>
+  <p><b>Č 2:</b> Hebr 1, 1-6;</p>
+  <p><b>Ev:</b> Jn 1, 1-18;</p>
+  <p><b>L</b> I/C, 43; (<b>OL</b> C, 41).</p>
+  <br>
+  Zakazujú sa všetky zádušné omše, aj pohrebná.<br>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo slávnosti. Kompletórium z nedele (2).</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Všetky končiny zeme uvidia spásu nášho Boha</i></p>
+  <p><b>Čítanie z Knihy proroka Izaiáša </b><span class="red fr"> 52, 7-10</span></p>
+  <br>
+  <p class="les">Aké krásne sú na horách nohy posla, ktorý hlása pokoj, posla dobrej zvesti, ktorý ohlasuje spásu, ktorý hovorí Sionu: „Tvoj Boh kraľuje.“</p>
+  <p class="les">Počúvaj svoje hliadky! Zvyšujú svoj hlas a jasajú všetci, lebo na vlastné oči vidia návrat Pána na Sion.</p>
+  <p class="les">Radujte sa a vedno plesajte, rozvaliny Jeruzalema, lebo Pán potešil svoj ľud, vykúpil Jeruzalem.</p>
+  <p class="les">Obnažil si Pán svoje sväté rameno pred očami všetkých národov a všetky končiny zeme uvidia spásu nášho Boha.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 98, 1. 2-3b. 3c-4. 5-6</span></p>
+  <br>
+  <p><span class="red">℞. (3c):</span> Uzreli všetky končiny zeme spásu nášho Boha. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú, * </p>	
+  <p class="psalm"> lebo vykonal veci zázračné. </p>
+  <p class="psalm"><span class="red num">2.</span> Víťazstvo je dielom jeho pravice *  </p>
+  <p class="psalm"> a jeho svätého ramena. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Pán oznámil svoju spásu, * </p>	
+  <p class="psalm"> pred očami pohanov vyjavil svoju spravodlivosť. </p>	
+  <p class="psalm"><span class="red num">4.</span> Rozpamätal sa na svoju dobrotu * </p>
+  <p class="psalm"> a na svoju vernosť voči Izraelovmu domu. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Uzreli všetky končiny zeme * </p>	
+  <p class="psalm"> spásu nášho Boha. </p>	
+  <p class="psalm"><span class="red num">6.</span> Na chválu Božiu jasaj, celá zem; * </p>	
+  <p class="psalm"> plesajte, radujte sa a hrajte. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">7.</span> Hrajte Pánovi na citare, * </p>	
+  <p class="psalm"> na citare a na harfe zunivej. </p>	
+  <p class="psalm"><span class="red num">8.</span> Za hlaholu trúb a poľníc * </p>	
+  <p class="psalm"> jasajte pred tvárou Kráľa a Pána. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Boh k nám prehovoril v Synovi</i></p>
+  <p><b>Čítanie z Listu Hebrejom </b><span class="red fr">1, 1-6</span></p>
+  <br>
+  <p class="les">Mnoho ráz a rozličným spôsobom hovoril kedysi Boh otcom skrze prorokov. V týchto posledných dňoch prehovoril k nám v Synovi, ktorého ustanovil za dediča všetkého a skrze ktorého stvoril aj svet. On je odblesk jeho slávy a obraz jeho podstaty a udržuje všetko svojím mocným slovom. Preto keď vykonal očistenie od hriechov, zasadol po pravici velebnosti na výsostiach; a stal sa o toľko vyšším od anjelov, o koľko vznešenejšie meno zdedil než oni.</p>
+  <p class="les">Veď kedy komu z anjelov povedal: „Ty si môj syn, ja som ťa dnes splodil“ a opäť: „Ja budem jeho otcom a on bude mojím synom“?</p>
+  <p class="les">A znova, keď uvádza prvorodeného na svet, hovorí: „Nech sa mu klaňajú všetci Boží anjeli.“</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Posvätný deň nám zažiaril: poďte, národy, a klaňajte sa Pánovi.</p>
+	<p class="aleluja"> Dnes zostúpilo na zem veľké svetlo.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Slovo sa telom stalo a prebývalo medzi nami</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">1, 1-18</span></p>	
+  <br>
+  <p class="les">Na počiatku bolo Slovo a Slovo bolo u Boha a to Slovo bolo Boh.</p>
+  <p class="les">Ono bolo na počiatku u Boha. Všetko povstalo skrze neho a bez neho nepovstalo nič z toho, čo povstalo. V ňom bol život a život bol svetlom ľudí. A svetlo vo tmách svieti, a tmy ho neprijali.</p>
+  <p class="les">Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o svetle.</p>
+  <p class="les">Pravé svetlo, ktoré osvecuje každého človeka, prišlo na svet. Bol na svete a svet povstal skrze neho, a svet ho nepoznal. Prišiel do svojho vlastného, a vlastní ho neprijali.</p>
+  <p class="les">Ale tým, ktorí ho prijali, dal moc stať sa Božími deťmi: tým, čo uverili v jeho meno, čo sa nenarodili ani z krvi, ani z vôle tela, ani z vôle muža, ale z Boha.</p>
+  <p class="les">A Slovo sa telom stalo a prebývalo medzi nami. A my sme uvideli jeho slávu, slávu, akú má od Otca jednorodený Syn, plný milosti a pravdy.</p>
+  <p class="les">Ján o ňom vydal svedectvo a volal: „Toto je ten, o ktorom som hovoril: Ten, čo príde po mne, je predo mnou, lebo bol prv ako ja.“</p>
+  <p class="les">Z jeho plnosti sme my všetci dostali milosť za milosťou. Lebo ak zákon bol daný skrze Mojžiša, milosť a pravda prišli skrze Ježiša Krista.</p>
+  <p class="les">Boha nikto nikdy nevidel. Jednorodený Boh, ktorý je v lone Otca, ten o ňom priniesol zvesť.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-26":{
+  name: "Štefan",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">PRVÁ NEDEĽA PO NARODENÍ PÁNA</p>
+  <p class="red"><b>SVÄTEJ RODINY JEŽIŠA, MÁRIE A JOZEFA</b></p>
+  <p><b>Omša</b> zo sviatku, Glória, Krédo, pf vianočná. </p>
+  <p><b>Č 1:</b> Sir 3, 3-7. 14-16</p>
+  <p><b>Ž:</b> 84, 2-3. 5-6. 9-10;</p>
+  <p><b>Č 2:</b> Kol 3, 12-21;</p>
+  <p><b>Ev:</b> Lk 2, 41-52;</p>
+  <p><b>L</b> I/C, 49; (<b>OL</b> C, 45).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Ant. na Benediktus a Magnifikat v roku C. Na Md ant. vlastná, žalmy z nedele v 1. týždni. Kompletórium z nedele (2).</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Samuel po všetky dni, kým bude žiť, nech je zasvätený Pánovi</i></p>
+  <p><b>Čítanie z Prvej knihy Samuelovej </b><span class="red fr"> 1, 20-22. 24-28</span></p>
+  <br>
+  <p class="les">Keď nadišiel čas, Anna počala a porodila syna a dala mu meno Samuel, pretože si ho od Pána vyprosila. Potom išiel muž Elkana a celý jeho dom obetovať Pánovi výročnú obetu a splniť sľub. Ale Anna s ním nešla; povedala svojmu mužovi: „Nepôjdem, kým neoddojčím dieťa a neprivediem ho, aby sa ukázal pred Pánovou tvárou a zostal tam navždy.“</p>
+  <p class="les">Keď ho oddojčila, vzala ho so sebou, aj trojročného býčka, jednu mericu múky, mech vína, a priviedla ho do Pánovho domu v Silo. Chlapec bol ešte maličký. Býčka obetovali a chlapca zaviedli k Helimu.</p>
+  <p class="les">Anna povedala: „Prosím, pane môj, ako žiješ, pane, ja som tá žena, čo tu stála pred tebou a modlila sa k Pánovi. O tohto chlapčeka som prosila a Pán mi dal, o čo som ho prosila. Nuž aj ja ho odovzdávam Pánovi. Po všetky dni, kým bude žiť, nech je zasvätený Pánovi.“</p>
+  <p class="les">I klaňali sa tam Pánovi.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 84, 2-3. 5-6. 9-10</span></p>
+  <br>
+  <p><span class="red">℞. (5a):</span> Blažení tí, čo bývajú v tvojom dome, Pane. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Aké milé sú tvoje príbytky, Pane zástupov; *</p>	
+  <p class="psalm"> túži a zmiera moja duša po nádvoriach Pánových. </p>
+  <p class="psalm"><span class="red num">2.</span> Moje srdce i moje telo *  </p>
+  <p class="psalm"> vznášajú sa k Bohu živému. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">3.</span> Blažení tí, čo bývajú v tvojom dome * </p>	
+  <p class="psalm"> a bez prestania ťa velebia. </p>	
+  <p class="psalm"><span class="red num">4.</span> Blažený človek, ktorému ty pomáhaš, * </p>
+  <p class="psalm"> keď sa chystá na svätú púť. <span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">5.</span> Pane, Bože zástupov, čuj moju modlitbu, * </p>	
+  <p class="psalm"> vypočuj ma, Bože Jakubov. </p>	
+  <p class="psalm"><span class="red num">6.</span> Bože, náš ochranca, pohliadni * </p>	
+  <p class="psalm"> a pozri na tvár svojho pomazaného. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">DRUHÉ ČÍTANIE</p>
+  <p class="center"><i>Voláme sa Božími deťmi a nimi aj sme</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr">3, 1-2. 21-24</span></p>
+  <br>
+  <p class="les">Milovaní, pozrite, akú veľkú lásku nám daroval Otec: voláme sa Božími deťmi a nimi aj sme.</p>
+  <p class="les">Preto nás svet nepozná, že nepoznal jeho.</p>
+  <p class="les">Milovaní, teraz sme Božími deťmi, a ešte sa neukázalo, čím budeme. Vieme však, že keď sa on zjaví, budeme mu podobní, lebo ho budeme vidieť takého, aký je.</p>
+  <p class="les">Milovaní, ak nám srdce nič nevyčíta, máme dôveru k Bohu a dostaneme od neho všetko, o čo len budeme prosiť, lebo zachovávame jeho prikázania a robíme, čo sa jemu páči.</p>
+  <p class="les">A toto je jeho prikázanie: aby sme verili v meno jeho Syna Ježiša Krista a milovali jeden druhého, ako nám prikázal. Kto zachováva jeho prikázania, ostáva v Bohu a Boh v ňom. A že v nás ostáva, poznáme z Ducha, ktorého nám dal.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Porov. Sk 16, 14b</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pane, otvor naše srdce,</p>
+	<p class="aleluja"> aby sme porozumeli slovám tvojho Syna.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Rodičia našli Ježiša medzi učiteľmi</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 41-52</span></p>	
+  <br>
+  <p class="les">Ježišovi rodičia chodievali každý rok do Jeruzalema na veľkonočné sviatky. Keď mal dvanásť rokov, tiež išli, ako bývalo na sviatky zvykom. A keď sa dni slávností skončili a oni sa vracali domov, zostal chlapec Ježiš v Jeruzaleme, čo jeho rodičia nezbadali. Nazdávali sa, že je v sprievode. Prešli deň cesty a hľadali ho medzi príbuznými a známymi. No nenašli. Vrátili sa teda do Jeruzalema a tam ho hľadali.</p>
+  <p class="les">Po troch dňoch ho našli v chráme. Sedel medzi učiteľmi, počúval ich a kládol im otázky. Všetci, čo ho počuli, žasli nad jeho rozumnosťou a odpoveďami.</p>
+  <p class="les">Keď ho zazreli, stŕpli od údivu a Matka mu povedala: „Syn môj, čo si nám to urobil? Pozri, tvoj otec i ja sme ťa s bolesťou hľadali!“</p>
+  <p class="les">On im odpovedal: „Prečo ste ma hľadali? Nevedeli ste, že mám byť tam, kde ide o môjho Otca?“ Ale oni nepochopili slovo, ktoré im hovoril.</p>
+  <p class="les">Potom sa s nimi vrátil do Nazareta a bol im poslušný.</p>
+  <p class="les">A jeho matka zachovávala všetky slová vo svojom srdci.</p>
+  <p class="les">A Ježiš sa vzmáhal v múdrosti, veku a v obľube u Boha i u ľudí.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-27":{
+  name: "Filoména",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">SV. JÁNA, APOŠTOLA A EVANJELISTU</p>
+  <p><b>Omša</b> zo sviatku, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 1, 1-4</p>
+  <p><b>Ž:</b> 97, 1-2. 5-6. 11-12;</p>
+  <p><b>Ev:</b> Jn 20, 2-8;</p>
+  <p><b>L</b> II, 344; (<b>OR</b> IV, 94; <b>SZM,</b> 543;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Na Md ant. z Vianočného obdobia, žalmy z pondelka vo 4. týždni. Vešpery sú z Oktávy Narodenia Pána 27. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Čo sme videli a počuli, zvestujeme aj vám</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 1, 1-4</span></p>
+  <br>
+  <p class="les">Milovaní, čo bolo od počiatku, čo sme počuli, čo sme na vlastné oči videli, na čo sme hľadeli a čoho sa naše ruky dotýkali, to zvestujeme: Slovo života. Lebo zjavil sa život a my sme videli, dosvedčujeme a zvestujeme vám večný život, ktorý bol u Otca a zjavil sa nám.</p>
+  <p class="les">Čo sme videli a počuli, zvestujeme aj vám, aby ste aj vy mali spoločenstvo s nami.</p>
+  <p class="les">Veď my máme spoločenstvo s Otcom a s jeho Synom Ježišom Kristom. A toto píšeme, aby naša radosť bola úplná.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 97, 1-2. 5-6. 11-12</span></p>
+  <br>
+  <p><span class="red">℞. (Porov. 12a):</span> Radujte sa, spravodliví, tešte sa v Pánovi. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Pán kraľuje, jasaj, zem; *</p>			
+	<p class="psalm"> radujte sa, všetky ostrovy.</p>		
+	<p class="psalm"><span class="red num">2.</span> Vôkol neho oblaky a mrákavy, *</p>	
+	<p class="psalm"> spravodlivosť a právo sú základom jeho trónu. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">3.</span> Ako vosk sa topia vrchy pred tvárou Pánovou, *</p>	
+	<p class="psalm"> pred Pánom celej zeme. </p>			
+	<p class="psalm"><span class="red num">4.</span> Jeho spravodlivosť ohlasujú nebesia *</p>	
+	<p class="psalm"> a jeho slávu vidia všetky národy. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">5.</span> Vychádza svetlo spravodlivému *</p>	
+  <p class="psalm"> a radosť tým, čo majú srdcia úprimné. </p>	
+  <p class="psalm"><span class="red num">6.</span> Radujte sa, spravodliví, v Pánovi *</p>	
+	<p class="psalm"> a oslavujte jeho sväté meno. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Teba, Bože, chválime, teba, Pane, velebíme. </p>
+	<p class="aleluja"> Teba, Pane, oslavuje slávny zbor apoštolov.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Ten druhý učeník bežal rýchlejšie, predbehol Petra a prišiel k hrobu prvý</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">20, 2-8</span></p>	
+  <br>
+  <p class="les">Prvého dňa v týždni bežala Mária Magdaléna a prišla k Šimonovi Petrovi a k inému učeníkovi, ktorého mal Ježiš tak rád, a povedala im: „Odniesli Pána z hrobu a nevieme, kde ho položili.“</p>
+  <p class="les">Peter a ten druhý učeník sa zobrali a išli k hrobu. Bežali obaja, ale ten druhý učeník bežal rýchlejšie, predbehol Petra a prišiel k hrobu prvý. Nahol sa a videl tam položené plachty; dnu však nevkročil.</p>
+  <p class="les">Potom prišiel aj Šimon Peter, ktorý ho nasledoval, a vošiel do hrobu. Videl tam položené plachty aj šatku, ktorú mal Ježiš na hlave. Lenže tá nebola pri plachtách, lež osobitne zvinutá na inom mieste.</p>
+  <p class="les">Vtedy vošiel aj druhý učeník, ten, čo prišiel k hrobu prvý, a videl i uveril.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-28":{
+  name: "Ivana, Ivona",
+  bgColor: "red",    
+  index:/*html*/`
+  <p class="red">SV. NEVINIATOK, MUČENÍKOV</p>
+  <p><b>Omša</b> zo sviatku, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 1, 5 – 2, 2</p>
+  <p><b>Ž:</b> 124, 2-3. 4-5. 7c-8;</p>
+  <p><b>Ev:</b> Jn 2, 13-18;</p>
+  <p><b>L</b> II, 346; (<b>OR</b> IV, 96; <b>SZM,</b> 545;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of zo sviatku. Na Md ant. z Vianočného obdobia, žalmy z utorka vo 4. týždni. Vešpery sú z Oktávy Narodenia Pána 28. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Krv Ježiša nás očisťuje od každého hriechu</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 1, 5 – 2, 2</span></p>
+  <br>
+  <p class="les">Milovaní, toto je zvesť, ktorú sme počuli od Ježiša Krista a vám zvestujeme: Boh je svetlo a niet v ňom nijakej tmy.</p>
+  <p class="les">Ak hovoríme, že máme s ním spoločenstvo, ale chodíme vo tme, luháme a nekonáme pravdu. Ale ak chodíme vo svetle ako je on vo svetle, máme spoločenstvo medzi sebou a krv Ježiša, jeho Syna, nás očisťuje od každého hriechu.</p>
+  <p class="les">Ak hovoríme, že nemáme hriech, klameme sami seba a nie je v nás pravda. Ale ak vyznávame svoje hriechy, on je verný a spravodlivý: odpustí nám hriechy a očistí nás od každej neprávosti. Ak hovoríme, že sme nezhrešili, jeho robíme luhárom a nie je v nás jeho slovo.</p>
+  <p class="les">Deti moje, toto vám píšem, aby ste nehrešili. Ale keby niekto zhrešil, máme u Otca zástancu: Ježiša Krista, spravodlivého. On je zmiernou obetou za naše hriechy; a nielen za naše, ale aj za hriechy celého sveta.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 124, 2-3. 4-5. 7c-8</span></p>
+  <br>
+  <p><span class="red">℞. (7ab):</span> Naša duša unikla ako vtáča zo siete poľovníkov. <span class="fr">VII</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Keby sa nás Pán nebol ujal, *</p>			
+	<p class="psalm"> keď ľudia povstali proti nám,</p>		
+	<p class="psalm"><span class="red num">2.</span> vari by nás živých boli prehltli, *</p>	
+	<p class="psalm"> keď proti nám blčala ich zúrivosť. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">3.</span> Vari by nás bola voda zaliala *</p>	
+	<p class="psalm"> a riava sa prevalila cez nás. </p>			
+	<p class="psalm"><span class="red num">4.</span> Vari by sa boli prevalili cez nás *</p>	
+	<p class="psalm"> rozbúrené vody. <span class="red">&#8212; ℞.</span></p>	
+	<p class="psalm"><span class="red num">5.</span> Slučka sa roztrhla *</p>	
+  <p class="psalm"> a my sme na slobode. </p>	
+  <p class="psalm"><span class="red num">6.</span> Naša pomoc v mene Pánovom, *</p>	
+	<p class="psalm"> ktorý stvoril nebo i zem. <span class="red">&#8212; ℞.</span></p>
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Teba, Bože, chválime, teba, Pane, velebíme.  </p>
+	<p class="aleluja"> Teba, Pane, chváli vznešený zástup mučeníkov.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Herodes dal povraždiť všetkých chlapcov v Betleheme</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Matúša </b><span class="red fr">2, 13-18</span></p>	
+  <br>
+  <p class="les">Po odchode mudrcov sa Jozefovi vo sne zjavil Pánov anjel a povedal: „Vstaň, vezmi so sebou dieťa i jeho matku, ujdi do Egypta a zostaň tam, kým ti nedám vedieť, lebo Herodes bude hľadať dieťa, aby ho zmárnil.“</p>
+  <p class="les">On vstal, vzal za noci dieťa i jeho matku a odišiel do Egypta. Tam zostal až do Herodesovej smrti, aby sa splnilo, čo povedal Pán ústami proroka: „Z Egypta som povolal svojho syna.“</p>
+  <p class="les">Keď Herodes zbadal, že ho mudrci oklamali, veľmi sa rozhneval a dal povraždiť v Betleheme a na jeho okolí všetkých chlapcov od dvoch rokov nadol, podľa času, ktorý zvedel od mudrcov. Vtedy sa splnilo, čo povedal prorok Jeremiáš: „V Ráme bolo počuť hlas, nárek a veľké kvílenie: Ráchel oplakáva svoje deti a odmieta útechu, lebo ich niet.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-29":{
+  name: "Milada",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">PIATÝ DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 3-11</p>
+  <p><b>Ž:</b> 96, 1-2a. 2b-3. 5b-6;</p>
+  <p><b>Ev:</b> Lk 2, 22-35;</p>
+  <p><b>L</b> II, 81; (<b>OL</b> I, 89; <b>OR</b> I, 52;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of z oktávy Narodenia Pána 29. decembra. Na Md ant. z Vianočného obdobia, žalmy zo stredy vo 1. týždni. Vešpery sú z Oktávy Narodenia Pána 29. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kto miluje svojho brata, ostáva vo svetle</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 3-11</span></p>
+  <br>
+  <p class="les">Milovaní, podľa toho vieme, že sme poznali Ježiša, ak zachovávame jeho prikázania. Kto hovorí: „Poznám ho,“ a nezachováva jeho prikázania, je luhár a niet v ňom pravdy. Kto však zachováva jeho slovo, v tom je Božia láska naozaj dokonalá. A podľa toho vieme, že sme v ňom. Kto hovorí, že ostáva v ňom, má aj sám žiť, ako žil on.</p>
+  <p class="les">Milovaní, nepíšem vám nové prikázanie, ale staré prikázanie, ktoré ste mali od začiatku: staré prikázanie je slovo, ktoré ste počuli. A predsa vám píšem nové prikázanie, ktoré je pravdivé v ňom aj vo vás, lebo tma odchádza a už svieti pravé svetlo.</p>
+  <p class="les">Kto hovorí, že je vo svetle, a nenávidí svojho brata, je ešte stále vo tme. Kto miluje svojho brata, ostáva vo svetle a nie je preň pohoršením. Ale kto nenávidí svojho brata, je vo tme a chodí vo tme a nevie, kam ide, lebo tma mu zaslepila oči.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 1-2a. 2b-3. 5b-6</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú; †</p>			
+	<p class="psalm"> spievaj Pánovi, celá zem! *</p>		
+	<p class="psalm"> Spievajte Pánovi, velebte jeho meno. <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">2.</span> Zvestujte jeho spásu deň čo deň. †</p>			
+	<p class="psalm"> Zvestujte jeho slávu pohanom *</p>		
+	<p class="psalm"> a jeho zázraky všetkým národom. <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> Pán stvoril nebesia. †</p>			
+	<p class="psalm"> Vznešenosť a krása pred jeho tvárou, *</p>		
+	<p class="psalm"> moc a veleba v jeho svätyni. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Porov. Lk 2, 32</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Pán je svetlo národov,  </p>
+	<p class="aleluja"> Pán je sláva svojho ľudu.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Svetlo na osvietenie pohanov</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 22-35</span></p>	
+  <br>
+  <p class="les">Keď uplynuli podľa Mojžišovho zákona dni ich očisťovania, priniesli Ježiša jeho rodičia do Jeruzalema, aby ho predstavili Pánovi, ako je napísané v Pánovom zákone: „Všetko mužského rodu, čo otvára lono matky, bude zasvätené Pánovi,“ a aby obetovali, ako káže Pánov zákon, pár hrdličiek alebo dva holúbky.</p>
+  <p class="les">V Jeruzaleme žil vtedy muž menom Simeon, človek spravodlivý a nábožný, ktorý očakával potechu Izraela, a Duch Svätý bol na ňom. Jemu Duch Svätý vyjavil, že neumrie, kým neuvidí Pánovho Mesiáša.</p>
+  <p class="les">Z vnuknutia Ducha prišiel do chrámu. A keď rodičia prinášali dieťa Ježiša, aby splnili, čo o ňom predpisoval zákon, vzal ho aj on do svojho náručia a velebil Boha slovami: „Teraz prepustíš, Pane, svojho služobníka v pokoji podľa svojho slova, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov: svetlo na osvietenie pohanov a slávu Izraela, tvojho ľudu.“</p>
+  <p class="les">Jeho otec a matka divili sa tomu, čo sa o ňom hovorilo. Simeon ich požehnal a Márii, jeho matke, povedal: „On je ustanovený na pád a na povstanie pre mnohých v Izraeli a na znamenie, ktorému budú odporovať, – a tvoju vlastnú dušu prenikne meč –, aby vyšlo najavo zmýšľanie mnohých sŕdc.“</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-30":{
+  name: "Dávid",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">ŠIESTÝ DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 12-17</p>
+  <p><b>Ž:</b> 96, 7-8a. 8b-9. 10;</p>
+  <p><b>Ev:</b> Lk 2, 36-40;</p>
+  <p><b>L</b> II, 83; (<b>OL</b> I, 92; <b>OR</b> I, 54;).</p>
+  <br>
+  <p><b>Liturgia hodín:</b> Of z oktávy Narodenia Pána 30. decembra. Na Md ant. z Vianočného obdobia, žalmy zo štvrtka vo 1. týždni. Vešpery sú z Oktávy Narodenia Pána 30. decembra. Kompletórium z nedele a slávnosti(1 alebo 2) s modlitbou na slávnosti mimo nedieľ.</p>`,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Kto miluje svojho brata, ostáva vo svetle</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 12-17</span></p>
+  <br>
+  <p class="les">Píšem vám, deti: Pre jeho meno máte odpustené hriechy.</p>
+  <p class="les">Otcovia, vám píšem: Poznali ste toho, ktorý je od počiatku.</p>
+  <p class="les">Mládenci, vám píšem: Premohli ste Zlého.</p>
+  <p class="les">Napísal som vám, deti: Poznali ste Otca.</p>
+  <p class="les">Napísal som vám, otcovia: Poznali ste toho, ktorý je od počiatku.</p>
+  <p class="les">Napísal som vám, mládenci: Ste silní, Božie slovo ostáva vo vás a premohli ste Zlého.</p>
+  <p class="les">Nemilujte svet, ani to, čo je vo svete. Ak niekto miluje svet, nie je v ňom Otcova láska. Veď nič z toho, čo je vo svete, ani žiadostivosť tela, ani žiadostivosť očí, ani honosenie sa bohatstvom, nie je z Otca, ale zo sveta. A svet sa pominie, aj jeho žiadostivosť. Kto však plní Božiu vôľu, ostáva naveky.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 7-8a. 8b-9. 10</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Vzdávajte Pánovi, rodiny národov, †</p>			
+	<p class="psalm"> vzdávajte Pánovi slávu a česť, *</p>		
+	<p class="psalm"> vzdávajte Pánovi slávu hodnu jeho mena.  <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">2.</span> Prineste obetné dary a vstúpte do jeho nádvorí, †</p>			
+	<p class="psalm"> klaňajte sa Pánovi v posvätnom rúchu. *</p>		
+	<p class="psalm"> Chvej sa pred ním, celá zem, <span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> hlásajte medzi pohanmi: „Pán kraľuje!“ †</p>			
+	<p class="psalm"> Upevnil zemekruh, nepohne sa; *</p>		
+	<p class="psalm"> a spravodlivo súdi národy. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr"></span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Posvätný deň nám zažiaril: poďte, národy, a klaňajte sa Pánovi.  </p>
+	<p class="aleluja"> Dnes zostúpilo na zem veľké svetlo.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Hovorila o ňom všetkým, čo očakávali vykúpenie Jeruzalema</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Lukáša </b><span class="red fr">2, 36-40</span></p>	
+  <br>
+  <p class="les">Žila vtedy prorokyňa Anna, Fanuelova dcéra, z Aserovho kmeňa. Bola už vo vysokom veku. Od svojho panenstva žila so svojím mužom sedem rokov, potom ako vdova do osemdesiateho štvrtého roku. Z chrámu neodchádzala, vo dne v noci slúžila Bohu pôstom a modlitbami.</p>
+  <p class="les">Práve v tú chvíľu prišla aj ona, velebila Boha a hovorila o ňom všetkým, čo očakávali vykúpenie Jeruzalema.</p>
+  <p class="les">A keď vykonali všetko podľa Pánovho zákona, vrátili sa do Galiley, do svojho mesta Nazareta.</p>
+  <p class="les">Chlapec rástol a mocnel, plný múdrosti, a Božia milosť bola na ňom.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
+  "2021-12-31":{
+  name: "Silvester",
+  bgColor: "gold",    
+  index:/*html*/`
+  <p class="red">SIEDMY DEŇ V OKTÁVE NARODENIA PÁNA</p>
+  <p><b>Omša</b> (ranná) z oktávy, Glória, pf vianočná. </p>
+  <p><b>Č 1:</b> 1 Jn 2, 18-21</p>
+  <p><b>Ž:</b> 96, 1-2. 11-12. 13;</p>
+  <p><b>Ev:</b> Jn 1, 1-18;</p>
+  <p><b>L</b> II, 85; (<b>OL</b> I, 94; <b>OR</b> I, 55;).</p>
+  <br>
+  <p><b>Liturgia hodín </b> (po modlitbu popoludní): Of z oktávy Narodenia Pána 31. decembra. Na Md ant. z Vianočného obdobia, žalmy z piatku vo 1. týždni.</p>
+  <p><b>1. vešp. </b> z nasledujúcej slávnosti. Kompletórium z nedele (1) s modlitbou na slávnosti mimo nedieľ.</p>
+  <p><b>Večerná omša</b> je z nasledujúcej slávnosti.</p>
+  <br>
+  Nedovoľuje sa Štvrtá eucharistická modlitba.<br>
+  Zakazujú sa všetky iné večerné omše, aj pohrebná.<br>
+  <br>
+  `,
+  lesson:/*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
+  <p class="center"><i>Máte pomazanie od Svätého a viete to všetci</i></p>
+  <p><b>Čítanie z Prvého listu svätého apoštola Jána </b><span class="red fr"> 2, 18-21</span></p>
+  <br>
+  <p class="les">Deti moje, je posledná hodina. A ako ste počuli, že príde antikrist, tak teraz vystúpilo mnoho antikristov. Z toho poznávame, že je tu posledná hodina.</p>
+  <p class="les">Spomedzi nás vyšli, ale neboli z nás. Lebo keby boli z nás, boli by zostali s nami. No malo sa ukázať, že tí všetci nie sú z nás.</p>
+  <p class="les">Ale vy máte pomazanie od Svätého a viete to všetci. Nenapísal som vám, akoby ste nepoznali pravdu, ale že ju poznáte a preto, že nijaká lož nie je z pravdy.</p>
+  <br>
+  <p class="les">Počuli sme Božie slovo.</p>
+  <br>
+  <p class="red">RESPONZÓRIOVÝ ŽALM<span class="fr"> Ž 96, 1-2. 11-12. 13</span></p>
+  <br>
+  <p><span class="red">℞. (11a):</span> Tešte sa, nebesia, a plesaj, zem. <span class="fr">III</span></p>
+  <br>
+  <p class="psalm"><span class="red num">1.</span> Spievajte Pánovi pieseň novú; *</p>			
+	<p class="psalm">spievaj Pánovi, celá zem!</p>		
+	<p class="psalm"><span class="red num">2.</span> Spievajte Pánovi, velebte jeho meno. *</p>				
+	<p class="psalm"> Zvestujte jeho spásu deň čo deň.<span class="red">&#8212; ℞.</span></p>		
+  <p class="psalm"><span class="red num">3.</span> Tešte sa, nebesia, plesaj, zem; *</p>			
+	<p class="psalm"> nech more zahučí a čo ho napĺňa,</p>		
+  <p class="psalm"> nech plesá pole a všetko, čo je na ňom. *<span class="red">&#8212; ℞.</span></p>
+  <p class="psalm"><span class="red num">4.</span> I zajasajú všetky stromy lesa †</p>			
+	<p class="psalm">pred tvárou Pána, že prichádza, *</p>		
+	<p class="psalm">že prichádza súdiť zem.</p>		
+	<p class="psalm"><span class="red num">5.</span> Spravodlivo bude súdiť zemekruh *</p>				
+	<p class="psalm"> a národy podľa svojej pravdy. <span class="red">&#8212; ℞.</span></p>		
+  <br>	
+  <p class="red">ALELUJOVÝ VERŠ<span class="fr">Jn 1, 14a. 12a</span></p>
+	<br>
+	<p><span class="red">℞.</span> Aleluja <span class="red">&#8212;</span> 
+  Slovo sa telom stalo a prebývalo medzi nami.  </p>
+	<p class="aleluja"> Tým, ktorí ho prijali, dalo moc stať sa Božími deťmi.
+	<span class="red">&#8212; ℞.</span> Aleluja</p>
+	<br>
+  <p class="red">EVANJELIUM</p>
+  <p class="center"><i>Slovo sa telom stalo a prebývalo medzi nami</i></p>
+  <p><span class="red">✠</span><b> Čítanie zo svätého Evanjelia podľa Jána </b><span class="red fr">1, 1-18</span></p>	
+  <br>
+  <p class="les">Na počiatku bolo Slovo a Slovo bolo u Boha a to Slovo bolo Boh.</p>
+  <p class="les">Ono bolo na počiatku u Boha. Všetko povstalo skrze neho a bez neho nepovstalo nič z toho, čo povstalo. V ňom bol život a život bol svetlom ľudí. A svetlo vo tmách svieti, a tmy ho neprijali.</p>
+  <p class="les">Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o svetle.</p>
+  <p class="les">Pravé svetlo, ktoré osvecuje každého človeka, prišlo na svet. Bol na svete a svet povstal skrze neho, a svet ho nepoznal. Prišiel do svojho vlastného, a vlastní ho neprijali.</p>
+  <p class="les">Ale tým, ktorí ho prijali, dal moc stať sa Božími deťmi: tým, čo uverili v jeho meno, čo sa nenarodili ani z krvi, ani z vôle tela, ani z vôle muža, ale z Boha.</p>
+  <p class="les">A Slovo sa telom stalo a prebývalo medzi nami. A my sme uvideli jeho slávu, slávu, akú má od Otca jednorodený Syn, plný milosti a pravdy.</p>
+  <p class="les">Ján o ňom vydal svedectvo a volal: „Toto je ten, o ktorom som hovoril: Ten, čo príde po mne, je predo mnou, lebo bol prv ako ja.“</p>
+  <p class="les">Z jeho plnosti sme my všetci dostali milosť za milosťou. Lebo ak zákon bol daný skrze Mojžiša, milosť a pravda prišli skrze Ježiša Krista.</p>
+  <p class="les">Boha nikto nikdy nevidel. Jednorodený Boh, ktorý je v lone Otca, ten o ňom priniesol zvesť.</p>
+  <br>
+  <p class="les">Počuli sme slovo Pánovo.</p>`},
 }
