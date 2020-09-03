@@ -8,9 +8,12 @@ app = new Vue({
       appName: 'Lekcionár',
       lc:lc,
       date: date,
-      showHead: false,
+      showHead: true,
       showNav: false,
-      pTop: 0,
+      pTop: "50px",
+      moon: "",
+      active: "",
+      textColor: "",
       bgColor: ``,
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
@@ -62,6 +65,18 @@ app = new Vue({
       this.showHead == true ? this.pTop = "50px" : this.pTop = 0
 
     },
+    home(){
+      this.page.name = `${lc[day].name}`
+      this.page.index = `${lc[day].index}`
+      this.page.name = `${lc[day].name}`
+      this.page.lesson = `${lc[day].lesson}`
+      this.bgColor = `${lc[day].bgColor}`
+    },
+    toggle(){
+      this.moon = !this.moon
+      localStorage.active = this.active
+      localStorage.textColor = this.textColor
+    },
     lastMonth(){
       this.date = new Date(this.currYear, this.currMonth - 1)
       
@@ -81,12 +96,16 @@ app = new Vue({
     },
   },
   mounted() {
+    if (localStorage.active) {
+      this.active = localStorage.active
+      this.textColor = localStorage.textColor
+    }
     this.page.name = `${lc[day].name}`
     this.page.index = `${lc[day].index}`
     this.page.name = `${lc[day].name}`
-    this.page.lesson = `${lc[day.lesson]}`
-    this.bgColor = `${lc[day.bgColor]}`
-  }, 
+    this.page.lesson = `${lc[day].lesson}`
+    this.bgColor = `${lc[day].bgColor}`
+    }, 
   })
 
 

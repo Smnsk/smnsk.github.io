@@ -8,12 +8,17 @@
   <title>Lekciónar</title>
 </head>
 <body>
-  <div class="page">
+  <div class="page" :style="{ backgroundColor: active, color: textColor}">
 	<!-- HEAD -->	
    <transition name="head">
      <div class="head_tools" v-if="showHead" >
 			 <span class="navIcon" @click="showNav = true">&#8801</span>
-		 </div>
+			 <span class="home" @click="home"> </span>
+		  <div class="night" @click="toggle">
+        <span class="sun" v-if="!moon" @click="active = 'rgba(255,255,255, .8)', textColor = 'black' "></span>
+			  <span class="moon" v-else @click="active = 'rgba(0,0,0, .9)', textColor = 'white'"></span>
+		  </div>	 
+		</div>
 	 </transition>
 	 <!-- MENU -->
    <transition name="menu">
@@ -28,10 +33,10 @@
 							 <p class="currMonth">{{m[date.getMonth()]}} {{currYear}}</p>
 							 <p class="btn" @click="nextMonth">&#8250;</p>
 						 </div>
-						 <div class="cal_bar">
+						 <div class="cal_bar" :style="{ backgroundColor: active, color: textColor}">
 							 <span class="weekDays" v-for="dayWeek in d">{{dayWeek.slice(0,2).toUpperCase()}}</span>
 						 </div>
-						 <div class="cal_body">
+						 <div class="cal_body" :style="{ backgroundColor: active, color: textColor}">
 							<span class="blank" v-for="blank in prevMonth">{{blank}}</span>
 							<span class="days" v-for="i in daysInMonth" :class="{currDay: i == currDay}" @click=setDate(i)>{{i}}</span>
 							<span class="blank" v-for="_,i in nextMonthDays" >{{i+1}}</span>
@@ -41,7 +46,7 @@
 				 <div class="mask" @click="showNav = false"></div>
 		 </div>
 	 </transition>
-	 <div class="body" @dblclick="dbClick">
+	 <div class="body" @dblclick="dbClick" >
 		 <div class="body_head" :style="{ paddingTop: pTop}">{{page.titul}}
 			 <span class="name">meniny: {{page.name}}</span>
 		 </div>

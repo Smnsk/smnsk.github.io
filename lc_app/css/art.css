@@ -12,6 +12,8 @@
   width: 100%;
   height: 46px;
   background-color: #741d1d;
+  display: flex;
+  align-items: center;
 }
 .navIcon{
   color: white;
@@ -20,22 +22,60 @@
   margin-left: 10px;
   cursor: pointer;
 }
+.home,.night{
+  color: white;
+  font-size: 1.5em;
+  line-height: 43px;
+  cursor: pointer;
+}
+.home{
+  position: absolute;
+  top: 22%;
+  right: 45px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/house.png");
+  background-size: cover;
+}
+.night{
+  position: absolute;
+  top: 22%;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.moon, .sun{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.moon{
+  background-image: url("../img/moon.png");
+}
+.sun{
+  background-image: url("../img/sun.png");
+}
 .nav{
   position: fixed;
   width: 100%;
   height: 100vh;
   z-index: 1;
-}
+ }
 .menuBar{
   width: 300px;
   height: 100vh;
   background-color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .appName{
+  position: absolute;
   color: aliceblue;
   text-align: center;
-  padding-top: 15px;
-}
+  top: 15px;
+ }
 .icon{
   position: absolute;
   left: 10px;
@@ -48,12 +88,10 @@
   background-size: cover;
   border-radius: 8px;
 }
+
 .cal{
   width: 280px;
-  position: relative;
-  top: 30%;
-  left: 10px;
-  
+    
 }
 .cal_head{
   background-color: #2196F3;
@@ -146,7 +184,7 @@
 }
 .body_lesson{
   margin-left: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .red{
   color: red;
