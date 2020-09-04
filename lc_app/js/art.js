@@ -2,12 +2,14 @@ let date = new Date(),
     day = date.toISOString().slice(0, 10),
     m = ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Október", "November", "December"],
     d = ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
-app = new Vue({
+    app = new Vue({
     el: '.page',
     data: {
       appName: 'Lekcionár',
       lc:lc,
       date: date,
+      info: false,
+      load: true,
       showHead: true,
       showNav: false,
       pTop: "50px",
@@ -62,10 +64,10 @@ app = new Vue({
   methods:{
     dbClick(){
       this.showHead = !this.showHead
-      this.showHead == true ? this.pTop = "50px" : this.pTop = 0
-
+      this.showHead == true ? this.pTop = "50px" : this.pTop = "5px"
     },
     home(){
+      this.page.titul = `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`
       this.page.name = `${lc[day].name}`
       this.page.index = `${lc[day].index}`
       this.page.name = `${lc[day].name}`
@@ -73,13 +75,12 @@ app = new Vue({
       this.bgColor = `${lc[day].bgColor}`
     },
     toggle(){
-      this.moon = !this.moon
-      localStorage.active = this.active
-      localStorage.textColor = this.textColor
+    this.moon = !this.moon
+    localStorage.active = this.active
+    localStorage.textColor = this.textColor
     },
     lastMonth(){
       this.date = new Date(this.currYear, this.currMonth - 1)
-      
     },
     nextMonth(){
       this.date = new Date(this.currYear, this.currMonth + 1)
@@ -96,6 +97,7 @@ app = new Vue({
     },
   },
   mounted() {
+    setTimeout(() => this.load = false, 5000)
     if (localStorage.active) {
       this.active = localStorage.active
       this.textColor = localStorage.textColor

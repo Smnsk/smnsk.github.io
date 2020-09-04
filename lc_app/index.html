@@ -9,15 +9,43 @@
 </head>
 <body>
   <div class="page" :style="{ backgroundColor: active, color: textColor}">
+	<!-- LOADER -->
+		<div class="load" v-if="load">
+		<div class="book">
+			<div class="item">
+				<hr v-for="item in 6">
+			</div>
+			<div class="items" v-for="items in 3">
+				<hr v-for="hr in 3">
+			</div>
+		</div>
+	</div>
+	<!-- INFO -->
+	<div class="info_box" v-if="info" @click="info=false" :style="{ backgroundColor: active, color: textColor}">
+		<div class="info_body">
+			<h1>Aplikácia {{appName}}</h1>
+			<p>Aplikácia je realizovaná v spolupráci s pánom Ing. Matúšom Brillom, 
+					ktorý je zodpovedný za web stránku www.lc.kbs.sk. 
+					Táto aplikácia je offline verziou tejto stránky. 
+					Aplikácia obsahuje biblické čítania a liturgický kalendár biblických čítaní. 
+					Aktuálna verzia obsahuje liturgické čítania pre celý liturgický rok {{currYear-1}}/{{currYear}}. 
+					<span class="red">Aplikácia nie je náhradou liturgických kníh!</span> 
+					Ďakujeme za pochopenie.</p>
+			<div class="kbs">
+				© Ing. Matúš Brilla, 1997 – {{currYear}}
+			</div>		
+		</div>
+	</div>	
 	<!-- HEAD -->	
    <transition name="head">
      <div class="head_tools" v-if="showHead" >
 			 <span class="navIcon" @click="showNav = true">&#8801</span>
 			 <span class="home" @click="home"> </span>
 		  <div class="night" @click="toggle">
-        <span class="sun" v-if="!moon" @click="active = 'rgba(255,255,255, .8)', textColor = 'black' "></span>
-			  <span class="moon" v-else @click="active = 'rgba(0,0,0, .9)', textColor = 'white'"></span>
-		  </div>	 
+        <span class="sun" v-if="moon" @click="active = 'rgba(255,255,255, .8)', textColor = 'black' "></span>
+			  <span class="mon" v-else @click="active = 'rgba(0,0,0, .9)', textColor = 'white'"></span>
+			</div>
+			<span class="info" @click="info=true">&#8505;</span>	 
 		</div>
 	 </transition>
 	 <!-- MENU -->
