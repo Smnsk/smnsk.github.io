@@ -13,6 +13,7 @@ let date = new Date(),
       showHead: true,
       showNav: false,
       pTop: "50px",
+      fontSize: 1,
       moon: "",
       active: "",
       textColor: "",
@@ -95,12 +96,25 @@ let date = new Date(),
       this.page.lesson = lc[b].lesson  
       this.bgColor = lc[b].bgColor
     },
+    fontNormal(){
+      this.fontSize = 1
+      localStorage.font = this.fontSize
+     },
+     fontMinus(){
+      this.fontSize -= 0.10
+      localStorage.font = this.fontSize
+     },
+     fontPlus(){
+      this.fontSize += 0.10
+      localStorage.font = this.fontSize
+     },  
   },
   mounted() {
     setTimeout(() => this.load = false, 5000)
     if (localStorage.active) {
       this.active = localStorage.active
       this.textColor = localStorage.textColor
+      this.fontSize = localStorage.font
     }
     this.page.name = `${lc[day].name}`
     this.page.index = `${lc[day].index}`
