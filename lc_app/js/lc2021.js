@@ -573,7 +573,8 @@ let lc = {
   "2020-12-08":{
   name: `Marína`,
 	bgColor: `gold`,
-	index:/*html*/`<p class="red"><b>NEPOŠKVRNENÉ POČATIE PANNY MÁRIE</b></p>
+  index:/*html*/`<p class="red"><b>NEPOŠKVRNENÉ POČATIE PANNY MÁRIE</b></p>
+<p class="red">(Prikázaný sviatok)</p>
 <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
 <p><b>Č 1:</b> Gn 3, 9-15. 20;</p>
 <p><b>Ž:</b> 98, 1. 2-3b. 3c-4;</p>
@@ -1618,6 +1619,7 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   name: "Prvý sviatok vianočný",
   bgColor: "gold",    
   index:/*html*/`<p class="red"><b>NARODENIE PÁNA</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
   <p><b>Omša</b> Glória, Krédo, pf vianočná. </p>
   <p><b>Č 1:</b> Iz 52, 7-10</p>
   <p><b>Ž:</b> 98, 1. 2-3b. 3c-4. 5-6;</p>
@@ -2073,6 +2075,7 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
     name: "Nový rok",
     bgColor: "gold",
     index: /*html*/`<p class="red"><b>PANNY MÁRIE BOHORODIČKY</b></p>
+    <p class="red">(Prikázaný sviatok)</p>
   <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Panne Márii I.</p>
   <p><b>Č 1:</b> Nm 6, 22-27;</p>
   <p><b>Ž:</b> 67, 2-3. 5. 6+8;</p>
@@ -2416,7 +2419,8 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   "2021-01-06":{
 	name: `Antónia`,
 	bgColor: `gold`,
-	index:`<p class="red"><b>ZJAVENIE PÁNA</b></p>
+  index:`<p class="red"><b>ZJAVENIE PÁNA</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
 <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
 <p><b>Č 1:</b> Iz 60, 1-6;</p>
 <p><b>Ž:</b> 72, 1-2. 7-8. 10-11. 12-13;</p>
@@ -10598,6 +10602,7 @@ Zakazujú sa všetky iné omše, aj pohrebná.
   name: "Servác",
   bgColor: "gold",    
   index:/*html*/`<p class="red"><b>NANEBOVSTÚPENIE PÁNA</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
   <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná. </p>
   <p><b>Č 1:</b> Sk 1, 1-11;</p>
   <p><b>Ž:</b> 47, 2-3. 6-7. 8-9;</p>
@@ -11922,6 +11927,7 @@ Zakazujú sa všetky iné omše, aj pohrebná.
   name: "Karolína",
   bgColor: "gold",    
   index:/*html*/`<p class="red"><b>NAJSVÄTEJŠIEHO KRISTOVNO TELA A KRVI</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
   <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf o Eucharistii (I alebo II). </p>
   <p><b>Č 1:</b> Ex 24, 3-8;</p>
   <p><b>Ž:</b> 116, 12-13. 15+16bc. 17-18;</p>
@@ -13618,7 +13624,8 @@ Ty, chlapček, budeš sa volať prorokom Najvyššieho:</p>
   "2021-06-29":{
   name: `Peter a Pavol, Petra`,
 	bgColor: `red`,
-	index:/*html*/`<p class="red"><b>SV. PETRA A PAVLA, APOŠTOLOV</b></p>
+  index:/*html*/`<p class="red"><b>SV. PETRA A PAVLA, APOŠTOLOV</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
 <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
 <p><b>Č 1:</b> Sk 12, 1-11;</p>
 <p><b>Ž:</b> 34, 2-3. 4-5. 6-7. 8-9;</p>
@@ -16658,7 +16665,8 @@ To sú naši otcovia a praví pastieri, </p>
   name: `Marcela`,
 	bgColor:`gold`,
 	index: /*html*/`
-	<p class="red"><b>NANEBOVZATIE PANNY MÁRIE</b><p>
+  <p class="red"><b>NANEBOVZATIE PANNY MÁRIE</b><p>
+  <p class="red">(Prikázaný sviatok)</p>
 	<p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
 	<p><b>Č 1:</b> Zjv 11, 19a; 12, 1-6a. 10a-c;</p>
   <p><b>Ž:</b> 45, 10. 11-12. 15-16;</p>
@@ -21519,7 +21527,8 @@ To sú naši otcovia a praví pastieri, </p>
   name: `Denisa, Denis`,
 	bgColor:`gold`,
 	index: /*html*/`
-	<p class="red"><b>VŠETKÝCH SVÄTÝCH</b><p>
+  <p class="red"><b>VŠETKÝCH SVÄTÝCH</b><p>
+  <p class="red">(Prikázaný sviatok)</p>
 	<p><b>Omša</b> zo slávnosti, Glória, Krédo, sekvencia podľa ľubovole, pf vlastná.</p>
 	<p><b>Č 1:</b> Zjv 7, 2-4. 9-14;</p>
   <p><b>Ž:</b> 24, 1-2. 3-4b. 5-6;</p>
@@ -23831,7 +23840,8 @@ To sú naši otcovia a praví pastieri, </p>
   "2021-12-08":{
   name: `Marína`,
 	bgColor: `gold`,
-	index:/*html*/`<p class="red"><b>NEPOŠKVRNENÉ POČATIE PANNY MÁRIE</b></p>
+  index:/*html*/`<p class="red"><b>NEPOŠKVRNENÉ POČATIE PANNY MÁRIE</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
 <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
 <p><b>Č 1:</b> Gn 3, 9-15. 20;</p>
 <p><b>Ž:</b> 98, 1. 2-3b. 3c-4;</p>
@@ -24870,6 +24880,7 @@ Zdravas‘, Mária, milosti plná, Pán s tebou;</p>
   name: "Prvý sviatok vianočný",
   bgColor: "gold",    
   index:/*html*/`<p class="red"><b>NARODENIE PÁNA</b></p>
+  <p class="red">(Prikázaný sviatok)</p>
   <p><b>Omša</b> Glória, Krédo, pf vianočná. </p>
   <p><b>Č 1:</b> Iz 52, 7-10</p>
   <p><b>Ž:</b> 98, 1. 2-3b. 3c-4. 5-6;</p>
