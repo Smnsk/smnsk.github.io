@@ -20,14 +20,17 @@
 			</div>
 		</div>
 	</div>
+	<!-- DAYS-->
+	<div class="prevDay" @click="lDay">&#8249;</div>
+	<div class="nextDay" @click="nDay">&#8250;</div>
 	<!-- INFO -->
 	<div class="info_box" v-if="info" @click="info=false" :style="{ backgroundColor: active, color: textColor}">
 		<div class="info_body">
 			<h1>Aplikácia {{appName}}</h1>
 			<p>Aplikácia je realizovaná v spolupráci s pánom Ing. Matúšom Brillom, 
-					ktorý je zodpovedný za web stránku www.lc.kbs.sk. 
-					Táto aplikácia je offline verziou tejto stránky. 
-					Aplikácia obsahuje biblické čítania a liturgický kalendár biblických čítaní. 
+					ktorý je zodpovedný za web stránku www.lc.kbs.sk.
+					Udaje v tejto aplikácii sú zo stranky www.lc.kbs.sk. 
+					Aplikácia obsahuje biblické čítania a liturgický kalendár liturgických čítaní. 
 					Aktuálna verzia obsahuje liturgické čítania pre celý liturgický rok {{currYear-1}}/{{currYear}}. 
 					<span class="red">Aplikácia nie je náhradou liturgických kníh!</span> 
 					Ďakujeme za pochopenie.</p>
@@ -84,7 +87,7 @@
 		 </div>
 	 </transition>
 	 <div class="body" @dblclick="dbClick" :style="{fontSize: fontSize + 'em'}">
-		 <div class="body_head" :style="{ paddingTop: pTop}">{{page.titul}}
+		 	 <div class="body_head" :style="{ paddingTop: pTop}">{{page.titul}}
 			 <span class="name">meniny: {{page.name}}</span>
 		 </div>
 		 <div class="body_index" v-html="page.index" :style="{ borderLeftColor: bgColor}"></div>

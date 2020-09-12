@@ -6,7 +6,7 @@ let date = new Date(),
     el: '.page',
     data: {
       appName: 'Lekcionár',
-      lc:lc,
+      lc: lc,
       date: date,
       info: false,
       load: true,
@@ -69,11 +69,10 @@ let date = new Date(),
     },
     home(){
       this.page.titul = `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`
-      this.page.name = `${lc[day].name}`
-      this.page.index = `${lc[day].index}`
-      this.page.name = `${lc[day].name}`
-      this.page.lesson = `${lc[day].lesson}`
-      this.bgColor = `${lc[day].bgColor}`
+      lc[day] == undefined ? this.page.name = " " : this.page.name = `${lc[day].name}`
+      lc[day] == undefined ? this.page.index = "<h1>Vyberte dátum od 29. 11. 2020 do 31. 12. 2021</h1>" : this.page.index = `${lc[day].index}`
+      lc[day] == undefined ? this.page.lesson = " " : this.page.lesson = `${lc[day].name}`
+      lc[day] == undefined ? this.bgColor = " " : this.bgColor = `${lc[day].bgColor}`
     },
     toggle(){
     this.moon = !this.moon
@@ -85,10 +84,32 @@ let date = new Date(),
     },
     nextMonth(){
       this.date = new Date(this.currYear, this.currMonth + 1)
-       
+    },
+    lDay(){
+       a = this.date
+       b = this.date
+       b.setDate(a.getDate() - 1)
+       c = b.toISOString().slice(0, 10)
+       this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()}`
+       this.page.name = lc[c].name
+       this.page.index = lc[c].index  
+       this.page.lesson = lc[c].lesson  
+       this.bgColor = lc[c].bgColor
+    },
+    nDay(){
+      a = this.date
+      b = this.date
+      b.setDate(a.getDate() + 1)
+      c = b.toISOString().slice(0, 10)
+      this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()}`
+      this.page.name = lc[c].name
+      this.page.index = lc[c].index  
+      this.page.lesson = lc[c].lesson  
+      this.bgColor = lc[c].bgColor 
     },
     setDate(day){
       a = new Date(Date.UTC(this.currYear, this.currMonth, day))
+      this.date = a
       b = a.toISOString().slice(0, 10)
       this.page.titul = `${d[(a.getDay() || 7)-1]} ${day}. ${m[this.currMonth].toLocaleLowerCase()} ${a.getFullYear()};`
       this.page.name = lc[b].name
