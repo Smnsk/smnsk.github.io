@@ -308,23 +308,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10em;
   position: fixed;
-  background-color: transparent;
-  width: 20%;
-  height: 100vh;
+  font-size: 1.5em;
+  background-color: #833c3c;
+  width: 50%;
+  height: 30px;
   cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.5s;
+  margin-top: -35px;
+  
 }
-.prevDay:hover, .nextDay:hover{
-  opacity: 1;
+.prevDay{
+  left: 0;
 }
 .nextDay{
   right: 0;
+  border-left: 1px solid white;
 }
 .body_head{
-  padding-top: 5px;
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;

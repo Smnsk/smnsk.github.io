@@ -12,7 +12,7 @@ let date = new Date(),
       load: true,
       showHead: true,
       showNav: false,
-      pTop: "50px",
+      pTop: "80px",
       fontSize: 1,
       moon: "",
       active: "",
@@ -65,10 +65,12 @@ let date = new Date(),
   methods:{
     dbClick(){
       this.showHead = !this.showHead
-      this.showHead == true ? this.pTop = "50px" : this.pTop = "5px"
+      this.showHead == true ? this.pTop = "80px" : this.pTop = "35px"
     },
     home(){
-      this.page.titul = `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`
+      l = new Date()
+      this.data = l
+      this.page.titul = `${d[(l.getDay() || 7)-1]} ${l.getDate()}. ${m[l.getMonth()].toLocaleLowerCase()} ${l.getFullYear()};`
       lc[day] == undefined ? this.page.name = " " : this.page.name = `${lc[day].name}`
       lc[day] == undefined ? this.page.index = "<h1>Vyberte dátum od 29. 11. 2020 do 31. 12. 2021</h1>" : this.page.index = `${lc[day].index}`
       lc[day] == undefined ? this.page.lesson = " " : this.page.lesson = `${lc[day].name}`
@@ -86,22 +88,20 @@ let date = new Date(),
       this.date = new Date(this.currYear, this.currMonth + 1)
     },
     lDay(){
-       a = this.date
        b = this.date
-       b.setDate(a.getDate() - 1)
+       b.setDate(b.getDate() - 1)
        c = b.toISOString().slice(0, 10)
-       this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()}`
+       this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()};`
        this.page.name = lc[c].name
        this.page.index = lc[c].index  
        this.page.lesson = lc[c].lesson  
        this.bgColor = lc[c].bgColor
     },
     nDay(){
-      a = this.date
       b = this.date
-      b.setDate(a.getDate() + 1)
+      b.setDate(b.getDate() + 1)
       c = b.toISOString().slice(0, 10)
-      this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()}`
+      this.page.titul = `${d[(b.getDay() || 7)-1]} ${b.getDate()}. ${m[b.getMonth()].toLocaleLowerCase()} ${b.getFullYear()};`
       this.page.name = lc[c].name
       this.page.index = lc[c].index  
       this.page.lesson = lc[c].lesson  
