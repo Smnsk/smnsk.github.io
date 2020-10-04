@@ -51,8 +51,8 @@
 			 </span>
 			 <span class="home" @click="home"> </span>
 		  <div class="night" @click="toggle">
-        <span class="sun" v-if="moon" @click="active = 'rgba(255,255,255, .8)', textColor = 'black' "></span>
-			  <span class="mon" v-else @click="active = 'rgba(0,0,0, .9)', textColor = 'white'"></span>
+        <span class="sun" v-if="moon" @click="active = 'rgba(255,255,255, 1)', textColor = 'black', txt2 = 'white'"></span>
+			  <span class="mon" v-else @click="active = 'rgba(0,0,0, 1)', textColor = 'white', txt2 = 'black'"></span>
 			</div>
 			<span class="info" @click="info=true">&#8505;</span>	 
 		</div>
@@ -83,15 +83,15 @@
 				 <div class="mask" @click="showNav = false"></div>
 		 </div>
 	 </transition>
-	 <div class="body" :style="{fontSize: fontSize + 'em'}">
+	 <div class="body" :style="{fontSize: fontSize + 'em'}" >
 		   	<!-- DAYS-->
 	     <div class="body_head" :style="{ paddingTop: pTop}">
-				<div class="prevDay"  @click="lDay">&#8249;</div>
+				<div class="prevDay"  @click="lDay">&#8249;</div> 
 	      <div class="nextDay"  @click="nDay">&#8250;</div> 
 				{{page.titul}}
 			 <span class="name">meniny: {{page.name}}</span>
 		 </div>
-		 <div class="body_index" @dblclick="dbClick" v-html="page.index" :style="{ borderLeftColor: bgColor}"></div>
+		 <div class="body_index"  @dblclick="dbClick" v-html="page.index" :style="{ borderLeftColor: bgColor}"></div>
 		 <div class="body_lesson" @dblclick="dbClick" v-html="page.lesson"></div>
 	 </div>
 	</div>

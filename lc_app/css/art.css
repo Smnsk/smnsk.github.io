@@ -311,8 +311,9 @@
   position: fixed;
   font-size: 1.5em;
   background-color: #833c3c;
+  color: white;
   width: 50%;
-  height: 30px;
+  height: 35px;
   cursor: pointer;
   margin-top: -35px;
   
@@ -330,18 +331,18 @@
   font-size: 1.5em;
 }
 .body_index{
-  margin: 1%;
+  padding: 1% 10px;
   border-left: transparent 5px solid;
-  padding-left: 10px;
-  width: 80%;
+  min-width: 80%;
 }
 .body_index>p, .body_lesson>p{
   font-size: 1.2em;
   margin-bottom: 5px;
 }
 .body_lesson{
-  margin-left: 30px;
-  padding-bottom: 30px;
+  padding: 15px 0 30px 20px;
+  min-width: 80%;
+  min-height: 70vh;
 }
 .red{
   color: red;
