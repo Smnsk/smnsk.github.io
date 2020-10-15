@@ -2,10 +2,24 @@
   margin: 0;
   padding: 0;
 }
-.page{
+.bg{
+  position: absolute;
   width: 100%;
   min-height: 100vh;
   background-image: url("../img/kitchen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+}
+.page{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  color: whitesmoke;
+  text-shadow: 0 0 10px red;
+  font-size: 3em;
+}
+h1{
+  margin-left: 5%;
 }
