@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotateX(180deg);
+  filter: blur(5px);
   z-index: -1;
 }
 .page{
