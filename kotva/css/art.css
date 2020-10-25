@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Sprint;
+  src: url("../img/Sprint.otf") format("opentype");
+}
+@font-face {
+  font-family: Optima;
+  src: url("../img/Optima-Black.otf") format("opentype");
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -14,14 +23,118 @@
   z-index: -1;
 }
 .page{
-  display: flex;
-  align-items: center;
   width: 100%;
   min-height: 100vh;
-  color: whitesmoke;
-  text-shadow: 0 0 10px red;
-  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-h1{
-  margin-left: 5%;
+header{
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo{
+  position: relative;
+  color: orange;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: 3px 0 5px white;
+}
+.anchor{
+  position: absolute;
+  width: 70px;
+  height: 77px;
+  left: 40%;
+  transform: rotate(-15deg);
+  background-image: url("../img/favicon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.txt{
+  margin-left: 15px;
+}
+.mini{
+  font-family: Sprint;
+  color: red;
+  font-size: .3em;
+  text-shadow: none;
+  text-align: center;
+  margin-top: -1%;
+}
+.mini>span{
+  font-family: sans-serif;
+  color: #120f47;
+  font-family: Optima;
+}
+.btns{
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+}
+.btn{
+  margin: 10px 15px;
+  color: orange;
+  text-shadow: 2px 0 3px white;
+  cursor: pointer;
+  transition: all .3s;
+}
+.btn:hover{
+  color: white;
+  text-shadow: 2px 0 3px orange;
+  transform: scale(1.1);
+}
+aside{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  height: 60vh;
+  background-color: rgba(0,0,0, .2)
+}
+.maps{
+  width: 80%;
+  height: 60vh;
+  background-color: rgba(0,0,0, .2)
+}
+.card{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.front, .wares{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.front{
+  background-image: url("../img/favicon.png");
+  background-size: 113% 108%;
+  background-position: -5% -20%;
+  background-color: #e8dcd0;
+  box-shadow: inset 6px 6px 2px #c12d2e, 
+              inset -6px -6px 2px #c12d2e;
+}
+.wares{
+  transform: rotateY(180deg);
+}
+.card:hover .front{
+  transform: rotateY(180deg);
+}
+.card:hover .wares{
+  transform: rotateY(360deg);
+}
+.phone{
+  width: 100%;
+  text-align: center;
+  font-family: Optima;
+  color: #120f47;
+  font-size: 1.5em;
 }

@@ -3,14 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/KOTVA jozef bena.GIF" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.GIF" type="image/x-icon">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
   <link rel="stylesheet" href="css/art.css">
   <title>Kotva-minimarket</title>
 </head>
 <body>
   <div class="bg"></div>
   <div class="page">
-    <h1>Ahoj ZUZKA!!!</h1>
+    <header>
+      <div class="logo">
+        KO<span class="anchor"></span>
+        <span class="txt">VA</span>
+        <div class="mini">Mini <span>MARKET</span></div> 
+      </div>
+      <div class="btns">
+        <i class="fas fa-shopping-cart btn" @click="show=true"></i>
+        <i class="fas fa-store btn" @click="show=false"></i>
+        <a class="btn" :href="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </header>
+    <aside v-if="show">
+      <div class="card" v-for="(i, war) in wares">
+        <div class="front"></div>
+        <div class="wares" :style="{backgroundImage: 'url('+('./img/'+i.war+'')+')'}"></div>
+      </div>
+    </aside>
+    <div class="maps" v-else>
+    </div>
+    <div class="phone">
+      <i class="fas fa-phone-alt"></i> {{phone}}
+    </div>
   </div>
+  <script src="js/vue.min.js"></script>
+  <script src="js/art.js"></script>
 </body>
 </html>
