@@ -18,8 +18,7 @@
         <div class="mini">Mini <span>MARKET</span></div> 
       </div>
       <div class="btns">
-        <i class="fas fa-shopping-cart btn" @click="show=true"></i>
-        <i class="fas fa-store btn" @click="show=false"></i>
+        <i class="btn" v-for="(name, i) in names" :class="[name.cls, {act : cur == i}]" @click="clr(i)"></i>          
         <a class="btn" :href="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
       </div>
     </header>
@@ -29,7 +28,7 @@
         <div class="wares" :style="{backgroundImage: 'url('+('./img/'+i.war+'')+')'}"></div>
       </div>
     </aside>
-    <div class="maps" v-else>
+    <div class="map" v-else>
     </div>
     <div class="phone">
       <i class="fas fa-phone-alt"></i> {{phone}}

@@ -5,6 +5,10 @@ let wares = [
   { war: "img4.jpg"},
   { war: "img5.jpg"},
 ]
+let className = [
+  {cls: "fas fa-shopping-cart"},
+  {cls: "fas fa-map-marker-alt"}
+]
 
 let app = new Vue({
   el: '.page',
@@ -13,5 +17,13 @@ let app = new Vue({
     fb: 'https://www.facebook.com/kotvaminimarket',
     phone: '+421 905 719 213',
     wares: wares,
+    names: className,
+    cur: 0,
+  },
+  methods:{
+    clr(i){
+     this.cur = i
+     this.cur == 0 ? this.show = true : this.show = false
+    }
   }
 })
