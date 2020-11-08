@@ -1,9 +1,10 @@
 let wares = [
-  { war: "img1.jpg"},
-  { war: "img2.jpg"},
-  { war: "img3.jpg"},
-  { war: "img4.jpg"},
+  { war: "img6.jpg"},
   { war: "img5.jpg"},
+  { war: "img4.jpg"},
+  { war: "img3.jpg"},
+  { war: "img2.jpg"},
+  { war: "img1.jpg"},
 ]
 let className = [
   {cls: "fas fa-shopping-cart"},
