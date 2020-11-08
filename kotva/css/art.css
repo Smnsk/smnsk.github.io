@@ -159,6 +159,9 @@ aside{
     width: 300px;
     height: 280px;
   }
+  .maps{
+    height: 280px;
+  }
   .card{
     margin-bottom: 15px;
   }
