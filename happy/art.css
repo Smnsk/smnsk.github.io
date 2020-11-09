@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #06181f;
+}
+.logo{
+  margin-top: 25px;
+}
+svg path{
+  fill: transparent;
+  stroke-dasharray: 2000;
+  stroke-width: .2;
+  stroke: #fada5e;
+  animation: logo 10s ease infinite;
+}
+h1{
+  margin-top: 15px;
+  font-size: 4em;
+  opacity: 0;
+  color: #f8de7e;
+  text-shadow: 0 0 3px white;
+  animation: text 10s ease infinite;
+}
+.text{
+  color:#F9a602;
+}
+
+@keyframes logo{
+ 0% { stroke-dashoffset: 2000;
+}
+ 35% {  stroke-dashoffset: 0;
+        fill: transparent; 
+      } 
+ 40% {fill: yellow;}
+ 80%{ fill: yellow}
+}
+@keyframes text{
+  50%{ opacity: 0;}
+  51%{ opacity: 1;}
+  100%{ opacity: .5;}
+}
