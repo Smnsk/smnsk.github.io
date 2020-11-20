@@ -16,7 +16,7 @@ let app = new Vue({
   data: {
     show: true,
     fb: 'https://www.facebook.com/kotvaminimarket',
-    phone: '+421 905 719 213',
+    phone: '+421 905 654 213',
     wares: wares,
     names: className,
     cur: 0,
