@@ -37,7 +37,7 @@ myDiagram.linkTemplate =
 let model = $(go.TreeModel);
 model.nodeDataArray =
 [
-{"key":1,"name":"Jozef Dratva","title":"19.3.1984 - ..."},
+{"key":1,"name":"Jozef Dratva","title":"19.3.1894 - ..."},
 {"key":2,"name":"Júlia Zajac","title":"","parent":1},
 {"key":3,"name":"Anna Zatvarnycka","title":"","parent":1},
 {"key":4,"name":"Margita Dratva","title":"30.10.1918 - ","parent":2},
@@ -87,5 +87,11 @@ model.nodeDataArray =
 {"key":46,"name":"Ruslan Denjančuk","title":"15.6.1995 ","parent":45},
 {"key":47,"name":"Olesia Jackova","title":" ","parent":46},
 {"key":48,"name":"Artem Denjančuk","title":" ","parent":47},
+{"key":49,"name":"Magdaléna ","title":" ","parent":27},
+{"key":50,"name":"Alžbeta Dratva","title":" ","parent":28},
+{"key":50,"name":"Ján Štybeľ","title":" ","parent":29},
+{"key":51,"name":"Vasyl Štybeľ","title":" ","parent":30},
+{"key":52,"name":"Michal Dratva","title":" ","parent":28},
+{"key":53,"name":"Ruslana","title":" ","parent":29},
 ];
 myDiagram.model = model;
