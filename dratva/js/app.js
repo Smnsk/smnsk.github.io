@@ -1,7 +1,60 @@
+let toggle = false;
+let flag = document.getElementById("flag");
+flag.style.backgroundImage = "url('./img/sk.svg')"
+
+function Toggle(){
+  (toggle = !toggle) ? flag.style.backgroundImage = "url('./img/ua.svg')" : flag.style.backgroundImage = "url('./img/sk.svg')"
+}
+
+
 let $ = go.GraphObject.make;
 
+let diagram_ua =
+  $(go.Diagram, "page_ua",
+    {
+      "undoManager.isEnabled": true,
+      layout: $(go.TreeLayout,
+                { angle: 90, layerSpacing: 35 })
+    });
+
+diagram_ua.nodeTemplate =
+    $(go.Node, "Auto", {background: "transparent", width: 260},
+    $(go.Shape, { fill: "transparent", stroke: "tomato", strokeWidth: 3}),
+    $(go.Panel, "Horizontal",
+          { stretch: go.GraphObject.Fill, margin: 0.5 },  
+    $(go.Panel, "Spot",
+          { isClipping: true, margin: 10},
+          $(go.Shape, "Circle", { width: 55,} ),
+          $(go.Picture, "Image",
+            { width: 45, height: 45, background: "green" },
+            new go.Binding("source")
+           )
+        ),
+    $(go.Panel, "Vertical", {width: 170},
+    $(go.TextBlock, {margin: 6, stroke: "white", font: "bold 16px sans-serif"},
+      new go.Binding("text", "name")),
+    $(go.TextBlock, { stroke: "white", font: "bold 14px sans-serif"},
+      new go.Binding("text", "title")),  
+      ),  
+    ),
+    );
+
+diagram_ua.linkTemplate =
+    $(go.Link,
+      { routing: go.Link.Orthogonal, corner: 200 },
+      $(go.Shape, // the link's path shape
+        { strokeWidth: 3, stroke: "gray",}));    
+
+    let model_ua = $(go.TreeModel);
+    model_ua.nodeDataArray =
+    [
+    {"key":1,"name":"Йосип Дратва","title":"* 19.3.1894 - ...", "source": "./img/man.svg"},
+    {"key":2,"name":"Júlia Zajac","title":"* 13.5.1894 - +1934","parent":1, "source": "./img/woman.svg"},
+    ];
+    diagram_ua.model = model_ua;      
+
 let myDiagram =
-  $(go.Diagram, "page",
+  $(go.Diagram, "page_sk",
     {
       "undoManager.isEnabled": true,
       layout: $(go.TreeLayout,
@@ -43,7 +96,7 @@ let model = $(go.TreeModel);
 model.nodeDataArray =
 [
 {"key":1,"name":"Jozef Dratva","title":"* 19.3.1894 - ...", "source": "./img/man.svg"},
-{"key":2,"name":"Júlia Zajac","title":"","parent":1, "source": "./img/woman.svg"},
+{"key":2,"name":"Júlia Zajac","title":"* 13.5.1894 - +1934","parent":1, "source": "./img/woman.svg"},
 {"key":3,"name":"Anna Zatvarnycka","title":"","parent":1, "source": "./img/woman.svg"},
 //Júlia Zajac
 {"key":4,"name":"Margita Dratva","title":"* 30.10.1918 - ","parent":2, "source": "./img/woman.svg"},
@@ -54,18 +107,18 @@ model.nodeDataArray =
 {"key":9,"name":"Mária Dratva","title":"*/+ 1934","parent":2, "source": "./img/woman.svg"},
 //Anna Zatvarnycka
 {"key":10,"name":"Mária Dratva","title":"* 18.5.1936 - 27.11.2016","parent":3, "source": "./img/woman.svg"},
-{"key":11,"name":"Anna Dratva","title":"*28.2.1939 - 8.9.","parent":3, "source": "./img/woman.svg"},
+{"key":11,"name":"Anna Dratva","title":"* 28.2.1939 - 8.9.","parent":3, "source": "./img/woman.svg"},
 //Júlia Dratva
 {"key":12,"name":"Gabor Gusti","title":"*","parent": 7, "source": "./img/man.svg"},
 {"key":13,"name":"Gregor Petriakov","title":"* 1918 - + 1986","parent": 7, "source": "./img/man.svg"},
 //Ján Dratva
 {"key":14,"name":"Magdaléna ","title":" ","parent":8, "source": "./img/woman.svg"},
 //Mária Dratva
-{"key":15,"name":"Pavol Stanko","title":"*2.8.1932 - + 15.7.2005","parent":10, "source": "./img/man.svg"},
+{"key":15,"name":"Pavol Stanko","title":"* 2.8.1932 - + 15.7.2005","parent":10, "source": "./img/man.svg"},
 //Anna Dratva
-{"key":16,"name":"Vasyl Dratva","title":"*1963 ","parent":11, "source": "./img/man.svg"},
+{"key":16,"name":"Vasyl Dratva","title":"* 1963 ","parent":11, "source": "./img/man.svg"},
 //Gabor Gusti
-{"key":17,"name":"Marta Dratva","title":"* 1944 - + ","parent": 12, "source": "./img/woman.svg"},
+{"key":17,"name":"Marta Dratva","title":"*27.1.1944 - + 8.10.2001","parent": 12, "source": "./img/woman.svg"},
 //Gregor Petriakov 
 {"key":18,"name":"Ján Petriakov","title":"* 9.5.1949 - + 6.5.2015","parent": 13, "source": "./img/man.svg"},
 {"key":19,"name":"Nadia Petriakova","title":"* 19.7.1951","parent": 13, "source": "./img/woman.svg"},
@@ -77,7 +130,7 @@ model.nodeDataArray =
 {"key":23,"name":"Natalia Stanko","title":" ","parent":15, "source": "./img/woman.svg"},
 {"key":24,"name":"Marianna Stanko","title":"* 4.8.1967","parent":15, "source": "./img/woman.svg"},
 //Marta Dratva
-{"key":26,"name":"Jozef Talaberčuk","title":"* 1943 - + ","parent": 17, "source": "./img/man.svg"},
+{"key":26,"name":"Jozef Talaberčuk","title":"*27.1.1939 - + 17.5.2005 ","parent": 17, "source": "./img/man.svg"},
 //Ján Petriakov
 {"key":27,"name":"Eugenia Kučerenko","title":"* 1.1.1953 - + 13.11.1993","parent": 18, "source": "./img/woman.svg"},
 {"key":28,"name":"Anna Levycka","title":"* 25.5.  ","parent": 18, "source": "./img/woman.svg"},
@@ -124,7 +177,7 @@ model.nodeDataArray =
 {"key":52,"name":"Vladislav Dratva","title":" ","parent":35, "source": "./img/man.svg"},
 {"key":53,"name":"Vasyl Dratva","title":" ","parent":35, "source": "./img/man.svg"},
 //Marianna Talaberčuk
-{"key":54,"name":"Vasyl Demjancuk","title":"*  ","parent": 36, "source": "./img/man.svg"},
+{"key":54,"name":"Vasyl Demjancuk","title":"* 8.5.1963  ","parent": 36, "source": "./img/man.svg"},
 //Júlia Petriakova
 {"key":55,"name":"Viačeslav Mironov","title":"* ","parent": 37, "source": "./img/man.svg"},
 //Gregor Petriakov
