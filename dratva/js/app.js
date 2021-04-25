@@ -51,19 +51,19 @@ model.nodeDataArray =
 {"key":6,"name":"Jozef Dratva","title":"...","parent":2, "source": "./img/man.svg"},
 {"key":7,"name":"Júlia Dratva","title":"* 9.1.1925 - + 19.7.2013","parent": 2, "source": "./img/woman.svg"},
 {"key":8,"name":"Ján Dratva","title":" - ","parent":2, "source": "./img/man.svg"},
-{"key":9,"name":"Mária Dratva","title":"+ 1934","parent":2, "source": "./img/woman.svg"},
+{"key":9,"name":"Mária Dratva","title":"*/+ 1934","parent":2, "source": "./img/woman.svg"},
 //Anna Zatvarnycka
-{"key":10,"name":"Mária Dratva","title":"* 18.5.1936 - 2016","parent":3, "source": "./img/woman.svg"},
-{"key":11,"name":"Anna Dratva","title":" ","parent":3, "source": "./img/woman.svg"},
+{"key":10,"name":"Mária Dratva","title":"* 18.5.1936 - 27.11.2016","parent":3, "source": "./img/woman.svg"},
+{"key":11,"name":"Anna Dratva","title":"*28.2.1939 - 8.9.","parent":3, "source": "./img/woman.svg"},
 //Júlia Dratva
 {"key":12,"name":"Gabor Gusti","title":"*","parent": 7, "source": "./img/man.svg"},
 {"key":13,"name":"Gregor Petriakov","title":"* 1918 - + 1986","parent": 7, "source": "./img/man.svg"},
 //Ján Dratva
 {"key":14,"name":"Magdaléna ","title":" ","parent":8, "source": "./img/woman.svg"},
 //Mária Dratva
-{"key":15,"name":"Pavol Stanko","title":" ","parent":10, "source": "./img/man.svg"},
+{"key":15,"name":"Pavol Stanko","title":"*2.8.1932 - + 15.7.2005","parent":10, "source": "./img/man.svg"},
 //Anna Dratva
-{"key":16,"name":"Vasyl Dratva","title":" ","parent":11, "source": "./img/man.svg"},
+{"key":16,"name":"Vasyl Dratva","title":"*1963 ","parent":11, "source": "./img/man.svg"},
 //Gabor Gusti
 {"key":17,"name":"Marta Dratva","title":"* 1944 - + ","parent": 12, "source": "./img/woman.svg"},
 //Gregor Petriakov 
@@ -94,7 +94,7 @@ model.nodeDataArray =
 //Marianna Stanko
 {"key":34,"name":"Vladimír Demjančuk","title":"* 18.1.1965 ","parent":24, "source": "./img/man.svg"},
 //Vasyl Dratva
-{"key":35,"name":"Olga ...","title":" ","parent":16, "source": "./img/woman.svg"},
+{"key":35,"name":"Olga ...","title":"*1961 ","parent":16, "source": "./img/woman.svg"},
 //Jozef Talaberčuk
 {"key":36,"name":"Marianna Talaberčuk","title":"*  - + ","parent": 26, "source": "./img/woman.svg"},
 //Eugenia Kučerenko
@@ -130,7 +130,7 @@ model.nodeDataArray =
 //Gregor Petriakov
 {"key":56,"name":"Sandra Galbova","title":"* 2.11.1988","parent": 38, "source": "./img/woman.svg"},
 //Roman Straškulyč
-{"key":57,"name":"Vaselyna ...","title":"* 13.1.1990 ","parent":48, "source": "./img/woman.svg"},
+{"key":57,"name":"Vaselyna Kabacka","title":"* 13.1.1990 ","parent":48, "source": "./img/woman.svg"},
 //Ruslan Denjančuk
 {"key":58,"name":"Olesia Jackova","title":"* 27.9.1996 ","parent":51, "source": "./img/woman.svg"},
 //Vasyl Demjancuk
