@@ -14,7 +14,7 @@ body{
   background-repeat: no-repeat;
   z-index: 3;
 }
-#page_sk, #page_ua{
+#page{
   width: 99vw;
   height: 100vh;
 }
