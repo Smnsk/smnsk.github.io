@@ -58,21 +58,21 @@ let model = $(go.TreeModel);
 model.nodeDataArray =
 [
 {"key":1,"name":"Йосип Дратва","title":"* 19.3.1894 - ...", "source": "./img/man.svg"},
-{"key":2,"name":"Юлія Заяць","title":"* 13.5.1894 - + 1934","parent":1, "source": "./img/woman.svg"},
+{"key":2,"name":"Юлія Заяць","title":"* 13.5.1894 - + 10.2.1933","parent":1, "source": "./img/woman.svg"},
 {"key":3,"name":"Анна Затварницька","title":"","parent":1, "source": "./img/woman.svg"},
 //Júlia Zajac
 {"key":4,"name":"Маргарита Дратва","title":"* 30.10.1918 - + 13.4.2008","parent":2, "source": "./img/woman.svg"},
-{"key":5,"name":"Єлизавета Дратва","title":"* 30.10.1920 - ","parent":2, "source": "./img/woman.svg"},
+{"key":5,"name":"Єлизавета Дратва","title":"* 30.10.1920 - + 9.10.2015","parent":2, "source": "./img/woman.svg"},
 {"key":6,"name":"Йосип Дратва","title":"...","parent":2, "source": "./img/man.svg"},
 {"key":7,"name":"Юлія Дратва","title":"* 9.1.1925 - + 19.7.2013","parent": 2, "source": "./img/woman.svg"},
 {"key":8,"name":"Іван Дратва","title":" - ","parent":2, "source": "./img/man.svg"},
-{"key":9,"name":"Марiя Дратва","title":"*/+ 1934","parent":2, "source": "./img/woman.svg"},
+{"key":9,"name":"Марiя Дратва","title":"* 1933 - + 10.2.1933","parent":2, "source": "./img/woman.svg"},
 //Anna Zatvarnycka
-{"key":10,"name":"Марiя Dratva","title":"* 18.5.1936 - + 27.11.2016","parent":3, "source": "./img/woman.svg"},
+{"key":10,"name":"Марiя Dratva","title":"* 17.5.1936 - + 27.11.2016","parent":3, "source": "./img/woman.svg"},
 {"key":11,"name":"Анна Дратва","title":"* 28.2.1939 - + 8.9.","parent":3, "source": "./img/woman.svg"},
 //Júlia Dratva
 {"key":12,"name":"Габор Густi","title":"*","parent": 7, "source": "./img/man.svg"},
-{"key":13,"name":"Григорiй Петряков","title":"* 1918 - + 1986","parent": 7, "source": "./img/man.svg"},
+{"key":13,"name":"Григорiй Петряков","title":"* 20.8.1919 - + 1986","parent": 7, "source": "./img/man.svg"},
 //Ján Dratva
 {"key":14,"name":"Магдалина ","title":" ","parent":8, "source": "./img/woman.svg"},
 //Mária Dratva
@@ -101,7 +101,7 @@ model.nodeDataArray =
 //Alžbeta Dratva
 {"key":30,"name":"Іван Штибель","title":" ","parent":20, "source": "./img/man.svg"},
 //Michal Dratva
-{"key":31,"name":"Руслана ","title":" ","parent":21, "source": "./img/woman.svg"},
+{"key":31,"name":"Руслана Глодан","title":" ","parent":21, "source": "./img/woman.svg"},
 //Oksana Stanko
 {"key":32,"name":"Михаїл Страшкулич","title":"* 22.8.1955 ","parent":22, "source": "./img/man.svg"},
 //Natalia Stanko
@@ -134,7 +134,7 @@ model.nodeDataArray =
 //Viktor Kaliničenko
 {"key":50,"name":"Василiй Калiнiченко","title":" ","parent":33, "source": "./img/man.svg"},
 //Vladimír Denjančuk
-{"key":51,"name":"Руслан Дем'янчук","title":"* 15.6.1995 ","parent":34, "source": "./img/man.svg"},
+{"key":51,"name":"Руслан Дем'янчук","title":"* 15.6.1994 ","parent":34, "source": "./img/man.svg"},
 //Olga
 {"key":52,"name":"Владислав Дратва","title":" ","parent":35, "source": "./img/man.svg"},
 {"key":53,"name":"Василiй Дратва","title":" ","parent":35, "source": "./img/man.svg"},
@@ -158,6 +158,8 @@ model.nodeDataArray =
 {"key":63,"name":"Дарiя Страшкулич","title":" ","parent":57, "source": "./img/woman.svg"},
 //Olesia
 {"key":64,"name":"Артем Дем'янчук","title":"* 10.7.2020","parent":58, "source": "./img/man.svg"},
+{"key":65,"name":"Франциск Печени","title":"* 8.7.1920 - + 9.12.1977","parent":5, "source": "./img/man.svg"},
+{"key":66,"name":"Петер Печени","title":"* 16.5.1947","parent":65, "source": "./img/man.svg"},
 ];
 myDiagram.model = model;
 
@@ -165,21 +167,21 @@ let model_sk = $(go.TreeModel);
 model_sk.nodeDataArray =
 [
   {"key":1,"name":"Jozef Dratva","title":"* 19.3.1894 - ...", "source": "./img/man.svg"},
-  {"key":2,"name":"Júlia Zajac","title":"* 13.5.1894 - + 1934","parent":1, "source": "./img/woman.svg"},
+  {"key":2,"name":"Júlia Zajac","title":"* 13.5.1894 - + 10.2.1933","parent":1, "source": "./img/woman.svg"},
   {"key":3,"name":"Anna Zatvarnycka","title":"","parent":1, "source": "./img/woman.svg"},
   //Júlia Zajac
   {"key":4,"name":"Margita Dratva","title":"* 30.10.1918 - + 13.4.2008","parent":2, "source": "./img/woman.svg"},
-  {"key":5,"name":"Alžbeta Dratva","title":"* 30.10.1920 - ","parent":2, "source": "./img/woman.svg"},
+  {"key":5,"name":"Alžbeta Dratva","title":"* 30.10.1920 - + 9.10.2015","parent":2, "source": "./img/woman.svg"},
   {"key":6,"name":"Jozef Dratva","title":"...","parent":2, "source": "./img/man.svg"},
   {"key":7,"name":"Júlia Dratva","title":"* 9.1.1925 - + 19.7.2013","parent": 2, "source": "./img/woman.svg"},
   {"key":8,"name":"Ján Dratva","title":" - ","parent":2, "source": "./img/man.svg"},
-  {"key":9,"name":"Mária Dratva","title":"*/+ 1934","parent":2, "source": "./img/woman.svg"},
+  {"key":9,"name":"Mária Dratva","title":" 1933 - + 10.2.1933","parent":2, "source": "./img/woman.svg"},
   //Anna Zatvarnycka
-  {"key":10,"name":"Mária Dratva","title":"* 18.5.1936 - + 27.11.2016","parent":3, "source": "./img/woman.svg"},
+  {"key":10,"name":"Mária Dratva","title":"* 17.5.1936 - + 27.11.2016","parent":3, "source": "./img/woman.svg"},
   {"key":11,"name":"Anna Dratva","title":"* 28.2.1939 - + 8.9.","parent":3, "source": "./img/woman.svg"},
   //Júlia Dratva
   {"key":12,"name":"Gabor Gusti","title":"*","parent": 7, "source": "./img/man.svg"},
-  {"key":13,"name":"Gregor Petriakov","title":"* 1918 - + 1986","parent": 7, "source": "./img/man.svg"},
+  {"key":13,"name":"Gregor Petriakov","title":"* 20.8.1919 - + 1986","parent": 7, "source": "./img/man.svg"},
   //Ján Dratva
   {"key":14,"name":"Magdaléna ","title":" ","parent":8, "source": "./img/woman.svg"},
   //Mária Dratva
@@ -208,7 +210,7 @@ model_sk.nodeDataArray =
   //Alžbeta Dratva
   {"key":30,"name":"Ján Štybeľ","title":" ","parent":20, "source": "./img/man.svg"},
   //Michal Dratva
-  {"key":31,"name":"Ruslana","title":" ","parent":21, "source": "./img/woman.svg"},
+  {"key":31,"name":"Ruslana Hlodan","title":" ","parent":21, "source": "./img/woman.svg"},
   //Oksana Stanko
   {"key":32,"name":"Michal Straškulyč","title":"* 22.8.1955 ","parent":22, "source": "./img/man.svg"},
   //Natalia Stanko
@@ -241,7 +243,7 @@ model_sk.nodeDataArray =
   //Viktor Kaliničenko
   {"key":50,"name":"Vasyl Kaliničenko","title":" ","parent":33, "source": "./img/man.svg"},
   //Vladimír Denjančuk
-  {"key":51,"name":"Ruslan Denjančuk","title":"* 15.6.1995 ","parent":34, "source": "./img/man.svg"},
+  {"key":51,"name":"Ruslan Denjančuk","title":"* 15.6.1994 ","parent":34, "source": "./img/man.svg"},
   //Olga
   {"key":52,"name":"Vladislav Dratva","title":" ","parent":35, "source": "./img/man.svg"},
   {"key":53,"name":"Vasyl Dratva","title":" ","parent":35, "source": "./img/man.svg"},
@@ -265,4 +267,6 @@ model_sk.nodeDataArray =
   {"key":63,"name":"Daria Straškulyč","title":" ","parent":57, "source": "./img/woman.svg"},
   //Olesia
   {"key":64,"name":"Artem Denjančuk","title":"* 10.7.2020","parent":58, "source": "./img/man.svg"},
+  {"key":65,"name":"František Pečený","title":"* 8.7.1920 - + 9.12.1977","parent":5, "source": "./img/man.svg"},
+  {"key":66,"name":"Peter Pečený","title":"* 16.5.1947","parent":65, "source": "./img/man.svg"},
 ];    
