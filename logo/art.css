@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #06181f;
+}
+.logo{
+  margin-top: 25px;
+}
+svg path{
+  fill: transparent;
+  stroke-dasharray: 2000;
+  stroke-width: .3;
+  stroke: white;
+  animation: logo 7s ease infinite;
+}
+
+
+@keyframes logo{
+ 0% { stroke-dashoffset: 2000;
+}
+ 35% {  stroke-dashoffset: 0;
+        fill: transparent; 
+      } 
+ 40% {fill: white;}
+ 80%{ fill: white}
+}
