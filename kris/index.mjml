@@ -3,20 +3,15 @@
    <mj-font name="Nunito"
        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" />
     <mj-style inline="inline">
-    .bg{
-      padding: 0;
-      height: 350px;
-      background-image: url("https://raw.githubusercontent.com/Smnsk/smnsk.github.io/master/kris/img/frame.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
     </mj-style>
   </mj-head>
   <mj-body padding="0">
    <mj-section css-class="bg" padding="0">
       <mj-column>
-        <mj-button href="tel:828-782-3007" font-weight="bold" padding="160px 0 0 210px"  font-family="Nunito Sans" color="#222223" background-color="transparent"> 828-782-3007</mj-button>
-        <mj-button href="https://skylineconsultants.com/" font-weight="bold" padding="0 0 0 260px" font-family="Nunito Sans" color="#222223" background-color="transparent"> skylineconsultantsllc.com</mj-button>
+        <mj-image width="100px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+      </mj-column> 
+       <mj-column>
+        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
       </mj-column>   
    </mj-section>
    </mj-body>
