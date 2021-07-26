@@ -2,16 +2,48 @@
 <mj-head>
    <mj-font name="Nunito"
        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" />
-    <mj-style inline="inline">
+    <mj-font name="Gilroy-Bold"
+       href="http://fonts.cdnfonts.com/css/gilroy-bold" />        
+    <mj-style>
+       .name div>span{
+          font-family: Nunito Sans, serif;
+          font-weight: bold;
+          color: #222223;
+          border-left: 2px solid #BFBFBF;
+          padding-left: 10px;
+          margin-left: 10px;
+       }
+       .cnt div>.numb{
+          font-family: Nunito Sans, serif;
+          color: #1B1B1C;
+          font-weight: bold;
+          border-right: 1px solid #1B1B1C;
+          padding-right: 10px;
+          margin-right: 8px;
+          text-decoration: none;
+       }
+       .link{
+          font-family: Nunito Sans, serif;
+          color: #1B1B1C;
+          text-decoration: none;
+       }
+       .rng{
+          color: #F15922;
+       }
     </mj-style>
   </mj-head>
   <mj-body padding="0">
-   <mj-section css-class="bg" padding="0">
-      <mj-column>
-        <mj-image width="100px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-      </mj-column> 
-       <mj-column>
-        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+   <mj-section padding="20px 0">
+       <mj-column width="26,6%" border-right="2px solid #BFBFBF">
+       <mj-image padding="0" border-radius="50%" width="100px" src="https://raw.githubusercontent.com/Smnsk/smnsk.github.io/master/kris/img/img.png" />
+        <mj-image padding="15px 0 0 0" width="100px" src="https://raw.githubusercontent.com/Smnsk/smnsk.github.io/master/kris/img/logo.png" />
+      </mj-column>
+      <mj-column padding="0 20px" width="73,4%">
+       <mj-text  padding="0" css-class="name" font-family="Gilroy-Bold" color="#f15922" font-size="20px" font-weight="bold">Aliona Chertash <span> Co-founder & COO</span></mj-text>
+       <mj-text  padding="10px 0 0 0" font-size="16px" font-family="Nunito Sans" font-weight="bold">Microsoft business solution architecht</mj-text>
+       <mj-text  padding="20px 0 0 0" css-class="cnt" color="#6A6A6A" font-family="Nunito Sans" font-weight="bold">Direct: <a href="tel:8287823007" class="numb">828-782-3007</a> Website: <a class="link" href="https://skylineconsultants.com/">skylineconsultants.com</a></mj-text>
+       <mj-text  padding="15px 0 0 0" font-family="Nunito Sans" font-size="16px" font-weight="bold">303 N Glenoaks Blvd #200, Burbank, CA, 31502</mj-text>
+       <mj-text  padding="20px 0 0 0" font-family="Nunito Sans" font-size="14px" font-weight="bold"> Silver <span class="rng"> Microsoft Partner </span></mj-text> 
       </mj-column>   
    </mj-section>
    </mj-body>
