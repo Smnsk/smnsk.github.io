@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/art.css">
+  <title>Saints</title>
+</head>
+<body>
+  <div class="page">
+    <input type="checkbox" id="box">
+    <aside>
+      <label class="lb" for="box">
+        <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </label>
+      <div class="head">{{cssr[num].titul}}</div>
+      <div class="list" v-for="(name, i) in cssr[num].name" @click="change(i)">
+        <div class="img" :style="{ backgroundImage: 'url(' + 'img/' + i + '.jpg' + ')' }"></div>
+        <div class="about">
+          <div class="name">{{name}}</div>
+          <div class="status" :class="[name.cl,{act : cur == i}]"></div>
+        </div>
+      </div>
+    </aside>
+    <article>
+      <div class="art_head">
+        <div class="img" :style="{ backgroundImage: 'url(' + 'img/' + cur + '.jpg' + ')' }"></div>
+        <div class="about">
+          <div class="name">{{box}}</div>
+        </div>
+      </div>
+      <div class="art_text" v-html="text">
+        {{text}}
+      </div>
+    </article>
+  </div>
+  <script src="js/vue.js"></script>
+  <script src="js/art.js"></script>
+</body>
+</html>
