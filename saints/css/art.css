@@ -154,12 +154,27 @@ article{
   color: black;
 }
 .art_text{
-  height: 90%;
+  height: 85%;
   background-color: #F2F5F8;
   margin-top: 8px;
   border-radius: 0 0 5px 0;
+  padding: 20px;
+}
+.art_text>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.art_text>div>div{
+  width: 300px;
+  margin-bottom: 20px;
+}
+.art_text>div>div>p{
+  margin-bottom: 10px;
 }
 .art_text>p{
-  padding: 20px 0 0 20px;
+  height: 40px;
+  line-height: 40px;
 }
 
