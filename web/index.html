@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/art.css">
+  <title>Redemptorists Web</title>
+</head>
+<body class="flex">
+  <div class="page"> 
+    <div class="orden" v-for="(orden, k) in cssr"> {{k}} 
+     <div class="continent" @click="conti()" v-for="(cont, k, i) in orden"> {{k}}
+       <div class="region" v-if="show2" v-for="region in cont">
+         {{region.loc}}
+       </div>
+     </div>
+    </div>
+  </div>
+  <script src="js/vue.js"></script>
+  <script src="js/art.js"></script>
+</body>
+</html>
