@@ -5,18 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/art.css">
-  <title>Redemptorists Web</title>
+  <title>One Web</title>
 </head>
-<body class="flex">
-  <div class="page"> 
-    <div class="orden" v-for="(orden, k) in cssr"> {{k}} 
-     <div class="continent" @click="conti()" v-for="(cont, k, i) in orden"> {{k}}
-       <div class="region" v-if="show2" v-for="region in cont">
-         {{region.loc}}
-       </div>
-     </div>
-    </div>
+<body>
+  <div class="page">
+    <header><div class="orden" v-for="(orden, k, i) in cssr" :class="[orden.cl,{active : cur == i}]" @click="activeOrden(i, k)"> {{k}}</div></header> 
+    <aside>
+         <div class="region" v-for="(regions, key, index) in cssr[order]" @click="regions.show = !regions.show"> {{key}} 
+           <span v-if="regions.show">-</span>
+           <span>-</span>
+           <div class="loca" v-if="regions.show" v-for="(loca, k, i) in regions" @click.stop> {{loca.loc}} 
+            <div class="links flex">
+            <div><a class='bx bx-link-alt' v-if="loca.web ? !show : show" :href="loca.web" target="_blank"></a></div>
+            <div><a class='bx bxl-facebook-circle' v-if="loca.fb ? !show : show" :href="loca.fb" target="_blank"></a></div>
+            <div><a class='bx bxl-instagram' v-if="loca.in ? !show : show" :href="loca.in" target="_blank"></a></div>
+          </div>
+          </div>
+         </div> 
+    </aside>
   </div>
   <script src="js/vue.js"></script>
   <script src="js/art.js"></script>
