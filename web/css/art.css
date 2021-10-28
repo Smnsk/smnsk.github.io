@@ -60,16 +60,17 @@ header{
   position: relative;
 }
 .region>span{
-  float: right;
-  margin-right: 10px;
+  position: absolute;
+  right: 8px;
   color: white;
   font-size: 45px;
   line-height: 27px;
+  transition: all .5s ease;
+  
 }
 .region>span:nth-child(2){
-  position: absolute;
-  right: -15px;
-  transform: rotate(90deg) translate(5px, 9.5px);
+  transform: rotate(90deg);
+  transform-origin: 51% 69% ;
 }
 .loca{
   background-color: rgba(255, 255, 255, .5);

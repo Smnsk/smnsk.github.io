@@ -14,7 +14,7 @@
     <header><div class="orden" v-for="(orden, k, i) in cssr" :class="[orden.cl,{active : cur == i}]" @click="activeOrden(i, k)"> {{k}}</div></header> 
     <aside>
          <div class="region" v-for="(regions, key, index) in cssr[order]" @click="regions.show = !regions.show"> {{key}} 
-           <span v-if="regions.show">-</span>
+           <span v-if="!regions.show">-</span>
            <span>-</span>
            <div class="loca" v-if="regions.show" v-for="(loca, k, i) in regions" @click.stop> {{loca.loc}} 
             <div class="links flex">
