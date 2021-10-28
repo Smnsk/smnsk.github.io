@@ -27,7 +27,7 @@ header{
   position: relative;
   width: 80px;
   height: 50px;
-  background-color: blue;
+  background-color: #222831;
   color: aliceblue;
   font-size: 24px;
   text-align: center;
@@ -48,32 +48,36 @@ header{
   left: 0;
   width: 80px;
   height: 4px;
-  background-color:blue;
+  background-color:whitesmoke;
   border-radius: 5px;
 }
 .region{
-  background-color: rgba(255, 255, 0, .1);
+  background-color: blue;
   font-size: 28px;
+  min-height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
+  color: aliceblue;
+  margin: 5px 0;
 }
 .region>span{
   position: absolute;
   right: 8px;
   color: white;
   font-size: 45px;
-  line-height: 27px;
+  line-height: 50px;
   transition: all .5s ease;
   
 }
 .region>span:nth-child(2){
   transform: rotate(90deg);
-  transform-origin: 51% 69% ;
+  transform-origin: 51% 61% ;
 }
 .loca{
-  background-color: rgba(255, 255, 255, .5);
+  background-color: #aa1c1b;
   font-size: 20px;
   height: 30px;
   line-height: 30px;
