@@ -63,18 +63,21 @@ header{
   color: aliceblue;
   margin: 5px 0;
 }
-.region>span{
+.region>p{
+  width: 5px;
+  height: 15px;
   position: absolute;
-  right: 8px;
-  color: white;
+  background-color: antiquewhite;
+  top: 20px;
+  right: 10px;
+  border-radius: 1px;
   font-size: 45px;
-  line-height: 50px;
   transition: all .5s ease;
   
 }
-.region>span:nth-child(2){
-  transform: rotate(90deg);
-  transform-origin: 51% 61% ;
+.region>p:nth-child(1){
+  transform: rotate(-90deg);
+  transform-origin: center ;
 }
 .loca{
   background-color: #aa1c1b;
