@@ -94,11 +94,12 @@ header{
 .links{
   position: relative;
   top: -30px;
-  right: -85px;
+  right: -95px;
 }
 .links>div{
-  width: 40px;
+  width: 35px;
   height: 30px;
+
 }
 .links>div>a{
   cursor: pointer;
@@ -107,7 +108,7 @@ header{
   text-decoration: none;
 }
 .bxl-instagram{
-  color: orangered;
+  color: orange;
 }
 .bxl-facebook-circle{
   color: blue;
