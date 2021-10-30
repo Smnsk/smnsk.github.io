@@ -3,62 +3,62 @@ let cssr = {
     'Africa & Madagascar': [
       {
         loc: "Ghana",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/ghana/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "Kenya",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/kenya",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "Luanda",
-        web: "",
+        web: "https://www.facebook.com/CssRCOREAM",
         fb: "",
         in: "",
       },
       {
         loc: "Madagascar",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/madagascar/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "Matadi",
-        web: "",
+        web: "https://www.facebook.com/CssRCOREAM",
         fb: "",
         in: "",
       },
       {
         loc: "Mozambique",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/mozambique/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
-        loc: "Nigeria",
-        web: "",
-        fb: "",
+        loc: "Niger",
+        web: "https://www.africaredemptorists.com/countries/niger/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "South Africa",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/south-africa/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "West Africa",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/burkina-faso/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
       {
         loc: "Zimbabwe",
-        web: "",
-        fb: "",
+        web: "https://www.africaredemptorists.com/countries/zimbabwe/",
+        fb: "https://www.facebook.com/CssRCOREAM",
         in: "",
       },
     ],
@@ -66,7 +66,7 @@ let cssr = {
       {
         loc: "Baltimore",
         web: "https://redemptorists.net",
-        fb: "",
+        fb: "https://www.facebook.com/RedemptoristsBaltimore/",
         in: "",
       },
       {
@@ -78,7 +78,7 @@ let cssr = {
       {
         loc: "Denver",
         web: "http://redemptoristsdenver.org",
-        fb: "",
+        fb: "https://www.facebook.com/Redemptorists.Denver.Province/",
         in: "",
       },
       {
@@ -91,14 +91,14 @@ let cssr = {
     'America South':[
       {
         loc: "Bolivia",
-        web: "",
+        web: "http://redentoristasbolivia.com.bo/",
         fb: "",
         in: "",
       },
       {
         loc: "Buenos Aires",
-        web: "",
-        fb: "",
+        web: "https://www.redentoristas.org.ar/",
+        fb: "https://www.facebook.com/Misioneros-Redentoristas-Pcia-bonaerense-Argentina-284288578337901/",
         in: "",
       },
       {
@@ -108,21 +108,21 @@ let cssr = {
         in: "",
       },
       {
-        loc: "Perú-Sur",
-        web: "",
-        fb: "",
+        loc: "Peru North",
+        web: "https://redentoristasac.com/",
+        fb: "https://www.facebook.com/familiaredentorista/",
         in: "",
       },
       {
         loc: "Resistencia",
-        web: "",
+        web: "https://www.redentoristaschaco.com/",
         fb: "",
         in: "",
       },
       {
         loc: "Santiago",
-        web: "",
-        fb: "",
+        web: "http://www.redentoristas.cl/",
+        fb: "https://www.facebook.com/RedentoristasChile",
         in: "",
       },      
       {
@@ -135,85 +135,79 @@ let cssr = {
     'Asia & Oceania':[
       {
         loc: "Bangalore",
-        web: "",
-        fb: "",
+        web: "https://cssr.in//",
+        fb: "https://www.facebook.com/cssrbangalore/",
         in: "",
       },
       {
         loc: "Bangkok",
-        web: "",
-        fb: "",
+        web: "http://www.cssr.or.th/home/",
+        fb: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         in: "",
       },
       {
         loc: "Cebu",
         web: "",
-        fb: "",
+        fb: "https://www.facebook.com/cssrcebuprovince/",
         in: "",
       },
       {
         loc: "Colombo",
-        web: "",
-        fb: "",
+        web: "https://redemptorists.lk/",
+        fb: "https://www.facebook.com/cssrSriLanka/",
         in: "",
       },
       {
-        loc: "Giappone",
-        web: "",
-        fb: "",
+        loc: "Japan",
+        web: "http://www.cssr.or.jp/",
+        fb: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         in: "",
       },
       {
         loc: "Indonesia",
-        web: "",
-        fb: "",
+        web: "https://www.cssrao.com/unit/indonesia/",
+        fb: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         in: "",
       },
       {
         loc: "Korea",
-        web: "",
+        web: "https://cafe.daum.net/cssrkor",
         fb: "",
         in: "",
       },
       {
         loc: "Liguori",
-        web: "",
-        fb: "",
+        web: "https://www.cssrao.com/unit/india-liguori/",
+        fb: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         in: "",
       },
       {
         loc: "Majella",
-        web: "",
-        fb: "",
+        web: "http://www.cssrao.com/unit/india-majella/",
+        fb: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         in: "",
       },
       {
         loc: "Malaysia & Singapore",
-        web: "",
+        web: "https://www.facebook.com/RedemptoristsAsiaOceania/",
         fb: "",
         in: "",
       },
       {
         loc: "Manila",
-        web: "",
+        web: "http://www.cssrao.com/unit/phillipines-cebu/",
         fb: "",
         in: "",
       },
       {
         loc: "Oceania",
-        web: "",
-        fb: "",
-        in: "",
-      },
-      {
-        loc: "People’s Republic of China",
-        web: "",
-        fb: "",
+        web: "https://cssr.org.au/",
+        fb: "https://www.facebook.com/RedemptoristsofAustralia/",
         in: "",
       },
       {
         loc: "Vietnam",
-        web: "",
+        web: "http://chuacuuthe.com/",
         fb: "",
         in: "",
       },
@@ -221,13 +215,13 @@ let cssr = {
     'Brazil':[
       {
         loc: "Bahia",
-        web: "",
-        fb: "",
+        web: "https://www.redentoristas.com.br/",
+        fb: "https://www.facebook.com/Redentoristasba/",
         in: "",
       },
       {
         loc: "Campo Grande",
-        web: "",
+        web: "http://redentoristas.org.br",
         fb: "",
         in: "",
       },
@@ -238,40 +232,40 @@ let cssr = {
         in: "",
       },
       {
-        loc: "Goiás",
-        web: "",
+        loc: "Goias",
+        web: "https://redentorista.com.br/",
         fb: "",
         in: "",
       },
       {
         loc: "Manaus",
-        web: "",
+        web: "https://redentoristanaamazonia.webnode.com.br/",
         fb: "",
         in: "",
       },
       {
         loc: "Porto Alegre",
-        web: "",
+        web: "http://redentoristaspoa.com.br/",
         fb: "",
         in: "",
       },
       {
         loc: "Recife",
-        web: "",
+        web: "https://cssr-recife.webnode.pt/",
         fb: "",
         in: "",
       },
       {
         loc: "Rio de Janeiro",
-        web: "",
-        fb: "",
-        in: "",
+        web: "http://www.provinciadorio.org.br/",
+        fb: "https://www.facebook.com/provinciadorio",
+        in: "https://www.instagram.com/provinciadorio/",
       },
       {
         loc: "Sao Paulo",
-        web: "",
-        fb: "",
-        in: "",
+        web: "https://www.a12.com/redentoristas",
+        fb: "https://www.facebook.com/redentoristassaopaulo",
+        in: "https://www.instagram.com/missionariosredentoristas/",
       },
       {
         loc: "Suriname",
@@ -283,19 +277,19 @@ let cssr = {
     'Caribbean':[
       {
         loc: "Amеrica Central",
-        web: "",
-        fb: "",
+        web: "https://redentoristasac.com/",
+        fb: "https://www.facebook.com/familiaredentorista/",
         in: "",
       },
       {
         loc: "Bogota",
-        web: "",
-        fb: "",
-        in: "",
+        web: "https://www.redentoristasdecolombia.com/",
+        fb: "https://www.facebook.com/redencol.cssr",
+        in: "https://www.instagram.com/redentoristasdecolombia/",
       },
       {
         loc: "Caracas",
-        web: "",
+        web: "http://www.redentoristasdevenezuela.org/",
         fb: "",
         in: "",
       },
@@ -313,8 +307,8 @@ let cssr = {
       },
       {
         loc: "Peru North",
-        web: "",
-        fb: "",
+        web: "http://www.redentoristasac.com/",
+        fb: "https://www.facebook.com/familiaredentorista/",
         in: "",
       },
       {
@@ -346,12 +340,12 @@ let cssr = {
       {
         loc: "Dublin",
         web: "http://www.redemptorists.ie",
-        fb: "",
+        fb: "https://www.facebook.com/RedemptoristsIreland",
         in: "",
       },
       {
         loc: "Francia",
-        web: "www.redemptoristes.fr",
+        web: "https://redemptoristes.fr/",
         fb: "",
         in: "",
       },
@@ -364,25 +358,25 @@ let cssr = {
       {
         loc: "London",
         web: "http://www.redemptorists.co.uk",
-        fb: "",
+        fb: "https://www.facebook.com/RedemptoristVocationsGB/",
         in: "",
       },
       {
         loc: "Lviv",
         web: "http://www.cssr.lviv.ua",
-        fb: "",
+        fb: "https://www.facebook.com/cssrlviv",
         in: "",
       },
       {
         loc: "Madrid",
         web: "http://www.redentoristas.org",
-        fb: "",
-        in: "",
+        fb: "https://www.facebook.com/RedentoristasES/",
+        in: "https://www.instagram.com/redentoristases/",
       },
       {
         loc: "Michalovce",
         web: "http://redemptoristi.nfo.sk",
-        fb: "",
+        fb: "https://www.facebook.com/casopismisionar",
         in: "",
       },
       {
@@ -400,7 +394,7 @@ let cssr = {
       {
         loc: "St. Clemens",
         web: "http://www.stclemens.org",
-        fb: "",
+        fb: "https://www.facebook.com/RedemptoristenProvinzStClemensBerufungspastoral",
         in: "",
       },
       {
@@ -418,15 +412,57 @@ let cssr = {
       {
         loc: "Warszawa",
         web: "https://www.redemptor.pl/",
-        fb: "",
-        in: "",
+        fb: "https://www.facebook.com/Redemptorysci",
+        in: "https://www.instagram.com/redemptor.pl",
       },
     ],
   },
   MSsR:{
-    Ukraine: {
-
-    }
+    "Austria - Germany": 
+    [ 
+      {
+        loc: "Stadl",
+        web: "https://missionsschwestern.de/",
+        fb: "https://www.facebook.com/Missionsschwestern-vom-Heiligsten-Erl%C3%B6ser-906436116118827",
+        in: "",
+      },
+    ], 
+    "Bolivia": 
+    [ 
+      {
+        loc: "Rurrenabaque",
+        web: "",
+        fb: "https://www.facebook.com/misioneras.redentoristasbolivia",
+        in: "",
+      },
+    ],
+    "Chile": 
+    [ 
+      {
+        loc: "Santiago",
+        web: "",
+        fb: "https://www.facebook.com/hnas.redentoristas",
+        in: "",
+      },
+    ],
+    "International": 
+    [ 
+      {
+        loc: "World",
+        web: "",
+        fb: "https://www.facebook.com/MSsRworld/",
+        in: "",
+      },
+    ],
+    Ukraine: 
+    [ 
+      {
+        loc: "Lviv",
+        web: "",
+        fb: "https://www.facebook.com/sestryredemptorystky",
+        in: "https://www.instagram.com/sisters.mssr/",
+      },
+    ]
   },
   OSsR:{} 
 }
