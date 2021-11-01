@@ -464,7 +464,158 @@ let cssr = {
       },
     ]
   },
-  OSsR:{} 
+  OSsR:{
+    Austria:[
+      {
+        loc: "Lauterach",
+        web: "http://www.kloster-lauterach.at",
+        fb: "",
+        in: "",
+      },
+      {
+        loc: "Ried im Innkreis",
+        web: "http://www.redemptoristinnen.at/Ried/Ried_index.html",
+        fb: "",
+        in: "",
+      },
+    ],
+    Brazil:[
+      {
+        loc: "São Paulo",
+        web: "https://asmonjasredentoristas.blogspot.com/",
+        fb: "",
+        in: "",
+      },
+      {
+        loc: "Formosa",
+        web: "https://www.mosteirodasantaface.org/",
+        fb: "https://www.facebook.com/mosteirodasantaface.oficial",
+        in: "https://www.instagram.com/mosteirodasantaface.oficial/",
+      },
+    ],
+    Canada:[
+      {
+        loc: "Sainte-Thérèse",
+        web: "http://www3.bell.net/ossrsteth/",
+        fb: "",
+        in: "",
+      },
+    ],
+    France:[
+      {
+        loc: "Saint-Restitut",
+        web: "https://www.redemptoristines-st-restitut.fr/",
+        fb: "",
+        in: "",
+      },
+    ],
+    International:[
+      {
+        loc: "World",
+        web: "https://www.ossr-nuns.org",
+        fb: "",
+        in: "",
+      },
+    ],
+    Ireland:[
+      {
+        loc: "Dublin",
+        web: "https://www.rednuns.com/",
+        fb: "https://www.facebook.com/RedNunsDublin",
+        in: "https://www.instagram.com/red_nuns_dublin/",
+      },
+    ],
+    Italy:[
+      {
+        loc: "Foggia",
+        web: "https://www.monasterocrostarosa.it",
+        fb: "",
+        in: "",
+      },
+      {
+        loc: "Sant'Agata dei Goti",
+        web: "http://www.redentoristesantagata.it",
+        fb: "https://www.facebook.com/redentoristesantagata/",
+        in: "",
+      },
+      {
+        loc: "Scala",
+        web: "http://redentoriste.com",
+        fb: "https://www.facebook.com/redentoristescala/",
+        in: "",
+      },
+    ],
+    Kazakhstan:[
+      {
+        loc: "Petropavl",
+        web: "https://ossr-kz.org/",
+        fb: "",
+        in: "",
+      },
+    ],
+    Philippines:[
+      {
+        loc: "Cebu",
+        web: "",
+        fb: "https://www.facebook.com/Redemptoristine-Nuns-Cebu-374284769323038",
+        in: "",
+      },
+    ],
+    Poland:[
+      {
+        loc: "Bielsko-Biała",
+        web: "http://www.redemptorystki.pl/",
+        fb: "",
+        in: "",
+      },
+    ],
+    Slovakia: 
+    [ 
+      {
+        loc: "Kežmarok",
+        web: "http://www.redemptoristky.sk/",
+        fb: "https://www.facebook.com/redemptoristkyKK/",
+        in: "",
+      },
+      {
+        loc: "Vranov nad Topľou",
+        web: "http://redemptoristky.eu",
+        fb: "",
+        in: "",
+      },
+    ],
+    Spain:[
+      {
+        loc: "Madrid",
+        web: "http://www.redentoristasmonasterio.org/",
+        fb: "",
+        in: "",
+      },
+    ],
+    Ukraine:[
+      {
+        loc: "Lviv",
+        web: "",
+        fb: "",
+        in: "",
+      },
+    ],
+    USA:[
+      {
+        loc: "Liguori",
+        web: "",
+        fb: "https://www.redemptoristinenuns.org/index.html",
+        in: "",
+      },
+      {
+        loc: "New York",
+        web: "https://www.rednunsny.org/",
+        fb: "https://www.facebook.com/RedNunsEsopus",
+        in: "",
+      },
+    ]
+
+  } 
 }
 
 Vue.createApp({
