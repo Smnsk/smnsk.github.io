@@ -131,12 +131,13 @@ let date = new Date(),
      },  
   },
   mounted() {
-    setTimeout(() => this.load = false, 5000)
-    if (localStorage.active) {
-      this.active = localStorage.active
-      this.textColor = localStorage.textColor
-      this.fontSize = localStorage.font
-    }
+  setTimeout(() => this.load = false, 5000)
+  if (localStorage.active) {
+    localStorage.lc = this.lc
+    this.active = localStorage.active
+    this.textColor = localStorage.textColor
+    this.fontSize = localStorage.font
+  }
     this.page.name = `${lc[day].name}`
     this.page.index = `${lc[day].index}`
     this.page.name = `${lc[day].name}`
