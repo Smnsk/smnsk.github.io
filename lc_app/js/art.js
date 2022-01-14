@@ -21,7 +21,7 @@ let date = new Date(),
       page: {
         titul: `${d[(date.getDay() || 7)-1]} ${date.getDate()}. ${m[date.getMonth()].toLocaleLowerCase()} ${date.getFullYear()};`,
         name: ``,
-        index: `<h1>Vyberte dátum od 29. 11. 2020 do 31. 12. 2021</h1>`,
+        index: `<h1>Doplniť databázu</h1>`,
         lesson: ``,
       }
     }, 
@@ -72,7 +72,7 @@ let date = new Date(),
       l = this.date
       this.page.titul = `${d[(l.getDay() || 7)-1]} ${l.getDate()}. ${m[l.getMonth()].toLocaleLowerCase()} ${l.getFullYear()};`
       lc[day] == undefined ? this.page.name = " " : this.page.name = `${lc[day].name}`
-      lc[day] == undefined ? this.page.index = "<h1>Vyberte dátum od 29. 11. 2020 do 31. 12. 2021</h1>" : this.page.index = `${lc[day].index}`
+      lc[day] == undefined ? this.page.index = "<h1>Doplniť databázu</h1>" : this.page.index = `${lc[day].index}`
       lc[day] == undefined ? this.page.lesson = " " : this.page.lesson = `${lc[day].lesson}`
       lc[day] == undefined ? this.bgColor = " " : this.bgColor = `${lc[day].bgColor}`
     },
