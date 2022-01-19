@@ -40,15 +40,9 @@
    <transition name="head">
      <div class="head_tools" v-if="showHead" >
 			 <span class="navIcon" @click="showNav = true">&#8801</span>
-			 <span class="lupap" @click="fontPlus"> +
-				<hr>
-			</span>
-			 <span class="lupa" @click="fontNormal">
-				<hr>
-			</span>
-			 <span class="lupam" @click="fontMinus"> -
-				 <hr>
-			 </span>
+			 <span class="lupap" @click="fontPlus"></span>
+			 <span class="lupa" @click="fontNormal"></span>
+			 <span class="lupam" @click="fontMinus"></span>
 			 <span class="home" @click="home"> </span>
 		  <div class="night" @click="toggle">
         <span class="sun" v-if="moon" @click="active = 'rgba(255,255,255, 1)', textColor = 'black', txt2 = 'white'"></span>
