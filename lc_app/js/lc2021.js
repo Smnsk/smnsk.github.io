@@ -14019,7 +14019,7 @@ Ty si Peter a na tejto skale postavím svoju Cirkev</p>
 	bgColor: `gold`,
 	index:/*html*/`<p class="red"><b>SV. CYRILA A METODA, SLOVANSKÝCH VIEROZVETSTOV</b></p>
 <p><b>Omša</b> zo slávnosti, Glória, Krédo, pf vlastná.</p>
-<p><b>Č 1:</b> 117, 1. 2;</p>
+<p><b>Č 1:</b> Sir 4, 1. 4-7. 11-15</p>
 <p><b>Ž:</b> 34, 2-3. 4-5. 6-7. 8-9;</p>
 <p><b>Č 2:</b> Ef 4, 1-7. 11-13;</p>
 <p><b>Ev:</b> Mt 28, 16-20;</p>
@@ -14273,7 +14273,7 @@ To sú naši otcovia a praví pastieri, </p>
   <p><b>Omša</b> podľa výberu.</p>
   <p><b>Č 1:</b> Gn 32, 22-32;</p>
   <p><b>Ž:</b> 17, 1. 2-3. 6-7. 8+15;</p>
-  <p><b>Ev:</b> Mt 9, 32-38;</p>
+  <p><b>Ev:</b> Mt 10, 16-23;</p>
   <p><b>L</b> III, 192; (<b>OL</b> II, 181; <b>OR</b> II, 248).</p>
   <br>
   <p><b>Liturgia hodín:</b> Piatok v 2. týždni. Of z férie alebo zo spomienky.</p>`,
