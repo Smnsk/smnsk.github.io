@@ -422,7 +422,13 @@ hr{
     width: 97%;
   }
   .body_lesson{
-    margin-left: 5px;
+    margin: 5px;
+    padding: 0;
+  }
+  .info_body{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
   }
   .les{
     text-align: justify;

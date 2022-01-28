@@ -8159,7 +8159,7 @@ Zakazujú sa všetky iné omše, aj pohrebná.
   <br>
   <p><b>Liturgia hodín:</b> Of vlastné. Na ranné chvály, vešpery a kompletórium sa namiesto krátkeho responzória berie príslušná antifóna. Kompletórium z nedele (2) s modlitbou vo Veľkonočnom trojdní, nerecitujú ho však tí, čo sa zúčastnili na slávení Veľkonočnej vigílie.</i></p>
   <p><b>Dnes vo dne sa nesmie sláviť nijaká svätá omša. Sväté prijímanie možno dať len ako viatikum.</b></p>
-  <p>Neslobodno dovoliť slávenie manželstva a iných sviatosti okrem pokánia a pomazania chorých.q </p>
+  <p>Neslobodno dovoliť slávenie manželstva a iných sviatosti okrem pokánia a pomazania chorých. </p>
   `,},
   "2021-04-04":{  
   name: "Izidor",
@@ -19360,7 +19360,7 @@ To sú naši otcovia a praví pastieri, </p>
 	<p><b>Omša</b> zo spomienky, pf spoločná alebo o svätcovi.</p>
 	<p><b>Č 1:</b> Zach 8, 1-8;</p>
 	<p><b>Ž:</b> 149, 1-2. 3-4. 5-6a+9b;</p>
-  <p><b>Ev:</b> Lk 9, 7-9;</p>
+  <p><b>Ev:</b> Lk 9, 46-50;</p>
   <p><b>L</b> III, 324; (<b>OL</b> II, 507; <b>OR</b> III, 127).</p>
 	<br>
   <p><b>Liturgia hodín:</b> Pondelok v 2. týždni. Of zo spomienky. </p>`,
