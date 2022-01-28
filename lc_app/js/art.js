@@ -12,7 +12,7 @@ let date = new Date(),
       load: true,
       showHead: true,
       showNav: false,
-      pTop: "85px",
+      pTop: "90px",
       fontSize: 1,
       moon: "",
       active: "",
@@ -65,7 +65,7 @@ let date = new Date(),
   methods:{
     dbClick(){
       this.showHead = !this.showHead
-      this.showHead == true ? this.pTop = "80px" : this.pTop = "35px"
+      this.showHead == true ? this.pTop = "85px" : this.pTop = "40px"
     },
     home(){
       this.date = new Date()
