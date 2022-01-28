@@ -65,7 +65,7 @@ let date = new Date(),
   methods:{
     dbClick(){
       this.showHead = !this.showHead
-      this.showHead == true ? this.pTop = "85px" : this.pTop = "40px"
+      this.showHead == true ? this.pTop = "85px" : this.pTop = "45px"
     },
     home(){
       this.date = new Date()
