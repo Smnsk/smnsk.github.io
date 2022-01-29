@@ -72,7 +72,7 @@ let date = new Date(),
       l = this.date
       this.page.titul = `${d[(l.getDay() || 7)-1]} ${l.getDate()}. ${m[l.getMonth()].toLocaleLowerCase()} ${l.getFullYear()};`
       lc[day] == undefined ? this.page.name = " " : this.page.name = `${lc[day].name}`
-      lc[day] == undefined ? this.page.index = "<h1>Doplniť databázu</h1>" : this.page.index = `${lc[day].index}`
+      lc[day] == undefined ? this.page.index = `<h2> Vyberte datum od 2.3.2022 do 26.11.2022 </h2>` : this.page.index = `${lc[day].index}`
       lc[day] == undefined ? this.page.lesson = " " : this.page.lesson = `${lc[day].lesson}`
       lc[day] == undefined ? this.bgColor = " " : this.bgColor = `${lc[day].bgColor}`
     },
