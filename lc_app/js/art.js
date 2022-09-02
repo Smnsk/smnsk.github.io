@@ -139,7 +139,6 @@ let date = new Date(),
   }
     this.page.name = `${lc[day].name}`
     this.page.index = `${lc[day].index}`
-    this.page.name = `${lc[day].name}`
     this.page.lesson = `${lc[day].lesson}`
     this.bgColor = `${lc[day].bgColor}`
     }, 
