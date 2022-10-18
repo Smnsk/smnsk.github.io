@@ -10857,7 +10857,7 @@ Ty si Peter a na tejto skale postavím svoju Cirkev</p>
     <p class="les">Počuli sme slovo Pánovo.</p>`  
   },           
   "2022-09-07":{
-    name: "Marianna",
+    name: `Marianna`,
     index:/*html*/`<p><b>Sv. Marka Križina, Melichara Grodzieckeho a Štefana Pongrácza, kňazov a mučeníkov</b><span class="LColor" style="background-color: red"></span></p>`,
     lesson: /*html*/`<p class="red">PRVÉ ČÍTANIE</p>	
     <p class="center"><i>Si viazaný k žene? Nevyhľadávaj rozluku. Si bez ženy? Nehľadaj si ženu</i></p>
