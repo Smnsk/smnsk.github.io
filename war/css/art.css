@@ -2,7 +2,6 @@
   font-family: Beer;
   src: url("../css/beer\ money.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +10,20 @@
   width: 100%;
   min-height: 100vh;
   background-image: url("../img/war.jpg");
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
+}
+.btn{
+  width: 36px;
+  height: 36px;
+  position: fixed;
+  background-position: center;
+  background-size: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
 }
 .titel,.sold{
   display: flex;
@@ -21,7 +32,9 @@
   width: 100%;
   height: 100vh;  
 }
-
+.sold{
+  background-color: rgba(0, 0, 0, .5);
+}
 .titel{
   color: whitesmoke;
   font-family: Beer;
@@ -40,6 +53,7 @@
   background-position: center;
 }
 .name, .birthday, .death{
+  font-size: 20px;
   margin: 5px;
   color: white;
   text-align: center;

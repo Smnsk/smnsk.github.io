@@ -10,15 +10,19 @@
 </head>
 <body>
   <div class="box">
-    <div class="titel">Герої Великого Березного, якi поклали життя за Україну</div>
+    <div class="btn" @click=toogle() :style="{backgroundImage: show ? ' url(img/eng.png)' : ' url(img/ukr.png)'}"></div>
+    <div class="titel">{{titul}}</div>
     <div class="sold">
-      <div class="wrap">
+      <div class="wrap" v-for="hero in war">
         <div class="hero"></div>
-        <div class="name">Сабов Руслан Миколайович</div>
-        <div class="birthday">* 2. 11. 1977</div>
-        <div class="death"> + 18. 2. 2015 </div>
+        <div class="name" v-if="show">{{hero.name}}</div>
+        <div class="name" v-else>{{hero.eng}}</div>
+        <div class="birthday">{{hero.birth}}</div>
+        <div class="death"> {{hero.death}}</div>
       </div>
     </div> 
   </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="js/art.js"></script>
 </body>
 </html>
