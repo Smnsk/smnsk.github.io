@@ -14,11 +14,14 @@
     <div class="titel">{{titul}}</div>
     <div class="sold">
       <div class="wrap" v-for="hero in war">
-        <div class="hero"></div>
+        <div class="hero" :style="{backgroundImage: ' url(' + hero.img + ')'}"></div>
         <div class="name" v-if="show">{{hero.name}}</div>
         <div class="name" v-else>{{hero.eng}}</div>
         <div class="birthday">{{hero.birth}}</div>
         <div class="death"> {{hero.death}}</div>
+        <p class="yt">
+        <a :href="hero.youtube" target="_blank"></a>
+        </p>
       </div>
     </div> 
   </div>
