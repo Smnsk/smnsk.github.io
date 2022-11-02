@@ -8,6 +8,71 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.925);
+  z-index: 2;
+}
+.book{
+  width: 300px;
+  height: 200px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+  width: 280px;
+  height: 180px;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+}
+.item{
+  position: absolute;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+.item:nth-child(1){
+  animation: anima 1s ease forwards;
+  top: 30px;
+  left: 20px;
+}
+.item:nth-child(2){
+  animation: anima 1s ease 1s forwards;
+  top: 80px;
+  left: 20px;
+}
+.item:nth-child(3){
+  animation: anima 1s ease 2s forwards;
+  top: 130px;
+  left: 20px;
+}
+.item:nth-child(4){
+  animation: anima 1s ease 3s forwards;
+  top: 30px;
+  left: 160px;
+}
+.item:nth-child(5){
+  animation: anima 1s ease 4s forwards;
+  top: 80px;
+  left: 160px;
+}
+.item:nth-child(6){
+  animation: anima 1s ease 5s forwards;
+  top: 130px;
+  left: 160px;
+}
+
+
+
 .lib{
   width: 755px;
 }
@@ -169,4 +234,9 @@ hr{
     bottom: 40px;
     left: 15px;
   }
+}
+
+@keyframes anima {
+  from {width: 0px;}
+  to {width: 100px;}
 }

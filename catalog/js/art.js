@@ -29,6 +29,7 @@ createApp({
       lib: lib,
       search: "",
       place: "",
+      load: true,
     }
   },
   computed:{
@@ -42,6 +43,9 @@ createApp({
       return this.show = true
    }
   }
+},
+mounted(){
+  setTimeout(() => this.load = false, 6500)
 }
  
 }).mount('.lib')

@@ -10,6 +10,15 @@
 </head>
 <body>
   <div class="lib">
+    <!-- LOADER -->
+    <div class="load" v-if="load">
+      <div class="book">
+        <div class="items">
+           <div class="item" v-for="item in 6"></div>
+        </div>
+      </div>
+    </div>
+    <!-- PAGE -->
     <h1> {{name}} </h1>
     <input type="text" class="foc" :placeholder='[[place]]' v-model="search">
     <div class="box">
