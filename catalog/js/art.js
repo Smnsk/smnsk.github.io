@@ -16,7 +16,7 @@ let lib = [
   },
   {
     titul: "",
-    name: "Зубанич Ф.І.",
+    name: "",
     code: "",
   },
 ]
