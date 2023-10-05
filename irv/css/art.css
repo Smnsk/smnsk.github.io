@@ -29,12 +29,27 @@ body{
   color: white;
   z-index: 1;
 }
+.btn{
+  position: absolute;
+  font-size: 48px;
+  top: 35px;
+  right: 20px;
+  cursor: pointer;
+}
 .cont{
   display: flex;
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 5vw 0;
+}
+.stat{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 .card{
   position: relative;

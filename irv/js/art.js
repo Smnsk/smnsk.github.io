@@ -1244,7 +1244,7 @@ let verbs = [{
      perf_v: "Požiadali o pomoc policiu."
 },
 {
-     inf: "seel",
+     inf: "sell",
      tr_inf: "[sel]",
      pret: "sold",
      tr_pret: "[səuld]",
@@ -1984,7 +1984,9 @@ let app = new Vue({
   el: '.page',
   data: {
     message: 'Hello Vue!',
+    show: true,
     verbs: verbs,
+    cats: cats,
     img: "./img/card2.png"
   }
 })

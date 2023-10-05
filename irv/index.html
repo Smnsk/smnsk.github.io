@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/art.css">
   <title>Irregular verbs</title>
 </head>
 <body>
   <div class="page">
-    <div class="title">Irregular verbs</div>
-    <div class="cont">
+    <div class="title">Irregular verbs
+      <div class="btn" @click="show = !show">
+        <div class="btn1 fa-solid fa-font" v-if="show"></div>
+        <div class="btn2 fa-solid fa-bars" v-else="!show"></div>
+      </div>
+    </div>
+    <div class="cont" v-if="show">
       <div class="card" v-for="(card, i) in verbs">
         <div class="front">
           <img :src="'./img/card'+(i+1)+'.png'">
@@ -38,8 +44,39 @@
         </div>
       </div>
     </div>
+    <div class="stat" v-else="!show" v-for="(cat, i) in cats">
+      <div class="card" v-for="(cat1, i) in cat">
+        <div class="front">
+          <img :src="'./img/card' + cat1.img">
+          <div class="verb">
+            <p>{{cat1.inf}} <span>{{cat1.tr_inf}}</span></p>
+            <p>{{cat1.pret}} <span>{{cat1.tr_pret}}</p>
+            <p>{{cat1.perf}} <span>{{cat1.tr_perf}}</p>
+          </div>
+            <div class="sent">
+              <p>{{cat1.inf_s}}</p>
+              <p>{{cat1.pret_s}}</p>
+              <p>{{cat1.perf_s}}</p>
+            </div>
+          <span class="index">{{i+1}}</span>
+        </div>
+        <div class="back">
+          <img :src="'./img/card' + cat1.img">
+          <p>{{cat1.trans}}</p>
+          <div class="sent">
+            <p>{{cat1.inf_v}}</p>
+            <p>{{cat1.pret_v}}</p>
+            <p>{{cat1.perf_v}}</p>
+          </div>
+          <span class="index">{{i+1}}
+        </div>
+      </div>
+    </div>
   </div>
 <script src="js/vue.js"></script>
+<script src="js/cat.js"></script>
 <script src="js/art.js"></script>
+
+
 </body>
 </html>
