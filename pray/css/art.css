@@ -19,6 +19,9 @@ aside{
   transition: all 0.8s ease;
   overflow: hidden;
 }
+input{
+  display: none;
+}
 .lb{
   cursor: pointer;
   width: 50px;
@@ -45,32 +48,75 @@ span:nth-child(2) {
 span:nth-child(3) {
   transform: translateY(16px);
 }
-input{
-  display: none;
-}
-input:checked ~ aside{
+#box:checked ~ aside{
   width: 375px;
   transition: all 1s;
   overflow: hidden;
 }
-input:checked ~ article{
+#box:checked ~ article{
   width: calc(100vw - 375px)
 }
-input:checked ~ aside>.lb>div>span{
+#box:checked ~ aside>.lb>div>span{
   background-color: tomato;
 }
-input:checked ~ aside>.lb>div>span:nth-child(1){
+#box:checked ~ aside>.lb>div>span:nth-child(1){
   transform: translateY(8px) rotate(-45deg);
 }
-input:checked ~ aside>.lb>div>span:nth-child(2){
+#box:checked ~ aside>.lb>div>span:nth-child(2){
   transition: all .1s;
   visibility: hidden;
 }
-input:checked ~ aside>.lb>div>span:nth-child(3){
+#box:checked ~ aside>.lb>div>span:nth-child(3){
   transform: translateY(8px) rotate(45deg);
 }
+
+#btn1:checked ~ article>#rm{
+  display: block;
+}
+#btn2:checked ~ article>#rr{
+  display: block;
+}
+#btn3:checked ~ article>#mp{
+  display: block;
+}
+#btn4:checked ~ article>#mj{
+  display: block;
+}
+#btn5:checked ~ article>#vm{
+  display: block;
+}
+#btn6:checked ~ article>#os{
+  display: block;
+}
+#btn7:checked ~ article>#ma{
+  display: block;
+}
+
+#btn1:checked ~ aside>.list>.img0{
+  background-color: rgb(46, 194, 46);
+}
+#btn2:checked ~ aside>.list>.img1{
+  background-color: rgb(46, 194, 46);
+}
+#btn3:checked ~ aside>.list>.img2{
+  background-color: rgb(46, 194, 46);
+}
+#btn4:checked ~ aside>.list>.img3{
+  background-color: rgb(46, 194, 46);
+}
+#btn5:checked ~ aside>.list>.img4{
+  background-color: rgb(46, 194, 46);
+}
+#btn6:checked ~ aside>.list>.img5{
+  background-color: rgb(46, 194, 46);
+}
+#btn7:checked ~ aside>.list>.img6{
+  background-color: rgb(46, 194, 46);
+}
+
+
 article{
-  width: 100vw;
+  width: calc(100vw - 62px);
    height: 100vh;
    overflow: scroll;
    margin-left: 10px;
@@ -80,7 +126,7 @@ article{
   font-size: 24px;
   color: aliceblue;
 }
-.list>a{
+.list{
   width: 350px;
   display: flex;
   text-decoration: none;
@@ -99,6 +145,7 @@ article{
   background-position: center;
   background-size: 20px;
   background-color: #ccc;
+  transition: all 1s;
 }
 .name{
   cursor: pointer;
@@ -141,16 +188,8 @@ article{
   min-height: 100vh;
 }
 
-#rm:target,
-#rr:target,
-#mp:target,
-#vm:target,
-#mj:target,
-#ma:target,
-#os:target {
-  display: block;
-}
 
 #rm>div, #mj>div, #vm>div{
   display: none;
 }
+
