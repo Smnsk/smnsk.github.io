@@ -154,6 +154,12 @@ article{
 .red{
   color: red;
 }
+#index>div{
+  padding: 10px 10px 0 17px;
+}
+#index>div:last-child{
+  padding-bottom: 10px;
+}
 
 .img0{
   background-image: url("../image/0.svg");
