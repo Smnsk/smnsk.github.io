@@ -1,10 +1,12 @@
 {
-  "name": "Pray",
+  "name": "Pray CSsR",
   "short_name": "Pray",
+  "id": "index.html",
   "start_url": "index.html",
   "display": "standalone",
+  "theme_color": "red",
   "background_color": "#cccccc",
-  "orientation": "portrait-primary",
+  "orientation": "portrait",
   "icons": [
     {
         "src": "./image/icons/icon_x48.png",
@@ -20,11 +22,6 @@
         "src": "./image/icons/icon_x96.png",
         "type": "image/png",
         "sizes": "96x96"
-    },
-    {
-        "src": "./image/icons/icon_x128.png",
-        "type": "image/png",
-        "sizes": "1288x128"
     },
     {
         "src": "./image/icons/icon_x192.png",
