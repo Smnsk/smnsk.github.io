@@ -1,45 +1,7 @@
-function parallax(){
-   title.style.top = -(window.pageYOffset / 4) + "px";
-};
-window.addEventListener("scroll", parallax, false);
+let text1 = document.getElementById("text1")
 
-$(".nav a").on("click", function() {
-  var element = $(this).attr("href");
-  var dist = $(element).offset().top;
-  $("html, body").animate({"scrollTop": dist}, 1000);
-  return false;
+window.addEventListener('scroll', () => {
+  let { scrollY } = window;
+  console.log(scrollY)
+  text1.style.top = .9 * scrollY + 100 +'px';
 });
-
-$(".nav a").eq(0).addClass("active");
-
-$(window).scroll(function() {
-  var scrollPos = $(this).scrollTop();
-	    $('.nav a').each(function () {
-	        var currLink = $(this);
-	        var refElement = $(currLink.attr("href"));
-	        if (refElement.offset().top -5 <= scrollPos) {
-	            $('.nav a').removeClass("active");
-	            currLink.addClass("active");
-	        }
-	    });
-});
-
-$(".bt").eq(0).addClass("check");
-$(".age").eq(0).addClass("anim").removeClass("left");
-$(".bt").on("click", function() {
-      $(".bt").removeClass("check");
-      $(this).addClass("check");
-      var ind = $(".bt").index(this);
-      $(".age").removeClass("anim").addClass("left");
-      $(".age").eq(ind).addClass("anim").removeClass("left");
-    });
-
-$(".pt").eq(0).addClass("check");
-$(".image").eq(0).addClass("anim").removeClass("scale")
-$(".pt").on("click", function() {
-      $(".pt").removeClass("check");
-      $(this).addClass("check");
-      var int = $(".pt").index(this);
-      $(".image").removeClass("anim").addClass("scale");
-      $(".image").eq(int).addClass("anim").removeClass("scale");
-    });
