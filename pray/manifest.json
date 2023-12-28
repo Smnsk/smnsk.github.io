@@ -7,6 +7,22 @@
   "theme_color": "red",
   "background_color": "#cccccc",
   "orientation": "portrait",
+  "screenshots": [
+    {
+     "src": "./image/screen.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Screen App"
+    },
+    {
+     "src": "./image/screen2.png",
+      "sizes": "1440x2560",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Screen App 2"
+    }
+],
   "icons": [
     {
         "src": "./image/icons/icon_x48.png",

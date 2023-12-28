@@ -555,15 +555,17 @@
 
   vm[dayWeek >= 4 ? dayWeek - 2 : dayWeek + 1].style.display = "block"
 
+  document.getElementById("pat").innerHTML = patron[month] 
+
   let firstName = ''
 
-  for(ind of index[day]){
+  for(const data of index[day]){
     
-    firstName += `<div> ${ind.name} (${ind.year}) - ${ind.loc} </div>`
+    firstName += `<div> ${data.name} (${data.year}) - ${data.loc} </div>`
   }
   
   document.getElementById("index").innerHTML = firstName 
 
-  document.getElementById("pat").innerHTML = patron[month] 
+ 
 
 
