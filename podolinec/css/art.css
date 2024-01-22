@@ -24,13 +24,14 @@
     text-shadow: 1px 1px 5px white;
 }
 
-.one, .three{
-    background-image: url("../img/klastor.jpg");    
+.one{
+    background-image: url("../img/klastor.jpg");
+    background-position: top;    
 }
 .two {
     width: 100%;
     background-attachment: fixed;
-    background-image: url("../img/bc1.png");
+    background-image: url("../img/klastor_bg.jpg");
     background-position: top;
     height: 80vh;
     backdrop-filter: contrast(90%) blur(50px);
@@ -109,5 +110,5 @@
 }
 
 .three{
-    background-image: url("../img/klastor.jpg");
+   background-color:  rgba(230, 112, 9, 0.5);
 }

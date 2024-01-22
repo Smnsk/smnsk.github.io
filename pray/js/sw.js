@@ -20,10 +20,10 @@ self.addEventListener('install', async event => {
   await cache.addAll(assetUrls)
 })
 
-self.addEventListener('activate', async event =>{
-  console.log("activate SW")
+self.addEventListener('activate', event =>{
+  console.log("activate SW",)
 })
 
 self.addEventListener('fetch', event => {
-  console.log("Fetch", event.request.url)
+  console.log("Fetch working")
  });
