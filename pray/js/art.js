@@ -1,5 +1,6 @@
  let index = {
-// JANUÁR
+
+  // JANUÁR
 
   "01-01":[{ 
     name: "P. Rudolf Chytil",
@@ -233,7 +234,516 @@
 
 //FEBRUÁR
 
+"02-01":[{
+  name: "fr. Antonín (Marian Hrnčiř)",
+  year: 1905,
+  loc: "Červenka, okres Olomouc"
+},
+{ 
+  name: "fr. Sarkander",
+  year: 1953,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "fr. Alojz Slodička",
+  year: 1976,
+  loc: "Wien, Austria"
+},
+{ 
+  name: "P. Jozef Maria Fial",
+  year: 1978,
+  loc: "Unhošť, okres Kladno"
+}
+],
+"02-03":[{
+  name: "P. Stanoslav Míka",
+  year: 1970,
+  loc: "Sydney, Australia"
+},
+{ 
+  name: "P. Jan Bísek",
+  year: 2001,
+  loc: "Sedlec u Českých Budějovic"
+}
+],
+"02-04":[{
+  name: "P. Václav Vošalík",
+  year: 1974,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "P. Jozef Sukovský",
+  year: 2014,
+  loc: "Jastrabie nad Topľou, Vranov nad Topľov"
+}
+],
+"02-06":[{
+  name: "P. Ján Janok st.",
+  year: 1986,
+  loc: "Bratislava - Martinský cintorín"
+},
+],
+"02-08":[{
+  name: "fr. Ondrej Essler",
+  year: 1906,
+  loc: "Litovel, okres Olomouc"
+},
+],
+"02-09":[{
+  name: "fr. Jozef Siblík",
+  year: 1932,
+  loc: "Praha-Vyšehrad"
+},
+],
+"02-10":[{
+  name: "P. Ondrej Korvas",
+  year: 1987,
+  loc: "Úštěk, okres Litoměřice"
+},
+],
+"02-12":[{
+  name: "P. Martin Janů",
+  year: 1937,
+  loc: "Libějovice, okers Strakonice"
+},
+{
+  name: "P. Václav Kalous",
+  year: 1974,
+  loc: "Opava"
+},
+],
+"02-13":[{
+  name: "fr. Tadeáš František Dolínek",
+  year: 1924,
+  loc: "Praha-Vyšehrad"
+},
+],
+"02-17":[{
+  name: "P. Jan Hradilák",
+  year: 1945,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+{
+  name: "P. Václav Vosáhlo",
+  year: 1975,
+  loc: "Litoměřice"
+},
+],
+"02-19":[{
+  name: "fr. Izidor (Karol Hajduk)",
+  year: 1960,
+  loc: "Bratislava - Martinský contorín"
+},
+],
+"02-20":[{
+  name: "fr. Rafael (Vojtěch Kořínek)",
+  year: 1983,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Karel Zeman",
+  year: 2011,
+  loc: "Božejov, okres Pelhřimov"
+},
+],
+"02-21":[{
+  name: "fr. Gerard (František Koláŕ)",
+  year: 1939,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+],
+"02-23":[{
+  name: "fr. Ernest (Michal Šoltés)",
+  year: 2000,
+  loc: "Bratislava - Martinský contorín"
+},
+],
+"02-24":[{
+  name: "P. Stanislav Nikolaj Nekula",
+  year: 1969,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Milan Mikloško",
+  year: 2023,
+  loc: "Podolínec, okres Stará Ľubovňa"
+},
+],
+"02-26":[{
+  name: "P. František Blažek",
+  year: 1922,
+  loc: "Příbram"
+},
+{
+  name: "P. Jindřich Preis",
+  year: 1993,
+  loc: "Frýdek-Místek"
+},
+{
+  name: "P. Ján Bláha",
+  year: 2003,
+  loc: "Králíky, okres Ústí nad Orlicí"
+},
+],
+"02-27":[{
+  name: "P. Jozef Tomášek",
+  year: 1906,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"02-29":[{
+  name: "P. Antonín Kostelka",
+  year: 1976,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
 
+// MAREC
+"03-02":[{
+  name: "P. Otto Loula",
+  year: 1953,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Stanislav Ondrák",
+  year: 1980,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"03-03":[{
+  name: "P. František Rechtschmied",
+  year: 1927,
+  loc: "Svitavy"
+},
+{
+  name: "P. Ladislav Kyjovský",
+  year: 1983,
+  loc: "Jičín"
+},
+],
+"03-04":[{
+  name: "P. František Jurík",
+  year: 1991,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+],
+"03-05":[{
+  name: "P. Karel Bumbala",
+  year: 1951,
+  loc: "Duchovce, okres Teplice"
+},
+],
+"03-07":[{
+  name: "P. Miroslav Kružík",
+  year: 1981,
+  loc: "Osek, okres Teplice"
+},
+],
+"03-09":[{
+  name: "P. Stanislav Špůrek",
+  year: 1988,
+  loc: "Brno - Ústřední hřbitov"
+},
+{
+  name: "P. Jozef Doležal",
+  year: 2012,
+  loc: "Bratislava - Martinský cintorín"
+},
+],
+"03-10":[{
+  name: "P. Jozef Kalous",
+  year: 1948,
+  loc: "Svitavy"
+},
+{
+  name: "P. Jan Hanžl",
+  year: 1996,
+  loc: "Strukovice nad Blanicí, Prachatice"
+},
+],
+"03-11":[{
+  name: "P. František Lambor",
+  year: 1971,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"03-12":[{
+  name: "P. Nepomuk (Jan Hudeček)",
+  year: 1957,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "P. Václav Jalovský",
+  year: 1972,
+  loc: "Rynárec, okres Pelhřimov"
+},
+{ 
+  name: "P. Mikuláš Ďurkán",
+  year: 1990,
+  loc: "Michalovce"
+},
+{ 
+  name: "P. Otakar Kouřil",
+  year: 2004,
+  loc: "Loukov, okres Kroměříž"
+}
+],
+"03-13":[{
+  name: "P. Jaroslav Kalous",
+  year: 1943,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"03-14":[{
+  name: "P. Michal Tkáčik",
+  year: 1962,
+  loc: "Sobrance"
+},
+],
+"03-15":[{
+  name: "P. Jozef Chochula",
+  year: 1984,
+  loc: "Saratoga Springs (NY) USA"
+},
+],
+"03-16":[{
+  name: "P. Stanislav Pitrla",
+  year: 1988,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"03-18":[{
+  name: "fr. Nepomuk (Jan Kadeřábek)",
+  year: 1948,
+  loc: "Svitavy"
+},
+{ 
+  name: "P. Bernardin Čáka",
+  year: 1953,
+  loc: "Příbram"
+},
+],
+"03-19":[{
+  name: "P. Karfel Mixa",
+  year: 1925,
+  loc: "Praha - Vyšehrad"
+},
+],
+"03-20":[{
+  name: "P. Vladimír Sedláček",
+  year: 1968,
+  loc: "Slušovice, okres Zlín"
+},
+],
+"03-21":[{
+  name: "P. Ján Jaroš",
+  year: 1985,
+  loc: "České Budějovice"
+},
+],
+"03-22":[{
+  name: "fr. Benedikt (Jozef Kolář)",
+  year: 1919,
+  loc: "Olomouc - Ústřední hřbitov"
+},
+{ 
+  name: "P. Jozef Novák",
+  year: 1971,
+  loc: "Slušovice, okres Zlín"
+},
+{ 
+  name: "fr. Blažej (Alojz Polách)",
+  year: 2002,
+  loc: "Červenka, okres Olomouc"
+}
+],
+"03-24":[{
+  name: "P. Jozef Hanžl",
+  year: 2011,
+  loc: "Pelhřimov"
+},
+],
+"03-26":[{
+  name: "fr. Anton Hanáček",
+  year: 1948,
+  loc: "Podolínec, okres Stará Ľubovňa"
+},
+],
+"03-27":[{
+  name: "P. Václav Slezák",
+  year: 1965,
+  loc: "Brno - Ústřední hřbitov"
+},
+{ 
+  name: "fr. Teodor (Emil Matoušek)",
+  year: 1976,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"03-29":[{
+  name: "P. Jozef Nedbal",
+  year: 1915,
+  loc: "Příbram"
+},
+{ 
+  name: "fr. Berchmans (Václav Brožek)",
+  year: 1966,
+  loc: "Rubáň, okres Nové Zámky"
+},
+],
+"03-31":[{
+  name: "P. Jozef Vítka",
+  year: 1995,
+  loc: "Neplachovice, okres Opava"
+},
+{ 
+  name: "P. Jaroslav Saller",
+  year: 1998,
+  loc: "Příbram"
+},
+],
+
+//APRÍL
+"04-02":[{
+  name: "P. Petr Kanda",
+  year: 1921,
+  loc: "České Budějovice"
+},
+],
+"04-03":[{
+  name: "P. Jan Kunovjánek",
+  year: 1962,
+  loc: "Slatiňany, okres Chrudim"
+},
+],
+"04-04":[{
+  name: "P. Vojtech Štěpán",
+  year: 1931,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"04-05":[{
+  name: "P. Jan Burián",
+  year: 1953,
+  loc: "Praha-Vyšehrad"
+},
+{ 
+  name: "P. Ľudovít Michalovič",
+  year: 1993,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+{ 
+  name: "P. Jozef Bednárik",
+  year: 1997,
+  loc: "Staré Hory, okres Banská Bystrica"
+}
+],
+"04-06":[{
+  name: "P. Jozef Pavliš",
+  year: 1951,
+  loc: "Stará Boleslav"
+},
+],
+"04-07":[{
+  name: "P. Jozef Loch",
+  year: 1914,
+  loc: "Červenka, okres Olomouc"
+},
+{ 
+  name: "P. Vladimír Jeřábek",
+  year: 1971,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"04-09":[{
+  name: "P. Jozef Zbánek",
+  year: 1914,
+  loc: "Kašava, okres Zlín"
+},
+],
+"04-11":[{
+  name: "P. Karel Jež",
+  year: 1948,
+  loc: "Karlove Vary"
+},
+],
+"04-12":[{
+  name: "fr. Xaver (Michal Šamudovský)",
+  year: 1973,
+  loc: "Beckov, okres Nové Mesto nad Váhom"
+},
+],
+"04-14":[{
+  name: "fr. Ondrej (František Švejhl)",
+  year: 1942,
+  loc: "Obořiště, okres Příbram"
+},
+],
+"04-19":[{
+  name: "P. Rajmund Tkáč",
+  year: 1970,
+  loc: "Skalice u Frýdku-Místku"
+},
+],
+"04-20":[{
+  name: "P. Augustín Krajčík",
+  year: 1979,
+  loc: "Veľké Dvorany, okres Topoľčany"
+},
+],
+"04-23":[{
+  name: "P. Ondřej Kössler",
+  year: 1916,
+  loc: "České Budějovice"
+},
+],
+"04-24":[{
+  name: "P. František Němec",
+  year: 1922,
+  loc: "Praha Vyšehrad"
+},
+],
+"04-25":[{
+  name: "fr. Matěj Sluka",
+  year: 1922,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"04-26":[{
+  name: "P. Štefan Michalovič",
+  year: 1995,
+  loc: "Rubáň, okres Nové Zamky"
+},
+],
+"04-27":[{
+  name: "P. František Pivnička",
+  year: 1935,
+  loc: "Brno - Ústřední hřbitov"
+},
+{
+  name: "fr. Alfonz (Karel Sedláček)",
+  year: 2008,
+  loc: "Králiky, okres Ústí nad Orlici"
+},
+],
+"04-29":[{
+  name: "P. Rudolf Granát",
+  year: 1943,
+  loc: "Bratislava -  Martinský cintorín"
+},
+],
+
+//MÁJ
+
+"05-01":[{
+  name: "P. Štefan Vasilik",
+  year: 2019,
+  loc: "Stropkov"
+},
+],
+
+
+// NOVEMBER
 
   "11-18":[{
     name: "P. Cyril Jež",
@@ -347,6 +857,7 @@
 ],
 
 //DECEMBER
+
 "12-03":[
   {
     name: "P. Jozef Čichoň",
@@ -538,7 +1049,7 @@
  }
 
  
- let patron = ["Sv. Peter a Sv.Pavol", "Sv. Ondrej", "Sv. Jakub st.","Sv. Ján","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matúš","Sv. Šimon", "Sv. Tadeáš","Sv. Matej"];
+ let patron = ["Sv. Peter a Sv. Pavol", "Sv. Ondrej", "Sv. Jakub st.","Sv. Ján","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matúš","Sv. Šimon", "Sv. Tadeáš","Sv. Matej"];
   
   const date = new Date()
   let dayWeek = date.getDay()
