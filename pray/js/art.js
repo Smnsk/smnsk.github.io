@@ -741,6 +741,299 @@
   loc: "Stropkov"
 },
 ],
+"05-03":[{
+  name: "P. Vácalv Smolík",
+  year: 1920,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "P. František Chochula",
+  year: 1967,
+  loc: "Pezinok"
+},
+],
+"05-06":[{
+  name: "P. Jan Kučera",
+  year: 1971,
+  loc: "Ostředek u Brna"
+},
+],
+"05-07":[{
+  name: "P. Karel Škodný",
+  year: 1912,
+  loc: "Brno - Ústřední hřbitov"
+},
+{
+  name: "fr. Rudolf Mlýnský",
+  year: 1962,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"05-08":[{
+  name: "P. Jozef Pejška",
+  year: 1946,
+  loc: "Příbram"
+},
+{
+  name: "fr. Emanuel Fiedler",
+  year: 1988,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"05-09":[{
+  name: "P. Jan Pavelka",
+  year: 1993,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"05-10":[{
+  name: "P. František Sorko",
+  year: 1917,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "P. Jozef Grigeľ",
+  year: 1945,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+],
+"05-12":[{
+  name: "P. Václav Novák",
+  year: 1977,
+  loc: "České Budějovice"
+},
+],
+"05-14":[{
+  name: "P. Vincent Kubín",
+  year: 1928,
+  loc: "Červenka, okres Olomouc"
+},
+{
+  name: "P. Vojtěch Vasiľ Musil",
+  year: 1947,
+  loc: "Babice nad Svitavou, okres Brno-venkov"
+},
+],
+"05-17":[{
+  name: "P. Michal Majovský",
+  year: 1991,
+  loc: "Michalovce"
+},
+],
+"05-18":[{
+  name: "P. Karel Nováček",
+  year: 1911,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "P. Ignác Bláha",
+  year: 1917,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"05-25":[{
+  name: "fr. Nepomuk (Jan Šůstek)",
+  year: 1922,
+  loc: "Obořiště, okres Příbram"
+},
+],
+"05-26":[{
+  name: "P. Bohumil Jedovický",
+  year: 1991,
+  loc: "Slavkov u Opavy"
+},
+],
+"05-29":[{
+  name: "P. František Pokorný",
+  year: 1984,
+  loc: "Vranová Lhota, okres Svitavy"
+},
+],
+"05-30":[{
+  name: "P. Frantošek Novák",
+  year: 1985,
+  loc: "Ostrava"
+},
+],
+"05-31":[{
+  name: "P. Augustin Benda",
+  year: 1946,
+  loc: "Plzeň"
+},
+],
+
+// JÚN
+"06-02":[{
+  name: "fr. stud. Bohumír Schroller",
+  year: 1905,
+  loc: "Příbram"
+},
+{
+  name: "fr. Anselm (Karel Špůrek)",
+  year: 1969,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"06-04":[{
+  name: "fr. Tobiáš Okálek",
+  year: 1954,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Antonín Okálek",
+  year: 1966,
+  loc: "Moravice-Slížany, okres Kroměříž"
+},
+],
+"06-07":[{
+  name: "fr. Jozafát (Jozef Zacharjevič Mylyk)",
+  year: 1953,
+  loc: "Bratislava - Martinský cintorín"
+},
+],
+"06-08":[{
+  name: "P. Tomáš Zapletal",
+  year: 1925,
+  loc: "Příbram"
+},
+{
+  name: "P. Karel Náprstek",
+  year: 1928,
+  loc: "Praha-Vyšehrad"
+},
+],
+"06-09":[{
+  name: "fr. Jozef (Jaroslav Uhlíř)",
+  year: 1956,
+  loc: "Dalečín, Žďar nad Sázavou"
+},
+{
+  name: "P. Jozef Groz",
+  year: 2004,
+  loc: "Tasovice, okres Znojmo"
+},
+],
+"06-10":[{
+  name: "fr. stud. Jan Nekula",
+  year: 1907,
+  loc: "Myslibořice, Okres Třebíč"
+},
+{
+  name: "fr. Rafael (Karel Jára)",
+  year: 1934,
+  loc: "České Budějovice"
+},
+{
+  name: "P. Jozef Břicháček",
+  year: 2004,
+  loc: "Příbram"
+},
+{
+  name: "P. Jan Zemánek",
+  year: 2012,
+  loc: "Tasovice, okres Znojmo"
+},
+],
+"06-11":[{
+  name: "P. František Vošahlík",
+  year: 1946,
+  loc: "Příbram"
+},
+{
+  name: "fr. Pankrác (Jan Nepomuk Vařejka)",
+  year: 1979,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"06-12":[{
+  name: "P. Jozef Čelůstka",
+  year: 1979,
+  loc: "Vinipeg CANADA"
+},
+],
+"06-14":[{
+  name: "P. Jan Blesík",
+  year: 1985,
+  loc: "Praha-Vyšehrad"
+},
+],
+"06-15":[{
+  name: "P. Antonín Prager",
+  year: 1994,
+  loc: "Příbram"
+},
+],
+"06-18":[{
+  name: "fr. Juraj Zuzkáč",
+  year: 1989,
+  loc: "Králíky, okres Ústí nad Orlicí"
+},
+],
+"06-19":[{
+  name: "fr. Nepomuk (Alois Minx)",
+  year: 1935,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"06-20":[{
+  name: "P. Alois Daňko",
+  year: 1987,
+  loc: "České Budějovice"
+},
+{
+  name: "P. František Skácel",
+  year: 1993,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"06-22":[{
+  name: "fr. Leo (Matouš Zeilinger)",
+  year: 1903,
+  loc: "Praha-Vyšehrad"
+},
+],
+"06-23":[{
+  name: "P. Jozef Roller",
+  year: 1914,
+  loc: "Příbram"
+},
+{
+  name: "P. Gejza Tressa",
+  year: 2001,
+  loc: "Streda nad Bodrogom, okres Trebišov"
+},
+],
+"06-24":[{
+  name: "fr. Bernard (Jan Trnka)",
+  year: 1940,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"06-25":[{
+  name: "P. Alois Roller",
+  year: 1904,
+  loc: "Praha-Vyšehrad"
+},
+],
+"06-26":[{
+  name: "P. Vítězslav Scheiderka",
+  year: 2011,
+  loc: "Frýdek-Místek"
+},
+{
+  name: "P. František Hurina",
+  year: 2016,
+  loc: "Frýdek-Místek"
+},
+],
+"06-28":[{
+  name: "fr. Vojtěch (František Fail)",
+  year: 1959,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+
+// JÚL
 
 
 // NOVEMBER
@@ -1055,7 +1348,7 @@
   let dayWeek = date.getDay()
   let month = date.getMonth()
   let day = date.toISOString().slice(5, 10)
-
+  let firstName
   let rm = document.getElementById("rm").children
   rm[dayWeek + 1].style.display = "block"
 
@@ -1068,11 +1361,13 @@
 
   document.getElementById("pat").innerHTML = patron[month] 
 
-  let firstName = ''
-
-  for(const data of index[day]){
+  if(index[day] != undefined){
+     for(const data of index[day]){
     
     firstName += `<div> ${data.name} (${data.year}) - ${data.loc} </div>`
+  }}
+  else{
+    firstName = ''
   }
   
   document.getElementById("index").innerHTML = firstName 

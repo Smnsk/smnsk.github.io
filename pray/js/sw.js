@@ -25,5 +25,5 @@ self.addEventListener('activate', event =>{
 })
 
 self.addEventListener('fetch', event => {
-  console.log("Fetch working")
- });
+console.log("Fetch working")
+});
