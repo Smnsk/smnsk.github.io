@@ -1034,119 +1034,890 @@
 ],
 
 // JÚL
+"07-03":[{
+  name: "P. František Potěšil",
+  year: 1947,
+  loc: "Červená Voda, okres Ústí nad Orlicí"
+},
+{
+  name: "P. Václav Janoušek",
+  year: 1975,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"07-04":[{
+  name: "P. Jozef Navrátil",
+  year: 1917,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "fr. Jaroslav (František Pijálek)",
+  year: 1970,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Bohumil Šimonovský",
+  year: 1991,
+  loc: "Litoměřice"
+},
+],
+"07-06":[{
+  name: "P. Josef Srch",
+  year: 1913,
+  loc: "Příbram"
+},
+],
+"07-07":[{
+  name: "P. Cyril Vařecha",
+  year: 1913,
+  loc: "Ostrožská Nová Ves, okres Uherské Hradiště"
+},
+{
+  name: "P. Emanuel Kovář",
+  year: 1936,
+  loc: "Příbram"
+},
+{
+  name: "fr. Klement (Jozef Nosek)",
+  year: 1940,
+  loc: "Příbram"
+},
+{
+  name: "P. Karel Dokoupil",
+  year: 1966,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"07-09":[{
+  name: "P. Antonín Krajča",
+  year: 1985,
+  loc: "Lhota u Malenovic, okres Zlín"
+},
+],
+"07-10":[{
+  name: "P. Jan Pluhař",
+  year: 1948,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+],
+"07-11":[{
+  name: "fr. juv. Arnošt Rybánský",
+  year: 1937,
+  loc: "Veľké Dvorany, okres Topoľčany"
+},
+{
+  name: "P. František Lesák",
+  year: 1963,
+  loc: "Báč pri Šamoríne, okres Dunajská Streda"
+},
+{
+  name: "fr. Norbert (Jan Hrdina)",
+  year: 1984,
+  loc: "Praha-Vinohrady"
+},
+{
+  name: "P. Bohumír Hozík",
+  year: 1995,
+  loc: "Frýdek-Místek"
+},
+],
+"07-13":[{
+  name: "P. Jan Nepomuk Haderka",
+  year: 1984,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Antonín Žižkovský",
+  year: 1983,
+  loc: "České Budějovice"
+},
+],
+"07-14":[{
+  name: "P. Alois Jozafát Březina",
+  year: 1984,
+  loc: "Stropkov"
+},
+],
+"07-15":[{
+  name: "fr. Jan (Jan Křivánek)",
+  year: 1939,
+  loc: "České Budějovice"
+},
+],
+"07-16":[{
+  name: "P. Peter Čepa",
+  year: 1942,
+  loc: "Stropkov"
+},
+{
+  name: "fr. Pavel (Alos Tesař)",
+  year: 1955,
+  loc: "České Budějovice"
+},
+{
+  name: "P. Ladislav Daňha",
+  year: 1975,
+  loc: "Albrechtice, okres Karviná"
+},
+],
+"07-17":[{
+  name: "fr. stud. Karel Jašek",
+  year: 1910,
+  loc: "Cholina, okras Olomouc"
+},
+],
+"07-18":[{
+  name: "P. Karel Plešek",
+  year: 1921,
+  loc: "Příbram"
+},
+],
+"07-20":[{
+  name: "fr. Bruno (František Novák)",
+  year: 1912,
+  loc: "Příbram"
+},
+],
+"07-21":[{
+  name: "P. Václav Dubský",
+  year: 1932,
+  loc: "Obořiště, okres Příbram"
+},
+{
+  name: "P. Jozef Kaňovský",
+  year: 1964,
+  loc: "Velehrad"
+},
+],
+"07-22":[{
+  name: "P. Jan Červinka",
+  year: 1981,
+  loc: "Mutěnice, okres Hodonín"
+},
+],
+"07-23":[{
+  name: "fr. Cyprián (František Xav. Vacek)",
+  year: 1905,
+  loc: "Příbram"
+},
+],
+"07-26":[{
+  name: "fr. Daniel (Petr Kovář)",
+  year: 1908,
+  loc: "Praha-Vyšehrad"
+},
+],
+"07-27":[{
+  name: "P. František Schroller",
+  year: 1941,
+  loc: "Praha-Vyšehrad"
+},
+],
+"07-29":[{
+  name: "P. Jan Troneček",
+  year: 1959,
+  loc: "Příbram"
+},
+{
+  name: "P. Ladislav Maloň",
+  year: 1983,
+  loc: "Neplachovice, okres Opava"
+},
+],
+"07-30":[{
+  name: "fr. Miroslav (František Půlkrábek)",
+  year: 1952,
+  loc: "Zbečno, okres Rakovník"
+},
+],
+"07-31":[{
+  name: "P. Aloise Osovský",
+  year: 1976,
+  loc: "České Budějovice"
+},
+],
 
+// AUGUST
+
+"08-01":[{
+  name: "P. František Polášek",
+  year: 1974,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"08-03":[{
+  name: "P. Stanislav Lacina",
+  year: 1984,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"08-04":[{
+  name: "fr. Michal (Karel Křivánek)",
+  year: 1950,
+  loc: "Králíky, okres Ústí nad Orlicí"
+},
+{
+  name: "P. Vojtěch Klímek",
+  year: 1960,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"08-06":[{
+  name: "P. Stanislav Skuhrovec",
+  year: 1994,
+  loc: "České Budějovice"
+},
+],
+"08-07":[{
+  name: "P. František Kalous",
+  year: 1950,
+  loc: "Stará Boleslav"
+},
+],
+"08-08":[{
+  name: "fr. Ľudvík Dudek",
+  year: 1929,
+  loc: "Obořiště, okres Příbram"
+},
+{
+  name: "P. Karel Burián",
+  year: 1952,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"08-09":[{
+  name: "fr. Konštantín (Juraj Čepa)",
+  year: 1995,
+  loc: "Stropkov"
+},
+],
+"08-10":[{
+  name: "P. Karel Soukeník",
+  year: 1905,
+  loc: "Praha-Vyšehrad"
+},
+],
+"08-11":[{
+  name: "P. František Horsák",
+  year: 1925,
+  loc: "Kunovice, okres Uherské Hradiště"
+},
+],
+"08-12":[{
+  name: "P. Štefan Ištvaník",
+  year: 2013,
+  loc: "Michalovce"
+},
+],
+"08-13":[{
+  name: "P. Václav Melichar",
+  year: 1920,
+  loc: "Baltimore (MD) USA"
+},
+],
+"08-14":[{
+  name: "fr. Bernard (Josef Kocůrek)",
+  year: 1969,
+  loc: "Příbram"
+},
+],
+"08-15":[{
+  name: "P. Jozef Kučera",
+  year: 1933,
+  loc: "Příbram"
+},
+],
+"08-16":[{
+  name: "fr. Tomáš (Jaroslav Havlíček)",
+  year: 1987,
+  loc: "Doloplazy, okres Olomouc"
+},
+],
+"08-18":[{
+  name: "fr. stud. František Klapetek",
+  year: 1909,
+  loc: "Obořiště, okres Příbram"
+},
+{
+  name: "P. Karel Pertlíček",
+  year: 1961,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"08-20":[{
+  name: "fr. Martin Grötz",
+  year: 1917,
+  loc: "Ajdovščina SLOVENIA"
+},
+{
+  name: "P. Andrej Konc",
+  year: 2015,
+  loc: "Zemplínsky Branč, okres Trebišov"
+},
+],
+"08-25":[{
+  name: "fr. Marian (Jozef Vílka)",
+  year: 1993,
+  loc: "Frýdek-Místek"
+},
+],
+"08-26":[{
+  name: "P. Alois Pokorný",
+  year: 1939,
+  loc: "Brno - Ústřední hřbitov"
+},
+],
+"08-27":[{
+  name: "P. Rudolf Schikora",
+  year: 1962,
+  loc: "Štemplovec (obec Holasovice). okres Opava"
+},
+{
+  name: "P. František Appl",
+  year: 1987,
+  loc: "Stará Boleslav"
+},
+{
+  name: "P. Peter Konkoľ",
+  year: 1989,
+  loc: "Pezinok"
+},
+{
+  name: "P. Ladislav Škrňa",
+  year: 2017,
+  loc: "Příbram"
+},
+],
+"08-28":[{
+  name: "P. Květoslav Bukovský",
+  year: 1992,
+  loc: "Tasovice, okres Znojmo"
+},
+],
+"08-29":[{
+  name: "P. Jan Nepomuk Kočiš",
+  year: 1973,
+  loc: "Stropkov"
+},
+],
+"08-30":[{
+  name: "fr. Stanislav (Jozef Dostál)",
+  year: 1968,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Jan Nepomuk Schuster",
+  year: 1984,
+  loc: "Lomec u Vodňan, okres Strakonice"
+},
+],
+
+// SEPTEMBER
+"09-01":[{
+  name: "P. Emanuel Oktábec",
+  year: 1966,
+  loc: "Příbram"
+},
+{
+  name: "P. Jiří Jihel",
+  year: 1983,
+  loc: "Hlučín, okres Opava"
+},
+{
+  name: "fr. Teodul (Peter Michalič)",
+  year: 1996,
+  loc: "Stropkov"
+},
+],
+"09-02":[{
+  name: "P. Karel Sahan",
+  year: 1972,
+  loc: "České Budějovice"
+},
+],
+"09-04":[{
+  name: "P. Ignác Miklík",
+  year: 1972,
+  loc: "Opava"
+},
+{
+  name: "P. Václav Král",
+  year: 1988,
+  loc: "Albrechtice, okres Karviná"
+},
+{
+  name: "fr. Nikifor (Michal Koropčák)",
+  year: 1990,
+  loc: "Rubáň, okres Nové Zamky"
+},
+],
+"09-06":[{
+  name: "P. Jan Nepomuk Návrat",
+  year: 1935,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"09-09":[{
+  name: "fr. Oldřich Kubina",
+  year: 1965,
+  loc: "Hostýn, okres Kroměříž"
+},
+],
+"09-12":[{
+  name: "P. Jozef Častek",
+  year: 1936,
+  loc: "Červenka, okres Olomouc"
+},
+{
+  name: "P. Antonín Veleba",
+  year: 1984,
+  loc: "Heraltice, okres Třebíč"
+},
+],
+"09-13":[{
+  name: "P. Václav Nekula",
+  year: 1918,
+  loc: "Udine, ITALIA"
+},
+],
+"09-14":[{
+  name: "P. Ján Klíma",
+  year: 1984,
+  loc: "Svitavy"
+},
+{
+  name: "fr. Serafín (František Kubásek)",
+  year: 1917,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "P. František Líkař",
+  year: 2003,
+  loc: "Příbram"
+},
+],
+"09-16":[{
+  name: "fr. Jakub Buliak",
+  year: 1963,
+  loc: "Báč pri Šamoríne, okres Dunajská Streda"
+},
+{
+  name: "P. Miroslav Janák",
+  year: 1986,
+  loc: "Žlutice, okres Karlovy Vary"
+},
+],
+"09-18":[{
+  name: "P. Eduard Sousedík",
+  year: 1971,
+  loc: "Beckov, okres Nové Mesto nad Váhom"
+},
+{
+  name: "P. Ján Ivan Mastiliak",
+  year: 1989,
+  loc: "Michalovce"
+},
+],
+"09-20":[{
+  name: "fr. Hilarion (Andrej Suchý)",
+  year: 1965,
+  loc: "Sladečkovice, okres Nitra"
+},
+],
+"09-21":[{
+  name: "fr. Alfonz (Joachim Janků)",
+  year: 1936,
+  loc: "Příbram"
+},
+{
+  name: "P. Jaroslav Adámek",
+  year: 1979,
+  loc: "Brno-Židenice"
+},
+],
+"09-22":[{
+  name: "fr. stud. Alois Duda",
+  year: 1911,
+  loc: "Obořiště, okres Příbram"
+},
+],
+"09-24":[{
+  name: "P. Emanuel Mysliveček",
+  year: 1985,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"09-26":[{
+  name: "P. Jozef Bombík",
+  year: 1991,
+  loc: "Ostrava"
+},
+],
+
+// OKTÓBER
+"10-02":[{
+  name: "P. Jan Chrástek",
+  year: 1935,
+  loc: "Bratislava - Matrinský cintorín"
+},
+{ 
+  name: "P. Antonín Vorlíček",
+  year: 1937,
+  loc: "Libějovice, okres Strakonice"
+},
+{ 
+  name: "fr. Petr Bena",
+  year: 1959,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "fr. Martin (Jozef Minx)",
+  year: 1975,
+  loc: "Sobotín, okres Šumperk"
+},
+{ 
+  name: "fr. MZikmund (Jan Křivda)",
+  year: 1963,
+  loc: "Moravec, Žďar nad Sázavou"
+}
+],
+"10-03":[{
+  name: "P. Ignác Coufal",
+  year: 1952,
+  loc: "Senice na Hané, okres Olomouc"
+},
+],
+"10-05":[{
+  name: "fr. Dominik Fiala",
+  year: 2003,
+  loc: "Příbram"
+},
+{
+  name: "P. Afolf Vateha",
+  year: 2008,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"10-09":[{
+  name: "fr. Vavřinec (Karel Eckstein)",
+  year: 1926,
+  loc: "Příbram"
+},
+{ 
+  name: "fr. Řehoř (Antonín Ondrák)",
+  year: 1975,
+  loc: "Králíky, Okres Ústí nad Orlicí"
+},
+{ 
+  name: "P. Rudolf Lehotský",
+  year: 1977,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "Bohumil landsman",
+  year: 1984,
+  loc: "Klášter nad Ohří"
+}
+],
+"10-11":[{
+  name: "P. Pavol Sendrej",
+  year: 2016,
+  loc: "Vyšné Ružbachy, okres Stará Ľubovňa"
+},
+],
+"10-12":[{
+  name: "P. Jan Nepomuk Pertlíček",
+  year: 1939,
+  loc: "Brno - Ústřední hřbitov"
+},
+{ 
+  name: "P. František Kop",
+  year: 1971,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{ 
+  name: "P. Teofil Bohumil Čelůstka",
+  year: 1997,
+  loc: "Stropkov"
+},
+],
+"10-13":[{
+  name: "fr. Xaver (Jozef Švoma)",
+  year: 1949,
+  loc: "Kostolná-Zariečie, okres Trenčín"
+},
+{
+  name: "P. Oldřich Vysloužil",
+  year: 1988,
+  loc: "Červenka, okres Olomouc"
+},
+],
+"10-15":[{
+  name: "P. Štefan Lazor",
+  year: 1996,
+  loc: "Michalovce"
+},
+{
+  name: "P. Mons. Antonín Liška",
+  year: 2003,
+  loc: "České Budějovice"
+},
+],
+"10-20":[{
+  name: "P. František Jeřábek",
+  year: 1967,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Alfonz Daňha",
+  year: 1975,
+  loc: "Praha-Vyšehrad"
+},
+],
+"10-21":[{
+  name: "P. Augustín Kliment",
+  year: 1975,
+  loc: "Praha-Vyšehrad"
+},
+],
+"10-22":[{
+  name: "P. Leopold Kozelský",
+  year: 1975,
+  loc: "Boršice u Buchlovic, okres Uherské Hradiště"
+},
+{
+  name: "P. Daniel Szitás",
+  year: 1978,
+  loc: "Svätoplukovo, okres Nitra"
+},
+],
+"10-23":[{
+  name: "P. Jozef Hynek",
+  year: 1973,
+  loc: "České Budějovice"
+},
+{
+  name: "fr. Gerard (Jan Plank)",
+  year: 1990,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"10-24":[{
+  name: "P. Jozef Štěpánek",
+  year: 1999,
+  loc: "Frýdek-Místek"
+},
+],
+"10-26":[{
+  name: "P. František Mezírka",
+  year: 1931,
+  loc: "Praha-Vyšehrad"
+},
+],
+"10-27":[{
+  name: "fr. Jiří (Ľudovít Vrábel)",
+  year: 1985,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+],
+"10-28":[{
+  name: "P. František Hradilák",
+  year: 1910,
+  loc: "Červenka, okres Olomouc"
+},
+{
+  name: "P. Jaromír Kokotek",
+  year: 2003,
+  loc: "Smolkov, okres Opava"
+},
+],
 
 // NOVEMBER
 
-  "11-18":[{
-    name: "P. Cyril Jež",
-    year: 1960,
-    loc: "Červenka, okres Olomouc"
-  },
-  { 
-    name: "P. Jiří Kabát",
-    year: 1990,
-    loc: "Příbram"
-  },
-  { 
-    name: "P. Alois Novák",
-    year: 1990,
-    loc: "Opářany, okres Tábor"
-  }
-  ],
-  "11-19":[{
-    name: "P. František Kalina",
-    year: 1929,
-    loc: "Praha-Vyšehrad"
-  },
-  {
-    name: "P. Stanislav Muzikář",
-    year: 2018,
-    loc: "Příbram"
-  },
+"11-01":[{
+  name: "P. Jiří Dihel",
+  year: 1983,
+  loc: "Hlučín, okres Opava"
+},
 ],
-  "11-20":[{
-    name: "fr.Epifan (Štefan Daňko)",
-    year: 1982,
-    loc: "Rúbaň, okres Nové Zámky"
-  }
+"11-02":[{
+  name: "fr. Sáles (Antonín Kaláb)",
+  year: 1963,
+  loc: "Pribylina, okres Liptovský Milukáš"
+},
+{
+  name: "P. František Blaťák",
+  year: 1925,
+  loc: "Prostějov"
+},
 ],
-  "11-21":[{
-    name: "P. František Sal. Alexij Fiala",
-    year: 1992,
-    loc: "Králiky, okres Ústí nad Orlicí"
-  }
+"11-03":[{
+  name: "P. Ignác Richtárský",
+  year: 1912,
+  loc: "Litovel, okres Olomouc"
+},
 ],
-  "11-22":[
-  {
-    name: "fr. Theodosij (Ján Daňko)",
-    year: 1937,
-    loc: "Michalovce"
-  }
+"11-09":[{
+  name: "fr. st. Tomáš Haderka",
+  year: 1912,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. Jozef Miklík",
+  year: 1947,
+  loc: "Obořiště, okres Příbram"
+},
 ],
-  "11-23":[
-  {
-    name: "P. Ján Gamrát",
-    year: 1991,
-    loc: "Michalovce"
-  }
+"11-11":[{
+  name: "P. Karel Kulovaný",
+  year: 1954,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "fr. František (František Marek)",
+  year: 1956,
+  loc: "Moravec, Žďar nad Sázavou"
+},
 ],
-  "11-24":[
-  {
-    name: "P. Alfonz Cigáň",
-    year: 1974,
-    loc: "Vřesina, okres Ostrava-město"
-  }
+"11-12":[{
+  name: "P. Andrej Prokopovič",
+  year: 1997,
+  loc: "Stropkov"
+},
 ],
-  "11-26":[
-  {
-    name: "P. Václav Zeman",
-    year: 1973,
-    loc: "České Budějovice"
-  }
+"11-14":[{
+  name: "P. Jan Seidl",
+  year: 1950,
+  loc: "Praha-Vyšehrad"
+},
 ],
-  "11-27":[
-  {
-    name: "P. Jozef Laaber",
-    year: 1933,
-    loc: "Příbram"
-  },
-  {
-    name: "fr. Ján (Michal Novotný)",
-    year: 1943,
-    loc: "Stropkov"
-  }
+"11-15":[{
+  name: "P. Joef Havelka",
+  year: 1914,
+  loc: "Praha-Vyšehrad"
+},
 ],
-  "11-28":[
-  {
-    name: "P. Virgil Čierny",
-    year: 1921,
-    loc: "Prievidza"
-  }
+"11-15":[{
+  name: "P. Joef Havelka",
+  year: 1914,
+  loc: "Praha-Vyšehrad"
+},
 ],
-  "11-29":[
-  {
-    name: "fr. Felix Daněček",
-    year: 1947,
-    loc: "Příbram"
-  }
+"11-17":[{
+  name: "P. Joef Lavička",
+  year: 1971,
+  loc: "Lomec u Vodňan, okres Strakonice"
+},
 ],
-  "11-30":[
-  {
-    name: "P. Jozef Scholler",
-    year: 1953,
-    loc: "Moravec, Žďar nad Sázavou"
-  },
-  {
-    name: "P. František Nezval",
-    year: 1974,
-    loc: "Brno - Ústřední hřbitov"
-  },
-  {
-    name: "fr. Jan Brůha",
-    year: 1987,
-    loc: "Běšiny, okres Kladno"
-  },
+"11-18":[{
+  name: "P. Cyril Jež",
+  year: 1960,
+  loc: "Červenka, okres Olomouc"
+},
+{ 
+  name: "P. Jiří Kabát",
+  year: 1990,
+  loc: "Příbram"
+},
+{ 
+  name: "P. Alois Novák",
+  year: 1990,
+  loc: "Opářany, okres Tábor"
+}
+],
+"11-19":[{
+  name: "P. František Kalina",
+  year: 1929,
+  loc: "Praha-Vyšehrad"
+},
+{
+  name: "P. Stanislav Muzikář",
+  year: 2018,
+  loc: "Příbram"
+},
+],
+"11-20":[{
+  name: "fr.Epifan (Štefan Daňko)",
+  year: 1982,
+  loc: "Rúbaň, okres Nové Zámky"
+}
+],
+"11-21":[{
+  name: "P. František Sal. Alexij Fiala",
+  year: 1992,
+  loc: "Králiky, okres Ústí nad Orlicí"
+}
+],
+"11-22":[
+{
+  name: "fr. Theodosij (Ján Daňko)",
+  year: 1937,
+  loc: "Michalovce"
+}
+],
+"11-23":[
+{
+  name: "P. Ján Gamrát",
+  year: 1991,
+  loc: "Michalovce"
+}
+],
+"11-24":[
+{
+  name: "P. Alfonz Cigáň",
+  year: 1974,
+  loc: "Vřesina, okres Ostrava-město"
+}
+],
+"11-26":[
+{
+  name: "P. Václav Zeman",
+  year: 1973,
+  loc: "České Budějovice"
+}
+],
+"11-27":[
+{
+  name: "P. Jozef Laaber",
+  year: 1933,
+  loc: "Příbram"
+},
+{
+  name: "fr. Ján (Michal Novotný)",
+  year: 1943,
+  loc: "Stropkov"
+}
+],
+"11-28":[
+{
+  name: "P. Virgil Čierny",
+  year: 1921,
+  loc: "Prievidza"
+}
+],
+"11-29":[
+{
+  name: "fr. Felix Daněček",
+  year: 1947,
+  loc: "Příbram"
+}
+],
+"11-30":[
+{
+  name: "P. Jozef Scholler",
+  year: 1953,
+  loc: "Moravec, Žďar nad Sázavou"
+},
+{
+  name: "P. František Nezval",
+  year: 1974,
+  loc: "Brno - Ústřední hřbitov"
+},
+{
+  name: "fr. Jan Brůha",
+  year: 1987,
+  loc: "Běšiny, okres Kladno"
+},
 ],
 
 //DECEMBER
@@ -1338,8 +2109,7 @@
   },
 ],
 
-
- }
+}
 
  
  let patron = ["Sv. Peter a Sv. Pavol", "Sv. Ondrej", "Sv. Jakub st.","Sv. Ján","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matúš","Sv. Šimon", "Sv. Tadeáš","Sv. Matej"];
@@ -1362,11 +2132,13 @@
   document.getElementById("pat").innerHTML = patron[month] 
 
   if(index[day] != undefined){
-     for(const data of index[day]){
+    
+    for(const data of index[day]){
     
     firstName += `<div> ${data.name} (${data.year}) - ${data.loc} </div>`
   }}
   else{
+    
     firstName = ''
   }
   
