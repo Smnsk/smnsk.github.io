@@ -1,8 +1,10 @@
 const d = new Date()
 
 let m = d.getMonth()
+let y = d.getFullYear()
 
 let text1 = document.getElementById("text1")
+let cc = document.getElementById("cc").innerHTML = `<i class="fa-regular fa-copyright"></i> Redemptoristi ${y}`
 
 window.addEventListener('scroll', () => {
   let { scrollY } = window;
@@ -13,7 +15,3 @@ let imgScale = document.getElementById("img")
 
 imgScale.style.backgroundImage =  `url('img/${m}.png')`
 
-function imgScal(){
-   imgScale.classList.toggle("scale")
-   
-}

@@ -40,33 +40,32 @@
     align-items: center;
 }
 .three>.box{
-    width: 80%;
-    height: 60vh;
+    width: 90vw;
+    height: 75vh;
     background-color: rgba(230, 112, 9, 0.5);
     border-radius: 15px;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray; 
 }
-#bx1:checked~.boxlb>.fa-people-group{
+.three>h1{
+    position: absolute;
+    top:40px;
+    font-size: 48px;
+    color: orange;
+    text-shadow: 1px 1px 5px#201a2b;
+}
+#bx1:checked~.boxlb>.fa-people-group,
+#bx2:checked~.boxlb>.fa-church,
+#bx3:checked~.boxlb>.fa-cross
+{
     color: white;
     background-color:gray;
 }
-#bx2:checked~.boxlb>.fa-church{
-    color: white;
-    background-color:gray;
-}
-#bx3:checked~.boxlb>.fa-cross{
-    color: white;
-    background-color:gray
-}
-#bx1:checked~.boxtxt>.boxtxt1{
+#bx1:checked~.boxtxt>.boxtxt1,
+#bx2:checked~.boxtxt>.boxtxt2,
+#bx3:checked~.boxtxt>.boxtxt3
+{
     display: block;
 }
-#bx2:checked~.boxtxt>.boxtxt2{
-    display: block;
-}
-#bx3:checked~.boxtxt>.boxtxt3{
-    display: block;
-}
-
 .box>h1{
     margin-top: 15px;
     font-size: 48px;
@@ -78,13 +77,14 @@
     display: none;
 }
 .boxlb{
-    margin: 30px auto;
+    margin: 100px auto;
     width: 50%;
     height: 20px;
     font-size: 40px;
     color: gray;
     display: flex;
     justify-content: space-between;
+  
 }
 .boxlb>.fa-solid{
     height: 65px;
@@ -93,34 +93,76 @@
     border-radius: 50%;
     text-align: center;
     background-color: aliceblue;
+    cursor: pointer;
 }
 .boxtxt{
-    margin: 50px auto;
+    margin: 100px auto;
     width: 80%;
     min-height: 32vh;
-    background-color:rgba(243, 240, 236, 0.6);
+    background-color:rgba(243, 240, 236, 0.8);
     border-radius: 15px;
+    box-shadow: 3px 3px 5px #949494, -3px -3px 5px #949494;
 }
-.boxtxt1, .boxtxt2, .boxtxt3{
+.boxtxt1, 
+.boxtxt2, 
+.boxtxt3
+{
     display: none;
     flex-wrap: wrap;
     justify-content: center;
 }
-.boxtxt1>h1, .boxtxt2>h1,.boxtxt3>h1{
+.boxtxt1>h1, 
+.boxtxt2>h1,
+.boxtxt3>h1
+{
     width: 100%;
     position: relative;
     top: 20px;
     left: 20px;
 }
-.boxtxt1>p, .boxtxt2>p,.boxtxt3>p{
+.boxtxt1>p,
+.boxtxt2>p,
+.boxtxt3>p{
     
     font-size: 20px;
     width: 80%;
     margin: 0 auto;
     text-align: justify;
 }
-
 .two{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/klastor_bg.jpg");
+    backdrop-filter: contrast(90%) blur(50px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.two>.backg{
+    width: 100vw;
+    height: 180vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 112, 9, 0.5);
+}
+.two>.backg>#img{
+   width: 40vw;
+   height: 103vh;
+   background-size: contain;
+   background-repeat: no-repeat;
+   transform: scale(1.55);
+}
+.two>.backg>h1{
+    position: absolute;
+    top:30px;
+    font-size: 48px;
+    color: white;
+    text-shadow: 1px 1px 5px#201a2b;
+}
+.four{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -131,28 +173,159 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.backg{
-    width: 100%;
+.four>.backg{
+    width: 100vw;
     height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(230, 112, 9, 0.5);
+    text-align: center;
 }
-.two>.backg>#img{
-   width: 30vw;
-   height: 80vh;
-   background-size: contain;
-   background-repeat: no-repeat;
-   cursor: pointer;
-}
-.two>.backg>h1{
+.four>.backg>h1{
     position: absolute;
     top:30px;
     font-size: 48px;
     color: white;
     text-shadow: 1px 1px 5px#201a2b;
 }
-.scale{
-   transform: scale(1.2);
+.four>.backg>.wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color:rgba(243, 240, 236, 0.8);
+    width: 90vw;
+    height: 75vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray; 
+   
+}
+.four>.backg>input{
+    display: none;
+}
+.five>iframe{
+    width: 100%;
+    height: 100vh;
+}
+menu{
+    display: flex;
+    flex-direction: column; 
+}
+menu>label{
+    padding: 15px;
+    margin-right: 10px;
+    border-left: 1px solid #949494;
+    font-size: 20px;
+    color: #949494;
+    transition: all .1s ease-in;
+}
+#mn1:checked~.wrap>menu>.mn1, 
+#mn2:checked~.wrap>menu>.mn2, 
+#mn3:checked~.wrap>menu>.mn3,
+#mn4:checked~.wrap>menu>.mn4,
+#mn5:checked~.wrap>menu>.mn5,
+#mn6:checked~.wrap>menu>.mn6,
+#mn7:checked~.wrap>menu>.mn7,
+#mn8:checked~.wrap>menu>.mn8,
+#mn9:checked~.wrap>menu>.mn9
+{
+    color: black;
+    font-weight: bold;
+    border-left: 2px solid black;
+
+}
+
+.wrap>.box{
+    display: none;
+    width: 70vw;
+    height: 80vh;
+    margin-right: 70px;
+}
+#mn1:checked~.wrap>.box1,
+#mn2:checked~.wrap>.box2,
+#mn3:checked~.wrap>.box3,
+#mn4:checked~.wrap>.box4,
+#mn5:checked~.wrap>.box5,
+#mn6:checked~.wrap>.box6,
+#mn7:checked~.wrap>.box7,
+#mn8:checked~.wrap>.box8,
+#mn9:checked~.wrap>.box9
+{
+    display: flex;
+    align-items: center;
+} 
+.wrap>.box>img{
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+
+}
+.wrap>.box>.list{
+    text-align: left;
+    margin-left: 100px;
+}
+.wrap>.box>.list>h4{
+   display: inline-block;
+   text-shadow: 1px 1px white;
+   color: orange;
+   text-align: left;
+   font-weight: bold;
+   padding: 5px;
+   border-bottom: 2px solid #949494;
+   margin-bottom: 30px;
+}
+.wrap>.box>.list>h1{
+    font-weight: bold;
+    max-width: 500px;
+    font-size: 40px;
+    padding: 6px;
+    margin-bottom: 40px;
+}
+.wrap>.box>.list>p{
+    max-width: 500px;
+    font-size: 16px;
+    padding: 6px;
+    color: #949494;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #201a2b;
+    display: flex;
+    justify-content: center;
+}
+footer>.box{
+    margin-top: 40px;
+    width: 25%;
+    height: 240px;
+}
+footer>.box>h2{
+    color: white;
+    margin-bottom: 30px;
+}
+footer>.box>p{
+    color:white;
+    margin-bottom: 20px;
+}
+footer>.box>p>a{
+    color:white;
+}
+footer>.box>p>.fa-solid, footer>.box>p>a>.fa-solid{
+    margin:  0 10px;
+}
+footer>.box2>p{
+    color: orange;
+}
+footer>.box3>h4{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 75%;
+}
+footer>.box3>h4>a{
+  border-bottom: 1px solid orange;  
+  color: orange;
+}
+footer>.box3>p>a{
+    color: orange;
 }
