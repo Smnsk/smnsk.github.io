@@ -47,16 +47,14 @@
     align-items: center;
     background-color: rgba(230, 112, 9, 0.5);
 }
-.two>.backg>object{
-   width: 55%;
-   height: 105vh;
-   margin-bottom: 50px;
-}
 .two>.backg>h1{
     margin: 20px 0;
     font-size: 6vh;
     color: white;
     text-shadow: 1px 1px 5px#201a2b;
+}
+.two>.backg>iframe{
+    margin-bottom: 50px;
 }
 /* THREE */
 .three {
