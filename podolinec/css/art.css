@@ -22,15 +22,19 @@
 }
 header{
   width: var(--widht);
-  height: 95vh;
-  background-image: url("../img/klastor.jpg");
+  max-height: 95vh;
   border-bottom: var(--borderShadow)
+}
+#myVideo{
+  width: 100%;
 }
 header>h1{
   position:absolute;
+  color: whitesmoke;
+  top: 100px;
   left: 50px;
   font-size: var(--titel);
-  text-shadow: var(--titleShadow)
+  text-shadow: 2px 2px black;
 }
 nav, aside, main{
   display: flex;
@@ -244,6 +248,13 @@ footer>.box3>iframe{
   }
 }
 @media only screen and (max-width: 900px){
+  header>h1{
+    position:absolute;
+    color: whitesmoke;
+    top: 10px;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+  }
   main>.menu{
     height: auto;
   }
