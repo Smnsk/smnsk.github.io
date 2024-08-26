@@ -9,58 +9,49 @@
     <title>Pray</title>
 </head>
 <body>
-  <div class="page">
-    <input type="checkbox" id="box">
-    <input type="radio" name="btn" id="btn1" checked>
-    <input type="radio" name="btn" id="btn2">
-    <input type="radio" name="btn" id="btn3">
-    <input type="radio" name="btn" id="btn4">
-    <input type="radio" name="btn" id="btn5">
-    <input type="radio" name="btn" id="btn6">
-    <input type="radio" name="btn" id="btn7">
-    <aside>
-      <label class="lb" for="box">
-        <div>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      </label>
-      <div class="head">Redemptoristi</div>
-      <label for="btn1" class="list"> 
-        <div class="img img0"></div>
-        <div class="name"> Ranná modlitba</div> 
-      </label>
-      <label for="btn2" class="list"> 
-        <div class="img img1"></div>
-        <div class="name"> Ranné rozjímanie</div> 
-      </label>
-      <label for="btn3" class="list"> 
-        <div class="img img2" :></div>
-        <div class="name"> Modlitby na poludnie</div> 
-      </label>
-      <label for="btn4" class="list"> 
-        <div class="img img3" ></div>
-        <div class="name"> Modlitba pred obedom</div> 
-      </label> 
-      <label for="btn5" class="list"> 
-        <div class="img img4" ></div>
-        <div class="name"> Večerná modlitba</div> 
-      </label>
-      <label for="btn6" class="list"> 
-        <div class="img img5" ></div>
-        <div class="name"> Návšteva Oltárnej sviatosti</div> 
-      </label>
-      <label for="btn7" class="list"> 
-        <div class="img img6" ></div>
-        <div class="name"> Mariánske Antifony</div> 
-      </label>
-    </aside>
-    <article>
-      <div id="rm">
+  <input type="checkbox" name="btn" id="btn4">
+  <input type="checkbox" id="box">
+  <input type="checkbox" name="info" id="info">
+  <input type="radio" name="btn" id="btn1" checked>
+  <input type="radio" name="btn" id="btn2">
+  <input type="radio" name="btn" id="btn3">
+  <input type="radio" name="btn" id="btn5">
+  <input type="radio" name="btn" id="btn6">
+  <input type="radio" name="btn" id="btn7">
+  <menu>
+    <label class="start" for="box"></label>
+    <label for="btn1" class="btn btn1"></label>
+    <label for="btn2" class="btn btn2"></label>
+    <div class="space"></div>
+    <label for="btn3" class="btn btn3"></label>
+    <label for="btn4" class="btn btn4"></label>
+    <div class="setting">
+      <p class="lang">Jazyk: <button id="lang" onclick="langToggle()">cz</button></p> 
+      <br>
+      <p class="font">Veľkosť písma: <button id="plus" onclick="plusSize()">A+</button> <button id="def" onclick="normSize()">A</button> <button id="minus" onclick="minusSize()">A-</button></p>
+      <br>
+      <p class="info"><label for="info">Info</label></p>
+    </div>
+  </menu>
+  <div class="infoSk">
+    <label for="info"></label>
+    <br>
+    <h2> O aplikácii</h2>
+    <br>
+    <p> Táto aplikácia ponúka modlitby redemptoristov a novénu k Matke ustavičnej pomoci.</p>
+    <br>
+    <p> Ďakujeme všetkým, ktorí akýmkoľvek spôsobom pomohli vzníku tejto aplikácii! </p>
+    <br>
+    <p> Vaše pripomienky, upozornenia a námety na adrese: artur333@gmail.com</p>
+    <br>
+    <p class="version">Verzia 1.0.0 </p>
+  </div>
+  <div class="page_sk" id="pageSk">
+      <div id="rm_sk">
         <!--Nedeľa-->
         <h2>Ranná modlitba</h2>
-        <div>
+        <button id="bttn" onclick="morPray()"></button>
+        <div class="day">
         <br>
         <h3>Nedeľa</h3>
         <br>
@@ -70,19 +61,19 @@
         <p><span class="red">P:</span><span class="text"> Na počiatku dňa privolávame Kráľovi slávy,</span></p>
         <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Pane zvestujeme tvoju dobrotu a vernosť.</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Pane zvestujeme tvoju dobrotu a vernosť.</span></i></p>
+        <p><span class="red">P:</span><span class="text"> Pane, zvestujeme tvoju dobrotu a vernosť.</span></p>
+        <p><i><span class="red">O:</span><span class="text"> Pane, zvestujeme tvoju dobrotu a vernosť.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Dobre je oslavovať Pána a ospevovať meno tvoje, Najvyšší, za rána zvestovať tvoju dobrotu a tvoju vernosť celú noc.</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Pane zvestujeme tvoju dobrotu a vernosť.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Pane, zvestujeme tvoju dobrotu a vernosť.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Lebo tvoje počínanie, Pane, ma napĺňa radosťou. Aké veľkolepé sú tvoje diela, Pane, a aké hlboké tvoje myšlienky!</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Pane zvestujeme tvoju dobrotu a vernosť.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Pane, zvestujeme tvoju dobrotu a vernosť.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa:  Pane, Bože náš, svojou milosťou podporuj naše práce a láskavo nás sprevádzaj, aby sme všetky modlitby a skutky s tebou začínali a s tebou ich aj končievali. O to ťa prosíme skrze Krista nášho Pána.</span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa:  Pane, Bože náš, svojou milosťou podporuj naše práce a láskavo nás sprevádzaj, aby sme všetky modlitby a skutky s tebou začínali a s tebou ich aj končievali. O to ťa prosíme skrze Krista, nášho Pána.</span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -91,9 +82,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.</span></p>
         <br>
-      </div>
+       </div>
         <!--Pondelok-->
-        <div>
+        <div class="day">
         <br>
         <h3>Pondelok</h3>
         <br>
@@ -101,12 +92,12 @@
         <p><span class="red">O: </span><span class="text">i Syna i Ducha Svätého. Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Na počiatku dňa privolávame Kráľovi slávy,</span></p>
-        <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
+        <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmrteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Pane, velebíme tvoje meno.</span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, velebíme tvoje meno.</span></i></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Spievajte Pánovi pieseň novú spievaj Pánovi, celá zem! Spievajte Pánovi, velebte jeho meno. Zvestujte jeho spásu deň čo deň.</span></p>
+        <p><span class="red">P:</span><span class="text"> Spievajte Pánovi pieseň novú, spievaj Pánovi, celá zem! Spievajte Pánovi, velebte jeho meno. Zvestujte jeho spásu deň čo deň.</span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, velebíme tvoje meno.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Zvestujte jeho slávu pohanom a jeho zázraky všetkým národom. Lebo veľký je Pán a veľkej chvály hoden, viac ako všetkých bohov treba sa ho báť. </span></p>
@@ -115,7 +106,7 @@
         <p><span class="red">P:</span><span class="text"> Lebo ničoty sú všetci bohovia pohanov, ale Pán stvoril nebesia. Vznešenosť a krása pred jeho tvárou, moc a veleba v jeho svätyni. </span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, velebíme tvoje meno.</span></i></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Vzdávajte Pánovi, rodiny národov,vzdávajte Pánovi slávu a česť, vzdávajte Pánovi slávu hodnu jeho mena. Prineste obetné dary a vstúpte do jeho nádvorí, klaňajte sa Pánovi v posvätnom rúchu. Chvej sa pred ním, celá zem! </span></p>
+        <p><span class="red">P:</span><span class="text"> Vzdávajte Pánovi, rodiny národov,,vzdávajte Pánovi slávu a česť, vzdávajte Pánovi slávu hodnu jeho mena. Prineste obetné dary a vstúpte do jeho nádvorí, klaňajte sa Pánovi v posvätnom rúchu. Chvej sa pred ním celá zem! </span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, velebíme tvoje meno.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Tešte sa, nebesia, plesaj zem, nech more zahučí a čo ho napĺňa, nech plesá pole a všetko, čo je na ňom. I zajasajú všetky stromy lesa pred tvárou Pána, že prichádza, že prichádza súdiť zem. Spravodlivo bude súdiť zemekruh a národy podľa svojej pravdy.  </span></p>
@@ -124,7 +115,7 @@
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa:  Bože, Otče náš, svojou múdrosťou si nás stvoril a svojou prozreteľnosťou nás vedieš. Daj nám svoje svetlo, aby sme ti slúžili s oddanou láskou. O to ťa prosíme skrze Krista nášho Pána. </span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa:  Bože, Otče náš, svojou múdrosťou si nás stvoril a svojou prozreteľnosťou nás vedieš. Daj nám svoje svetlo, aby sme ti slúžili s oddanou láskou. O to ťa prosíme skrze Krista, nášho Pána. </span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -133,9 +124,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.		</span></p>
         <br>
-      </div>
+        </div>
         <!--Utorok-->
-        <div>
+        <div class="day">
         <br> 
         <h3>Utorok</h3>
         <br>
@@ -151,13 +142,13 @@
         <p><span class="red">P:</span><span class="text"> Požehnaný si, Pane, Bože našich otcov, hoden chvály a vyvýšený naveky. Požehnané je tvoje meno, slávne a sväté, hodno chvály a vyvýšené nad všetky veky. </span></p>
         <p><i><span class="red">O:</span><span class="text"> Požehnaný si, Pán slávy.</span></i></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Požehnaný si v chráme tvojej svätej slávy, hoden chvály a slávy nad všetky veky.Požehnaný si, čo prenikáš pohľadom priepasti,a tróniš nad cherubmi, hoden chvály a vyvýšený naveky. </span></p>
+        <p><span class="red">P:</span><span class="text"> Požehnaný si v chráme tvojej svätej slávy, hoden chvály a slávy nad všetky veky. Požehnaný si, čo prenikáš pohľadom priepasti a tróniš nad cherubmi, hoden chvály a vyvýšený naveky. </span></p>
         <p><i><span class="red">O:</span><span class="text"> Požehnaný si, Pán slávy.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa: Všemohúci a večný Bože, ty si práve svetlo a stalý deň. Podliehame premenám času a v nich nám svitlo nové ráno. Prosíme ťa, zažeň od nás noc zlá, aby v našom srdci stalé svietil božský jas. O to ťa prosíme skrze Krista nášho Pána.  </span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa: Všemohúci a večný Bože, ty si pravé svetlo a stály deň. Podliehame premenám času a v nich nám svitlo nové ráno. Prosíme ťa, zažeň od nás noc zla, aby v našom srdci stále svietil božský jas. O to ťa prosíme skrze Krista, nášho Pána.  </span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -166,9 +157,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.	</span></p>
         <br>
-      </div>
+        </div>
         <!--Streda-->
-        <div>
+        <div class="day">
         <br>
         <h3>Streda</h3>
         <br>
@@ -176,7 +167,7 @@
         <p><span class="red">O: </span><span class="text">i Syna i Ducha Svätého. Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Na počiatku dňa privolávame Kráľovi slávy,</span></p>
-        <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
+        <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmrteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Pane, chválime ťa a oslavujeme tvoju dobrotu.</span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, chválime ťa a oslavujeme tvoju dobrotu.</span></i></p>
@@ -190,13 +181,13 @@
         <p><span class="red">P:</span><span class="text"> Na chválu Božiu jasaj, celá zem; plesajte, radujte sa a hrajte. Hrajte Pánovi na citare, na citare a na harfe zunivej. Za hlaholu trúb a poľníc jasajte pred tvárou Kráľa a Pána. </span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, chválime ťa a oslavujeme tvoju dobrotu.</span></i></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Zahuč, more a všetko, čo ho napĺňa, zemekruh a všetci, čo na ňom bývajú.Tlieskajte, rieky, rukami, jasajte s nimi, vrchy, pred tvárou Pánovou, lebo prichádza súdiť zem. Spravodlivo bude súdiť zemekruh a podľa práva národy.</span></p>
+        <p><span class="red">P:</span><span class="text"> Zahuč, more a všetko, čo ho napĺňa, zemekruh a všetci, čo na ňom bývajú. Tlieskajte, rieky, rukami, jasajte s nimi, vrchy, pred tvárou Pánovou, lebo prichádza súdiť zem. Spravodlivo bude súdiť zemekruh a podľa práva národy.</span></p>
         <p><i><span class="red">O:</span><span class="text"> Pane, chválime ťa a oslavujeme tvoju dobrotu.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa: Pane, milosrdný Otče, tvoja láska nám darovala tento deň. Chráň nás dnes pred nešťastím a pred hriechom. Sprevádzaj naše myšlienky, slová a skutky, aby sme vo všetkom plnili tvoju vôľu. O to ťa prosím skrze Krista nášho Pána.   </span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa: Pane, milosrdný Otče, tvoja láska nám darovala tento deň. Chráň nás dnes pred nešťastím a pred hriechom. Sprevádzaj naše myšlienky, slová a skutky, aby sme vo všetkom plnili tvoju vôľu. O to ťa prosíme skrze Krista, nášho Pána.   </span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -205,9 +196,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.		</span></p></p>
         <br>
-      </div>
+        </div>
         <!--Štrtok-->
-        <div>
+        <div class="day">
         <br>
         <h3>Štvrtok</h3>
         <br>
@@ -217,22 +208,22 @@
         <p><span class="red">P:</span><span class="text"> Na počiatku dňa privolávame Kráľovi slávy,</span></p>
         <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Chvalíme a velebíme ťa, Pane.</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Chvalíme a velebíme ťa, Pane.</span></i></p>
+        <p><span class="red">P:</span><span class="text"> Chválime a velebíme ťa, Pane.</span></p>
+        <p><i><span class="red">O:</span><span class="text"> Chválime a velebíme ťa, Pane.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Jasaj na chválu Pánovi, celá zem, s radosťou slúžte Pánovi. S plesaním vstupujte pred jeho tvár. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Chvalíme a velebíme ťa, Pane.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Chválime a velebíme ťa, Pane.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Vedzte, že náš Pán je Boh; on je náš stvoriteľ a jemu patríme, sme jeho ľud a ovce z jeho stáda. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Chvalíme a velebíme ťa, Pane.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Chválime a velebíme ťa, Pane.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Vstupujte do jeho brán s piesňou chvály a do jeho nádvorí s piesňami oslavnými; chváľte ho a velebte jeho meno. Lebo Pán je dobrý; jeho milosrdenstvo trvá naveky a jeho vernosť z pokolenia na pokolenie.</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Chvalíme a velebíme ťa, Pane.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Chválime a velebíme ťa, Pane.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, ty si zveril ľuďom zem, aby ju chránili a obrábali. Stvoril si slnko, aby im svietilo. Daj nech v našich srdciach stále svieti tvoje svetlo, aby sme v ňom dnes všetko konali na tvoju slávu a pre dobro našich blížných. O to ťa prosíme srkze Krista nášho Pána.   </span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, ty si zveril ľuďom zem, aby ju chránili a obrábali. Stvoril si slnko, aby im svietilo. Daj nech v našich srdciach stále svieti tvoje svetlo, aby sme v ňom dnes všetko konali na tvoju slávu a pre dobro našich blížnych. O to ťa prosíme srkze Krista, nášho Pána.   </span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -241,9 +232,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.			</span></p>
         <br>
-      </div>
+        </div>
         <!--Piatok-->
-        <div>
+        <div class="day">
         <br>  
         <h3>Piatok</h3>
         <br>
@@ -253,37 +244,37 @@
         <p><span class="red">P:</span><span class="text"> Na počiatku dňa privolávame Kráľovi slávy,</span></p>
         <p><span class="red">O:</span><span class="text"> Kráľovi vekov, nesmteľnému, neviditeľnému a jedinému Bohu česť a sláva na veky vekov.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><span class="red">P:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Tebe, Bože, patrí chválospev na Sione, tebe treba plniť sľuby v Jeruzaleme. Ty vypočúvaš modlitby, k tebe má prísť každý človek, keď ho ťaží hriech. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Hoci nad nami víťazia naše neprávosti, ty nám ich odpúšťaš. Blažený, koho si si vyvolil a prijal k sebe, prebývať bude v tvojich sieňach. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Naplní nás blahobyt tvojho domu a svätosť tvojho chrámu. Obdivuhodne spravodlivo nás vyslyšíš, Bože, naša spása, nádej je dobrý; jeho milosrdenstvo trvá naveky všetkých končín zeme i ďalekého mora. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><span class="red">P:</span><span class="text"> Naplní nás blahobyt tvojho domu a svätosť tvojho chrámu. Obdivuhodne spravodlivo nás vyslyšíš, Bože, naša spása, nádej všetkých končín zeme i ďalekého mora. </span></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Vrchy upevňuješ svojou mocou, opásaný silou. Tíšiš hukot mora, hukot jeho vĺn aj nepokoje národov. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Tí, čo obývajú zemské končiny, chvejú sa bázňou pred tvojimi znameniami, radosťou napĺňaš končiny východu i západu. Navštevuješ zem a dávaš jej vlahu, zveľaďuješ jej bohatstvo. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Božia rieka je plná vody; ľuďom pripravuješ zrno. Takto sa staráš o zem: zvlažuješ jej brázdy a vyrovnávaš hrudy, skypruješ ju dažďami a požehnávaš jej rastliny. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Rok korunuješ svojou dobrotou, kade prejdeš, všade je hojnosť. Pašienky púšte vlaha zarosí a pahorky sa opášu plesaním. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Čriedami oviec sa lúky pokryjú a zrnom budú oplývať doliny; ozývať sa budú jasotom a spevom. </span></p>
-        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ patrí chválospev.</span></i></p>
+        <p><i><span class="red">O:</span><span class="text"> Tebe, Bože, náš stvoriteľ, patrí chválospev.</span></i></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa: Pane, Bože náš, Kráľ neba a zeme, veď a posväcuj dnes naše srdce a telo, naše myšlienky, slová a skutky, aby sme verne plnili, čo prikazuješ, a s tvojou pomocou dnes i vo večnosti dosiahli spásu a pokoj. O to ťa prosíme srkze Krista nášho Pána.</span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa: Pane, Bože náš, Kráľ neba a zeme, veď a posväcuj dnes naše srdce a telo, naše myšlienky, slová a skutky, aby sme verne plnili, čo prikazuješ, a s tvojou pomocou dnes i vo večnosti dosiahli spásu a pokoj. O to ťa prosíme srkze Krista, nášho Pána.</span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -292,9 +283,9 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.		</span></p>
         <br>
-      </div>
+        </div>
         <!--Sobota-->
-        <div>
+        <div class="day">
         <br>  
         <h3>Sobota</h3>
         <br>
@@ -328,7 +319,7 @@
         <p><span class="red">P:</span><span class="text"> Sláva Otcu i Synu i Duchu Svätému.</span></p>
         <p><span class="red">O:</span><span class="text"> Ako bolo na počiatku, tak nech je i teraz i vždycky i na veky vekov. Amen.</span></p>
         <br>
-        <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Otče, ďakujeme ti za nočný odpočinok. A kedže nám svitol nový deň, prosíme ťa, naplň nas svojím Duchom, aby sme dnes všetko konali z lásky k tebe a blížnym. O to ťa prosíme skrze Krista, nášho Pána. </span></p>
+        <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Otče, ďakujeme ti za nočný odpočinok. A keďže nám svitol nový deň, prosíme ťa, naplň nás svojím Duchom, aby sme dnes všetko konali z lásky k tebe a blížnym. O to ťa prosíme skrze Krista, nášho Pána. </span></p>
         <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         <br>
         <p><span class="red">P:</span><span class="text"> Chváľ, duša moja, Pána</span></p>
@@ -337,18 +328,17 @@
         <p><span class="red">P:</span><span class="text"> Pane, po celý tento deň nás láskavo sprevádzaj</span></p>
         <p><span class="red">O:</span><span class="text"> a zachovaj nás od hriechu.			</span></p>
         <br>
-      </div>
-    </div>
-    <div id="rr">
+        </div>
+        <div id="rr_sk">
         <h2>Ranné rozjímanie</h2>
         <br>
             <h3>1. Úvod</h3>
             <br>
             <p><span class="red">P:</span><span class="text"> Príď, Duchu Svätý,</span></p>
-            <p><span class="red">O:</span><span class="text">naplň srdcia svojich veriacich a zapáľ v nás oheň svojej lásky.</span></p>
+            <p><span class="red">O:</span><span class="text"> naplň srdcia svojich veriacich a zapáľ v nás oheň svojej lásky.</span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Zošli svojho Ducha a všetko bude stvorené.</span></p>
-            <p><span class="red">O:</span><span class="text"> naplň srdcia svojich veriacich a zapáľ v nás oheň svojej lásky.</span></p>
+            <p><span class="red">O:</span><span class="text"> A obnovíš tvárnosť zeme.</span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Modlime sa: Večný Bože, ty osvecuješ srdcia veriacich svetlom Ducha Svätého; daj, prosíme, aby sme v tomto Duchu poznávali, čo je správne, a vždy sa radovali z jeho útechy a posily. Skrze Krista, nášho Pána. Amen.</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
@@ -359,14 +349,15 @@
             <br>
             <p><span class="red">P:</span><span class="text"> Odporučme Pánu Bohu svätú Cirkev, duchovné i časné blaho Kongregácie.</span></p>
             <br>
-            <p><span class="red">P:</span><span class="text"> Zdravas, Kráľovna,</span></p>
+            <p><span class="red">P:</span><span class="text"> Zdravas, Kráľovná,</span></p>
             <p><span class="red">O:</span><span class="text"> Matka milosrdenstva, život náš i sladkosť a nádej naša, zdravas'. K tebe voláme, hriešni synovia Evy, v tomto sĺz údolí stenajúci, plačúci. A preto teda, Orodovnica naša, obráť k nám tie svoje premilosrdné oči. A nám Ježiša, ktorý je požehnaný plod života tvojho, tam vo večnosti ukáž. Ó milostivá a nad všetky pobožná, ó presladká Panna, Matka Božia Mária. Amen.</span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Svätý Alfonz.</span></p>
             <p><span class="red">O:</span><span class="text"> Oroduj za nás. 			</span></p>
             <br>
-        </div>
-        <div id="mp">
+          </div>
+      </div> 
+        <div id="mp_sk">
           <h2>Modlitby na poludnie</h2>
           <br>
             <h3>1. Úvod</h3>
@@ -390,8 +381,8 @@
             <p><span class="red">P:</span><span class="text"> Otče náš, ktorý si na nebesiach,</span></p>
             <p><span class="red">O:</span><span class="text"> posväť sa meno tvoje...</span></p>
             <br>
-            <p><span class="red">P:</span><span class="text"> Modlíme sa za kresťanské cirkvi:</span></p>
-            <p><span class="red">O:</span><span class="text"> Pane, priveď k jednte všetkýchm čo veria v teba.</span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa za kresťanské cirkvi:</span></p>
+            <p><span class="red">O:</span><span class="text"> Pane, priveď k jednote všetkých, čo veria v teba.</span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Za nášho pápeža N., našich biskupov a kňazov: </span></p>
             <p><span class="red">O:</span><span class="text"> Naplň ich duchom Ježiša Krista a daj, nech sú dnešnému svetu svedkami nádeje a lásky. </span></p>
@@ -408,13 +399,14 @@
             <p><span class="red">P:</span><span class="text"> Prosme za duchovné povolania:</span></p>
             <p><span class="red">O:</span><span class="text"> Pane, nadchni mnohých mladých ľudí pre službu v tvojej Cirkvi.</span></p>
             <br>
-            <p><span class="red">P:</span><span class="text"> Za našich príbuzdných a dobrodincov:</span></p>
+            <p><span class="red">P:</span><span class="text"> Za našich príbuzných a dobrodincov:</span></p>
             <p><span class="red">O:</span><span class="text"> Pane, láskavo odplať všetkým, čo nám pre tvoje Meno preukazujú dobro, a daj im večný život.</span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Za našich chorých a za všetkých, čo trpia:</span></p>
-            <p><span class="red">O:</span><span class="text"> Zmiluj sa nad ich biedou, poteš ich a pomahaj im v núdzi.	</span></p>
+            <p><span class="red">O:</span><span class="text"> Zmiluj sa nad ich biedou, poteš ich a pomáhaj im v núdzi.	</span></p>
             <br>
-            <p><span class="red">P:</span><span class="text"> Prosme za našich zomrelých príbuzdných, dobrodincov a spoubratov (dnes najmä za ...): <div id="index"></div></span></p>
+            <p><span class="red">P:</span><span class="text"> Prosme za našich zomrelých príbuzných, dobrodincov a spolubratov (dnes najmä za ...):</span></p>
+            <div id="index"></div>
             <p><span class="red">P:</span><span class="text"> Odpočinutie večné daj im, Pane</span></p>
             <p><span class="red">O:</span><span class="text"> a svetlo večné nech im svieti.</span></p>
             <br>
@@ -426,7 +418,7 @@
               <p><span class="red">P:</span><span class="text"> Prosme svätých, aby za nás orodovali:</span></p>
               <p><span class="red">P:</span><span class="text"> Sv. Mária,</span></p>
               <p><span class="red">P:</span><span class="text"> Sv. Jozef,</span></p>
-              <p><span class="red">P:</span> <span id="pat"> </span></p>
+              <p><span class="red">P:</span> <span id="patSk"> </span>,</p>
               <p><span class="red">P:</span><span class="text"> Sv. Alfonz,</span></p>
               <p><span class="red">P:</span><span class="text"> Sv. Klement,</span></p>
               <p><span class="red">P:</span><span class="text"> Sv. Gerard,</span></p>
@@ -439,11 +431,11 @@
               <p><span class="red">P:</span><span class="text"> Bl. ukrajinskí mučeníci,</span></p>
               <p><span class="red">P:</span><span class="text"> Bl. španielskí mučeníci,</span></p>
               <p><span class="red">P:</span><span class="text"> Bl. Celesta Crostarosa,</span></p>
-              <p><span class="red">P:</span><span class="text"> Bl. Konchita,</span></p>
+              <p><span class="red">P:</span><span class="text"> Bl. Conchita,</span></p>
               <p><span class="red">P:</span><span class="text"> Všetci Boží svätí,</span></p>
               <p><span class="red">O:</span><span class="text"> orodujte za nás,</span></p>
               <br>
-              <p><span class="red">P:</span><span class="text"> Bože, náš Otče, zhliadni na svoju rodinu, za ktorú tvoj Syn, náš Pán Ježiš Kristus podstúpil potupnú smrť na kríži. Posilni našu vieru, že si uprostred nás a ostávaš s nami. O to ťa prosíme skrze Krista nášho Pána. </span></p>
+              <p><span class="red">P:</span><span class="text"> Bože, náš Otče, zhliadni na svoju rodinu, za ktorú tvoj Syn, náš Pán Ježiš Kristus podstúpil potupnú smrť na kríži. Posilni našu vieru, že si uprostred nás a ostávaš s nami. O to ťa prosíme skrze Krista, nášho Pána. </span></p>
               <p><span class="red">O:</span><span class="text"> Amen.</span></p>
               <br>
             <h3>5.Novény</h3>
@@ -452,20 +444,20 @@
             <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, v Kristovi si sa nám priblížil a chceš byť s nami prostredníctvom svojho oživujucého Ducha. Daj nám svojho Ducha, aby víťazil nad zlým duchom v nás. Daj, nám priezračné svedomie, lebo len ono môže cítiť a chápať tvoj dych. O to ťa prosíme skrze Krista, nášho Pána.	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
-            <i>Pred sviatkom Matky Ustavičnej Pomoci; 27.jún</i>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Milosrdný Bože, bičujú nás neistota a vlastné viny, trapia nás naše slabosti. Prosíme ťa, daj, nech stále pociťujeme matersý príhovor Panny Márie, skrze ktorú sme dostali Pôvodcu spásy, nášho Pána Ježiša Krista, ktorý s tebou žije a kráľuje na veky vekov. 	</span></p>
+            <i>Pred sviatkom Matky ustavičnej pomoci; 27. jún</i>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Milosrdný Bože, bičujú nás neistota a vlastné viny, trápia nás naše slabosti. Prosíme ťa, daj, nech stále pociťujeme materský príhovor Panny Márie, skrze ktorú sme dostali Pôvodcu spásy, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. 	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <i>Pred slávnosťou Najsvätejšieho Vykupiteľa; 3. nedeľa v júli </i>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, ty chceš spasiť každého človeka, lebo smrťou svoho Syna na kríži si vykúpil celé ľudské pokolenie. Daj nech sa jeho utrpenie a smrť stanú pre nás životom a vzkriesením. 	</span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, ty chceš spasiť každého človeka, lebo smrťou svoho Syna na kríži si vykúpil celé ľudské pokolenie. Daj, nech sa jeho utrpenie a smrť stanú pre nás životom a vzkriesením. 	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
-            <i>Pred slávnosťou Svätého Alfonza; 1. Augusta </i>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Svätý Bože, zásluhami svätého Alfonza korunuješ svoje dary. Ako si jemu pomáhal, tak pomáhaj aj nám, aby sme horlivo a vytrvalo nasledovali tvojho Syna a tak     prispievali k spáse sveta, za ktorý obetoval život tvoj Syn, ktorý s kráľuje na veky vekov.  	</span></p>
+            <i>Pred slávnosťou Svätého Alfonza; 1. augusta </i>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Svätý Bože, zásluhami svätého Alfonza korunuješ svoje dary. Ako si jemu pomáhal, tak pomáhaj aj nám, aby sme horlivo a vytrvalo nasledovali tvojho Syna, a tak prispievali k spáse sveta, za ktorý obetoval život tvoj Syn, ktorý s tebou žije a kraľuje na veky vekov.  	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
-            <i>Pred slávnosťou Nepoškvrneného Počatia Panny Márie; 8. Decembra  </i>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Svätý Bože, nepoškvrneným počatím Panny Márie, pripravil si dôstojný príbytok svojmu Synovi a pre budúce zásluhy jeho smrti uchránil si ju od každého hriechu; prosíme ťa, daj, aby sme na jej orodovanie aj my prišli k tebe s čistým srdcom. Skrze Krista nášho Pána.  	</span></p>
+            <i>Pred slávnosťou Nepoškvrneného Počatia Panny Márie; 8. decembra  </i>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Svätý Bože, nepoškvrneným počatím Panny Márie pripravil si dôstojný príbytok svojmu Synovi a pre budúce zásluhy jeho smrti uchránil si ju od každého hriechu; prosíme ťa, daj, aby sme na jej orodovanie aj my prišli k tebe s čistým srdcom. Skrze Krista, nášho Pána.  	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h3> 6. Modlitba k Matke Božej</h3>
@@ -488,7 +480,7 @@
             <p><span class="red">P:</span><span class="text"> Oroduj za nás, svätá Božia Rodička.</span></p>
             <p><span class="red">O:</span><span class="text"> Aby sme sa stali hodni Kristových prisľúbení.</span></p>
             <br>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, z anjelovho zvestovanie vieme, že tvoj Syn, Ježiš Kristus, sa stal človekom; prosíme ťa, vlej nám do duše svoju milosť, aby nás jeho umučenie a kríž priviedli k slávnemu vzkrieseniu. Skrze Krista, nášho Pána.   	</span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Bože, z anjelovho zvestovania vieme, že tvoj Syn, Ježiš Kristus, sa stal človekom; prosíme ťa, vlej nám do duše svoju milosť, aby nás jeho umučenie a kríž priviedli k slávnemu vzkrieseniu. Skrze Krista, nášho Pána.   	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <i>vo veľkonočnom období</i>
@@ -503,12 +495,12 @@
             <br>
             <p><span class="red">P:</span><span class="text"> Modlime sa: 
             <br>
-            Bože ty si zmŕtvychvstaním tvojho Syna, nášho Pána Ježiša Krista, potešil celý svet; prosíme ťa, daj, aby sme na príhovor jeho Rodičky Panny Márie dosiahli radosti večného života. Skrze Krista, nášho Pána.    	</span></p>
+            Bože, ty si zmŕtvychvstaním tvojho Syna, nášho Pána Ježiša Krista, potešil celý svet; prosíme ťa, daj, aby sme na príhovor jeho Rodičky Panny Márie dosiahli radosti večného života. Skrze Krista, nášho Pána.    	</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h3> 7. Modlitba za dobrú prípravu a priebeh kapituly</h3>
             <br>
-            <p><span class="red">P:</span><span class="text"> Kriste, večný Pastier tých čo ti patria. Žehnaj spoočnosť, ktorú založil svätý Alfonz. Daj jej odvahu a zbožnosť zakladateľa. Žehnaj jej prácu doma i vo svete. Nech prenikne do sŕdc tých, čo stoja ďaleko a žijú mimo Cirkvi, Vzbuď jej nových členov a predovšetkým jaj daj veľkú milosťvernosti. Učiň, aby sa v nej neustále obnovovala radosť z tvojej svätej služby.</span></p>
+            <p><span class="red">P:</span><span class="text"> Kriste, večný Pastier tých, čo ti patria. Žehnaj spoočnosť, ktorú založil svätý Alfonz. Daj jej odvahu a zbožnosť zakladateľa. Žehnaj jej prácu doma i vo svete. Nech prenikne do sŕdc tých, čo stoja ďaleko a žijú mimo Cirkvi, Vzbuď jej nových členov a predovšetkým jej daj veľkú milosť vernosti. Učiň, aby sa v nej neustále obnovovala radosť z tvojej svätej služby.</span></p>
             <p><span class="red">O:</span><span class="text"> Amen.</span></p>
         </div>
         <div id="mj">
@@ -517,13 +509,13 @@
           <div>
           <h3>Nedeľa</h3>
           <br>
-            <p>Dobrotivý Bože, vo svjej láske nám udeľuj tieto dary. Daj, nech nám stále pripomínajú veľký Dar - Vtelenie tvojho Syna, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. </p>
+            <p>Dobrotivý Bože, vo svojej láske nám udeľuj tieto dary. Daj, nech nám stále pripomínajú veľký Dar - Vtelenie tvojho Syna, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. </p>
             <br>
-            <p>Pane, požehnaj tieto dary a naplň nás silou nového života, ktorý si nám dal zmrtvychvstaním svojho Syna, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. </p>
+            <p>Pane, požehnaj tieto dary a naplň nás silou nového života, ktorý si nám dal zmŕtvychvstaním svojho Syna, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. </p>
             <br>
-            <p>Nebeský Otče, tým, čo ťa milujú, všetko služí k dobrému. Zbav nás všetkých neužitočných starosí a daj, nech svoje oči s dôverou upierame na teba. O to ťa prosíme skrze Krista nášho Pána.</p>
+            <p>Nebeský Otče, tým, čo ťa milujú, všetko slúži k dobrému. Zbav nás všetkých neužitočných starostí a daj, nech svoje oči s dôverou upierame na teba. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Bože, Otče náš, z tvojich rúk sme dostali všetko dobré. Prosíme ťa, požehnaj tieto dary, a daj nech spolupracujeme s milosťami, ktoré si nám daroval v Ježišovi Kristovi, nášom Pánovi, ktorý žije a kráľuje na veky vekov. </p>
+            <p>Bože, Otče náš, z tvojich rúk sme dostali všetko dobré. Prosíme ťa, požehnaj tieto dary, a daj nech spolupracujeme s milosťami, ktoré si nám daroval v Ježišovi Kristovi, nášom Pánovi, ktorý žije a kaáľuje na veky vekov. </p>
             <br>
             <p>Bože, daj, nech dary, ktoré prijímame, sú pre nás všetkých znakom bratskej jednoty a pokoja a s nimi nech k nám príde tvoje Slovo, z ktorého opravdivo žijeme, Ježiš Kristus, náš Pán, ktorý s tebou žije a kraľuje na veky vekov. </p>
             <br> 
@@ -531,11 +523,11 @@
          <div>
           <h3>Pondelok</h3>
           <br>
-            <p>Dobrotivý Bože, náš Pán Ježiš Kristus posvätil tento pokrm ako znak jednoty. Daj nech pri tomto stole zakúsime tvoj pokoj.O to ťa prosíme skrze Krista, nášho Pána.</p>
+            <p>Dobrotivý Bože, náš Pán Ježiš Kristus posvätil tento pokrm ako znak jednoty. Daj, nech pri tomto stole zakúsime tvoj pokoj. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
             <p>Bože, náš Otče, požehnaj dary, ktoré sme prijali z tvojich rúk a požehnaj i nás, aby sme boli láskaví k tým, čo od nás očakávajú lásku. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Bože, Vtelením svojho Syna, si chcel spasiť svet. Buď stále s nami a požehnaj tieto dary, ktoré, sme prijali z tvojich rúk. O to ťa prosíme skrze Krista, nášho Pána. </p>
+            <p>Bože, Vtelením svojho Syna si chcel spasiť svet. Buď stále s nami a požehnaj tieto dary, ktoré sme prijali z tvojich rúk. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
             <p>Dobrotivý Bože, požehnaj tieto dary a posilňuj nám srdcia, aby sme v nich poznávali tvoju dobrotu. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
@@ -545,29 +537,29 @@
           <div>
           <h3>Utorok</h3>
           <br>
-            <p>Bože, náš Otče, ty si prítomný vo všetkom, čo konáme z lásky. Svojou prítomnosťou posväť tento pokrm a daj, nech v ňom, vidíme znak tvojej dobroty. O to ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Bože, náš Otče, ty si prítomný vo všetkom, čo konáme z lásky. Svojou prítomnosťou posväť tento pokrm a daj, nech v ňom, vidíme znak tvojej dobroty. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Bože, všemohúci Otče, ako si nás zhromaždil okolo jedného stla, tak zhromaždi všetky národy v láske tvojho Syna, aby medzi ľuďmi zavládla jednota a pokoj. O to ťa prosíme skrze Krista, nášho Pána. </p>
+            <p>Bože, všemohúci Otče, ako si nás zhromaždil okolo jedného stola, tak zhromaždi všetky národy v láske tvojho Syna, aby medzi ľuďmi zavládla jednota a pokoj. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
             <p>Všemohúci Otče, požehnaj tieto dary, aby nám boli znamením stále rastúcej viery. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Všemohúci Bože, požehnaj tieto dary a posilňuj nás slovom, aby sme šli za tebou na všetkých životných cestách O to ťa prosíme skrze Krista nášho Pána.</p>
+            <p>Všemohúci Bože, požehnaj tieto dary a posilňuj nás slovom, aby sme šli za tebou na všetkých životných cestách. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Bože, nebesý Otče, požehnaj tieto dary a posilňuj našu lásku vierou v Ježiša Krista, tvojho Syna nášho Pána, ktorý s tebou žije a kraľuej na veky vekov. </p>
+            <p>Bože, nebeský Otče, požehnaj tieto dary a posilňuj našu lásku vierou v Ježiša Krista, tvojho Syna, nášho Pána, ktorý s tebou žije a kraľuje na veky vekov. </p>
           <br>
         </div>
         <div>
           <h3>Streda</h3>
           <br>
-            <p>Pane, Bože náš, buď vždy v strede nášho Spoločenstva. Požehnaj tieto dary, nech v nich poznávame tvoju dobrotu a stále prítomnú lásku. O to Ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Pane, Bože náš, buď vždy v strede nášho Spoločenstva. Požehnaj tieto dary, nech v nich poznávame tvoju dobrotu a stále prítomnú lásku. O to Ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Bože, požehnaj tieto dary a daj, nech celým životom oslavujeme tvoje Meno, ktorým sa honosíme. Skrze Krista nášho Pána.</p>
+            <p>Bože, požehnaj tieto dary a daj, nech celým životom oslavujeme tvoje Meno, ktorým sa honosíme. Skrze Krista, nášho Pána.</p>
             <br>
             <p>Bože, požehnaj tieto dary a daj, nech vždy ochotnejšie plníme tvoju vôľu. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Dobrotivý Otče, požehnaj tieto dary a daj, nech láskou, ktorou nás ty miluje, aj my milujeme všetkých ľudí. O to ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Dobrotivý Otče, požehnaj tieto dary a daj, nech láskou, ktorou nás ty miluješ, aj my milujeme všetkých ľudí. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Všemohúci Bože, požehnaj tieto dary, ktoré prijímame z tvojich rúk daj, nechtúžime po pokrme, z ktorého opravdivo žijeme. O to ťa prosíme skrze Krista, nášho Pána. </p>
+            <p>Všemohúci Bože, požehnaj tieto dary, ktoré prijímame z tvojich rúk a daj, nech túžime po pokrme, z ktorého opravdivo žijeme. O to ťa prosíme skrze Krista, nášho Pána. </p>
           <br>
         </div>
         <div>
@@ -577,23 +569,23 @@
             <br>
             <p>Bože, ako nám teraz dávaš tieto dary, tak, nám tiež stále dávaj svoju pomoc, aby sme dosiahli cieľ, pre ktorý si nás stvoril. O to Ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Bože, Otče náš, z tvojej ruky sme dostali všetk dobré. Prosíme Ťa požehnaj nás a tieto dary. Udeľ nám to skrze Krista nášho Pána.</p>
+            <p>Bože, Otče náš, z tvojej ruky sme dostali všetko dobré. Prosíme Ťa, požehnaj nás a tieto dary. Udeľ nám to skrze Krista, nášho Pána.</p>
             <br>
-            <p>Dobrotivý Otče, požehnaj dary, ktoré teraz prijímame a daj, nech, stále dúfame ešte vo väčšie dary, ktoré si nám prisľubil skrze Krista nášho Pána. </p>
+            <p>Dobrotivý Otče, požehnaj dary, ktoré teraz prijímame a daj, nech, stále dúfame ešte vo väčšie dary, ktoré si nám prisľubil skrze Krista, nášho Pána. </p>
             <br>
-            <p>Pane, Bože náš, posilni nás týmito darmi, ktoré prijímame z tvojich rúk, aby sme mohli plniť skužbu, ktorú si nám zveril. O to ťa prosíme skrze Krista, nášho Pána.</p>
+            <p>Pane, Bože náš, posilni nás týmito darmi, ktoré prijímame z tvojich rúk, aby sme mohli plniť službu, ktorú si nám zveril. O to ťa prosíme skrze Krista, nášho Pána.</p>
           <br>
         </div>
         <div>
           <h3>Piatok</h3>
           <br>
-            <p>Milosrdný Bože, svoje dary rozdeľuješ Prostredníctvom ľudí. Daj nech sme za ne vďační tebe a našim bratom. O to ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Milosrdný Bože, svoje dary rozdeľuješ prostredníctvom ľudí. Daj, nech sme za ne vďační tebe a našim bratom. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
             <p>Všemohúci Bože, požehnaj tieto dary, ktoré dostávame z tvojej dobroty a daj, nech sme jedno v Duchu tvojho Syna, nášho Pána Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. </p>
             <br>
-            <p>Pane, Bože náš, požehnaj tieto dary a posilňuj naše srdcia, aby sme ťa vo všetkom a nadvšetko milovali a tak dosiahli ovocie tvojho prisľubenia. O to ťa prosíme skrze Krista, nášho Pána. </p>
+            <p>Pane, Bože náš, požehnaj tieto dary a posilňuj naše srdcia, aby sme ťa vo všetkom a nadovšetko milovali, a tak dosiahli ovocie tvojho prisľubenia. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Požehnaj, Bože, tieto dary a posilni nás, aby sme radostne konali dobré skuty. O to ťa prosíme skrze Krista nášho Pána.</p>
+            <p>Požehnaj, Bože, tieto dary a posilni nás, aby sme radostne konali dobré skuty. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
             <p>Bože, náš Otče, požehnaj tento pokrm a posilni nás, aby sme ti verne slúžili v našich bratoch a sestrách. Preukazuj nám stále milosrdenstvo. O to ťa prosíme skrze Krista, nášho Pána. </p>
         </br>
@@ -601,13 +593,13 @@
         <div>
           <h3>Sobota</h3>
           <br>
-            <p>Pane, milosrdný Otče, svojim požehnaním posväť tento pokrm, nech sa stane účinným znakom jednoty v našom Spoločenstve. O to ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Pane, milosrdný Otče, svojim požehnaním posväť tento pokrm, nech sa stane účinným znakom jednoty v našom Spoločenstve. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
-            <p>Bože, Darca každého dobra, požehnaj tieto dary a posilni našu dôveru v tvoju dobrotu. O to ťa prosíme skrze Krista nášho Pána.</p>
+            <p>Bože, Darca každého dobra, požehnaj tieto dary a posilni našu dôveru v tvoju dobrotu. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Pane, Bože náš, požehnaj tieto dary. Daruj nám telesné a duševné zdravie, aby sme ťa stále väčšmi milovali a tak plnili tvoju vôľu. O to ťa prosíme skrze Krista, nášho Pána.</p>
+            <p>Pane, Bože náš, požehnaj tieto dary. Daruj nám telesné a duševné zdravie, aby sme ťa stále väčšmi milovali, a tak plnili tvoju vôľu. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>
-            <p>Bože, svojou starostlivosťou vedieš všetko, čo žije. Daj, nech s vďakou prijímame tvoje dary a stále oslavujeme tvoju dobrotu. O to ťa prosíme skrze Krista nášho Pána. </p>
+            <p>Bože, svojou starostlivosťou vedieš všetko, čo žije. Daj, nech s vďakou prijímame tvoje dary a stále oslavujeme tvoju dobrotu. O to ťa prosíme skrze Krista, nášho Pána. </p>
             <br>
             <p>Požehnaj, Bože, tieto dary, a nám, čo sme sa zhromaždili pri tomto stole, zachovaj telesné i duševné zdravie. O to ťa prosíme skrze Krista, nášho Pána.</p>
             <br>      
@@ -621,19 +613,19 @@
           <br>  
           <h4>1. Úvod</h4>
             <p><span class="red">P:</span><span class="text"> V mene Otca</span></p>
-            <p><span class="red">O:</span><span class="text"> i Syna	i Ducha Svätého. Amen.</span></p>
+            <p><span class="red">O:</span><span class="text"> i Syna i Ducha Svätého. Amen.</span></p>
             <br>
             <h4>2. Prosba i vďaka</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Otče, zošli sme sa, aby sme sa ti poďakovali za všetky dobrá, ktoré si nám dnes udelil.</span></p>
-            <p><span class="red">O:</span><span class="text"> Sprevádzal si nás svojou milosťou. Zostaň s nami, aby sme nevybočili z tvoej cesty. Ty si Pánom nad naším životom a nad našou prácou. Odpusť nám, ak sme neboli dosť verní v tvojej službe, a daj nám milosť, aby sme si navzajoom ochotne odpúšťali.</span></p>
+            <p><span class="red">P:</span><span class="text"> Otče, zišli sme sa, aby sme sa ti poďakovali za všetky dobrá, ktoré si nám dnes udelil.</span></p>
+            <p><span class="red">O:</span><span class="text"> Sprevádzal si nás svojou milosťou. Zostaň s nami, aby sme nevybočili z tvojej cesty. Ty si Pánom nad naším životom a nad našou prácou. Odpusť nám, ak sme neboli dosť verní v tvojej službe, a daj nám milosť, aby sme si navzájom ochotne odpúšťali.</span></p>
             <br>
             <h4>3. Spytovanie svedomia <i>(chviľa ticha)</i></h4>
             <br>
             <h4>4. Ľútosť</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Otče, vyznávame, že sme v našich myšlienkach, rečiach a skutkoch naspĺňali vždy to, čo si od nás žiadal. </span></p>
-            <p><span class="red">O:</span><span class="text"> Odpusť nám, ale nedovoľ, aby sme stratili odvahu. Daj nám silu verne žiť v našom spoločenstve, nech vytrváme v službe tvojho Syna Ježiša Krista, ktorý s tebou žije a kráľuje na veky vekov. Amen.</span></p>
+            <p><span class="red">O:</span><span class="text"> Odpusť nám, ale nedovoľ, aby sme stratili odvahu. Daj nám silu verne žiť v našom spoločenstve, nech vytrváme v službe tvojho Syna Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov. Amen.</span></p>
             <br>
             <h4>5. Prosby</h4>
             <p><span class="red">P:</span><span class="text"> Udeľ svoju milosť našim rodičom, súrodencom, dobrodincom a priateľom a odplať im ich dobrotu a lásku. Otče, vypočuj nás.  </span></p>
@@ -650,7 +642,7 @@
             <br>
             <h4>7. Záverečná modlitba</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Otče, daj, nech v našich srdciach a v našom Spoločenstve vládne tvoj pokoj. Dokončí, čo si v nás začal. Daj nech v odpočinku tejto noci načerpáme sily do zajtrajšieho dňa. Daj nech ochotne prijmeme a znášame námahy a starosti nového dňa a tak nasledujeme tvojho Syna Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov.   </span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Otče, daj, nech v našich srdciach a v našom spoločenstve vládne tvoj pokoj. Dokonči, čo si v nás začal. Daj, nech v odpočinku tejto noci načerpáme sily do zajtrajšieho dňa. Daj nech ochotne prijmeme a znášame námahy a starosti nového dňa, a tak nasledujeme tvojho Syna Ježiša Krista, ktorý s tebou žije a kraľuje na veky vekov.   </span></p>
             <p> <span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h4>8. Požehnanie</h4>
@@ -661,7 +653,7 @@
             <h4>Modlitba k Matke Božej</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Za milosť vytrvalosti   </span></p>
-            <p> <span class="red">O:</span><span class="text"> Zdravas Kráľovna...</span></p>
+            <p> <span class="red">O:</span><span class="text"> Zdravas, Kráľovná...</span></p>
             <br>
           </div>
           <div> 
@@ -670,18 +662,18 @@
             <h4>1. Úvod</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> V mene Otca</span></p>
-            <p><span class="red">O:</span><span class="text"> i Syna	i Ducha Svätého. Amen.</span></p>
+            <p><span class="red">O:</span><span class="text"> i Syna i Ducha Svätého. Amen.</span></p>
             <br>
             <h4>2. Poďakovanie a prosby</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Večný Otče, do tvojich rúk vkládame tento pomíňajúci sa deň. Od teba sme ho dostali, tebe ho vraciame.</span></p>
-            <p><span class="red">O:</span><span class="text"> Ďakujeme ti za tvoju starostlivosť o naše telesné blaho. ďakujeme ti za živý Chlieb, ktorý sme smeli prjať. Ďakujeme ti za to, že si nás viedol a  nám pomáhal. Ďakujeme ti za všetko dobré, ktoré sme s tvojou pomocou mohli vykonať. Odpusť nám, ak sme na tabe zabúdli, ak sme nie dosť ochotne načúvali tvojmu hlasu - ak sme zanedbávali veľa príležitosti vzájomne sa lepšie chápaťa si pomáhať.</span></p>
+            <p><span class="red">P:</span><span class="text"> Večný Otče, do tvojich rúk vkladáme tento pomíňajúci sa deň. Od teba sme ho dostali, tebe ho vraciame.</span></p>
+            <p><span class="red">O:</span><span class="text"> Ďakujeme ti za tvoju starostlivosť o naše telesné blaho. ďakujeme ti za živý Chlieb, ktorý sme smeli prijať. Ďakujeme ti za to, že si nás viedol a pomáhal nám. Ďakujeme ti za všetko dobré, ktoré sme s tvojou pomocou mohli vykonať. Odpusť nám, ak sme na teba zabudli, ak sme nie dosť ochotne načúvali tvojmu hlasu - ak sme zanedbávali veľa príležitosti vzájomne sa lepšie chápať a pomáhať si.</span></p>
             <br>
             <h4>3. Spytovanie svedomia <i>(chviľa ticha)</i></h4>
             <br>
             <h4>4. Ľútosť</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Otče, ty poznáš naše myšlienky, naše reči a skutky. Ľutujeme čím sme sa prehrešili neláskavosťou, sebectvom, nevďačnosťou a ľahostajnosťou.  </span></p>
+            <p><span class="red">P:</span><span class="text"> Otče, ty poznáš naše myšlienky, naše reči a skutky. Ľutujeme, čím sme sa prehrešili: neláskavosťou, sebectvom, nevďačnosťou a ľahostajnosťou.  </span></p>
             <p><span class="red">O:</span><span class="text"> Odpusť nám, ak sme šli vlastnými cestami a nevšímali si tvojich prikazujúcich a varovných značiek. Ďakujeme ti, že sme sa mohli vrátiť k tebe, ak sme sa od teba vzdialili. Ďakujeme ti, že nám odpúšťaš skrze Ježiša Krista, tvojho Syna, ktorý s tebou a s Duchom Svätým žije a kraľuje na veky vekov. Amen.</span></p>
             <br>
             <h4>5. Prosby</h4>
@@ -699,7 +691,7 @@
             <p><i> <span class="red">O:</span><span class="text"> Prosíme ťa, vyslyš nás!</span></i></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Prosme za našu Spoločnosť:  </span></p>
-            <p><span class="red">O:</span><span class="text"> Pane, upevni našu vieru, posilni našu nádej a rzomnožnašu lásku, aby sme nezištnou spoluprácou boli tvojími svedkami. </span></p>
+            <p><span class="red">O:</span><span class="text"> Pane, upevni našu vieru, posilni našu nádej a rzomnož našu lásku, aby sme nezištnou spoluprácou boli tvojimi svedkami. </span></p>
             <br>
             <h4>6. Verzikulum</h4>
             <br>
@@ -708,18 +700,18 @@
             <br>
             <h4>7. Záverečná modlitba</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Bože, zostaň s nami a ochraňuj nás. Dúfame v tvoju blízkosť a v tvoju ochranu. Daj, nech je pokoj v našich srdciach a v našom svete, tak veľa rozdelenom nesvornosťou. O to ťa prosíme skrze Krista nášho Pána.   </span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Dobrotivý Bože, zostaň s nami a ochraňuj nás. Dúfame v tvoju blízkosť a v tvoju ochranu. Daj, nech je pokoj v našich srdciach a v našom svete, tak veľa rozdelenom nesvornosťou. O to ťa prosíme skrze Krista, nášho Pána.   </span></p>
             <p> <span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h4> 8. Požehnanie</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Požehnanie všemohúceho a milosrdného Boha Otca † i Syna i Duch Svätého nech zostúpi na vás a ostane s vami.   </span></p>
+            <p><span class="red">P:</span><span class="text"> Požehnanie všemohúceho a milosrdného Boha Otca † i Syna i Ducha Svätého nech zostúpi na vás a ostane s vami.   </span></p>
             <p> <span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h4>9. Modlitba k Matke Božej</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Za milosť vytrvalosti   </span></p>
-            <p> <span class="red">O:</span><span class="text"> Zdravas Kráľovna...</span></p>
+            <p> <span class="red">O:</span><span class="text"> Zdravas, Kráľovná...</span></p>
             <br>
             </div>
             <div>
@@ -728,19 +720,19 @@
             <h4>1. Úvod</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> V mene Otca</span></p>
-            <p><span class="red">O:</span><span class="text"> i Syna	i Ducha Svätého. Amen.</span></p>
+            <p><span class="red">O:</span><span class="text"> i Syna i Ducha Svätého. Amen.</span></p>
             <br>
             <h4>2. Poďakovanie a prosby</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Dobrotivý Otče, ďakujeme ti za všetko, čo sme dnes prijali z tvojich rúk.</span></p>
-            <p><span class="red">O:</span><span class="text"> Ďakujeme ti za lásku tých, čo nám preukazovali dobro. Ďakujeme ti aj za nepríjemnosti dnešného dňa, daj, nech nás privedú bižšie k tebe. Ďakujeme ti za Tvoje dary, ktoré sme priali ako samozrejmosť. Otvor nám oči, aby sme poznávali, ako veľmi nás ty miluješ, a ako málo my odpovedáme na tvoju lásku. Otče, zbav nás pýchy a samolásky. Daj, nech pred tebou pokorne uznáme svoju biedu, uschopni nás, aby sme tvoju lásku odovzdávali všetkým ku ktorým nás posielaš. </span></p>
+            <p><span class="red">O:</span><span class="text"> Ďakujeme ti za lásku tých, čo nám preukazovali dobro. Ďakujeme ti aj za nepríjemnosti dnešného dňa, daj, nech nás privedú bižšie k tebe. Ďakujeme ti za Tvoje dary, ktoré sme prijali ako samozrejmosť. Otvor nám oči, aby sme poznávali, ako veľmi nás ty miluješ, a ako málo my odpovedáme na tvoju lásku. Otče, zbav nás pýchy a sebelásky. Daj, nech pred tebou pokorne uznáme svoju biedu, uschopni nás, aby sme tvoju lásku odovzdávali všetkým, ku ktorým nás posielaš. </span></p>
             <br>
             <h4> 3. Spytovanie svedomia <i>(chviľa ticha)</i></h4>
             <br>
             <h4>4. Ľútosť</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Pane a Bože, náš život je pred tebou ako otvorená kniha. Uvedomujem si naše poklesky a prosíme ťa o odpustenie.   </span></p>
-            <p><span class="red">O:</span><span class="text"> Veríme, že pomáhaš tým, čo sa s opravdivou ľútosťou vracajú k tebe. S tvojou milosťou chceme naše povolanie odovzdávať tým, ktorých si ty vyvolíš. Daj, nech sme svedkami tvoje lásky, ktorú si nám zjavil vo svojom Synovi Ježišovi Kristovi, ktorý s tebou žije a kráľuje na veky vekov. Amen. </span></p>
+            <p><span class="red">O:</span><span class="text"> Veríme, že pomáhaš tým, čo sa s opravdivou ľútosťou vracajú k tebe. S tvojou milosťou chceme naše povolanie odovzdávať tým, ktorých si ty vyvolíš. Daj, nech sme svedkami tvojej lásky, ktorú si nám zjavil vo svojom Synovi Ježišovi Kristovi, ktorý s tebou žije a kraľuje na veky vekov. Amen. </span></p>
             <br>
             <h4>5.Prosby</h4>
             <br>
@@ -751,7 +743,7 @@
             <p><i> <span class="red">O:</span><span class="text"> A naše volanie nech dôjde ku tebe.</span></i></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Prosme za našich zomrelých spolubratov a dobrodincov:    </span></p>
-            <p><span class="red">O:</span><span class="text"> ane, daj, aby sme na nich s láskou  pamätali, aby v Bhu našli svojje večné šťastie. </span></p>
+            <p><span class="red">O:</span><span class="text"> Pane, daj, aby sme na nich s láskou  pamätali, aby v Bohu našli svojje večné šťastie. </span></p>
             <br>
             <p><span class="red">P:</span><span class="text"> Pane, vyslyš naše modlitby!  </span></p>
             <p><i> <span class="red">O:</span><span class="text"> A naše volanie nech dôjde ku tebe.</span></i></p>
@@ -761,12 +753,12 @@
             <br>
             <h4>6. Verzikulum</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Všetko dobré pochádza od Pána.  </span></p>
+            <p><span class="red">P:</span><span class="text"> Všetko dobré pochádza od Pána. </span></p>
             <p> <span class="red">O:</span><span class="text"> On je naším útočišťom v núdzi.</span></p>
             <br>
             <h4>7. Záverečná modlitba</h4>
             <br>
-            <p><span class="red">P:</span><span class="text"> Modlime sa: Otče všetkých ľudí, ďakujeme ti, že si nám v Ježišovi Kristovi dal život a milosť. Požehnaj naše Spoločenstvo a všetkých, ku ktorým nás posielaš, Chráň nás a ujmi sa všetkých chudobných, zmiluj sa nas tými, čo stratili domov, nad tými, čo hľadajú pokoj, nad chorými a umierajucími. Všetkých odporúčame tvojmu milosrdenstvu, skrze Krista nášho Pána.    </span></p>
+            <p><span class="red">P:</span><span class="text"> Modlime sa: Otče všetkých ľudí, ďakujeme ti, že si nám v Ježišovi Kristovi dal život a milosť. Požehnaj naše Spoločenstvo a všetkých, ku ktorým nás posielaš, Chráň nás a ujmi sa všetkých chudobných, zmiluj sa nad tými, čo stratili domov, nad tými, čo hľadajú pokoj, nad chorými a umierajucími. Všetkých odporúčame tvojmu milosrdenstvu skrze Krista, nášho Pána.    </span></p>
             <p> <span class="red">O:</span><span class="text"> Amen.</span></p>
             <br>
             <h4>8. Požehnanie</h4>
@@ -777,7 +769,7 @@
             <h4>9. Modlitba k Matke Božej</h4>
             <br>
             <p><span class="red">P:</span><span class="text"> Za milosť vytrvalosti   </span></p>
-            <p> <span class="red">O:</span><span class="text"> Zdravas Kráľovna...</span></p>
+            <p> <span class="red">O:</span><span class="text"> Zdravas, Kráľovná...</span></p>
             <br>
           </div>
         </div>
@@ -786,10 +778,10 @@
           <br>
           <h3>Úvodná modlitba</h3>
           <br>
-          <p>Môj Pane, Ježišu Kriste, z lásky k ľuďom si vo dne v noci prítomný v Najsvätejšej sviatosti. Plný lásky a dobroty voláš k sebe všetkých a tých, čo ťa navštívia, láskavo prijímaš. Verím, že si vo Sviatosti oltárnej skutočne prítomný. V hlbokej pokore sa ti klaniam a ďakujem ti za milosti, ktoré si mi udelil. Najmä za to, že si sa mi v tejto Sviatosti daroval, že si mi dal za orodovníčku svoju najmilšiu matky, preblahoslavenú Pannu Máriu,a že si ma zavolal, aby som ťa navštívil.</p>
+          <p>Môj Pane, Ježišu Kriste, z lásky k ľuďom si vo dne v noci prítomný v Najsvätejšej sviatosti. Plný lásky a dobroty voláš k sebe všetkých a tých, čo ťa navštívia, láskavo prijímaš. Verím, že si vo Sviatosti oltárnej skutočne prítomný. V hlbokej pokore sa ti klaniam a ďakujem ti za milosti, ktoré si mi udelil. Najmä za to, že si sa mi v tejto Sviatosti daroval, že si mi dal za orodovníčku svoju najmilšiu matku, preblahoslavenú Pannu Máriu,a že si ma zavolal, aby som ťa navštívil.</p>
           <p>Pozdravujem tvoje najláskavejšie Srdce. Najprv sa ti chcem poďakovať za tento veľký dar, potom ti chcem vynahradiť všetky urážky, ktorými ťa v tejto Sviatosti zahŕňajú tvoji nepriatelia. Napokon by som sa ti chcel klaňať na všetkých miestach, kde ťa v Prevelebnej sviatosti málo uctievajú a kde si dokonca celkom opustený.</p>
-          <p>Môj Ježiš, milujem ťa celým srdcom! Ľutujem, že som tak často urážal tvoju nekonečnú dobrotu. Už ťa nechcem zarmucovať, ale ty mi musíš pomôcť! Hoci som slabý, jednako sa ti celkom zasväcujem, a preto sa zriekam svojej vôle svojich náklonností, žiadosti, áno, všetkého čo mi patrí. Odteraz len ty nakladaj so všetkým čo mám, ako sa ti páči. Len jedno chcem, o jedno prosím: aby som ťa miloval, zostal ti verný a dokonale plnil tvoju vôľu.</p>
-          <p>Prosím ťa za duše v očisti, najmä za tie, ktoré verne milovali Najsvätejšiu sviatosť a presvätú Pannu Máriu. Prosím ťa aj za úbohých hriešnikov. Drahý Vykupiteľ, všetku svoju lásku a všetky svoje zámery spájam s láskou a zámermi tvojho láskyplného Srdca a ponúkam ich tvojmu večnému Otcovi. V tvojom mene ho prosím, aby ich z lásky k tebe prijal a vyslyšal.</p>
+          <p>Môj Ježiš, milujem ťa celým srdcom! Ľutujem, že som tak často urážal tvoju nekonečnú dobrotu. Už ťa nechcem zarmucovať, ale ty mi musíš pomôcť! Hoci som slabý, jednako sa ti celkom zasväcujem, a preto sa zriekam svojej vole, svojich náklonností, žiadostí, áno, všetkého, čo mi patrí. Odteraz len ty nakladaj so všetkým čo mám, ako sa ti páči. Len jedno chcem, o jedno prosím: aby som ťa miloval, zostal ti verný a dokonale plnil tvoju vôľu.</p>
+          <p>Prosím ťa za duše v očistci, najmä za tie, ktoré verne milovali Najsvätejšiu sviatosť a presvätú Pannu Máriu. Prosím ťa aj za úbohých hriešnikov. Drahý Vykupiteľ, všetku svoju lásku a všetky svoje zámery spájam s láskou a zámermi tvojho láskyplného Srdca a ponúkam ich tvojmu večnému Otcovi. V tvojom mene ho prosím, aby ich z lásky k tebe prijal a vyslyšal.</p>
           <br>
           <h3>Duchovné prijímanie</h3>
           <br>
@@ -798,9 +790,9 @@
           <br>
           <h3>Modlitba svätého Alfonza k Najsvätejšej Panne Márii</h3>
           <br>
-          <p>  Najsvätejšia a nepoškvrnená Panna a moja Matka, ty si Matka môjho Pána, Kráľovná sveta, orodovnica, nádej a útočište hriešnikov. Preto sa k tebe utiekam – ja bedár a najväčší hriešnik. S nežnou úctou sa viniem k tebe, moja vznešená Kráľovná a ďakujem ti za všetky dobrodenia, ktorými ma zahŕňaš, ale najmä za to, že si ma zachránila pred peklom, ktoré som si už tak veľa ráz zaslúžil.</p>
+          <p>  Najsvätejšia a nepoškvrnená Panna a moja Matka, ty si Matka môjho Pána, Kráľovná sveta, orodovnica, nádej a útočište hriešnikov. Preto sa k tebe utiekam – ja, bedár a najväčší hriešnik. S nežnou úctou sa viniem k tebe, moja vznešená Kráľovná a ďakujem ti za všetky dobrodenia, ktorými ma zahŕňaš, ale najmä za to, že si ma zachránila pred peklom, ktoré som si už tak veľa ráz zaslúžil.</p>
           <p>Milujem ťa, lásky najhodnejšia Pani a z lásky k tebe sľubujem, že ti vždy budem slúžiť a zo všetkých síl sa budem usilovať, aby ti aj druhí slúžili. Po Bohu si moja jediná nádej, a preto pevne dúfam, že budeš za mňa orodovať, aby som si spasil dušu.</p>
-          <p>Matka milosrdenstva, prijmi ma za svojho služobníka a vezmi ma pod svoj materinský plášť.Ty vždy dostaneš od Boha všetko, o čo ho prosíš. Osloboď ma teda od všetkých pokušení, alebo mi aspoň vypros silu, aby som ich s tvojou pomocou premohol. Verím, že mi vyprosíš opravdivú lásku k Ježišovi Kristovi a že v tejto láske raz umriem.</p>
+          <p>Matka milosrdenstva, prijmi ma za svojho služobníka a vezmi ma pod svoj materinský plášť. Ty vždy dostaneš od Boha všetko, o čo ho prosíš. Osloboď ma teda od všetkých pokušení, alebo mi aspoň vypros silu, aby som ich s tvojou pomocou premohol. Verím, že mi vyprosíš opravdivú lásku k Ježišovi Kristovi a že v tejto láske raz umriem.</p>
           <p>Matka moja, pre tvoju lásku k Bohu ťa prosím, pomáhaj mi v ťažkostiach tohto života. Neopusť ma, kým ma neuvidíš v nebi medzi blaženými. Tam ti budem ďakovať a večne oslavovať tvoje milosrdenstvo. Amen.</p>
           <br>
           <h3>Zvelebenie</h3>
@@ -816,7 +808,7 @@
           <p>Zachráň, Pane, svoj ľud a žehnaj svojich dedičov. A spravuj ich a vyvýš ich až naveky. Po všetky dni dobrorečíme tebe. A chválime tvoje meno naveky, až na veky večné. Vo svojej láskavosti, Pane, chráň nás v tento deň pred hriechom. Zmiluj sa, Pane, nad nami, zmiluj sa nad nami. Tvoje milosrdenstvo, Pane, nech je nad nami, ako dúfame v teba. V teba, Pane, som dúfal, nebudem zahanbený naveky. </p>
         </div>
         <div id="ma">
-          <h2>Mariánske Antifony</h2>
+          <h2>Mariánske antifóny</h2>
           <br>
           <h3>I.</h3>
           <br>
@@ -872,13 +864,344 @@
           <p>ty, Panna slávna a požehnaná.</p>
           <br>
         </div>
-    </article>
-
+        <div id="mup_sk">
+          <h2>Novéna k Matke ustavičnej pomoci</h2>
+          <br>
+          <p><b>Pieseň:</b> K nebesiam dnes zaleť pieseň (1. sloha).</p>
+          <br>
+          <p><i> K nebesiam dnes zaleť pieseň – ta, kde tróni Mária, – vyžaluj jej svoju tieseň, – poteší ťa Spanilá. – A či bolo počuť kedy, – že by pomôcť nechcela? – Pros a zľaví tvoje biedy, – poteší ťa docela. – [: Mária, ó Matička, – Krista Pána Rodička, – ustavičnou pomocou – potešuj nás dňom, nocou!:] </i></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> V mene Otca i Syna i Ducha Svätého. </span></p>
+          <p> <span class="red">V:</span><span class="text"> Amen.</span></p>
+          <p><span class="red">K:</span><span class="text">  Dovoľ nám chváliť ťa, Mária, Matka ustavičnej pomoci. </span></p>
+          <p> <span class="red">V:</span><span class="text"> A vypros nám u Syna potrebné milosti.</span></p>
+          <p><span class="red">K:</span><span class="text">  Nebeská Matka, s veľkou dôverou dnes prichádzam pred tvoj svätý obraz prosiť o tvoju pomoc. Nespolieham sa na svoje zásluhy a dobré skutky, ale jedine na nekonečné zásluhy Pána Ježiša a na tvoju s ničím neporovnateľnú materinskú lásku. Ty, Matka, si sa pozerala na rany nášho Vykupiteľa, keď za nás vylieval svoju drahocennú krv. Tvoj umierajúci Syn dal nám za Matku teba. Či nie si teda pre nás „Ustavičnou pomocníčkou“, ktorú si uctievame pri tomto obraze? Matka ustavičnej pomoci, vrúcne ťa preto prosím pre bolesti a smrť tvojho božského Syna, pre nevysloviteľné utrpenie tvojho srdca, vypros mi u Syna tú milosť, po ktorej teraz tak veľmi túžim a ktorú nutne potrebujem. </span></p>
+          <br>
+          <p>(chvíľka ticha)</p>
+          <br>
+          <p>Najdrahšia Matka, ty vieš, ako nám túži dať Ježiš, náš Spasiteľ, všetko ovocie vykúpenia. Matka, ty vieš, že tieto poklady boli vložené do tvojich rúk, aby si nám ich rozdeľovala. S dôverou preto od teba očakávam, moja najmilšia Matka, že ma i teraz vypočuješ a ja s radosťou budem oslavovať tvoje milosrdenstvo po celú večnosť. Amen.</p>
+          <br>
+          <p>&#x2022; <b>Čítanie Božieho slova</b> (text možno vybrať z lekcionára zo spoločnej časti na sviatky Panny Márie).</p>
+          <br>
+          <p>&#x2022; <b>Katechéza, homília, príhovor</b> (do 7 minút).</p>
+          <br>
+          <p><b>Pieseň:</b> K nebesiam dnes zaleť pieseň (2. sloha).</p>
+          <br>
+          <p> <i>Syn tvoj drahý, prv než skonal, – keď ho súžil smrtný znoj, – k Tebe, Matka, z kríža zvolal: – «Žena, pozri hľa syn tvoj!» – Splňže žiadosť svojmu Synu, láskou matky ochotnou, – a od zlého chráň nás činu, – buď nám Matkou starostnou. – [: Mária, ó Matička, – Krista Pána Rodička, – ustavičnou pomocou – potešuj nás dňom, nocou!:] </i></p>
+          <br>
+          <p>&#x2022; <b>Modlitby vďaky:</b></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> Najdrahšia Matka, chceme ti poďakovať za nespočetné milosti, ktoré nám vyprosuješ. S radostným srdcom voláme: Ďakujeme ti, Matka ustavičnej pomoci! </span></p>
+          <br>
+          <p> <span class="red">V:</span><span class="text"> Ďakujeme ti, Matka ustavičnej pomoci!</span></p>
+          <br>
+          <p> a) poďakovania veriacich zo schránky </p>
+          <br>
+          <p> b) spoločné poďakovania:</p>
+          <p> - za uzdravených z choroby</p>
+          <p> - za potešených v trápení</p>
+          <p> - za vyslobodených od zúfalstva</p>
+          <p> - za posilnených v pochybnostiach</p>
+          <p> - za vyslobodených z moci hriechu</p>
+          <p> - za vypočuté volania</p>
+          <p> - za tvoj marinský súcit voči nám</p>
+          <p> - za tvoju materinskú lásku</p>
+          <p> - za tvoju neporovnateľnú dobrotu</p>
+          <p> - za všetky milosti, ktoré si nám vyprosila.</p>
+          <br>
+          <p>&#x2022; <b>Prosebné modlitby:</b></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> Neodvracaj, Matka, svoj zrak od našich prosieb, ale pomôž nám v núdzi, keď voláme: Prosíme ťa, Matka ustavičnej pomoci! </span></p>
+          <br>
+          <p> <span class="red">V:</span><span class="text"> Prosíme ťa, Matka ustavičnej pomoci!</span></p>
+          <br>
+          <p> a) prosby zo schránky </p>
+          <br>
+          <p> b) spoločné prosby:</p>
+          <p> - vyprosuj posilu a zdravie pre chorých</p>
+          <p> - poteš zarmútených</p>
+          <p> - buď matkou sirotám a opusteným</p>
+          <p> - pomôž tým, čo trpia núdzu</p>
+          <p> - priveď blúdiacich na správnu cestu</p>
+          <p> - vyveď z osídel satana tých, ktorých trápi pokušenie</p>
+          <p> - posilni v dobrom tých, čo sú v nebezpečenstve hriechu</p>
+          <p> - vypros hriešnikom ozajstnú ľútosť a milosť dobrej spovede</p>
+          <p> - priveď do večnej radosti všetkých svojich zosnulých ctiteľov</p>
+          <p> - vypočuj naše prosby.</p>
+          <br>
+          <p><b>Pieseň:</b> K nebesiam dnes zaleť pieseň (3. sloha).</p>
+          <br>
+          <p><i>Koľko duší zlobou pekla – hynie v srdciach ľadových, – pre ktoré tak darmo tiekla – drahá krv z rán Kristových. – Zastaň svojich kleslých synov, – nenechaj ich zahynúť, – pomôž sa im vymôcť z hriechov, – ráč ich k sebe privinúť! – [: Mária, ó Matička, – Krista Pána Rodička, – ustavičnou pomocou – potešuj nás dňom, nocou!:]</i></p>
+          <br>
+          <p>&#x2022;<b> Modlitba zverenia sa Matke ustavičnej pomoci:</b>Najsvätejšia Panna Mária, ty si sa chcela nazývať Matkou ustavičnej pomoci, aby sme ti nikdy neprestali dôverovať. Vrúcne ťa prosím, prijmi aj mňa medzi svojich služobníkov a služobnice. Zverujem ti svoj rozum, aby som stále pamätal na lásku, ktorej si hodná; zverujem ti svoje srdce, aby som po Bohu najviac miloval teba. Vznešená Kráľovná, chcem ti verne slúžiť; skry ma pod svoj ochranný plášť, pomáhaj mi vo všetkých potrebách tela i duše, ale najmä v ťažkej hodine smrti.</p>
+          <br>
+          <p>Ó, Matka ustavičnej pomoci, viem, že ma miluješ väčšmi ako ja milujem seba. Buď preto mojou Matkou a Paňou! Vládni a rozhoduj nado mnou a nad všetkým, čo mám! Zaobchádzaj so mnou a so všetkým, čo je moje, ako sa ti páči!</p> 
+          <br>
+          <p>Ó, Matka moja, vypros mi požehnanie u Boha. Prihováraj sa za mňa vo chvíľach mojej ľudskej slabosti, aby som ti zachoval vernosť a raz ťa v nebi naveky chválil, miloval a ďakoval ti. Amen.</p>
+          <br>
+          <p>&#x2022;<b> Modlitba za potreby Cirkvi, Svätého Otca:</b>Otče náš, Zdravasʼ, Mária, Sláva Otcu.</p>
+          <br>
+          <p>&#x2022;<b> Požehnanie a pieseň na záver:</b> K nebesiam dnes zaleť pieseň (4. sloha).</p>
+          <br>
+          <p><i>Nedaj, aby zvyku zlého putám sme sa poddali – a tak Krista premilého – znova na kríž vydali. – Keď nás telo, ďas, svet vábi, – chráň nás, Matka, žiadame, – v povedomí, že sme slabí, – k tebe, Matka voláme. – [: Mária, ó Matička, – Krista Pána Rodička, – ustavičnou pomocou – potešuj nás dňom, nocou!:]</i></p>
+        </div>
+  </div>
+  <div class="page_cz" id="pageCz">
+    <div id="rm_cz">
+      <h2>Ranní rozjímání</h2>
+      <br>
+            <h3>1. Úvod</h3>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Přijď, Duchu svatý,</span></p>
+            <p><span class="red">O:</span><span class="text"> naplň srdce svých věrných a zapal v nich oheň své lásky.</span></p>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Sešli svého Ducha a všechno bude stvořeno</span></p>
+            <p><span class="red">O:</span><span class="text"> a obnovíš tvář země.</span></p>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Modleme se: Bože, ty nám sesíláš svého Ducha, aby nás osvěcoval světlem pravdy; dej, ať nám tato jeho pomoc nikdy nechybí, abychom se dobře rozhodovali a správně jednali. Skrze Krista, našeho Pána.</span></p>
+            <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Zdrávas Maria...</span></p><br>
+            <h3>2. Vlastní rozjímání</h3><br>
+            <h3>3. Závěr</h3>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Doporučme Pánu Bohu svatou církev, duchovní a časné blaho Kongregace. </span></p>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Zdrávas, Královno,</span></p>
+            <p><span class="red">O:</span><span class="text"> Matko milosrdenství, živote, sladkosti a naděje naše, buď zdráva! K tobě voláme, vyhnaní synové Evy, k tobě vzdycháme, lkajíce a plačíce v tomto slzavém údolí. A proto, orodovnice naše, obrať k nám své milosrdné oči a Ježíše, požehnaný plod života svého, nám po tomto putování ukaž, ó milostivá, ó přívětivá, ó přesladká Panno Maria.</span></p>
+            <br>
+            <p><span class="red">P:</span><span class="text"> Svatý Alfonzi,</span></p>
+            <p><span class="red">O:</span><span class="text"> Oroduj za nás. 			</span></p>
+            <br>
+    </div>
+    <div id="mp_cz">
+      <h2>Modlitby v poledne</h2>
+      <br>
+      <h3>1. Úvod</h3>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Přijď, Duchu svatý,</span></p>
+      <p><span class="red">O:</span><span class="text"> naplň srdce svých věrných a zapal v nich oheň své lásky.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Sešli svého Ducha a všechno bude stvořeno</span></p>
+      <p><span class="red">O:</span><span class="text"> a obnovíš tvář země.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Bože, ty nám sesíláš svého Ducha, aby nás osvěcoval světlem pravdy; dej, ať nám tato jeho pomoc nikdy nechybí, abychom se dobře rozhodovali a správně jednali. Skrze Krista, našeho Pána.</span></p><br>
+      <h3>2. Partikulare examen</h3>
+      <i>Zvláštní zpytovaní svědomí (delší chvíle ticha)</i>
+      <br>
+      <br>
+      <h3>3. Prosby</h3>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Smiluj se nad námi, Pane.</span></p>
+      <p><span class="red">O:</span><span class="text"> Hřešili jsme proti tobě.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Ukaž nám, Pane, své milosrdenství.</span></p>
+      <p><span class="red">O:</span><span class="text"> A dej nám svou spásu.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Smiluj se nad námi, všemohoucí Bože, odpusť nám hříchy a doveď nás do života věčného. Amen.</span></p>
+      <p><span class="red">P:</span><span class="text"> Otče náš, jenž jsi na nebesích,</span></p>
+      <p><span class="red">O:</span><span class="text"> posvěť se jméno tvé…</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Modleme se za křesťanské církve:</span></p>
+      <p><span class="red">O:</span><span class="text"> Pane, přiveď k jednotě všechny, kteří v tebe věří.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Za našeho papeže N., naše biskupy a kněze: </span></p>
+      <p><span class="red">O:</span><span class="text"> Naplň je duchem Ježíše Krista a dej, ať jsou dnešnímu světu svědky naděje a lásky. </span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Prosme za pokoj a spravedlnost ve světě:</span></p>
+      <p><span class="red">O:</span><span class="text"> Pane, dej, ať se národy učí vzájemné úctě a ti, kteří je spravují, ať je vedou k vzájemnému porozumění.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Prosme za naše spolubratry (na misiích v ….) za všechny misionáře, za sestry a spolupracovníky: </span></p>
+      <p><span class="red">O:</span><span class="text"> žehnej jejich práci a dej, ať jsou svědky tvého blaženého Poselství. </span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Za naši Kongregaci, za život a prací v našem společenství: </span></p>
+      <p><span class="red">O:</span><span class="text"> Dej, ať víc a víc poznáváme, kde nás potřebují, a posilni nás ve věrnosti k tobě.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Prosme za duchovní povolaní:</span></p>
+      <p><span class="red">O:</span><span class="text"> Pane, nadchni mnohých mladých lidí pro službu v tvé církvi.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Za naše příbuzné a dobrodince:</span></p>
+      <p><span class="red">O:</span><span class="text"> Pane, laskavě odplat všem, kteří nám pro tvé svaté jméno prokazují dobro, a dej jim život věčný.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Za naše nemocné a za všechny, co trpí:</span></p>
+      <p><span class="red">O:</span><span class="text"> Smiluj se nad jejich bídou, potěš je a pomáhej jim v nouzi.	</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Prosme za naše zemřelé příbuzné, dobrodince a spolubratry (dnes zvláště za …):</span></p>
+      <div id="indexCz"></div>
+      <p><span class="red">P:</span><span class="text"> Odpočinutí věčné dej zemřelým, Pane,</span></p>
+      <p><span class="red">O:</span><span class="text"> a světlo věčné ať jim svítí.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Ať odpočívají v pokoji.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p><br>
+      <br>
+        <h3>4. Litanie ke svatým</h3>
+        <br>
+        <p><span class="red">P:</span><span class="text"> Prosme svätých, aby za nás orodovali:</span></p>
+        <p><span class="red">P:</span><span class="text"> Sv. Maria,</span></p>
+        <p><span class="red">P:</span><span class="text"> Sv. Josefe,</span></p>
+        <p><span class="red">P:</span> <span id="patCz"> </span>,</p>
+        <p><span class="red">P:</span><span class="text"> Sv. Alfonzi,</span></p>
+        <p><span class="red">P:</span><span class="text"> Sv. Klemente,</span></p>
+        <p><span class="red">P:</span><span class="text"> Sv. Gerarde,</span></p>
+        <p><span class="red">P:</span><span class="text"> Sv. Jan Neumanne,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Petře Dondersi,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Kašpare Stanggassingere,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Genaro Sarnelli,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Františku Xavere Seelosi,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Metoději Dominiku Trčko,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. ukrajinští mučedníci,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. španělští mučedníci,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Marie Celesto Crostaroso,</span></p>
+        <p><span class="red">P:</span><span class="text"> Bl. Conchito,</span></p>
+        <p><span class="red">P:</span><span class="text"> Všichni boží svatí,</span></p>
+        <p><span class="red">O:</span><span class="text"> orodujte za nás,</span></p>
+        <br>
+        <p><span class="red">P:</span><span class="text"> Modleme se: Bože, náš Otče, zhlédni na svou rodinu, za kterou tvůj Syn, náš Pán Ježíš Kristus, podstoupil potupnou smrt na kříži. Posilni naši víru, že jsi uprostřed nás a zůstáváš s námi. Prosíme o to skrze Krista, našeho Pána.</span></p>
+        <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+        <br>
+      <h3>5.Novény</h3>
+      <br>
+      <i>Před slavnosti Seslání Ducha Svatého</i>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Bože, v Kristu ses nám přiblížil a chceš být s námi prostřednictvím svého oživujícího Ducha. Dej nám svého Ducha, abychom vítězili nad zlým duchem v nás. Dej nám čisté svědomí, protože jenom ono může cítit a chápat tvůj dech. Prosíme o to skrze Krista, našeho Pána.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <i>Před svátkem Matky Ustavičné Pomoci - 27. června</i>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Milosrdný Bože, bičují nás nejistota a vlastní viny, trápí nás naše slabosti. Prosíme tě, dej, ať stále pociťujeme mateřskou přímluvu Panny Marie, skrze kterou jsme dostali Původce spásy, našeho Pána Ježíše Krista, který s tebou žije a kraluje na věky věků.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <i>Před slavností Nejsvětějšího Vykupitele - 3. neděle v červenci </i>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Bože, ty chceš spasit každého člověka, protože smrtí svého Syna na Kříži si vykoupil celé lidské pokolení. Dej, ať se jeho utrpení a smrt stanou pro nás životem a vzkříšením.	</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <i>Před slavností svatého Alfonze - 1. Srpna </i>
+      <p><span class="red">P:</span><span class="text">Modleme se: Svatý Bože, zásluhami svatého Alfonze korunuješ své dary. Jako si jemu pomáhal, tak pomáhej také nám, abychom jsme horlivě a vytrvale následovali tvého Syna a tak přispívali ke spáse světa, za který obětoval život tvůj Syn, který s tebou žije a kraluje na věky věků.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <i>Před slavností Neposkvrněného Početí Panny Marie - 8. prosinec </i>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Svatý Bože, neposkvrněným početím Panny Marie, jsi připravil důstojný příbytek svému Synu a pro budoucí zásluhy jeho smrti uchránil si ji od každého hříchu; prosíme tě, dej, abychom na její orodování také my přišli k s čistým srdcem k Tobě. Skrze Krista našeho Pána.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <h3> 6. Modlitba k Matce Boží</h3>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Anděl Páně zvěstoval Panně Marii</span></p>
+      <p><span class="red">O:</span><span class="text"> a ona počala z Ducha Svatého.</span>
+        <p>Zdrávas, Maria...</p>
+        <br>
+      </p>
+      <p><span class="red">P:</span><span class="text"> Maria řekla: Jsem služebnice Páně,</span></p>
+      <p><span class="red">O:</span><span class="text"> ať se mi stane podle tvého slova.</span>
+        <p>Zdrávas, Maria...</p>
+      </p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> A Slovo se stalo tělem</span></p>
+      <p><span class="red">O:</span><span class="text"> a přebývalo mezi námi. </span>
+        <p>Zdrávas, Maria...</p>
+      </p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Oroduj za nás, svatá Boží Rodičko,</span></p>
+      <p><span class="red">O:</span><span class="text"> aby nám Kristus dal účast na svých zaslíbeních.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Modleme se: Pane, poznali jsme andělské poselství o vtělení Krista, tvého Syna; vlej nám, prosíme, do duše svou milost, ať nás jeho umučení a kříž přivede k slávě vzkříšení. Skrze Krista, našeho Pána.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <i>Velikonoční období:</i>
+      <p><span class="red">P:</span><span class="text"> Raduj se, Královno nebeská, aleluja,</span></p>
+      <p><span class="red">O:</span><span class="text"> protože splnil Pán slova svá, aleluja,</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> z mrtvých vstal, Matko, Ježíš tvůj, aleluja, </span></p>
+      <p><span class="red">O:</span><span class="text"> u něho za nás oroduj, aleluja.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Raduj se a vesel, Panno Maria, aleluja.</span></p>
+      <p><span class="red">O:</span><span class="text"> neboť Pán vpravdě z mrtvých vstal, aleluja.</span></p>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Modleme se: 
+      <br>
+      Bože, vzkříšením svého Syna, našeho Pána Ježíše Krista, jsi naplnil svět radostí na přímluvu jeho Rodičky, Panny Marie, dej, ať dosáhneme radostí života věčného. Skrze Krista, našeho Pána.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+      <br>
+      <h3> 7. Modlitba za dobrou přípravu a průběh kapituly</h3>
+      <br>
+      <p><span class="red">P:</span><span class="text"> Kriste, věčný Pastýř těch, kteří ti patří. Žehnej společnost, kterou založil svatý Alfonz. Dej jí odvahu a zbožnost zakladatele. Žehnej její práci doma i ve světě. Nechť pronikne do srdcí těch, kteří jsou daleko a žijí mimo Církev. Vzbuď jí nové členy a především jí dej velkou milost věrnosti. Učiň, aby se v ní neustále obnovovala radost z tvé svaté služby.</span></p>
+      <p><span class="red">O:</span><span class="text"> Amen.</span></p>
+    </div>
+    <div id="mup_cz">
+      <h2>Novéna k Matce ustavičné pomoci</h2>
+      <br>
+      <p><b>Píseň:</b> K nebesům dnes záleť píseň (1. sloka)</p>
+          <br>
+          <p><i> K nebesům dnes zaleť písní - tam, kde sídlí Matka tvá, - Vypověz jí, co tě tísní, - potěší tě Maria. - Ještě nikdy neslýcháno, - že kdo od ní opuštěn; - pros, i tobě bude dáno, - budeš jistě potěšen. - Maria, ó Matičko, - Krista Pána rodičko, - ustavičná pomoc tvá - útěchu nám podává.</i></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> Ve jménu Otce i Syna i Ducha svatého. </span></p>
+          <p> <span class="red">V:</span><span class="text"> Amen.</span></p>
+          <p><span class="red">K:</span><span class="text">  Dovol nám chlubit tě, Maria, Matko ustavičné pomoci. </span></p>
+          <p> <span class="red">V:</span><span class="text"> A vypros nám u Syna potřebné milosti.</span></p>
+          <p><span class="red">K:</span><span class="text">  Nebeská Matka, s velkou důvěrou dnes přicházím před tvůj svatý obraz prosit o tvou pomoc. Nespoléhám se na své zásluhy a dobré skutky, ale jedině na nekonečné zásluhy Pána Ježíše a na tvou s ničím nesrovnatelnou mateřskou lásku. Ty, Matka, si dívala na rány našeho Vykupitele a na jeho drahocennou krev za nás vylévala. Tvůj umírající Syn dal nám za Matku tebe. Zda nejsi tedy pro nás "Ustavičnou pomocnicí", jak si tě ctíme při tomto obraze? Matka ustavičné pomoci, vroucně Tě proto prosím pro bolesti a smrt tvého Božského Syna, pro nevyslovitelné utrpení tvého srdce, vypros mi u Syna tu milost, po níž nyní tak velmi toužím a kterou nutně potřebuji. </span></p>
+          <br>
+          <p>(chvilka ticha)</p>
+          <br>
+          <p> Matko, ty víš, jak nám touží dát Ježíš, náš Spasitel, všechno ovoce vykoupení. Matka, ty víš, že tyto poklady byly vloženy do tvých rukou, abys nám je rozdělovala. S důvěrou proto od tebe očekávám, Matko moje nejmilejší, že mě i teď vyslýchaje a já s radostí budu oslavovat tvé milosrdenství po celou věčnost. Amen.</p>
+          <br>
+          <p>&#x2022; <b>Katecheze, homilie promluva </b> (do 7 minut).</p>
+          <br>
+          <p><b>Píseň:</b> K nebesům dnes záleť píseň (2. sloka)</p>
+          <br>
+          <p> <i>Jediný Syn tvůj než skonal - na Golgotě bolestné, - k tobě, Matko, z kříže volal: - Hle syn tvůj, hle, dítky tvé! - Naplň přání Syna svého, - které vložil v ruku tvou, - chraň své dítky všeho zlého, - buď nám Matkou pomocnou. - Maria, ó Matičko, - Krista Pána rodičko, - ustavičná pomoc tvá - útěchu nám podává. </i></p>
+          <br>
+          <p>&#x2022; <b>Modlitby díků:</b></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> Nejdražší Matko, chceme ti poděkovat za nesčetné milosti, které nám vyprošuje. S radostným srdcem voláme: Děkujeme ti, Matko ustavičné pomoci! </span></p>
+          <br>
+          <p> <span class="red">V:</span><span class="text"> Děkujeme ti, Matko ustavičné pomoci!</span></p>
+          <br>
+          <p> a) poděkování věřících ze schránky </p>
+          <br>
+          <p> b) společné poděkování:</p>
+          <p> - za ty, které si uzdravila z choroby</p>
+          <p> - za ty, kterých si potěšila v trápení</p>
+          <p> - za ty, které si osvobodila od zoufalství</p>
+          <p> - za ty, kterým si pomohla v pochybnostech</p>
+          <p> - za vysvobozených z moci hříchu</p>
+          <p> - za tvůj mateřský soucit a lásku</p>
+          <p> - za tvou nesrovnatelnou dobrotu</p>
+          <p> - za všechny milosti, které jsi nám vyprosila.</p>
+          <br>
+          <p>&#x2022; <b>prosebně modlitby:</b></p>
+          <br>
+          <p><span class="red">K:</span><span class="text"> Neodvracej, Matka, svůj zrak od našich proseb, ale pomoz nám v nouzi, když voláme: </span></p>
+          <br>
+          <p> <span class="red">V:</span><span class="text"> Prosíme tě, Matko ustavičné pomoci!</span></p>
+          <br>
+          <p> a) prosby ze schránky </p>
+          <br>
+          <p> b) společné prosby:</p>
+          <p> - pomoz nemocným</p>
+          <p> - buď matkou sirotkům a opuštěným</p>
+          <p> - pomoz tím, co trpí nouzi</p>
+          <p> - přiveď bloudící na správnou cestu</p>
+          <p> - vyveď z osidel Satana těch, které trápí pokušení</p>
+          <p> - posílit v dobrém těch, co jsou v nebezpečí hříchu</p>
+          <p> - vypros hříšníkům opravdovou lítost a milost dobré zpovědi</p>
+          <p> - přiveď do věčné radosti všech tvých zesnulých ctitele</p>
+          <p> - vyslyš naše prosby.</p>
+          <br>
+          <p><b> Píseň:</b> K nebesům dnes záleť píseň (3. sloka).</p>
+          <br>
+          <p><i>Nedej bychom zvyku zlého - okovům se poddali, - nedej, bychom Syna tvého - znovu ukřižovali. - Když nás k hříchu zlý duch svádí, - chraň nás Matko, žádáme, - ať se zapřít chceme rádi, - k tobě, Panno, voláme. - Maria, ó Matičko, - Krista Pána rodičko, - ustavičná pomoc tvá - útěchu nám podává.</i></p>
+          <br>
+          <p>&#x2022;<b> Zasvěcující modlitba k Matce ustavičné pomoci:</b>Nejsvětější Panna Maria, ty ses chtěla nazývat Matkou ustavičné pomoci, abychom ti nikdy nepřestali důvěřovat. Vroucně tě prosím, přijmi i mě mezi své služebníky a služebnice. Zasvěcuji ti svůj rozum, abych stále pamatoval na lásku, které si hodná; zasvěcuji ti své srdce, abych po Bohu nejvíce miloval tebe. Vznešená Královna, chci ti věrně sloužit: skryj mě pod svůj ochranný plášť, pomáhej mi ve všech potřebách těla i duše, ale zejména v těžké hodině smrti.</p>
+          <br>
+          <p>O, Matko ustavičné pomoci, vím, že mě miluješ víc než já miluji sebe. Buď proto mou Matkou a paní! Vládní a rozhoduj nade mnou a nad vším, co mám! Nalož se mnou a se vším, co je moje, jak se ti líbí!</p> 
+          <br>
+          <p>O, Matko moje, vypros mi požehnání u Boha. Přimlouvej se za mě ve chvílích mé lidské slabosti, abych ti zachoval věrnost a jednou tě v nebi navěky chválil, miloval a děkoval ti. Amen.</p>
+          <br>
+          <p>&#x2022;<b> Modlitba za potřeby církve, sv. otce:</b>Otče náš..., Zdrávas..., Sláva Otci...</p>
+          <br>
+          <p>&#x2022;<b> Píseň na závěr a odchod kněze:</b> K nebesům dnes záleť píseň (4. sloka).</p>
+          <br>
+          <p><i>Když nás bída, nouze svírá, - k nebesům veď pohled náš, - ať nás sílí pevná víra, - že nám vždycky pomáháš. - Vzdaluj od nás žal a tíseň, - duši naplň nadšením, - ať ti pějem vděčnou píseň, - ať se sejdem s Kristem tvým. - Maria, ó Matičko, - Krista Pána rodičko, - ustavičná pomoc tvá - útěchu nám podává.</i></p>
+    </div>
   </div>
   <script src="art.js"></script>
-<script src="app.js"></script>
-
-  
-
+  <script src="app.js"></script>
 </body>
 </html>

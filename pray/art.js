@@ -2111,38 +2111,78 @@
 
 }
 
+
  
- let patron = ["Sv. Peter a Sv. Pavol", "Sv. Ondrej", "Sv. Jakub st.","Sv. Ján","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matúš","Sv. Šimon", "Sv. Tadeáš","Sv. Matej"];
-  
+ let patronSk = ["Sv. Peter a Pavol", "Sv. Ondrej", "Sv. Jakub st.","Sv. Ján","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matúš","Sv. Šimon", "Sv. Tadeáš","Sv. Matej"]
+
+ let patronCz = ["Sv. Petr a Pavel;", "Sv. Ondřej;", "Sv. Jakub st.","Sv. Jan","Sv. Tomáš","Sv. Jakub ml.","Sv. Filip","Sv. Bartolomej","Sv. Matouš","Sv. Šimon", "Sv. Tadeáš","Sv. Matěj"]
+ 
   const date = new Date()
   let dayWeek = date.getDay()
   let month = date.getMonth()
   let day = date.toISOString().slice(5, 10)
   let firstName
-  let rm = document.getElementById("rm").children
-  rm[dayWeek + 1].style.display = "block"
+  let count = 18
+  
+  let bttn = document.getElementById("bttn")
+  let pageSk = document.getElementById("pageSk")
+  let pageCz = document.getElementById("pageCz")
 
-  let mj = document.getElementById("mj").children
-  mj[dayWeek + 2].style.display = "block"
+  window.onload = (event) => {
+    pageCz.style.display = "none"
+  };
+
+  function morPray() {
+    let rm = document.getElementById("rm_sk").children[dayWeek + 2]
+    
+    rm.style.display === "block" ? ( rm.style.display = "none", bttn.style.transform = "rotate(0deg)") : (  rm.style.display = "block", bttn.style.transform = "rotate(180deg)")
+    
+  }
+
+  function langToggle() {
+    let lng = document.getElementById("lang")
+      lng.innerHTML === "cz"  ? (lng.innerHTML = "sk", pageCz.style.display = "block", pageSk.style.display = "none" ) : (lng.innerHTML = "cz", pageCz.style.display = "none", pageSk.style.display = "block")
+   
+  }
+
+  function minusSize()
+  { 
+    count--
+    pageSk.style.fontSize = count + "px"
+    pageCz.style.fontSize = count + "px"
+  }
+
+  function normSize(){
+    count = 18
+    pageSk.style.fontSize = 18 + "px"
+    pageCz.style.fontSize = 18 + "px"
+  }
+  function plusSize(){
+    count++
+    pageSk.style.fontSize = count + "px"
+    pageCz.style.fontSize = count + "px"
+  }
+
+  let mj = document.getElementById("mj").children[dayWeek + 2]
+
+  mj.style.display = "block";
 
   let vm = document.getElementById("vm").children
 
-  vm[dayWeek >= 4 ? dayWeek - 2 : dayWeek + 1].style.display = "block"
+  vm[dayWeek >= 4 ? dayWeek - 2 : dayWeek + 1]
 
-  document.getElementById("pat").innerHTML = patron[month] 
+  document.getElementById("patSk").innerHTML = patronSk[month] 
 
-  if(index[day] != undefined){
+  document.getElementById("patCz").innerHTML = patronCz[month] 
+
     
-    for(const data of index[day]){
+  for(let data of index[day]){
     
-    firstName += `<div> ${data.name} (${data.year}) - ${data.loc} </div>`
-  }}
-  else{
-    
-    firstName = ''
+  firstName += `<div> ${data.name} (${data.year}) - ${data.loc} </div>`
   }
   
   document.getElementById("index").innerHTML = firstName 
+  document.getElementById("indexCz").innerHTML = firstName
 
  
 
