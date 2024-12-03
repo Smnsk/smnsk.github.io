@@ -59,11 +59,12 @@ body{
   border-radius: .8em;
   margin-top: 5vh;
   perspective: 120vw;
+  cursor: pointer;
 }
 .card:hover .front{
   transform: rotateY(180deg);
 }
-.card:hover .back{
+.card:hover .back {
   transform: rotateY(360deg);
 }
 .front, .back{

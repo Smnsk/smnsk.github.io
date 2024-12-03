@@ -16,7 +16,7 @@
         <div class="btn2 fa-solid fa-bars" v-else="!show"></div>
       </div>
     </div>
-    <div class="cont" v-if="show">
+    <div class="cont" v-if="show" >
       <div class="card" v-for="(card, i) in verbs">
         <div class="front">
           <img :src="'./img/card'+(i+1)+'.png'">
@@ -26,9 +26,9 @@
             <p>{{card.perf}} <span>{{card.tr_perf}}</p>
           </div>
             <div class="sent">
-              <p>{{card.inf_s}}</p>
-              <p>{{card.pret_s}}</p>
-              <p>{{card.perf_s}}</p>
+              <p> 🔈 {{card.inf_s}}</p>
+              <p> 🔈 {{card.pret_s}}</p>
+              <p> 🔈 {{card.perf_s}}</p>
             </div>
           <span class="index">{{i+1}}</span>
         </div>

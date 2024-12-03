@@ -1987,6 +1987,6 @@ let app = new Vue({
     show: true,
     verbs: verbs,
     cats: cats,
-    img: "./img/card2.png"
-  }
+    img: "./img/card2.png",
+  },
 })
