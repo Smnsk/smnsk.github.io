@@ -7,8 +7,9 @@
 body{
   width: 100%;
   background-color: white;
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 18px;
+  font-family: serif;
+  font-weight: 700;
+  font-size: 21px;
 }
 .page_sk, .page_cz{
   width: 100%;
