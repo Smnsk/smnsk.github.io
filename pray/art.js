@@ -2153,9 +2153,9 @@
   }
 
   function normSize(){
-    count = 18
-    pageSk.style.fontSize = 18 + "px"
-    pageCz.style.fontSize = 18 + "px"
+    count = 20
+    pageSk.style.fontSize = 20 + "px"
+    pageCz.style.fontSize = 20 + "px"
   }
   function plusSize(){
     count++
@@ -2183,6 +2183,12 @@
   
   document.getElementById("index").innerHTML = firstName 
   document.getElementById("indexCz").innerHTML = firstName
+
+  document.getElementById("btn4").checked = localStorage.getItem("color", black) 
+
+
+
+  
 
  
 
