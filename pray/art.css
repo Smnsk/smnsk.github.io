@@ -82,16 +82,16 @@ input{
   margin: 0 5px ;
 }
 .lang{
-  background-image: url("image/language-solid.svg");
+  background-image: url("./image/language-solid.svg");
 }
 .font{
-  background-image: url("image/font-solid.svg");
+  background-image: url("./image/font-solid.svg");
 }
 
 .info{
   position: absolute;
   bottom: 20px;
-  background-image: url("image/circle-info-solid.svg");
+  background-image: url("./image/circle-info-solid.svg");
 }
 .info>label{
   cursor: pointer;
