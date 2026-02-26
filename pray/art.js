@@ -2122,7 +2122,7 @@
   let month = date.getMonth()
   let day = date.toISOString().slice(5, 10)
   let firstName
-  let count = 18
+  let count = 20
   
   let bttn = document.getElementById("bttn")
   let pageSk = document.getElementById("pageSk")
@@ -2184,8 +2184,12 @@
   document.getElementById("index").innerHTML = firstName 
   document.getElementById("indexCz").innerHTML = firstName
 
-  document.getElementById("btn4").checked = localStorage.getItem("color", black) 
-
+  const btn4 = document.getElementById("btn4")
+ 
+  btn4.addEventListener('change', (event) => {
+  event.currentTarget.checked ? localStorage.setItem('theme', 'dark') : localStorage.setItem('theme', 'light')
+ }
+)
 
 
   
