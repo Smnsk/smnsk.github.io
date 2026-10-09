@@ -1614,7 +1614,7 @@
   loc: "Moravec, Žďar nad Sázavou"
 },
 { 
-  name: "Bohumil landsman",
+  name: "Bohumil Landsman",
   year: 1984,
   loc: "Klášter nad Ohří"
 }
